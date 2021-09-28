@@ -1,18 +1,31 @@
 <style>
-body {
+/* Style the buttonskus */
+.btn a{
+  
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  <!-- background-color: red; -->
+  font-size: 18px;
+  text-align: center;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar {
+/* Style the active class, and buttonskus on mouse-over */
+.active, .btn:hover {
+  background-color: #666;
+  color: white;
+}
+
+
+.topnav {
   overflow: hidden;
   background-color: #333;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
-.navbar a {
+.topnav a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -22,39 +35,42 @@ body {
   font-size: 17px;
 }
 
-.navbar a:hover {
-  background: #f1f1f1;
+.topnav a:hover {
+  background-color: #ddd;
   color: black;
 }
 
-.navbar a.active {
+.topnav a.active {
   background-color: #04AA6D;
   color: white;
 }
 
-.main {
-  padding: 16px;
-  margin-bottom: 30px;
+.topnav .icon {
+  display: none;
 }
+
 </style>
-
-<div class="navbar">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
+<h1>Active buttonsku</h1>
+<p>Highlight the active/current (pressed) buttonsku.</p>
+  
+<div id="myDIV myTopnav" class="topnav">
+    <a class="btn active" href="#">Home</a>
+    <a class="btn" href="#about">About</a>
+    <a class="btn" href="#contact">Contact</a>
+    <a class="btn" href="#blog">Blog</a>
+    <a class="btn" href="#project">Project</a>
 </div>
 
-<div class="main">
-  <h1>Bottom Navigation Bar</h1>
-  <p>Some text some text some text.</p>
-</div>
-<!-- <div class="nav-icon sosmedhome">tes</div> -->
-<!-- <nav class="main-nav"> -->
-<!--   <ul> -->
-<!--     <li><a href="#">Home</a></li> -->
-<!--     <li><a href="#about">About</a></li> -->
-<!--     <li><a href="#contact">Contact</a></li> -->
-<!--     <li><a href="#blog">Blog</a></li> -->
-<!--     <li><a href="#project">Project</a></li> -->
-<!--   </ul> -->
-<!-- </nav> -->
+<script>
+// Add active class to the current buttonsku (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+
