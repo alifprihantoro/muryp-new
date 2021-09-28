@@ -40,6 +40,7 @@ description: ""
 
 ### Managgung Conten
 - Menggunakan Vim/NVim
+Untuk Menggunakan VIM sendiri, pastikan kalian sudah familiar dengan perintah yang ada di vim. Lalu kalian install aja hugo helper dan kalian bisa lihat beberapa kode yang saya buat di repo [disini]()
 - Menggunakan CMS
 
 ### Membuat Tema
