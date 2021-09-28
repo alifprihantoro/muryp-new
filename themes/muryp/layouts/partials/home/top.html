@@ -1,0 +1,20 @@
+<div class="bagian-atas">
+  <header>
+    <img src="{{ .Site.Params.host }}{{ .Site.Params.Img }}" alt="Profil MuryP | {{ .Params.Description }}" />
+    <h1>MuryP <br>Front End Developer</h1>
+    <p>
+      {{ .Site.Params.Header | safeHTML }}
+    </p>
+  </header>
+  <div class="mybtn">
+    <div class="btn gmail">
+      <a href="/">
+        Contact Me</a>
+    </div>
+    <div class="btn dl">
+      <a href="/">
+        Download CV</a>
+    </div>
+  </div>
+  {{ partial "home/skill.html" . }}
+</div>

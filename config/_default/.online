@@ -1,0 +1,20 @@
+header = "Ingin Membuat Website?<br>Tapi tidak bisa coding. Tenang, serahkan projek anda kepada saya."
+github = "https://github.com/alifmuryp"
+gitlab = "https://gitlab.com/muryp"
+facebook = "https://facebook.com/alifmuryp"
+sitename = "MuryP Beta"
+twitter = "@alifmuryp"
+og_image = "https://muryp.gitlab.io/image/noimg.png"
+hosting = "https://muryp.gitlab.io/hosting/"
+host = "https://muryp.gitlab.io/image/"
+img = "/authors/muryp.png"
+thumb = "/authors/muryp.min.png"
+icon = "https://muryp.gitlab.io/image/muryp/favicon.ico"
+bagianAtas = "https://muryp.gitlab.io/image/bg.png"
+# Site Author
+author = "MuryP"
+# Description/subtitle for homepage
+description = "MuryP, MuryP Beta, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO,catatan"
+
+
+pygmentsUseClasses=true

@@ -1,0 +1,114 @@
+[[main]]
+identifier = "Home"
+name = "Home"
+url = "/"
+weight = 1
+[[main]]
+identifier = "About"
+name = "About"
+url = "/about/"
+weight = 2
+[[main]]
+identifier = "Kontak"
+name = "Kontak"
+url = "/contact/"
+weight = 3
+[[main]]
+identifier = "Catatan"
+name = "Catatan"
+url = "/note/"
+weight = 4
+[[main]]
+identifier = "Bookmark"
+name = "Bookmark"
+url = "/bookmark"
+weight = 5
+[[main]]
+identifier = "Kumpulan Ide"
+name = "Kumpulan Ide"
+url = "/ideku/"
+weight = 6
+
+# sosmed -------------
+[[sosmed]]
+identifier = "github"
+name = "github"
+url = "https://github.com/alifmuryp"
+weight = 1
+[[sosmed]]
+identifier = "linkedin"
+name = "linkedin"
+url = "https://www.linkedin.com/in/alifmuryp"
+weight = 2
+[[sosmed]]
+identifier = "instagram"
+name = "instagram"
+url = "https://www.instagram.com/murypstudio/"
+weight = 3
+[[sosmed]]
+identifier = "twitter"
+name = "twitter"
+url = "https://twitter.com/murypstudio"
+weight = 4
+[[sosmed]]
+identifier = "facebook"
+name = "facebook"
+url = "https://facebook.com/murypstudio"
+weight = 5
+[[sosmed]]
+identifier = "pinteres"
+name = "pinteres"
+url = "https://pinterest.com/alifmuryp/"
+weight = 6
+
+
+
+# contact me
+[[contact]]
+identifier = "@muryp"
+name = "telegram"
+url = "https://t.me/muryp"
+weight = 1
+[[contact]]
+identifier = "alifmuryp@gmail.com"
+name = "gmail"
+url = "mailto:alifmuryp@gmail.com"
+weight = 2
+[[contact]]
+identifier = "+6283 829 383 123"
+name = "tlp"
+url = "wa_link"
+weight = 3
+# Ask me
+[[ask]]
+identifier = "@alifmuryp"
+name = "twitter"
+url = "https://twitter.com/murypstudio"
+weight = 1
+[[ask]]
+identifier = "Muryp Beta"
+name = "facebook"
+url = "https://facebook.com/muryp"
+weight = 2
+
+
+[[web]]
+identifier = "Kumpulan artikel/tulisan pribadi"
+name = "Blog"
+url = "/blog"
+weight = 1
+[[web]]
+identifier = "Kumpulan catatan/penjelasan mengenai IT"
+name = "LMS"
+url = "/lms"
+weight = 2
+[[web]]
+identifier = "Kumpulan hasil karya digital (cuming soon!)"
+name = "Studio"
+url = "https://murypstudio.my.id"
+weight = 3
+[[web]]
+identifier = "Kumpulan hasil koding(coming soon!)"
+name = "Blog"
+url = "https://murypstudio.my.id/code"
+weight = 4

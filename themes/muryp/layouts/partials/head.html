@@ -1,0 +1,10 @@
+{{ partial "seoku.html" . }}
+<link rel="stylesheet" href="/css/svg.css" type="text/css" media="all" />
+  {{ partial "css/main.html" . }}
+{{- if .IsHome -}}
+  {{ partial "css/home.html" . }}
+{{- end -}}
+{{- if eq .Kind "page" -}}
+  {{ partial "css/laman.html" . }}
+{{- end -}}
+  {{ partial "css/end.html" . }}

@@ -1,0 +1,28 @@
+@use "../variable" as v;
+// ========= Header
+.header {
+  a {
+    //logo
+    position: absolute;//melayang
+    top: 10px;//jarak atas
+    left: 10px;//jarak bawah
+    z-index: 99;
+  }
+  padding: 25px 0;
+  width: 100%;
+  position: relative;//agar btn dark
+  z-index: 5;
+  background-color:v.$cl2;
+  height: 50px;
+}
+//sementara
+.header
+#darkBtn svg {
+  fill: #fff !important;
+}
+a.ohmyheader svg {
+  width: 300px;
+  transform: translate(0,6px);
+}
+//sementara end
+//tes header
