@@ -1,11 +1,12 @@
 @use "params/variable" as v;
 @use "params/reset";
-// @use "params/nav";
+@use "params/nav";
 @use "params/bagianAtas";
 @use "params/bagianTengah";
-// @use "params/btn";
+@use "params/btn";
 @use "params/footer";
 @use "params/desk";
+@use "dark";
 @import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
 *{
   font-weight: 400;
