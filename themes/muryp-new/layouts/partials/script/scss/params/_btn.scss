@@ -1,15 +1,18 @@
 @use "variable" as v;
 //btn default
 .btn {
+  
   a {
     margin: auto;
     font-weight: bold;
     text-transform: uppercase;
   }
+  
   &:hover {
     background-color: v.$bg3;
     border-color:v.$bg1;
   }
+
   background: rgb(255,255,255,.1);
   border: 2px solid #fff;
   padding: 10px;
@@ -17,11 +20,23 @@
   border-radius: 15px;
   width: 50%;
 }
+
+.btn-2 {
+    text-align: center;
+    background: rgba(6,1,255,0.13);
+    border: solid darkblue;
+    color: darkblue;
+    margin: auto !important;
+    text-align: center !important;
+}
+
+
 // contact
 .bungkusLisIcon {
   display: flex;
   padding: 5px 15px;
 }
+
 .infoIconList {
   padding: 15px;
   background: v.$bg3;
@@ -29,6 +44,7 @@
   font-weight: bold;
   color: #fff;
 }
+
 .bagian-bawah span {
   background-color: v.$bg1;
   width: 50px;
