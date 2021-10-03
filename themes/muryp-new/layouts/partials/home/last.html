@@ -1,6 +1,7 @@
 <div class="bagian-bawah">
 <div id="contact">
 
+<!-- start contact -->
   <h2>For bussines Contact :</h2>
   {{ range .Site.Menus.contact.Sort.ByWeight }}
   <a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
@@ -14,7 +15,9 @@
     </div>
   </a>
   {{ end }}
+  <!-- end contact -->
 
+  <!-- start ask -->
   <h2>Ask me on:</h2>
   {{ range .Site.Menus.ask.Sort.ByWeight }}
   <a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
@@ -28,9 +31,11 @@
     </div>
   </a>
   {{ end }}
+<!-- end ask -->
 
 </div>
 
+  <!-- start about -->
   <div id="about">
      <img src="{{ .Site.Params.host }}{{ .Site.Params.Img }}" alt="Profil MuryP | {{ .Params.Description }}" />
      <h2>Mengenai Saya</h2>
@@ -44,5 +49,6 @@
         {{ end }}
      </div>
   </div>
+  <!-- end about -->
 
 </div>
