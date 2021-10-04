@@ -83,9 +83,28 @@ nantinya diganti dengan css bg(svg)
 }
 
 /*end sementara*/
+
+
+// start btn bagian atas
+.mybtn {
+  a{
+  color: #333;
+  border-color: #333;
+  }
+
+  a:after{
+  background-color: rgb(255,255,255,.4) !important;
+  }
+
+  a:hover{
+color: #fff !important;
+border-color: #fff !important;
+  }
+}
 /*end default*/
 
   background-color: rgb(27,27,27) !important;
   color: rgb(255,255,255,.5) !important;
   border-color: rgb(255,255,255,.5) !important;
 }
+
