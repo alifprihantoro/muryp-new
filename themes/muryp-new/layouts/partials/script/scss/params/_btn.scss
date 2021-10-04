@@ -1,36 +1,4 @@
 @use "variable" as v;
-//btn default
-.btn {
-  
-  a {
-    margin: auto;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  &:hover {
-    background-color: v.$bg3;
-    border-color:v.$bg1;
-  }
-
-  background: rgb(255,255,255,.1);
-  border: 2px solid #fff;
-  padding: 10px;
-  margin: 15px auto;
-  border-radius: 15px;
-  width: 50%;
-}
-
-.btn-2 {
-    text-align: center;
-    background: rgba(6,1,255,0.13);
-    border: solid darkblue;
-    color: darkblue;
-    margin: auto !important;
-    text-align: center !important;
-}
-
-
 // contact
 .bungkusLisIcon {
   display: flex;
@@ -55,26 +23,8 @@
   display: inline-block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // btn new
-
 .thisBtn{
-
 a{
   margin: auto;
   display: block;
@@ -84,8 +34,8 @@ a{
   font-size: 18px;
   font-family: sans-serif;
   text-decoration: none;
-  color: #333;
-  border: 2px solid #333;
+  color: v.$bg1;
+  border: 2px solid v.$bg1;
   letter-spacing: 2px;
   text-align: center;
   position: relative;
@@ -95,6 +45,7 @@ a{
 a span{
   position: relative;
   z-index: 2;
+  font-weight: 500;
 }
 
 a:after{
@@ -104,8 +55,9 @@ a:after{
   left: 0;
   width: 0;
   height: 100%;
-  background: #ff003b;
+  background-color: v.$bg3;
   transition: all .35s;
+  z-index: -1;
 }
 
 a:hover{
