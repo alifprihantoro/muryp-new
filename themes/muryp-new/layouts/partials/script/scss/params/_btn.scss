@@ -69,3 +69,18 @@ a:hover:after{
 }
 
 }
+.mybtn {
+  a{
+  color: #fff;
+  border-color: #fff;
+  }
+
+  a:after{
+  background-color: #fff !important;
+  }
+
+  a:hover{
+color: v.$bg1 !important;
+border-color: v.$bg1 !important;
+  }
+}

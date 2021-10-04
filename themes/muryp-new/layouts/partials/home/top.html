@@ -1,28 +1,28 @@
 <div class="bagian-atas">
   <header>
-    <img src="{{ .Site.Params.host }}{{ .Site.Params.Img }}" alt="Profil MuryP | {{ .Params.Description }}" />
-    <h1>MuryP <br>Front End Developer</h1>
+    <img
+      src="{{ .Site.Params.host }}{{ .Site.Params.Img }}"
+      alt="Profil MuryP | {{ .Params.Description }}"
+    />
+    <h1>MuryP <br />Front End Developer</h1>
     <p>
       {{ .Site.Params.Header | safeHTML }}
     </p>
   </header>
+
   <div class="mybtn">
-  <div class="thisBtn">
-    <div class="wrapper ">
-      <a class="btn gmail"href="#"><span >See More!</span></a>
+    <div class="thisBtn">
+      <div class="wrapper">
+        <a class="btn gmail" href="#"><span>Contact Me!</span></a>
+      </div>
     </div>
-  </div>
-      <a href="/">
-    <div class="btn gmail">
-      <span>
- Contact Me
-      </span> 
+
+    <div class="thisBtn">
+      <div class="wrapper">
+        <a class="btn dl" href="#"><span>Download!</span></a>
+      </div>
     </div>
-      </a>
-    <div class="btn dl">
-      <a href="/">
-        Download CV</a>
-    </div>
+
   </div>
   {{ partial "home/skill.html" . }}
 </div>
