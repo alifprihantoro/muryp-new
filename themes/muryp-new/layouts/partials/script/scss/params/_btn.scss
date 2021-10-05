@@ -14,7 +14,7 @@
 }
 
 .bagian-bawah span {
-  background-color: v.$bg1;
+  background-color: rgba(18, 4, 255, 0.4);
   width: 50px;
   height: 50px;
   background-position: 50%;
@@ -23,58 +23,91 @@
   display: inline-block;
 }
 
-// btn new
-.thisBtn{
-a{
-  margin: auto;
-  display: block;
-  width: 200px;
-  height: 40px;
-  line-height: 40px;
-  font-size: 18px;
-  font-family: sans-serif;
-  text-decoration: none;
-  color: v.$bg1;
-  border: 2px solid v.$bg1;
-  letter-spacing: 2px;
-  text-align: center;
-  position: relative;
-  transition: all .35s;
-}
+.bungkusLisIcon div {
+// animation
+  &:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(0, 36, 170);
+    transition: all 0.35s;
+    z-index: -1;
+  }
 
-a span{
+  transition: all 0.35s;
   position: relative;
   z-index: 2;
   font-weight: 500;
+  // end bungkus icon
 }
 
-a:after{
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: rgb(0,36,170);
-  transition: all .35s;
-  z-index: -1;
-}
-
-a:hover{
-  color: #fff;
-}
-
-a:hover:after{
-  width: 100%;
-}
-
-}
-.mybtn {
-  a{
-  color: #fff;
-  border: 1px solid #fff;
+.btnsosmed {
+  .iconList:after {
+    height: 84%;
   }
-  a:hover{
-  border: 2px solid #fff !important;
+
+  div:hover:after {
+    width: 100%;
+  }
+  //end btn sosmed
+}
+
+.thisBtn {
+// btn new
+  a {
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: v.$bg1;
+    border: 2px solid v.$bg1;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all 0.35s;
+  }
+
+  a span {
+    position: relative;
+    z-index: 2;
+    font-weight: 500;
+  }
+
+  a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(0, 36, 170);
+    transition: all 0.35s;
+    z-index: -1;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+
+  a:hover:after {
+    width: 100%;
+  }
+}
+
+.mybtn {
+  //bagian atas
+  a {
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  a:hover {
+    border: 2px solid #fff !important;
   }
 }

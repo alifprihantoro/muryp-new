@@ -2,19 +2,7 @@
 <blockquote>
 Saya lebih sering menggunakan Telegram dan Instagram. Kalau yang lainnya jarang digunakan.
 </blockquote>
-<h2>For bussines Contact :</h2>
-{{ range .Site.Menus.contact.Sort.ByWeight }}
-<a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
-<div class="bungkusLisIcon">
-<div class="iconList">
-  <span class='{{ .Name }}' />
-</div>
-<div class="infoIconList">
-  {{.Identifier}}
-</div>
-</div>
-  </a>
-{{ end }}
+
 <h2>Ask me on:</h2>
 {{ range .Site.Menus.ask.Sort.ByWeight }}
 <a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
@@ -25,7 +13,22 @@ Saya lebih sering menggunakan Telegram dan Instagram. Kalau yang lainnya jarang 
 <div class="infoIconList">
   {{.Identifier}}
 </div>
-</div>
+ </div>
   </a>
 {{ end }}
+
+<h2>For bussines Contact :</h2>
+{{ range .Site.Menus.contact.Sort.ByWeight }}
+<a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
+<div class="bungkusLisIcon">
+<div class="iconList">
+  <span class='{{ .Name }}' />
+</div>
+<div class="infoIconList">
+  {{.Identifier}}
+</div>
+ </div>
+  </a>
+{{ end }}
+
 </div>
