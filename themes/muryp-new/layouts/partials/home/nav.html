@@ -10,14 +10,6 @@ function setDarkMode() {
   document.getElementById('darkBtn').innerHTML
 }
 </script>
-<script>
-function myFunction(e) {
-  if (document.querySelector('#navList a.active') !== null) {
-    document.querySelector('#navList a.active').classList.remove('active');
-  }
-  e.target.className = "active";
-}
-</script>
 
 <div class="nav">
 
@@ -42,12 +34,12 @@ function myFunction(e) {
 </header>
 
   <nav>
-    <ul onclick="myFunction(event)" id='navList'>
-      <li><a class=" active" href="#">Home</a></li>
-      <li><a class="" href="#about">About</a></li>
-      <li><a class="" href="#contact">Contact</a></li>
-      <li><a class="" href="#blog">Blog</a></li>
-      <li><a class="" href="#project">Project</a></li>
+    <ul>
+      <li><a  href="#">Home</a></li>
+      <li><a  href="#about">About</a></li>
+      <li><a  href="#contact">Contact</a></li>
+      <li><a  href="#blog">Blog</a></li>
+      <li><a  href="#project">Project</a></li>
     </ul>
   </nav>
   <span  id='darkBtn' class="icon btndark" onclick='setDarkMode()'>
