@@ -1,5 +1,13 @@
 <div id="note">
-  <h2>My Blog</h2>
+  <div class="judulBlog">
+    <h2>My Blog</h2>
+    <div class="thisBtn">
+      <div class="wrapper">
+        <a href="#"><span>See More!</span></a>
+      </div>
+    </div>
+  </div>
+
   {{ with .Site.GetPage "/blog" }}
   <div class="myread">
     {{ range.Paginator.Pages }}
@@ -24,9 +32,4 @@
     {{ end }}
   </div>
   {{ end }}
-  <div class="thisBtn">
-    <div class="wrapper">
-      <a href="#"><span>See More!</span></a>
-    </div>
-  </div>
 </div>
