@@ -30,11 +30,15 @@
 
 .skillcont {
   svg {
+  &:hover{
+  transform: translate(0,-5px);
+    fill: v.$bg3;
+  }
     min-width: 50px;
     width: 50px;
     padding: 5px;
-    box-shadow: v.$sd;
-    border-radius: 5px;
+    // box-shadow: v.$sd;
+    // border-radius: 5px;
     fill:   v.$bg1;
     font-size: 50px
   }
