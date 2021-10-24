@@ -9,19 +9,27 @@
   }
   .mybtn{
     display: flex;
+    padding-left: 200px;
   }
   width: 100vw;
   padding-bottom:50px;
 }
+.isi-atas {
+  display: flex;
+}
+
 // skill
+.skill-bg {
+  position: absolute;
+  width: 100vw !important;
+  right: 0;
+}
 .skill {
-  display: inline-flex;
+  display: flex;
   margin: auto;
   background: v.$bg2;
-  position: absolute;
-  z-index: 5;
-  right: 5vw;
   width: 90vw;
+  max-width: 720px !important;
   transform: translate(0,15px);
   padding: 15px;
   border-radius:15px;

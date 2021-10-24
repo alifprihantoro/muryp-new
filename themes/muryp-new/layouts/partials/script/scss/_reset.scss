@@ -21,7 +21,9 @@ body {
   font-weight: 100;
   line-height: 1.5;
   color: #000000cc;/*warna font body*/
-  background-color: #eaeaea /*warna bg body*/
+  background-color: #eaeaea; /*warna bg body*/
+  max-width: 1080px;
+  margin:auto;
 }
 blockquote cite {
   font-size: 70%;

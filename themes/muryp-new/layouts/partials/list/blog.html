@@ -1,24 +1,10 @@
-{{ if eq .Section "blog" "Ideku" "note" }}
+
 <div class="listPage">
 <h1 class="mypost" alt="My Projek">{{ .Title }}</h1>
 <p>
 Terdapat "{{ len .RegularPages }}" Postingan dari {{ .Title }} yang bisa kalian baca dan komentari.
 </p>
 </div>
-{{ else }}
-<h1>Kategori : {{ .Title }}</h1>
-<p>
-Terdapat "{{ len .RegularPages }}" Postingan dari {{ .Title }} yang bisa kalian baca dan komentari.
-</p>
-<div style="background:rgb(0,0,0,.1); padding:25px;border-radius:5px;">
-  <a href="/">Home</a>/
-    <a href="{{ .CurrentSection.RelPermalink }}">
-    {{ .CurrentSection.Title }}
-      </a>/
-  <a href="{{ .RelPermalink | urlize }}">
-    {{ .Title }}</a>
-</div>
-{{ end }}
     <div class="myread">
 	{{ range .Paginator.Pages }}
 	      <a href="{{ .RelPermalink }}">

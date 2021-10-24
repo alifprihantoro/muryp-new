@@ -20,7 +20,8 @@ body {
   line-height: 2;
   color: #333;/*warna font body*/
   background-color: #eaeaea; /*warna bg body*/
-  text-align: center;
+   max-width: 1080px !important;
+  margin:auto; text-align: center;
 }
 a{
   text-decoration: none;
