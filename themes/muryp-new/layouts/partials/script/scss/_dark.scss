@@ -86,7 +86,7 @@ nantinya diganti dengan css bg(svg)
 
 
 // start btn bagian atas
-.mybtn {
+.thisBtn {
   a{
   color: #333;
   border-color: #333;
@@ -100,6 +100,10 @@ nantinya diganti dengan css bg(svg)
 color: #fff !important;
 border-color: #fff !important;
   }
+}
+
+.main{
+  background: rgb(255, 255, 255,.1);
 }
 /*end default*/
 
