@@ -75,7 +75,11 @@ article a{
 nantinya diganti dengan css bg(svg)
 */
  svg{
+   &:hover{
   fill:rgb(255,255,255,.8);
+
+   }
+  fill:rgb(255,255,255,.5);
 }
 
  #darkBtn svg{
