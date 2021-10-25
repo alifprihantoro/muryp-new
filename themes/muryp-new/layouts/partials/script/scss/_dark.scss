@@ -19,7 +19,7 @@ article a{
   color: rgb(255,255,255,.8) !important;
 }
 
-.bagian-bawah, .bagian-atas,input.widget-search__submit,  hr, .header, .pagination a, .Total, .bagianDalam .btn,.btn-2, .tag a, #footer,  blockquote, .shareTerbang div, .headerNav , .kontenNav li:hover{
+.bagian-bawah, .bagian-atas,input.widget-search__submit,  hr, .header, .pagination a, .Total, .bagianDalam .btn,.btn-2, .tag a, blockquote, .shareTerbang div, .headerNav , .kontenNav li:hover{
 /* darkblue */
   background: rgb(0,0,0,.3) !important;
   background-color: rgb(0,0,0,.3) !important;
@@ -27,8 +27,8 @@ article a{
    color:rgb(255,255,255,.7);
  }
 
-  .infoIconList{
-   background: #000!important;
+  .iconList span,.infoIconList{
+       background-color: #000!important;
  }
 
  /*garis*/
@@ -53,7 +53,7 @@ article a{
 }
 
 /*end garis*/
- span:hover, .myjudul, .btn a, .iconList span, .navBtn, i.iconShare{
+ span:hover, .myjudul, .btn a,  .navBtn, i.iconShare{
 /* terang */
   background-color:rgb(50,50,50) !important ;
 }
@@ -92,8 +92,7 @@ nantinya diganti dengan css bg(svg)
 // start btn bagian atas
 .thisBtn {
   a{
-  color: #333;
-  border-color: #333;
+  border-color: rgb(255, 255, 255,.5);
   }
 
   a:after{
@@ -106,9 +105,13 @@ border-color: #fff !important;
   }
 }
 
-.main{
+#footer,.main{
   background: rgb(255, 255, 255,.1);
 }
+.bungkusLisIcon div:after{
+  background-color: rgb(255, 255, 255,.5)!important;
+}
+
 /*end default*/
 
   background-color: rgb(27,27,27) !important;
