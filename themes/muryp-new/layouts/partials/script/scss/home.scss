@@ -81,4 +81,7 @@ b,strong{
 }
 .main {
   background-color: #fff;
+  z-index: -99;
+  position: absolute;
+  max-width: 1080px !important;
 }
