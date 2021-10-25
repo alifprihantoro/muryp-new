@@ -33,12 +33,12 @@ weight = 6
 [[sosmed]]
 identifier = "github"
 name = "github"
-url = "https://github.com/alifmuryp"
+url = "https://github.com/alifprihantoro"
 weight = 1
 [[sosmed]]
 identifier = "linkedin"
 name = "linkedin"
-url = "https://www.linkedin.com/in/alifmuryp"
+url = "https://www.linkedin.com/in/alifprihantoro"
 weight = 2
 [[sosmed]]
 identifier = "instagram"
@@ -58,7 +58,7 @@ weight = 5
 [[sosmed]]
 identifier = "pinteres"
 name = "pinteres"
-url = "https://pinterest.com/alifmuryp/"
+url = "https://pinterest.com/alifprihantoro/"
 weight = 6
 
 
@@ -70,25 +70,25 @@ name = "telegram"
 url = "https://t.me/muryp"
 weight = 1
 [[contact]]
-identifier = "alifmuryp@gmail.com"
+identifier = "alifprihantoro@gmail.com"
 name = "gmail"
-url = "mailto:alifmuryp@gmail.com"
+url = "mailto:alifprihantoro@gmail.com"
 weight = 2
 [[contact]]
 identifier = "+6283 829 383 123"
 name = "tlp"
-url = "wa_link"
+url = "https://wa.me/message/PE5QUV4RBIU6L1"
 weight = 3
 # Ask me
 [[ask]]
-identifier = "@alifmuryp"
+identifier = "@alifprihantoro"
 name = "twitter"
-url = "https://twitter.com/murypstudio"
+url = "https://twitter.com/alifprihantoro"
 weight = 1
 [[ask]]
 identifier = "Muryp Beta"
 name = "facebook"
-url = "https://facebook.com/muryp"
+url = "https://facebook.com/alifprihantoro"
 weight = 2
 
 
@@ -98,17 +98,17 @@ name = "Blog"
 url = "/blog"
 weight = 1
 [[web]]
-identifier = "Kumpulan catatan/penjelasan mengenai IT"
-name = "LMS"
-url = "/lms"
+identifier = "See my arts"
+name = "Pinterest"
+url = "https://pinterest.com/murypstudio"
 weight = 2
 [[web]]
-identifier = "Kumpulan hasil karya digital (cuming soon!)"
-name = "Studio"
-url = "https://murypstudio.my.id"
+identifier = "See my Project"
+name = "Project"
+url = "/project"
 weight = 3
 [[web]]
-identifier = "Kumpulan hasil koding(coming soon!)"
-name = "Blog"
-url = "https://murypstudio.my.id/code"
+identifier = "Cari info/berita mengenai dunia IT"
+name = "info"
+url = "/info"
 weight = 4
