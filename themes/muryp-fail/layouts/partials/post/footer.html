@@ -1,0 +1,27 @@
+        {{ if eq .Section "laman" }}
+        {{ else }}
+        <footer class="footerPost">
+          {{ partial "post/params.html" . }}
+          {{ partial "authors/min.html" . }}
+        </footer>
+        <div style="margin:50px"></div>
+    {{ partial "post/disqus.html" . }}
+        <div class="nav-post">
+          <div class="prev-post">
+            {{ if .NextInSection }}
+            <div class="btn">
+              <a class="link-reverse" href="{{ .NextInSection.Permalink }}?ref=footer">« Sebelumnya</a>
+            </div>
+            <a class="link-reverse" href="{{ .NextInSection.Permalink }}?ref=footer">{{ .NextInSection.Title | truncate 50 "..."}}</a>
+            {{ end }}
+          </div>
+          <div class="next-post">
+            {{ if .PrevInSection }}
+            <div class="btn">
+              <a class="link-reverse" href="{{ .PrevInSection.Permalink }}?ref=footer"alt="selanjutnya">selanjutnya »</a>
+            </div>
+            <a class="link-reverse" href="{{ .PrevInSection.Permalink }}?ref=footer">{{ .PrevInSection.Title | truncate 50 "..." }}</a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}

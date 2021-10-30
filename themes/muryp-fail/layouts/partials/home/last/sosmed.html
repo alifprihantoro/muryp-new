@@ -1,0 +1,19 @@
+  <!-- start ask -->
+  <h2>Ask me on:</h2>
+  {{ range .Site.Menus.ask.Sort.ByWeight }}
+  <div class="btnsosmed">
+
+  <a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
+    <div class="bungkusLisIcon">
+      <div class="iconList">
+        <span class='{{ .Name }}' />
+      </div>
+      <div class="infoIconList">
+        {{.Identifier}}
+      </div>
+    </div>
+  </a>
+
+  </div>
+  {{ end }}
+<!-- end ask -->

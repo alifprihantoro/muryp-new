@@ -1,0 +1,33 @@
+<div class="bagian-atas">
+  <div class="isi-atas">
+    <img
+      src="{{ .Site.Params.host }}{{ .Site.Params.Img }}"
+      alt="Profil MuryP | {{ .Params.Description }}"
+    />
+
+    <div>
+      <h1>MuryP <br />Front End Developer</h1>
+      <p>
+        {{ .Site.Params.Header | safeHTML }}
+      </p>
+    </div>
+
+  </div>
+
+  <div class="mybtn">
+    <div class="thisBtn">
+      <div class="wrapper">
+        <a class="btn gmail" href="mailto:alifprihantoro@gmial.com"
+          ><span>Contact Me!</span></a
+        >
+      </div>
+    </div>
+
+    <div class="thisBtn">
+      <div class="wrapper">
+        <a class="btn dl" href="#"><span>Download CV!</span></a>
+      </div>
+    </div>
+  </div>
+  {{ partial "home/sosmed.html" . }}
+</div>

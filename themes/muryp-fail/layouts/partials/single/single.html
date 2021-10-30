@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head itemscope itemtype="{{ .Site.BaseURL }}">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  {{ partial "head.html" . }}
+</head>
+<body>
+  {{ partial "navHeader.html" . }}
+  {{ partial "post/header.html" . }}
+  {{ if eq .Section "laman" }}{{else}}
+  {{ partial "post/breadcrumb.html" . }}{{end}}
+  <div class="responsive">
+    <div class="mainPostingan">
+      <hr />
+      <div style="overflow:hidden;" class="post-content post-body">
+        <!-------------- body post -------------->
+        {{ .Content | safeHTML }}
+        <!--------------Footer Post -------------->
+        {{ if eq .Section "laman" }}
+        {{ else }}
+        <footer class="footerPost">
+          {{ partial "post/params.html" . }}
+          {{ partial "authors/min.html" . }}
+        </footer>
+        <div class="nav-post">
+          <div class="prev-post">
+            {{ if .NextInSection }}
+            <div class="btn">
+              <a class="link-reverse" href="{{ .NextInSection.Permalink }}?ref=footer">« Sebelumnya</a>
+            </div>
+            <a class="link-reverse" href="{{ .NextInSection.Permalink }}?ref=footer">{{ .NextInSection.Title | truncate 50 "..."}}</a>
+            {{ end }}
+          </div>
+          <div class="next-post">
+            {{ if .PrevInSection }}
+            <div class="btn">
+              <a class="link-reverse" href="{{ .PrevInSection.Permalink }}?ref=footer"alt="selanjutnya">selanjutnya »</a>
+            </div>
+            <a class="link-reverse" href="{{ .PrevInSection.Permalink }}?ref=footer">{{ .PrevInSection.Title | truncate 50 "..." }}</a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+    {{ partial "post/disqus.html" . }}
+    <div class="sidebar">
+      {{ partial "post/related.html" . }}
+      {{ partial "contact.html" . }}
+    </div>
+  </div>
+  {{ partial "footer.html" . }}
+  <script type="text/javascript" charset="utf-8">
+    !function() {
+      let e = document; e.addEventListener("dblclick", t=> {
+        let n = function(e, t) {
+          if (!(t = t && t.toUpperCase())||!e)return null; do {
+            if (e.nodeName === t)return e
+          }while (e = e.parentNode); return null
+        }(t.target, "PRE"); if (n) {
+          let t = new Range; t.setStart(n, 0),
+          t.setEnd(n, 1),
+          e.getSelection().removeAllRanges(),
+          e.getSelection().addRange(t)}})}();
+  </script>
+</body>
+</html>

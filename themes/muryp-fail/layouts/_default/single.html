@@ -1,0 +1,34 @@
+{{ if eq .Section "pages" }}
+        {{ .Content | safeHTML }}
+{{else}}
+<!DOCTYPE html>
+<html>
+<head itemscope itemtype="{{ .Site.BaseURL }}">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  {{ partial "main/head/main.html" . }}
+</head>
+<body>
+  {{ partial "main/topNav/main.html" . }}
+  {{ partial "post/header.html" . }}
+  <div class="responsive">
+    <div class="mainPostingan">
+      <hr />
+      <div style="overflow:hidden;" class="post-content post-body">
+        <article>
+        {{ .Content | safeHTML }}
+        </article>
+        {{ partial "post/footer.html" . }}
+      {{ partial "post/related.html" . }}
+      </div>
+    </div>
+    <div class="sidebar">
+    </div>
+  </div>
+  {{ partial "main/footer.html" . }}
+  {{ partial "main/share.html" .}}
+  {{ partial "main/myjs.html" . }}
+</body>
+</html>
+{{end}}

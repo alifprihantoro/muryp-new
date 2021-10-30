@@ -1,0 +1,24 @@
+{{ with .Params.tags }}
+<div class="tag">
+  Tag :
+  {{range .}}
+  <a href="/tags/{{ . | urlize }}">#{{ replace . " " "_"  }}</a>
+  {{end}}
+</div>
+{{ end }}
+{{ with .Params.catatan }}
+<div class="tag">
+  Tag :
+  {{range .}}
+  <a href="/tags/{{ . | urlize }}">#{{ replace . " " "_"  }}</a>
+  {{end}}
+</div>
+{{ end }}
+{{ with .Params.ide }}
+<div class="tag">
+  Tag :
+  {{range .}}
+  <a href="/tags/{{ . | urlize }}">#{{ replace . " " "_"  }}</a>
+  {{end}}
+</div>
+{{ end }}

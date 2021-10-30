@@ -1,0 +1,113 @@
+<div class="navTerbang">
+  <div class="nav">
+    <input type="checkbox" id="nav">
+    <label class="navBtn" for="nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <div class=kontenNav>
+      <div class="headerNav bottom">
+        Author
+      </div>
+      <!--memulai image-->
+      <div class="cardAuthor">
+        <a href="{{.Site.Params.host}}{{.Site.Params.img}}"> <img src="{{.Site.Params.host}}{{.Site.Params.thumb}}" alt="{{.Site.Params.Description}}"></a>
+        <div class="container">
+          <h4><a href="{{.Site.Params.urlAuthors}}">{{.Site.Params.Author}}</a></h4>
+          <p>
+            {{.Site.Params.Header | safeHTML}}
+          </p>
+
+          {{if ne .RelPermalink "/"}}
+          <div class='sosmedhome'>
+            {{ range .Site.Menus.sosmed.Sort.ByWeight }}
+<a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
+<div class="bungkusLisIcon">
+<div class="iconList">
+  <span class='{{ .Name }}' />
+</div>
+<div class="infoIconList">
+  {{.Identifier}}
+</div>
+</div>
+  </a>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <!--end image-->
+      {{if ne .RelPermalink "/search/"}}
+      <div class="widget-search widget">
+        <form class="widget-search__form" role="search" method="get" action="{{ "search" | absURL }}">
+          <label>
+            <input class="widget-search__field" type="search" placeholder="{{ T "search_placeholder" }}Cari Apa?" value="" name="s" aria-label="{{ T "search_placeholder" }}">
+          </label>
+          <input class="widget-search__submit" type="submit" value="Search">
+        </form>
+      </div>
+      {{end}}
+      <!--start list nav-->
+      <div class="headerNav top">
+        NAVIGATION
+      </div>
+      {{ range .Site.Menus.main.Sort.ByWeight }}
+      <li>
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+      <!--end list nav-->
+      <!--start dropdown nav-->
+      <div class="spoiler myArrow">
+        <input type="checkbox" id="taksonomyNav">
+        <label for="taksonomyNav">Daftar Kategori</label>
+        <div class="spoilerKonten tag">
+      {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+      <a href="/tags/{{$name}}">
+        #{{ replace .Page.Title " " "_"  }}
+        <!--<a> {{ .Count }}</a>-->
+        </a>
+      {{ end }}
+        </div>
+      </div>
+      <div class="spoiler myArrow">
+        <input type="checkbox" id="listPagesNav">
+        <label for="listPagesNav">Daftar Halaman</label>
+        <div class=spoilerKonten>
+          {{ with .Site.GetPage "/laman" }}
+          {{ range .Paginator.Pages}}
+          <li>
+          <a href="{{.Permalink}}">{{.Name}}</a>
+          </li>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+      <!--end dropdown-->
+      <!--start contact & list-->
+      {{if ne .RelPermalink "/"}}
+      {{ partial "main/contact.html" . }}
+      {{ partial "main/list.html" . }}
+      {{end}}
+      <!--end contact & list-->
+      <!--start related post-->
+      {{ $related := .Site.RegularPages.Related . | first 99 }}
+      {{ with $related }}
+      <h2>Lihat Juga</h2>
+      <div class="related">
+        {{ range . }}
+        <div class="content">
+          <a href="{{ .RelPermalink }}">
+            <div class="readMore">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </div>
+          </a>
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+      <!--end related post-->
+    </div>
+  </div>
+</div>

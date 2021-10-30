@@ -1,0 +1,48 @@
+@use "variable" as v;
+.bagian-atas {
+  .btn{//btn khusus atas
+    width: 40%;
+    padding-left: 35px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 25px;
+  }
+  margin-top: 40px;
+  width: 100vw;
+  padding-bottom:50px;
+}
+
+// skill
+.skill-bg {
+  position: absolute;
+  width: 100vw;
+  left: 0;
+}
+.skill {
+  display: flex;
+  margin: auto;
+  background: v.$bg2;
+  width: 90vw;
+  max-width: 720px !important;
+  transform: translate(0,15px);
+  padding: 15px;
+  border-radius:15px;
+  box-shadow: v.$sd;
+}
+
+.skillcont {
+  svg {
+  &:hover{
+  transform: translate(0,-5px);
+    fill: v.$bg3;
+  }
+    min-width: 50px;
+    width: 50px;
+    padding: 5px;
+    // box-shadow: v.$sd;
+    // border-radius: 5px;
+    fill:   v.$bg1;
+    font-size: 50px
+  }
+  margin: auto;
+}
