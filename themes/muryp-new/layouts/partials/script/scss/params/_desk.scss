@@ -15,8 +15,16 @@
     margin: auto;
   }
   .bagian-atas {
+  .mybtn{
+    display: flex;
+    padding-left: 200px;
+  }
+
     text-align: left;
   }
+.isi-atas {
+  display: flex;
+}
   .btn {
     text-align: left;
     margin: 15px;

@@ -34,10 +34,10 @@
   background-color: v.$cl;
   list-style-type: none;
   display: flex;
-  position: sticky;
+  position: fixed;
   top: 0;
-  right: 0;
   width: 100vw;
+  max-width: 1080px !important;
   z-index: 999;
 }
 
