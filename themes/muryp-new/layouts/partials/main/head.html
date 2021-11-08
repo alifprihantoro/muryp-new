@@ -1,0 +1,22 @@
+<!-- seo -->
+{{ partial "main/seo.html" . }}
+
+<!-- svg css -->
+<link rel="stylesheet" href="/css/svg.css" type="text/css" media="all" />
+
+<style>
+{{- if .IsHome -}}
+{{ partial "script/css/home.css" . | safeCSS}}
+{{- end -}}
+
+{{- if .IsHome -}}
+{{- else -}}
+{{ partial "script/css/main.css" . | safeCSS }}
+{{- end -}}
+
+{{if eq .Section "posts"}}
+YOUR STUFF HERE
+{{end}}
+
+{{ partial "script/css/end.css" . | safeCSS }}
+</style>

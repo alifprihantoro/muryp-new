@@ -28,5 +28,15 @@ description: ""
 
 ### Short code
 
+### config
+
+### partial
+
+### script
+
+### img
+
+### api
+
 ### catatan lainnya
 - 
