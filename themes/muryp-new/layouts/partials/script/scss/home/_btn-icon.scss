@@ -1,0 +1,10 @@
+.btn-icon::before {
+    content: "";
+    padding: 15px;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: translate(-40px, 2px);
+  }
+  .btn-icon{
+    padding-left: 50px;
+  }

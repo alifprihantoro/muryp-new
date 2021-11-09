@@ -1,0 +1,14 @@
+<div id="sosmed" class="sosmedhome">
+<h2 class="head follow">Follow me on :</h2>
+{{ range .Site.Menus.sosmed.Sort.ByWeight }}
+<div class="thisBtn">
+  <div class="wrapper">
+    <a href="{{ .URL }}" rel='nofollow' target='_blank' title='{{ .Name }}'>
+      <div class="btn-icon {{ .Name }}">
+        {{.Identifier}}
+      </div>
+    </a>
+  </div>
+</div>
+  {{ end }}
+</div>
