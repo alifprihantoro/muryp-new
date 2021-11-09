@@ -1,0 +1,24 @@
+
+// heading
+.head {
+    background: blue;
+    color:#fff; 
+    padding: 10px 0 10px 50px;
+    margin: 0 0 15px 0;
+}
+
+.head::before {
+    content: "";
+    padding: 15px;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: translate(-34px, 5px);
+}
+
+// icon
+.blog::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M4 22h-4v-4h4v4zm0-12h-4v4h4v-4zm0-8h-4v4h4v-4zm3 0v4h17v-4h-17zm0 12h17v-4h-17v4zm0 8h17v-4h-17v4z'/%3E%3C/svg%3E");
+}
+.about::before {
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M19 7.001c0 3.865-3.134 7-7 7s-7-3.135-7-7c0-3.867 3.134-7.001 7-7.001s7 3.134 7 7.001zm-1.598 7.18c-1.506 1.137-3.374 1.82-5.402 1.82-2.03 0-3.899-.685-5.407-1.822-4.072 1.793-6.593 7.376-6.593 9.821h24c0-2.423-2.6-8.006-6.598-9.819z'/%3E%3C/svg%3E");
+}
