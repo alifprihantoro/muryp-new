@@ -1,3 +1,4 @@
+// heading
 #blog {
   h2 {
     background: blue;
@@ -5,6 +6,7 @@
     padding: 10px 0 10px 50px;
     margin: 0 0 15px 0;
 }
+
 h2::before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M4 22h-4v-4h4v4zm0-12h-4v4h4v-4zm0-8h-4v4h4v-4zm3 0v4h17v-4h-17zm0 12h17v-4h-17v4zm0 8h17v-4h-17v4z'/%3E%3C/svg%3E");
     content: "";
@@ -14,3 +16,49 @@ h2::before {
     transform: translate(-34px, 5px);
 }
 }
+
+// list
+.bagian-tengah {
+  margin: 50px 15px;
+}
+  .content {
+    display: flex;
+    border-radius: 5px;
+    box-shadow:5px 5px 5px rgb(0,0,139,.08);
+    margin: 25px auto !important;
+    padding: 15px;
+    width: 80%;
+
+  }
+  div.content:hover {
+    transform: translate(10px,-10px);
+  }
+  .myread {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto;
+    text-align: left;
+  }
+  .myread a {
+    color: #333;
+  }
+  .myread .date {
+    margin-right: 30px;
+    width: 64px;
+    text-align: center;
+  }
+  .myread .date .day {
+    font-weight: 700;
+    line-height: 0.45em;
+    font-size: 3em;
+    display: block;
+    margin: 20px auto;
+  }
+  .myread .date .rest {
+    display: block;
+    font-size: 0.75em;
+  }
+  .nameSite {
+    font-size: 40px;
+    font-weight: bold;
+  }
