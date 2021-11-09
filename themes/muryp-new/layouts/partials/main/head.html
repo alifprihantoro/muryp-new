@@ -1,13 +1,10 @@
 <!-- seo -->
 {{ partial "main/seo.html" . }}
 <style>
-{{- if .IsHome -}}
-{{ partial "script/css/home.css" . | safeCSS}}
-{{- end -}}
+{{ partial "script/css/main.css" . | safeCSS }}
 
 {{- if .IsHome -}}
-{{- else -}}
-{{ partial "script/css/main.css" . | safeCSS }}
+{{ partial "script/css/home.css" . | safeCSS}}
 {{- end -}}
 
 {{if eq .Section "posts"}}
