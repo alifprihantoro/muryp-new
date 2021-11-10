@@ -9,8 +9,7 @@
     display: block;
     line-height: 40px;
     font-size: 13px;
-    font-family:redserif;
-    text-decoration: none;
+    font-weight: bold;
     color: v.$bg;
     border: 2px solid v.$bg;
     letter-spacing: 2px;
@@ -33,7 +32,7 @@
     height: 100%;
     background-color: v.$bg;
     transition: all 1s;
-    z-index: -1;
+    z-index: 0;
   }
 
   a:hover {

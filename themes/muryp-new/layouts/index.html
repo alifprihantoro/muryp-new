@@ -10,27 +10,21 @@
     {{ partial "main/head.html" . }}
   </head>
   <body>
-    <!-- nav -->
-    {{ partial "home/nav.html" . }}
+    <div class="grid-container">
+      <!-- nav -->
+      {{ partial "home/nav.html" . }}
 
-    <div class="main">
-      <div class="top">
-        <!-- top -->
-    {{ partial "home/top/about.html" . }}
-    {{ partial "home/top/skill.html" . }}
-      </div>
-      <div class="midle">
-        <!-- midle -->
-    {{ partial "home/main/list.html" . }}
-    {{ partial "home/main/tag.html" . }}
-      </div>
-      <div class="last">
-        <!-- last -->
-    {{ partial "home/last/sosmed.html" . }}
-    {{ partial "home/last/contact.html" . }}
-      </div>
+      <!-- top -->
+      {{ partial "home/top/about.html" . }}
+      {{ partial "home/top/skill.html" . }}
+      <!-- midle -->
+      {{ partial "home/main/list.html" . }}
+      {{ partial "home/main/tag.html" . }}
+      <!-- last -->
+      {{ partial "home/last/sosmed.html" . }}
+      {{ partial "home/last/contact.html" . }}
+      <!-- footer -->
+      {{ partial "main/footer.html" . }}
     </div>
-    <!-- footer -->
-    {{ partial "main/footer.html" . }}
   </body>
 </html>

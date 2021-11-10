@@ -1,4 +1,4 @@
-<div id="sosmed">
+<div id="contact">
   <h2 class="head tlp">Contact Me on :</h2>
   <div class="center">
     {{ range.Site.Menus.contact.Sort.ByWeight }}
@@ -12,7 +12,7 @@
           title="{{ .Name }}"
         >
           <div class="btn-icon {{ .Name }}">
-            {{.Identifier}}
+           <span>{{.Identifier}}</span> 
           </div>
         </a>
       </div>
