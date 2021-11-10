@@ -1,3 +1,4 @@
+@use "../var" as v;
 .thisBtn {
 // btn new
   a {
@@ -10,8 +11,8 @@
     font-size: 18px;
     font-family:redserif;
     text-decoration: none;
-    color: darkblue;
-    border: 2px solid blue;
+    color: v.$bg;
+    border: 2px solid v.$bg;
     letter-spacing: 2px;
     position: relative;
     transition: all 0.35s;
@@ -30,7 +31,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background-color: rgb(0, 36, 170);
+    background-color: v.$bg;
     transition: all 0.35s;
     z-index: -1;
   }

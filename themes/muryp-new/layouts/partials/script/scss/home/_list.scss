@@ -1,45 +1,41 @@
-// list
-.bagian-tengah {
-  margin: 50px 15px;
+@use "../var" as v;
+// pembungkus
+.content {
+  display: flex;
+  border-radius: 5px;
+  box-shadow: v.$sd;
+  margin: 25px auto !important;
+  padding: 15px;
+  width: 80%;
 }
-  .content {
-    display: flex;
-    border-radius: 5px;
-    box-shadow:5px 5px 5px rgb(0,0,139,.08);
-    margin: 25px auto !important;
-    padding: 15px;
-    width: 80%;
 
-  }
-  div.content:hover {
-    transform: translate(10px,-10px);
-  }
-  .myread {
-    display: grid;
-    width: 100%;
-    grid-template-columns: auto;
-    text-align: left;
-  }
-  .myread a {
+.myread {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto;
+  text-align: left;
+}
+
+// tanggal
+.myread .date {
+  margin-right: 30px;
+  width: 64px;
+  text-align: center;
+}
+
+.myread .date .day {
+  font-weight: 700;
+  line-height: 0.45em;
+  font-size: 3em;
+  display: block;
+  margin: 20px auto;
+}
+
+// hover
+.myread a {
+  &:hover {
+    transform: translate(10px, -10px);
     color: #333;
   }
-  .myread .date {
-    margin-right: 30px;
-    width: 64px;
-    text-align: center;
-  }
-  .myread .date .day {
-    font-weight: 700;
-    line-height: 0.45em;
-    font-size: 3em;
-    display: block;
-    margin: 20px auto;
-  }
-  .myread .date .rest {
-    display: block;
-    font-size: 0.75em;
-  }
-  .nameSite {
-    font-size: 40px;
-    font-weight: bold;
-  }
+  color: v.$bg;
+}
