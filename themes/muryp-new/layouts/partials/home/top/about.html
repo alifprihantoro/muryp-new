@@ -15,4 +15,17 @@ Hello, Saya MuryP. Saya adalah seorang <b>Front End Web Developer</b>. Saya suka
 </p>
 </div>
 
+{{ range .Site.Menus.top.Sort.ByWeight }}
+<div class="thisBtn sosmedhome">
+  <div class="wrapper">
+    <a href="{{ .URL }}" rel='nofollow' target='_blank' title='{{ .Name }}'>
+      <div class="btn-icon {{ .Name }}">
+        {{.Identifier}}
+      </div>
+    </a>
+  </div>
+</div>
+  {{ end }}
+
+
 </div>

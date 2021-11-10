@@ -92,23 +92,13 @@ url = "https://facebook.com/alifprihantoro"
 weight = 2
 
 
-[[web]]
-identifier = "Kumpulan artikel/tulisan pribadi"
-name = "Blog"
-url = "/blog"
+[[top]]
+identifier = "Contact Me"
+name = "tlp"
+url = "https://wa.me/message/PE5QUV4RBIU6L1"
 weight = 1
-[[web]]
-identifier = "See my arts"
-name = "Pinterest"
-url = "https://pinterest.com/murypstudio"
+[[top]]
+identifier = "Download CV"
+name = "dl"
+url = "/link"
 weight = 2
-[[web]]
-identifier = "See my Project"
-name = "Project"
-url = "/project"
-weight = 3
-[[web]]
-identifier = "Cari info/berita mengenai dunia IT"
-name = "info"
-url = "/info"
-weight = 4
