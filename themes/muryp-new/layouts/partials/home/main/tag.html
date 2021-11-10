@@ -1,0 +1,14 @@
+<div id="tag">
+  <h2 class="head tag">Daftar Kategori</h2>
+  <div class="center">
+    {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    <div class="thisBtn tag2">
+      <div class="wrapper">
+        <a href="/tags/{{ $name }}"
+          ><span>#{{ replace .Page.Title " " "_"  }}</span></a
+        >
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>

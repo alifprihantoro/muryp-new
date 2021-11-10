@@ -1,0 +1,10 @@
+@use "../var" as v;
+.tag1 a{
+background-color: rgb(255, 255, 255,.05);
+padding: 10px;
+border: 1px solid v.$bg;
+color: v.$bg;
+border-radius: 50px;
+margin: 5px;
+line-height: 3;
+}
