@@ -1,31 +1,40 @@
 <div id="about">
-<h2 class="head about">About</h2>
-<div class="center">
-  <!-- img -->
-<a href="{{.Site.Params.host}}{{.Site.Params.img}}" target="_blank">
-<img src="{{.Site.Params.host}}{{.Site.Params.thumb}}" alt="foto profile Alif Prihantoro">
-</a> 
-
-<!-- title -->
-<h1>Alief Prihantoro</h1>
-<h2 class="kedua">Front End Developer</h2>
-
-<p>
-Hello, Saya MuryP. Saya adalah seorang <b>Front End Web Developer</b>. Saya suka belajar, menulis, mencoba hal baru (eksperimen), coding dan menggambar. Saat ini saya sedang mendalami Front End yaitu HTML, CSS, dan Javascript. Selain itu untuk membuat website sendiri saya memanfaatkan salah satu framework yaitu hugo. Dan sekarang saya sedang mencoba untuk menjadi seorang <b>freelance</b> dan <b>content creator</b> agar lebih jago lagi. Saya menyukai kesederhanaan, seperti halnya tagline saya yaitu "Be simple, Unique, and Usefully"
-</p>
-</div>
-
-{{ range .Site.Menus.top.Sort.ByWeight }}
-<div class="thisBtn sosmedhome">
-  <div class="wrapper">
-    <a href="{{ .URL }}" rel='nofollow' target='_blank' title='{{ .Name }}'>
-      <div class="btn-icon {{ .Name }}">
-        {{.Identifier}}
-      </div>
+  <h2 class="head about">About</h2>
+  <div class="center">
+    <!-- img -->
+    <a href="{{.Site.Params.host}}{{.Site.Params.img}}" target="_blank">
+      <img
+        src="{{.Site.Params.host}}{{.Site.Params.thumb}}"
+        alt="foto profile Alif Prihantoro"
+      />
     </a>
+
+    <!-- title -->
+    <h1>Alief Prihantoro</h1>
+    <h2 class="kedua">Front End Developer</h2>
+
+    <p>
+      Hello, Saya MuryP. Saya adalah seorang <b>Front End Web Developer</b>.
+      Saya suka belajar, menulis, mencoba hal baru (eksperimen), coding dan
+      menggambar. Saat ini saya sedang mendalami Front End yaitu HTML, CSS, dan
+      Javascript. Selain itu untuk membuat website sendiri saya memanfaatkan
+      salah satu framework yaitu hugo. Dan sekarang saya sedang mencoba untuk
+      menjadi seorang <b>freelance</b> dan <b>content creator</b> agar lebih
+      jago lagi. Saya menyukai kesederhanaan, seperti halnya tagline saya yaitu
+      "Be simple, Unique, and Usefully"
+    </p>
+
+    <!-- btn bawah -->
+    {{ range.Site.Menus.top.Sort.ByWeight }}
+    <div class="thisBtn sosmedhome">
+      <div class="wrapper">
+        <a href="{{ .URL }}" rel="nofollow" target="_blank" title="{{ .Name }}">
+          <div class="btn-icon {{ .Name }}">
+            {{.Identifier}}
+          </div>
+        </a>
+      </div>
+    </div>
+    {{ end }}
   </div>
-</div>
-  {{ end }}
-
-
 </div>

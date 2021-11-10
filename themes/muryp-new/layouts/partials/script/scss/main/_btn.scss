@@ -8,14 +8,14 @@
     height: 40px;
     display: block;
     line-height: 40px;
-    font-size: 18px;
+    font-size: 13px;
     font-family:redserif;
     text-decoration: none;
     color: v.$bg;
     border: 2px solid v.$bg;
     letter-spacing: 2px;
     position: relative;
-    transition: all 1s;
+    transition: all .5s;
   }
 
   a span {
@@ -32,7 +32,7 @@
     width: 0;
     height: 100%;
     background-color: v.$bg;
-    transition: all 0.35s;
+    transition: all 1s;
     z-index: -1;
   }
 

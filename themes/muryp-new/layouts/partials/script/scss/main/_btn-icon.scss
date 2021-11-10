@@ -1,3 +1,4 @@
+@use "../var" as v;
 // add icon
 // nb : icon ada di file terpisah
 .btn-icon::before {
@@ -7,6 +8,7 @@
   position: absolute;
   transform: translate(-40px, 2px);
 }
+
 .btn-icon {
   padding-left: 50px;
   text-transform: uppercase;
@@ -24,16 +26,7 @@
   margin: auto 15px;
 }
 
-// ukuran tertentu
 a.gmail {
-  width: 400px;
+  width: 300px;
 }
-a.tlp {
-  width: 260px;
- margin: auto 15px;}
-
- .tag2{
- display: inline-flex;
-
- }
 
