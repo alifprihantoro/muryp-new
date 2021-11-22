@@ -1,0 +1,49 @@
+@use "variable" as v;
+/* ======== reset ========= */
+html {
+  box-sizing: border-box
+}
+*,::after,::before {
+  box-sizing: inherit;
+  max-width: 100%!important;
+  margin: 0;
+  padding: 0;
+  font-weight: 500
+}
+@-ms-viewport {
+  width:device-width
+}
+body {
+  font-family: sans-serif;
+  font-size: 90%;/*ukuran font body*/
+  font-weight: 100;
+  line-height: 2;
+  color: #333;/*warna font body*/
+  background-color: #eaeaea; /*warna bg body*/
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: v.$bg1;
+}
+h1,h2{
+  font-size: 200%;
+  color: v.$bg1;
+}
+li{
+list-style: none;
+}
+.bagian-atas,.bagian-bawah {
+  h1,h2,a{
+    color:#fff;
+  }
+  p {
+    color: rgb(255,255,255,.8);
+  }
+  background: v.$bg3;
+  padding: 15px;
+}
+img{
+  width: 200px;
+  height: 200px;
+}
