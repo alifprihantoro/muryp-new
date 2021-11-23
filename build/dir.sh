@@ -14,10 +14,8 @@ dmnd=$dw/deploy-muryp-new/ # deploy dir
 
 # 
 # new muryp
-dmnsi=$dmn/static/img/public # img
-dmnss=$dmn/static/script/public # script
-dmnsp=$dmn/static/pages-api # pages api
-dmnsb=$dmn/static/blog-api # blog api
+dmnsi=$dmn/static/img/ # img
+dmnss=$dmn/static/script/ # script
 dmnt=$dmn/themes/muryp-new # theme
 dmntp=$dmnt/layouts/partials # partial
 dmntpmh=$dmntp/main/head/ # head
