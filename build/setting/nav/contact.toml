@@ -1,0 +1,15 @@
+[[menu.contact]]
+identifier = "@muryp"
+name = "telegram"
+url = "https://t.me/muryp"
+weight = 1
+[[menu.contact]]
+identifier = "alifprihantoro@gmail.com"
+name = "gmail"
+url = "mailto:alifprihantoro@gmail.com"
+weight = 2
+[[menu.contact]]
+identifier = "+6283 829 383 123"
+name = "tlp"
+url = "https://wa.me/message/PE5QUV4RBIU6L1"
+weight = 3

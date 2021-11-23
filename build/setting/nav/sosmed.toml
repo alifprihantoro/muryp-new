@@ -1,0 +1,30 @@
+[[menu.sosmed]]
+identifier = "github"
+name = "github"
+url = "https://github.com/alifprihantoro"
+weight = 1
+[[menu.sosmed]]
+identifier = "linkedin"
+name = "linkedin"
+url = "https://www.linkedin.com/in/alifprihantoro"
+weight = 2
+[[menu.sosmed]]
+identifier = "instagram"
+name = "instagram"
+url = "https://www.instagram.com/murypstudio/"
+weight = 3
+[[menu.sosmed]]
+identifier = "twitter"
+name = "twitter"
+url = "https://twitter.com/murypstudio"
+weight = 4
+[[menu.sosmed]]
+identifier = "facebook"
+name = "facebook"
+url = "https://facebook.com/murypstudio"
+weight = 5
+[[menu.sosmed]]
+identifier = "pinteres"
+name = "pinteres"
+url = "https://pinterest.com/alifprihantoro/"
+weight = 6

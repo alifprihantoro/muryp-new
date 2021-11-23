@@ -1,3 +1,4 @@
+[params]
 header = "Ingin Membuat Website?<br>Tapi tidak bisa coding. Tenang, serahkan projek anda kepada saya."
 github = "https://github.com/alifprihantoro"
 gitlab = "https://gitlab.com/alifprihantoro"
@@ -5,15 +6,9 @@ facebook = "https://facebook.com/alifprihantoro"
 sitename = "MuryP Beta"
 twitter = "@alifprihantoro"
 og_image = "https://alifprihantoro.gitlab.io/image/noimg.png"
-hosting = "/script/public/"
-host = "/img/public/"
+hosting = "/script/"
+host = "/img/"
 img = "/authors/muryp.png"
 thumb = "/authors/muryp.min.png"
 icon = "https://alifprihantoro.gitlab.io/image/muryp/favicon.ico"
 bagianAtas = "https://alifprihantoro.gitlab.io/image/bg.png"
-# Site Author
-author = "MuryP"
-# Description/subtitle for homepage
-description = "MuryP, MuryP Beta, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO,catatan"
-
-pygmentsUseClasses=true
