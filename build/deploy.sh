@@ -1,4 +1,7 @@
 # cp script
+source $dmnb/params/script.sh
 # config
+source $dmnb/params/config.sh
 # build
-# cp to repo
+dmn
+hugo --minify
