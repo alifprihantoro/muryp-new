@@ -1,6 +1,6 @@
 #================ variabel
 # location repo
-dmn=$dw/muryp-new # default dir muryp
+dmn=/data/data/com.termux/files/home/zzz/web/muryp-new # default dir muryp
 # theme
 dmnt=$dmn/themes/muryp-new # theme
 dmntp=$dmnt/layouts/partials # partial
