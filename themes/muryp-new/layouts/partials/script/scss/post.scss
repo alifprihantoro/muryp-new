@@ -1,0 +1,56 @@
+@use "reset";
+@use "variable" as v;
+@use "post/header";
+@use "post/nav";
+@use "post/contentnav";
+@use "post/main";
+// @use "laman";
+// @use "dark";
+/* ========== Footer ========== */
+#darkBtn {
+  position: absolute;
+  top: red;
+  right: green;
+}
+/* ==========  responsive  ========== */
+@media only screen and (min-width:720px) {
+  .BagianAtas {
+    text-align: left !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    margin: auto;
+  }
+  header {
+    text-align: right;
+  }
+  #darkBtn {
+    right: 31vw !important;
+  }
+  .myread {
+    grid-template-columns:auto auto
+  }
+  .kontenNav {
+    /*navigasi desktop*/
+    opacity: 100%;
+    transform: translate(0,0);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    width: 30%;
+  }
+  .navBtn {
+    display: none;
+  }
+  .main,#footer {
+    width: 70%;
+  }
+}
+
+// tes
+ .muryp{
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 200'%3E%3Cdefs/%3E%3Cpath fill-rule='evenodd' d='M308 41c-3 0-6 3-7 6v10 11c0 3 3 6 6 7h82c3-1 6-4 7-7V48l-1-1c0-3-3-5-6-6h-81m-195 5c-4 0-7 3-9 6l-2 6a476 476 0 01-5 15c-4-6-13-7-19-1l-1-5c-2-9-13-12-20-5-2 2-3 4-4 9l-1 4c-5-3-11-3-16 2l-26 33c-3 5-2 12 2 16l34 26c8 6 18 1 19-9a1142 1142 0 015-20c3 7 13 9 19 3l1-1v7c2 10 15 13 22 5l3-10v-2h1c5 3 11 2 15-2l26-33c4-5 2-13-3-17l-32-25c-2-1-7-3-8-2h-1m206 5c4 1 6 3 5 5v1h1c3 3 1 7-4 8h-10l-2-2V52l2-1h8m13 0l1 1 1 4v4h3l6 1c2 1 1 3-1 4h-11l-4-3v-5-5l5-1m25 0c6 1 9 4 9 8-2 8-20 8-21-1-1-4 5-8 12-7m25 0c2 1 3 3 1 4h-4l-5 1v4h4c-4 0-4-3-2-4h10c1 1 2 2 1 3-2 8-18 8-20 0-1-4 2-7 8-8h7m-67 5h0m39 0c-2 0-3 1-2 3s6 2 7 0-2-4-5-3m-39 4h2-2m-46 20c-2 0-4 2-5 3l-1 23v22c3 7 12 8 16 1l1-10v-6h3l8-1a17 17 0 00-4-32h-18m-143 3l2 2a481 481 0 01-8 11 2425 2425 0 013-15l3 2m30 14c-3 0-6 2-7 6v25c1 3 3 5 6 6h21c3-1 5-3 6-7v-24c-2-8-12-9-16-2v2c-1-4-6-7-10-6m35 0c-4 0-6 3-7 6v25c2 8 14 8 16-1v-11h15c8-2 8-15-1-16l-8-1h-8c-2-2-5-3-7-2m59 3c-3 1-4 1-7 5l-1 1-1-1c-3-4-4-4-6-5-5-2-11 3-11 9l5 7 3 4-3 4c-4 5-5 5-5 8 0 8 10 12 15 6l20-26c3-6-2-14-9-12M46 112l-1 7-3-2-3-2 2-2 6-9-1 8'/%3E%3C/svg%3E");
+  
+}

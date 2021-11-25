@@ -1,0 +1,11 @@
+<!-- seo -->
+{{ partial "main/seo.html" . }}
+<link rel="stylesheet" href="/css/main.css">
+
+{{- if .IsHome -}}
+<link rel="stylesheet" href="/css/home.css">
+{{else}}
+<link rel="stylesheet" href="/css/post.css">
+{{- end -}}
+
+<link rel="stylesheet" href="/css/end.css">
