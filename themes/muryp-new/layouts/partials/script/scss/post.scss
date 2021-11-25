@@ -13,6 +13,12 @@
   top: red;
   right: green;
 }
+.nav{
+h1,h2{
+text-transform: uppercase;
+text-align: center;
+}
+}
 /* ==========  responsive  ========== */
 @media only screen and (min-width:1080px) {
   .BagianAtas {
