@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1080px) {
 #about { grid-area: about; }
 #skill { grid-area: skill; }
 #list { grid-area: list; }
@@ -33,4 +34,5 @@
   height: 720px;
   overflow-y: scroll;
   white-space: unset;
+}
 }
