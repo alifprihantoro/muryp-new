@@ -18,24 +18,9 @@
           <p>
             {{.Site.Params.Header | safeHTML}}
           </p>
-
-          {{if ne .RelPermalink "/"}}
-          <div class='sosmedhome'>
-            {{ range .Site.Menus.sosmed.Sort.ByWeight }}
-<a href='{{ .URL }}' rel='nofollow' target='_blank' title='{{ .Name }}'>
-<div class="bungkusLisIcon">
-<div class="iconList">
-  <span class='{{ .Name }}' />
-</div>
-<div class="infoIconList">
-  {{.Identifier}}
-</div>
-</div>
-  </a>
-            {{ end }}
-          </div>
-          {{ end }}
-        </div>
+<!-- follow -->
+      {{ partial "home/last/sosmed.html" . }}
+      </div>
       </div>
       <!--end image-->
       {{if ne .RelPermalink "/search/"}}
@@ -75,7 +60,7 @@
         <input type="checkbox" id="listPagesNav">
         <label for="listPagesNav">Daftar Halaman</label>
         <div class=spoilerKonten>
-          {{ with .Site.GetPage "/laman" }}
+          {{ with .Site.GetPage "/pages" }}
           {{ range .Paginator.Pages}}
           <li>
           <a href="{{.Permalink}}">{{.Name}}</a>

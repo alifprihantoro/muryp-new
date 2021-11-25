@@ -87,35 +87,6 @@ input[type="checkbox"]:checked ~ .spoilerKonten {
 .bottom {
   margin-bottom: 70px;
 }
-// ========== SosMed ==========
-.sosmedhome {
-  text-align: center;
-  padding: 15px 0;
-}
-.sosmedhome span,.sosmednav span {
-  background-color: v.$cl2;
-  width: 50px;
-  height: 50px;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: 30px;
-  display: inline-block;
-}
-.sosmednav span:hover {
-  background-color: v.$cl;
-}
-//special contact
-.bungkusLisIcon {
-  display: flex;
-  padding: 5px 15px;
-}
-.infoIconList {
-  padding: 15px;
-  background: v.$cl3;
-  height: 50px;
-  font-weight: bold;
-  color: #fff;
-}
 // navigasi list & sosmed & tag
 .nav {
   li {

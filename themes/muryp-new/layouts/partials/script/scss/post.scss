@@ -1,9 +1,10 @@
 @use "reset";
 @use "variable" as v;
-@use "post/header";
 @use "post/nav";
 @use "post/contentnav";
+@use "post/header";
 @use "post/main";
+@use "post/content-post";
 // @use "laman";
 // @use "dark";
 /* ========== Footer ========== */
@@ -13,7 +14,7 @@
   right: green;
 }
 /* ==========  responsive  ========== */
-@media only screen and (min-width:720px) {
+@media only screen and (min-width:1080px) {
   .BagianAtas {
     text-align: left !important;
     display: flex;
@@ -27,9 +28,6 @@
   }
   #darkBtn {
     right: 31vw !important;
-  }
-  .myread {
-    grid-template-columns:auto auto
   }
   .kontenNav {
     /*navigasi desktop*/
