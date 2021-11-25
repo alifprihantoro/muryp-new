@@ -37,7 +37,7 @@ input[type="checkbox"] {
   }
   input[type="checkbox"]:checked ~ label::before {
     //setelah checked
-    transform: rotate(90deg) translate(5px,-13px);
+    transform: rotate(90deg) translate(5px, -13px);
   }
 }
 //humberger
@@ -46,12 +46,13 @@ input[type="checkbox"] {
     display: inherit;
     width: 30px;
     height: 0;
-    border-top: 5px solid #fff;//coba disatukan br3
+    border-top: 5px solid #fff; //coba disatukan br3
     transition: v.$an;
-    margin: 0 auto
+    margin: 0 auto;
   }
-  span:nth-child(2), span:nth-child(3) {
-    transform-origin: 0 0
+  span:nth-child(2),
+  span:nth-child(3) {
+    transform-origin: 0 0;
   }
   //btn nav humberger
   box-sizing: border-box;
@@ -71,30 +72,30 @@ input[type="checkbox"] {
   background: v.$cl3;
 }
 //humberger checked btn
-#nav{
-  &[type=checkbox]:checked ~ .navBtn span {
-  display: flex;
-  width: 30px;
-  height: 0;
-  border-top: 1px;
-  transition: v.$an;
-  margin: -9px 10px auto;
-  opacity: 100%;
-}
-&[type="checkbox"]:checked ~ .navBtn span:nth-child(1) {
-  transform: rotate(45deg) translate(5px,23px)!important;
-  color: #fff;
-  border: 3.5px solid;
-}
-&[type=checkbox]:checked ~ .navBtn span:nth-child(2) {
-  transform: scale(0)!important;
-  opacity: 0
-}
-&[type="checkbox"]:checked ~ .navBtn span:nth-child(3) {
-  transform: rotate(-45deg) translate(-17px,4px) !important;
-  color: #fff;
-  border: 3.5px solid;
-}
+#nav {
+  &[type="checkbox"]:checked ~ .navBtn span {
+    display: flex;
+    width: 30px;
+    height: 0;
+    border-top: 1px;
+    transition: v.$an;
+    margin: -9px 10px auto;
+    opacity: 100%;
+  }
+  &[type="checkbox"]:checked ~ .navBtn span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 23px) !important;
+    color: #fff;
+    border: 3.5px solid;
+  }
+  &[type="checkbox"]:checked ~ .navBtn span:nth-child(2) {
+    transform: scale(0) !important;
+    opacity: 0;
+  }
+  &[type="checkbox"]:checked ~ .navBtn span:nth-child(3) {
+    transform: rotate(-45deg) translate(-17px, 4px) !important;
+    color: #fff;
+    border: 3.5px solid;
+  }
 }
 /*
 nb:iconShare ada di icon.css
