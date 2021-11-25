@@ -4,6 +4,14 @@
 @use "post/header";
 @use "post/main";
 @use "post/content-post";
+// reset
+body{
+overflow: hidden;
+}
+.left-post{
+  height: 100vh;
+  overflow: scroll;
+}
 /* ========== Footer ========== */
 .nav{
 h1,h2{
@@ -13,9 +21,9 @@ text-align: center;
 }
 /* ==========  responsive  ========== */
 @media only screen and (min-width:1080px) {
-  .header-post {
-    width:70% !important;
-  }
+.left-post{
+  width: 70%;
+}
   .kontenNav {
     /*navigasi desktop*/
     opacity: 100%;
@@ -28,9 +36,6 @@ text-align: center;
   }
   .navBtn {
     display: none;
-  }
-  .main,#footer {
-    width: 70%;
   }
 }
 
