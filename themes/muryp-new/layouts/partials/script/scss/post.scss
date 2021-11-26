@@ -1,44 +1,31 @@
 @use "reset";
-@use "post/nav";
-@use "post/contentnav";
+// nav
+@use "post/nav/luar";
+@use "post/nav/humberger";
+@use "post/nav/spoiler";
+@use "post/nav/head";
+@use "post/nav/search";
+@use "post/nav/content";
+@use "post/nav/list-tag";
+
+// etc
 @use "post/header";
-@use "post/main";
-@use "post/content-post";
+@use "post/share";
+@use "post/list";
+
+// post
+@use "post/post/head-post";
+@use "post/post/hi";
+@use "post/post/main";
+@use "post/post/footer";
+
+// footer
+@use "post/footer/readmore-related";
+@use "post/footer/pagenation";
+
+@use "post/desk";
+
 // reset
 body{
 overflow: hidden;
 }
-.left-post{
-  height: 100vh;
-  overflow: scroll;
-}
-.list-pages {
-  margin: 50px 0 0 25px;
-}
-/* ========== Footer ========== */
-.nav{
-h1,h2{
-text-transform: uppercase;
-text-align: center;
-}
-}
-/* ==========  responsive  ========== */
-@media only screen and (min-width:1080px) {
-.left-post{
-  width: 70%;
-}
-  .kontenNav {
-    /*navigasi desktop*/
-    opacity: 100%;
-    transform: translate(0,0);
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    text-align: right;
-    width: 30%;
-  }
-  .navBtn {
-    display: none;
-  }
-}
-

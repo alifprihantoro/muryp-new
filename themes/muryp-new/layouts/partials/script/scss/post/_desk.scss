@@ -1,0 +1,29 @@
+/*====end share====*/
+@media only screen and (min-width:1080px) {
+  .footerTop {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    text-align: center
+  }
+  /* end responsive */
+}
+@media only screen and (min-width:1080px) {
+.left-post{
+  width: 70%;
+}
+  .kontenNav {
+    /*navigasi desktop*/
+    opacity: 100%;
+    transform: translate(0,0);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    width: 30%;
+  }
+  .navBtn {
+    display: none;
+  }
+}
+

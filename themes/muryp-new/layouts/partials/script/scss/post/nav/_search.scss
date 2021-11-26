@@ -1,0 +1,31 @@
+@use "../../variable" as v;
+// ========== search bar ==========
+::placeholder {
+  color: v.$cl2;
+}
+:-ms-input-placeholder {
+  color: v.$cl2;
+}
+::-ms-input-placeholder {
+  color: v.$cl2;
+}
+input {
+  &.widget-search__field {
+    border: 0;
+    padding: 10px;
+    resize: none;
+    margin: 15px 0;
+    border: v.$br;
+    background-color: transparent;
+    width: 78%;
+  }
+  &.widget-search__submit {
+    background-color: v.$cl  !important;
+    padding: 10px!important;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: transparent;
+    width: 20%;
+  }
+}
