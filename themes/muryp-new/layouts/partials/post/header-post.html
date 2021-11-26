@@ -3,14 +3,14 @@
   <img src="/svg/noimg.svg" alt='{{ .Title }}' />
   {{ else }}
   <img src='{{ .Params.Image}}' alt='{{ .Title }}' />{{end}}
-  <div class="authorPost">
+  <div class="author-post">
     <span class="myIcon iconMan" /><a href="/author" name="infoMuryPTop">MuryP</a>
   </div>
   <div class="bottom-right">
     <a href="#">
       <span class="myIcon tanggal" /><time>{{ .Date.Format "02-01-2006" }}</time></a>
   </div>
-  <div class="myjudul">
+  <div class="title-post">
     <h1><a href="{{ .RelPermalink }}">
       {{ .Title }}
     </a>

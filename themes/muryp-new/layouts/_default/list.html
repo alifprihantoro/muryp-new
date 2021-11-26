@@ -9,14 +9,14 @@
     </head>
     <body class="">
   {{ partial "post/nav.html" . }}
-  <div class="main">
+  <div class="main left-post">
          {{ if eq .Section "authors" }}
         {{ partial "post/authors-pages.html" . }}
          {{else}}
         {{ partial "post/list.html" . }}
          {{end}}
-</div>
         {{ partial "main/footer.html" . }}
+</div>
         <!-- javascript -->
     </body>
 </html>

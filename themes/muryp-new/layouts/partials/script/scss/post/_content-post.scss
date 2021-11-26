@@ -67,10 +67,10 @@ span {
     background-size: 20px
   }
 }
-.headerPost img,.myjudul {
+.headerPost img,.title-post {
   border-radius: 0 0 5px 5px;
 }
-.myjudul {
+.title-post {
   a, h1 {
     margin: auto
   }
@@ -105,13 +105,14 @@ span {
   color: #fff;
   height: 500px;
   max-height: 50vh;
+  z-index: -9;
 }
 header.breadcrumb {
   margin: 25px auto 25px 15px;
   width: 70%!important;
   text-align: left;
 }
-.authorPost {
+.author-post {
   position: absolute;
   bottom: 15px;
   left: 16px;

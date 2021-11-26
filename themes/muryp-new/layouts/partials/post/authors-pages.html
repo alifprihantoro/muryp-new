@@ -1,15 +1,17 @@
-<div style="overflow:hidden;padding:15px" class="post-content post-body">
-  {{ with .Params.authors }}
+<div style="overflow: hidden; padding: 15px" class="post-content post-body">
+  {{ with.Params.authors }}
   {{ range . }}
   {{ $name := . }}
   {{ $path := printf "/%s/%s" "authors" ($name | urlize) }}
   {{ with $.Site.GetPage $path }}
-  <a href="/img{{ $path }}.png">	<img src="/img{{ $path }}.min.png" alt="Profil {{ $path }}" width="200px"></a>
+  <a href="/img{{ $path }}.png">
+    <img src="/img{{ $path }}.min.png" alt="Profil {{ $path }}" width="200px"
+  /></a>
   {{ .Content | emojify | safeHTML}}
-          {{ partial "list/blog.html" . }}
+  {{ partial "list/blog.html" . }}
   {{ end }}
   {{ end }}
   {{ else }}
-          {{ partial "authors/list.html" . }}
+  {{ partial "authors/list.html" . }}
   {{ end }}
 </div>
