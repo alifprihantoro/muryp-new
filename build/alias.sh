@@ -7,6 +7,7 @@ source $dmnb/params/config.sh
 dmn
 hugo --minify
 '
+
 alias dmntpss='
 dmntps
 sass --watch --style=compressed scss:css

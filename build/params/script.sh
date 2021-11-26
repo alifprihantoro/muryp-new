@@ -1,6 +1,2 @@
-# rm script
-dmnss
-rm *
-# cp sript
-dmntps
-cp * $dmns
+rm $dmns/css
+cp $dmntps/css $dmns/

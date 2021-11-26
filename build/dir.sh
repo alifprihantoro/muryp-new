@@ -4,7 +4,7 @@ dmn=/data/data/com.termux/files/home/zzz/web/muryp-new # default dir muryp
 # theme
 dmnt=$dmn/themes/muryp-new # theme
 dmntp=$dmnt/layouts/partials # partial
-dmntpmh=$dmntp/main/head/ # head
+dmntpmh=$dmntp/main/head # head
 dmntps=$dmntp/script # script theme
 # content
 dmnc=$dmn/content # content
@@ -13,8 +13,8 @@ dmncb=$dmn/content/blog # content blog
 dmnb=$dmn/build # build
 dmnbs=$dmnb/setting # setting/config
 # static
-dmnsi=$dmn/static/img/ # img
-dmnss=$dmn/static/script/ # script
+dmns=$dmn/static # static file
+dmnsi=$dmns/img # img
 
 #==================== alias
 alias dmn='cd $dmn'
@@ -28,4 +28,3 @@ alias dmnb='cd $dmnb'
 alias dmnbs='cd $dmnbs'
 alias dmns='cd $dmns'
 alias dmnsi='cd $dmnsi'
-alias dmnss='cd $dmnss'
