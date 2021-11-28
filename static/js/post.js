@@ -1,3 +1,7 @@
+const data1 = fetch('/index.json')
+let url = '/index.json';
+
+
 const search = document.getElementById("search");
 const results = document.getElementById("results");
 let search_term = "";
@@ -10,20 +14,14 @@ search.addEventListener("click", () => {
   klikCount++;
   // when klick <= 1 do this else nothing
   if (klikCount <= 1) {
-    const my_awesome_script = document.createElement("script");
-    my_awesome_script.setAttribute("src", "/js/data.js");
-
-    document.head.appendChild(my_awesome_script);
-    console.log('ini berhasil')
-  }
-});
-
+fetch(url)
+.then(res => res.json())
+  .then(data => {
 const showList = () => {
   results.innerHTML = "";
   data
     .filter((item) => {
       return (
-        item.url.toLowerCase().includes(search_term) ||
         item.judul.toLowerCase().includes(search_term)
       );
     })
@@ -46,3 +44,11 @@ search.addEventListener("input", (event) => {
     results.classList.remove("hasil-hilang");
   }
 });
+  })
+.catch(err => { throw err });
+  }
+});
+
+
+
+
