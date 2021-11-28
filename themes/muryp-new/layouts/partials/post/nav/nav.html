@@ -24,14 +24,7 @@
       </div>
       <!--end image-->
       {{if ne .RelPermalink "/search/"}}
-      <div class="widget-search widget">
-        <form class="widget-search__form" role="search" method="get" action="{{ "search" | absURL }}">
-          <label>
-            <input class="widget-search__field" type="search" placeholder="{{ T "search_placeholder" }}Cari Apa?" value="" name="s" aria-label="{{ T "search_placeholder" }}">
-          </label>
-          <input class="widget-search__submit" type="submit" value="Search">
-        </form>
-      </div>
+      {{ partial "post/nav/search.html" . }}
       {{end}}
       <!--start list nav-->
       <div class="headerNav top">
