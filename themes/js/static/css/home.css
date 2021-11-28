@@ -1,0 +1,93 @@
+/* =============== Bagian Atas =========== */
+.BagianAtas {
+  text-align: center;
+  background-image: url("/img/bg.webp");
+  background-color: rgb(0,0,0,.1);
+  background-size: 140vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.1);
+  border-radius: 0 0 5px 5px;
+  color: darkblue;
+}
+.bagianDalam {
+  display: block;
+  margin-top: 50px;
+}
+.btn {
+  color: rgb(255,255,255,.8);
+  background:darkblue;
+  padding: 10px 50px;
+  border-radius: 5px;
+  margin-top:100px !important;
+}
+a:hover.btn{
+  color:#fff !important;
+}
+.bagianDalam p{
+  font-weight: 500;
+}
+#sosmedh{
+  margin: 50px auto;
+}
+/* ========== Skill ==========*/
+.myskill {
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+}
+.myskillcontainer {
+  margin: 0 10px 0 10px;
+}
+.myskillcontainer svg {
+  min-width: 50px;
+  width: 50px;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+  border-radius: 5px;
+  fill: darkblue;
+  font-size: 50px;
+}
+.myskillcontainer p {
+  margin-top: 15px;
+}
+/*sosmed home*/
+span.facebook:hover {
+  background-color: #4867aa
+}
+span.twitter:hover {
+  background-color: #1da1f2
+}
+span.pinteres:hover {
+  background-color: #ca2128
+}
+span.linkedin:hover {
+  background-color: #0673ab
+}
+span.github:hover {
+  background-color: #000;
+}
+span.youtube:hover {
+  background-color: red;
+}
+span.instagram:hover {
+  background-color: rgb(195, 84, 245)
+}
+span.whatsapp:hover {
+  background-color: #4dc247
+}
+span.gmail:hover {
+  background-color: #141b23
+}
+span.telegram:hover {
+  background-color: #22a9f7
+}

@@ -2,18 +2,21 @@ const search = document.getElementById("search");
 const results = document.getElementById("results");
 let search_term = "";
 
-// i=0
-// i++
-// i=<1 add js
-// always checking if the element is clicked, if so, do alert('hello')
+// default count
+let klikCount = 0;
+  // when search bar klick
 search.addEventListener("click", () => {
-  const my_awesome_script = document.createElement('script');
-my_awesome_script.setAttribute('src','/js/data.js');
+  // add +1
+  klikCount++;
+  // when klick <= 1 do this else nothing
+  if (klikCount <= 1) {
+    const my_awesome_script = document.createElement("script");
+    my_awesome_script.setAttribute("src", "/js/data.js");
 
-document.head.appendChild(my_awesome_script);
-  console.log('testing')
+    document.head.appendChild(my_awesome_script);
+    console.log('ini berhasil')
+  }
 });
-
 
 const showList = () => {
   results.innerHTML = "";
@@ -43,5 +46,3 @@ search.addEventListener("input", (event) => {
     results.classList.remove("hasil-hilang");
   }
 });
-
-
