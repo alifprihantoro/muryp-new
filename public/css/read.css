@@ -1,0 +1,18 @@
+/* ========== Main ==========*/
+.main {
+  max-width: 720px !important;
+  text-align: center ;
+  margin: auto ;
+}
+.main hr {
+  border-color: transparent;
+  box-shadow: 0 -5px 5px rgb(0,0,0,.1);
+  background: transparent;
+  margin-top: 20px;
+}
+/* Responsive */
+@media only screen and (min-width:720px) {
+  .myread {
+    grid-template-columns: auto auto;
+  }
+}
