@@ -1,5 +1,5 @@
-const data1 = fetch('/index.json')
-let url = '/index.json';
+// const data1 = fetch('/index.json')
+// let url = '/index.json';
 
 
 const search = document.getElementById("search");
@@ -13,7 +13,8 @@ search.addEventListener("click", () => {
   // add +1
   klikCount++;
   // when klick <= 1 do this else nothing
-  if (klikCount <= 1) {
+  if (klikCount = 1) {
+let url = '/index.json';
 fetch(url)
 .then(res => res.json())
   .then(data => {

@@ -41,7 +41,7 @@ hosting = "/script/"
 host = "/img/"
 img = "/authors/muryp.png"
 thumb = "/authors/muryp.min.png"
-icon = "https://alifprihantoro.gitlab.io/image/muryp/favicon.ico"
+icon = "/image/muryp/favicon.ico"
 bagianAtas = "https://alifprihantoro.gitlab.io/image/bg.png"
 [[main]]
 identifier = "Home"
