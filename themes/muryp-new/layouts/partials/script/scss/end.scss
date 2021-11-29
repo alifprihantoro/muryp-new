@@ -1,7 +1,7 @@
  .dark-mode {
 /*default*/
 /*.bagianDalam *, .mynav *{*/
- .skill,.nav, .bagianDalam p,  .sosmednav span, .kontenNav, .spoilerKonten {
+.nav, .bagianDalam p,  .sosmednav span, .kontenNav, .spoilerKonten {
   /*default warna dasar*/
   background-color: rgb(27,27,27) !important;
   color: rgb(255,255,255,.5) !important;
@@ -62,7 +62,7 @@ article a{
   background-color: rgb(50,50,50,0)!important ;
 }
 
- .skill,.content, .bagian-atas{
+ .about,.skill,.blog,.tlp,.follow,.content, .bagian-atas{
   box-shadow: 0 0 5px rgb(255,255,255,.05);
 }
 
@@ -71,18 +71,7 @@ article a{
   color:#fff !important;
 }
 
-/*sementara
-nantinya diganti dengan css bg(svg)
-*/
- svg{
-   &:hover{
-  fill:rgb(255,255,255,.8);
-
-   }
-  fill:rgb(255,255,255,.5);
-}
-
- #darkBtn svg{
+ #btn-dark svg{
   transform: rotate(180deg);
 }
 
@@ -108,7 +97,7 @@ border-color: #fff !important;
 #footer,.main{
   background: rgb(255, 255, 255,.1);
 }
-.bungkusLisIcon div:after{
+span#btn-dark,.about,.skill,.blog,.tag,h2.tlp,.follow,.bungkusLisIcon div:after{
   background-color: rgb(255, 255, 255,.5)!important;
 }
 
@@ -119,3 +108,7 @@ border-color: #fff !important;
   border-color: rgb(255,255,255,.5) !important;
 }
 
+
+.dark-mode *::-webkit-scrollbar-thumb,.dark-mode::-webkit-scrollbar-thumb {
+  background:rgb(255, 255, 255,.5);
+}
