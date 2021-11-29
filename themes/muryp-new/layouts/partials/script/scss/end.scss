@@ -93,12 +93,14 @@ color: #fff !important;
 border-color: #fff !important;
   }
 }
-
-#footer,.main{
-  background: rgb(255, 255, 255,.1);
+input#search,.grid-container,#footer,.main{
+  background: rgb(255, 255, 255,.01);
 }
-span#btn-dark,.about,.skill,.blog,.tag,h2.tlp,.follow,.bungkusLisIcon div:after{
-  background-color: rgb(255, 255, 255,.5)!important;
+span#btn-dark,h2.about,.skill,.blog,.tag,h2.tlp,.follow,.bungkusLisIcon div:after{
+  background-color: rgb(255, 255, 255,.2)!important;
+}
+span.btn-icon{
+  color: transparent !important;
 }
 
 /*end default*/
@@ -108,7 +110,7 @@ span#btn-dark,.about,.skill,.blog,.tag,h2.tlp,.follow,.bungkusLisIcon div:after{
   border-color: rgb(255,255,255,.5) !important;
 }
 
-
+//scroll
 .dark-mode *::-webkit-scrollbar-thumb,.dark-mode::-webkit-scrollbar-thumb {
   background:rgb(255, 255, 255,.5);
 }
