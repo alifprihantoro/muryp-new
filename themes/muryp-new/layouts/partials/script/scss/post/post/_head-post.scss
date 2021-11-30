@@ -1,15 +1,16 @@
 /* header */
-.header-post .btn-icon::before{
-  transform: translate(-33px,-9px);
+.header-post .btn-icon::before {
+  transform: translate(-33px, -9px);
 }
 .title-post {
-  a, h1 {
-    margin: auto
+  a,
+  h1 {
+    margin: auto;
   }
   position: absolute;
   top: 50%;
   left: 0;
-  transform: translate(0,-50%);
+  transform: translate(0, -50%);
   background-color: #00008b80;
   width: 100%;
   height: 100%;
@@ -18,7 +19,7 @@
   align-items: center;
   z-index: 1;
   text-transform: uppercase;
-  font-size: .5em
+  font-size: 0.5em;
 }
 .header-post {
   img {
@@ -26,9 +27,10 @@
     max-height: 400px;
     box-shadow: 0 0 10px #000;
     filter: blur(8px);
-    -webkit-filter: blur(8px)
+    -webkit-filter: blur(8px);
   }
-  a {
+  a,
+  time {
     color: #fff !important;
     font-weight: 900;
   }
@@ -39,22 +41,22 @@
   max-height: 50vh;
   z-index: -9;
   margin-top: 50px;
-  min-height:280px;
+  min-height: 280px;
 }
 header.breadcrumb {
   margin: 25px auto 25px 15px;
-  width: 70%!important;
+  width: 70% !important;
   text-align: left;
 }
 .author-post {
   position: absolute;
   bottom: 15px;
   left: 16px;
-  z-index: 5
+  z-index: 5;
 }
 .bottom-right {
   position: absolute;
   bottom: 15px;
   right: 16px;
-  z-index: 2
+  z-index: 2;
 }
