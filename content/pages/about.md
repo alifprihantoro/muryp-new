@@ -35,7 +35,7 @@ Quetes for our life :<br />
 <li>Tak kenal maka tak sayang, kenali bakatmu, apa yang kau suka dan&nbsp; kenali dirimu</li>
 <li>Memikirkan sebuah rencana memang diperlukan, tapi terlalu banyak memikirkan rencana akan membuatmu bingung dan gagal</li>
 <li>Gagal itu biasa tapi gagal dan terus berjuang itu baru luar biasa</li>
-<li>jangan terlalu pikirkan kesalahan dan resiko, beranilah atau apa yang kau pikirkan itu akan menjadi kenyataan.</li><li></li><li>“If you are born poor it's not your mistake. But if you die poor it's your mistake.” - Bill Gates&nbsp;</li><li>"Sebaik-baiknya Desain pasti ada yang tidak suka dan sejelek-jeleknya desain pasti ada yang suka" - Rio Purba</li><li>Tetap melangkah walau susah</li>
+<li>jangan terlalu pikirkan kesalahan dan resiko, beranilah atau apa yang kau pikirkan itu akan menjadi kenyataan.</li><li></li><li>"Sebaik-baiknya Desain pasti ada yang tidak suka dan sejelek-jeleknya desain pasti ada yang suka" - Rio Purba</li><li>Tetap melangkah walau susah</li>
 </ul>
 <br />
 <br />

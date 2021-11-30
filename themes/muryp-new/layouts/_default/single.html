@@ -1,6 +1,3 @@
-{{ if eq .Section "pages" }}
-{{ .Content | safeHTML }}
-{{else}}
 <!DOCTYPE html>
 <html lang="en">
   <head itemscope itemtype="{{ .Site.BaseURL }}">
@@ -24,8 +21,12 @@
             <article>
               {{ .Content | safeHTML }}
             </article>
+
+{{ if eq .Section "pages" }}
+{{else}}
             {{ partial "post/footer.html" . }}
             {{ partial "post/related.html" . }}
+            {{end}}
           </div>
         </div>
         <div class="sidebar"></div>
@@ -36,4 +37,3 @@
     <!-- js -->
   </body>
 </html>
-{{ end }}
