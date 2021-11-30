@@ -46,11 +46,11 @@
 <link rel=icon href=/image/muryp/favicon.ico>
 <link rel=stylesheet href=/css/main.css><link rel=stylesheet href=/css/home.css>
 <link rel=stylesheet href=/css/end.css>
-<script type=text/javascript charset=utf-8>localStorage.getItem('theme')=='dark'&&setDarkMode();function setDarkMode(){let a=document.body.classList.toggle("dark-mode");a?localStorage.setItem('theme','dark'):localStorage.removeItem('theme'),document.getElementById('btn-dark').innerHTML}</script>
 </head>
 <body>
-<div class=grid-container>
+<script>localStorage.getItem('theme')=='dark'&&setDarkMode();function setDarkMode(){let a=document.body.classList.toggle("dark-mode");a?localStorage.setItem('theme','dark'):localStorage.removeItem('theme'),document.getElementById('btn-dark').innerHTML}</script>
 <span class="btn-icon dark-btn" id=btn-dark onclick=setDarkMode()></span>
+<div class=grid-container>
 <div id=about>
 <h2 class="head about">About</h2>
 <div class=center>
@@ -279,6 +279,11 @@ Roadmap Bassic Web Proggramming Bahasa Indonesia
 </div>
 <div class="thisBtn tag2">
 <div class=wrapper>
+<a href=/tags/tag><span>#tag</span></a>
+</div>
+</div>
+<div class="thisBtn tag2">
+<div class=wrapper>
 <a href=/tags/termux><span>#Termux</span></a>
 </div>
 </div>
@@ -406,11 +411,21 @@ Roadmap Bassic Web Proggramming Bahasa Indonesia
 </div>
 </div>
 <footer class=central id=footer>
+<a href=https://muryp.my.id/pages/hire/>Hire Me</a>
+<a href=https://muryp.my.id/pages/cokie/>Cokies</a>
+<a href=https://muryp.my.id/pages/privacy-policy/>Privacy Policy</a>
+<a href=https://muryp.my.id/pages/bookmark/>Bookmark</a>
+<a href=https://muryp.my.id/pages/contact/>Contact</a>
+<a href=https://muryp.my.id/pages/about/>About</a>
+<a href=https://muryp.my.id/pages/links/></a>
+<a href=https://muryp.my.id/pages/portfolio/></a>
+<a href=https://muryp.my.id/pages/search/></a>
+<hr>
 Dibuat oleh <a href=/> MuryP</a> with love at Ambarawa
 <br>
 &#169; Copyright 2017-2021, All rights reserved.
 <br>
-Thanks For Hugo, Gitlab, Netlify, And Exabytes
+Thanks For Hugo, github, Netlify, And Exabytes
 </footer>
 </div>
 </body>
