@@ -1,4 +1,4 @@
-<script>
+
   if (localStorage.getItem('theme') == 'dark')
   setDarkMode()
 function setDarkMode() {
@@ -8,5 +8,3 @@ function setDarkMode() {
     localStorage.removeItem('theme')}
   document.getElementById('btn-dark').innerHTML
 }
-</script>
-<span class='btn-icon dark-btn' id='btn-dark' onclick='setDarkMode()'></span>
