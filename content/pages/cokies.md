@@ -5,7 +5,7 @@ draft: false
 image: ""
 slug: cokie
 thumbnail: ""
-title: Apa itu Cokie?
+title: Cokies
 type: page
 ---
 Hello world!

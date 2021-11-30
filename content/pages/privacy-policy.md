@@ -1,7 +1,7 @@
 ---
 date: "2021-01-04T02:53:22Z"
 description: Privacy Policy atau kebijakan privasi dari MuryP Beta
-draft: true
+draft: false
 image: ""
 slug: privacy-policy
 thumbnail: ""

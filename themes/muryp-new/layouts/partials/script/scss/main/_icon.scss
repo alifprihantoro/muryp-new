@@ -56,5 +56,6 @@
 
 .dark-btn::before {
   background-image: url("data:image/svg+xml,%3Csvg fill='%23fff' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10v-20zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12z'/%3E%3C/svg%3E");
+transform: translate(-40px,22px)!important;
 
 }

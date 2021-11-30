@@ -4,7 +4,7 @@ description: Halo, Saya MuryP. Salam kenal!
 draft: false
 image: /img/about-me.jpg
 slug: about
-title: Tentang Saya
+title: About
 type: page
 ---
 {{< html >}}
