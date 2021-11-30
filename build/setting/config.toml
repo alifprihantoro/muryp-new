@@ -6,7 +6,6 @@ disqusShortname = "muryp"
 [outputs]
     home = ["HTML", "RSS", "JSON"]
     page = ["HTML", "RSS"]
-    blog = ["HTML", "RSS"]
 
 [taxonomies]
   tag = "tags"
