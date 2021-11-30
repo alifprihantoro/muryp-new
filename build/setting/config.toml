@@ -1,10 +1,12 @@
-baseurl = "https://muryp.my.id/"
+seurl = "https://muryp.my.id/"
 title = "MuryP Beta"
 theme = "muryp-new"
 disqusShortname = "muryp"
 
 [outputs]
     home = ["HTML", "RSS", "JSON"]
+    page = ["HTML", "RSS"]
+    blog = ["HTML", "RSS"]
 
 [taxonomies]
   tag = "tags"
@@ -29,3 +31,12 @@ lastmod = [":git", "lastmod", "date", "publishDate"]
 publishDate = ["publishDate", "date"]
 expiryDate = ["expiryDate"]
 
+copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+languageCode = 'id-id'
+[author]
+  name = 'Alief Prihantoro'
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
