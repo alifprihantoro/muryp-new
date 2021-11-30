@@ -5,13 +5,13 @@ source $dmnb/params/script.sh
 source $dmnb/params/config.sh
 # head
 rm $dmntp/main/head.html
-mv $dmntp/main/.online $dmntp/main/head.html
+cp $dmntp/main/.online $dmntp/main/head.html
 # build
 dmn
 hugo --minify
 # back offline
 rm $dmntp/main/head.html
-mv $dmntp/main/.offline $dmntp/main/head.html
+cp $dmntp/main/.offline $dmntp/main/head.html
 '
 
 alias dmntpss='
