@@ -1,18 +1,48 @@
 ---
-title: "About : MuryP and Alief Prihantoro"
-slug: about-muryp-and-alief-prihantoro
-date: 2021-11-25T13:00:34+07:00
-lastmod: 2021-11-25T13:00:34+07:00
+date: "2017-12-17T19:50:57+08:00"
+description: Halo, Saya MuryP. Salam kenal!
 draft: false
-show_comments: false
-
-type: pages
-
-image: ""
-thumbnail : ""
-
-description: ""
-
+image: /img/about-me.jpg
+slug: about
+title: Tentang Saya
+type: page
 ---
+{{< html >}}
+<h1>
+About Blog :</h1>
+<h2 style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: left;"><span style="font-family: &quot;arial&quot;; vertical-align: baseline; white-space: pre-wrap;">About Blog</span></h2>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://1.bp.blogspot.com/-ItqsWwZOvp0/XTBMHbyrH9I/AAAAAAAAEYI/uoF_ZBbe2GgZ8r4phdp1AlRHA2Bq0jZbQCLcBGAs/s1600/1562115832012.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" height="100px" src="https://1.bp.blogspot.com/-ItqsWwZOvp0/XTBMHbyrH9I/AAAAAAAAEYI/uoF_ZBbe2GgZ8r4phdp1AlRHA2Bq0jZbQCLcBGAs/s200/1562115832012.png" width="100px" /></a></div>
+<div><span style="font-family: arial; white-space: pre-wrap;">Hello world!</span></div><div><span style="font-family: arial; white-space: pre-wrap;">I'm MuryP, di blog ini saya akan memposting sebuah catatan yang mungkin bisa berguna bagi kalian. Tujuan blog ini yaitu untuk memudahkan saya dalam pengerjaan suatu projek dan sebagai pengingat. Dan catatan itu berkaitan dengan Front End(hanya materi) yang sebenarnya materi ini kujadikan satu dengan portofolio. Tapi daripada nanti bingung jadi kusatukan di blog ini. Sedangkan blog satunya kugunakan untuk menampung portofolio, projek, microblog sebagai backup dari instagram jika terjadi sesuatu, Tutorial seputar pembuatan front end dan beberapa hasil hobi lainnya, seperti gambar. </span></div><div><span style="font-family: arial; white-space: pre-wrap;"><br /></span></div><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><p style="text-align: left;"><span style="font-family: arial;"><span style="white-space: pre-wrap;">Jadi bisa dibilang blog ini nantinya akan membahas seputar Web Developer terutama Front End. Dan mungkin beberapa catatan kecil berkaitan dengan dunia teknologi informatika dan strategi ekonomi (pemasaran/psikologi/dll). Untuk lihat portofolio saya, bisa klik link <a href="https://murypstudio.my.id" target="_blank">disini</a>.</span></span></p><p style="text-align: left;"><span style="font-family: arial;"><span style="white-space: pre-wrap;"><br /></span></span></p><p style="text-align: left;"><span style="font-family: arial;"><span style="white-space: pre-wrap;">Selain sebagai catatan mungkin jika ada waktu dan lagi mood, saya akan posting mengenai kehidupanku. Baik saat liburan maupun masalah pembelajaran. Dan untuk updatenya bisa follow <a href="https://twitter.com/alifmuryp" rel="nofollow" target="_blank">@alifmuryp</a> (twitter).</span></span></p><p style="text-align: left;"><span style="font-family: arial;"><span style="white-space: pre-wrap;"><br /></span></span></p><span style="font-family: arial;"><span style="white-space: pre-wrap;"><blockquote>
+Jika kalian ingin membuat projek dan membutuhkan refrensi  silahakan kunjungi blog satunya disini. Disana akan ada contoh dan penerapannya.</blockquote><p>&nbsp;</p></span></span></div><blockquote>Jika kalian butuh pembimbing untuk belajar Web Developer kalian tinggal DM aja via telegram. Silahkan tanya" atau bisa bayar saya kalo mau hehehe...</blockquote><p>&nbsp;</p>
+<div><br /></div><h2 style="text-align: left;">About Logo</h2><div><div><b><br /></b></div><h3 style="text-align: left;"><b>(ID)</b></h3><div>Logo ini bermakna kesederhanaan dan simpel, dimana terdapan tiga garis mencolok dan dua garis yang membentuk arah panah. Dimana tiga garis tersebut menyimbolkan statistik yang berbentuk huruf "M" yang mengarah keatas dengan harapan blog ini terus bertumbuh.&nbsp;</div><div>Dan untuk warna biru melambangkan ketenangan layaknya air. Dimana saat belajar dibutuhkan kefokusan dan ketenangan. Dan biru melambangkan tujuan blog ini, yaitu bisa bermanfaat bagi banyak orang dan terus mengalir seperti air.</div></div><div><br /></div><div><br /></div><h3 style="text-align: left;"><b>(EN)</b></h3><div>This logo means simplicity and simplicity, where there are three striking lines and two lines that form the direction of the arrow. Where these three lines symbolize the statistic in the form of the letter "M" pointing up in the hope that this blog continues to grow. And because the blue color symbolizes calm like water. Where when studying requires concentration and calm. And the blue symbolizes the purpose of this blog, which is to benefit many people and keep flowing like water.</div><br />
+<h2 style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: left;"><span style="font-family: &quot;arial&quot;; vertical-align: baseline; white-space: pre-wrap;"><b>About Me</b></span></h2><div style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt; text-align: left;">Hello world!&nbsp;</div><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="font-family: &quot;arial&quot;; vertical-align: baseline; white-space: pre-wrap;">perkenalkan saya adalah Mury/MuryP dengan nama asli Alief Prihantoro. saya suka sekali dengan sebuah cerita terutama cerita yang membuat penasaran.</span></div><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="font-family: &quot;arial&quot;; vertical-align: baseline; white-space: pre-wrap;"><br /></span></div>
+<div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;">
+<span style="font-family: &quot;arial&quot;; vertical-align: baseline; white-space: pre-wrap;">&nbsp;&nbsp;&nbsp; </span><span style="font-family: &quot;arial&quot;; vertical-align: baseline; white-space: pre-wrap;">untuk buku sendiri saya suka dengan genre romance, comedy, history, dan perjuangan(entah itu ada gak). untuk romance sendiri memang tak terlalu suka </span><span style="font-family: arial; white-space: pre-wrap;">dibandingkan history dan comedy.</span></div><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="font-family: &quot;arial&quot;; vertical-align: baseline; white-space: pre-wrap;"><br /></span></div>
+<div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;">
+<span style="font-family: &quot;arial&quot;; vertical-align: baseline; white-space: pre-wrap;">&nbsp;&nbsp;&nbsp; </span><span style="font-family: &quot;arial&quot;; vertical-align: baseline; white-space: pre-wrap;">saya sangat suka akan sejarah terutama pada saat era perang dunia kedua. karena kita bisa bangga, sedih, dan mendapat hikmah di balik perang tersebut. karena di perang dunia kedua kita mengetahui bagaimana perjuangan bangsa indonesia untuk mendapatkan </span><span style="vertical-align: baseline;">kemerdekaannya&nbsp;</span><span style="font-family: arial; white-space: pre-wrap;">dan saya membuat blog ini bukan berarti saya adalah orang yang pandai menulis dan mengetahui semua tentang tulis menulis dan buku akan tetapi saya ingin belajar bagaimana sih menulis yang benar itu. sehingga saya mempublikasikan tulisan saya agar bisa dibaca, dinikmati, bahkan di kritik agar lebih baik baik dalam penulisan atau kesalahan eyd.</span></div><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="font-family: arial; white-space: pre-wrap;"><br /></span></div><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;">U<span style="font-family: arial; white-space: pre-wrap;">ntuk coding sendiri saya juga baru mengenal setelah menginjak sma, jadi masih noob. bahkan mengetahui mengenai bahasa program baru kelas 2 sma. yang kutahu saat kelas 1 ialah html,js,css, php, dan java saja. meskipun sekarang ini saya lebih maju meskipun baru mengetahui dasar-dasarnya saja dan ingin belajar dan meningkatkan kualitas coding saya hehehe.</span></div><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="font-family: arial; white-space: pre-wrap;"><br /></span></div>
+<div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;">
+<span style="font-family: &quot;arial&quot;; vertical-align: baseline; white-space: pre-wrap;">&nbsp;&nbsp;&nbsp; </span><span style="font-family: &quot;arial&quot;; vertical-align: baseline; white-space: pre-wrap;">selain itu saya juga gemar menggambar, meskipun gambar yang dihasilkan tidak sama yang ingin saya buat(tidak sesuai imajinasi dan harapan saya). dan tak luput juga design, yaitu design yang ku buat untuk blog ini.</span></div><div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;"><span style="font-family: arial;"><span style="white-space: pre-wrap;"><br /></span></span>
+<blockquote class="tr_bq">
+<span style="font-family: &quot;arial&quot;; vertical-align: baseline; white-space: pre-wrap;">NB : jangan lupa follow di sosial media admin oc</span></blockquote>
+</div>
+<div dir="ltr" style="line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;">
+<span style="font-family: &quot;arial&quot;; vertical-align: baseline; white-space: pre-wrap;"><br /></span></div>
+<div>
+Quetes for our life :<br />
+<br />
+<ul>
+<li>Tak kenal maka tak sayang, kenali bakatmu, apa yang kau suka dan&nbsp; kenali dirimu</li>
+<li>Memikirkan sebuah rencana memang diperlukan, tapi terlalu banyak memikirkan rencana akan membuatmu bingung dan gagal</li>
+<li>Gagal itu biasa tapi gagal dan terus berjuang itu baru luar biasa</li>
+<li>jangan terlalu pikirkan kesalahan dan resiko, beranilah atau apa yang kau pikirkan itu akan menjadi kenyataan.</li><li></li><li>“If you are born poor it's not your mistake. But if you die poor it's your mistake.” - Bill Gates&nbsp;</li><li>"Sebaik-baiknya Desain pasti ada yang tidak suka dan sejelek-jeleknya desain pasti ada yang suka" - Rio Purba</li><li>Tetap melangkah walau susah</li>
+</ul>
+<br />
+<br />
+Goal :<br />
+<ul>
+<li></li><li>Menjadi lebih baik dari yang lalu</li><li>Ingin menjadikan hoby sebagai pekerjaan</li>
+</ul>
+</div>
 
-belum diisi
+{{< /html >}}
