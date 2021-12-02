@@ -1,6 +1,6 @@
 alias dmb1='
 # config
-source $dmb/params/config.sh
+source $dmbs/init.sh
 # build
 dm
 hugo --minify

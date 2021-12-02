@@ -1,3 +1,4 @@
+dirNow=$(pwd)
 cd dmbs
 
 #main
@@ -9,3 +10,5 @@ cat $confMain > $dm/config.toml
 #nav
 confNav=$(ls nav)
 cat $confNAv > $dm/config.toml
+
+cd dirNow
