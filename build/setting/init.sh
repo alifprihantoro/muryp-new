@@ -1,14 +1,16 @@
 dirNow=$(pwd)
-cd dmbs
-
+rm $dm/config.toml
+dmbs
 #main
 confMain=config.toml
-confMain+=link.toml
-confMain+=about.toml
+confMain+=' links.toml'
+confMain+=' about.toml'
+# echo $(cat $confMain) > $dm/config.toml
 cat $confMain > $dm/config.toml
 
 #nav
-confNav=$(ls nav)
-cat $confNAv > $dm/config.toml
+cd $dmbs/nav
+# echo $(cat $confNav) >> $dm/config.toml
+cat * >> $dm/config.toml
 
-cd dirNow
+cd $dirNow

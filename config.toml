@@ -1,10 +1,4 @@
-# Site Author
-author = "MuryP"
-# Description/subtitle for homepage
-description = "MuryP, MuryP Beta, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO,catatan"
-
-pygmentsUseClasses=true
-seurl = "https://muryp.my.id/"
+seturl = "https://muryp.my.id/"
 title = "MuryP Beta"
 theme = "muryp-now"
 disqusShortname = "muryp"
@@ -59,6 +53,37 @@ img = "/authors/muryp.png"
 thumb = "/authors/muryp.min.png"
 icon = "/image/muryp/favicon.ico"
 bagianAtas = "https://alifprihantoro.gitlab.io/image/bg.png"
+# Site Author
+author = "MuryP"
+# Description/subtitle for homepage
+description = "MuryP, MuryP Beta, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO,catatan"
+
+pygmentsUseClasses=true
+[[menu.ask]]
+identifier = "@alifprihantoro"
+name = "twitter"
+url = "https://twitter.com/alifprihantoro"
+weight = 1
+[[menu.ask]]
+identifier = "Muryp Beta"
+name = "facebook"
+url = "https://facebook.com/alifprihantoro"
+weight = 2
+[[menu.contact]]
+identifier = "@muryp"
+name = "telegram"
+url = "https://t.me/muryp"
+weight = 1
+[[menu.contact]]
+identifier = "alifprihantoro@gmail.com"
+name = "gmail"
+url = "mailto:alifprihantoro@gmail.com"
+weight = 2
+[[menu.contact]]
+identifier = "+6283 829 383 123"
+name = "tlp"
+url = "https://wa.me/message/PE5QUV4RBIU6L1"
+weight = 3
 [[main]]
 identifier = "Home"
 name = "Home"
@@ -119,31 +144,6 @@ identifier = "pinteres"
 name = "pinteres"
 url = "https://pinterest.com/alifprihantoro/"
 weight = 6
-[[menu.contact]]
-identifier = "@muryp"
-name = "telegram"
-url = "https://t.me/muryp"
-weight = 1
-[[menu.contact]]
-identifier = "alifprihantoro@gmail.com"
-name = "gmail"
-url = "mailto:alifprihantoro@gmail.com"
-weight = 2
-[[menu.contact]]
-identifier = "+6283 829 383 123"
-name = "tlp"
-url = "https://wa.me/message/PE5QUV4RBIU6L1"
-weight = 3
-[[menu.ask]]
-identifier = "@alifprihantoro"
-name = "twitter"
-url = "https://twitter.com/alifprihantoro"
-weight = 1
-[[menu.ask]]
-identifier = "Muryp Beta"
-name = "facebook"
-url = "https://facebook.com/alifprihantoro"
-weight = 2
 [[menu.top]]
 identifier = "Contact Me"
 name = "tlp"
