@@ -1,0 +1,41 @@
+@use "../../variable" as v;
+input[type="checkbox"] {
+  //spoiler global
+  padding: 5px;
+  opacity: 0;
+}
+.spoiler label {
+  //btn spoiler
+  cursor: pointer;
+  position: relative;
+  display: block;
+  border-top: v.$br1;
+  border-bottom: v.$br1;
+  text-align: right;
+  padding: 8px 19px 8px v.$jt;
+  width: 100%;
+}
+//Tombol Nav & Spoiler
+//Anak Panah (Arrow)
+.myArrow {
+  label::before {
+    //sebelum checked
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 10px;
+    //menambah anak panah
+    border-left: v.$br2 darkblue;
+    border-top: v.$br2 transparent;
+    border-bottom: v.$br2 transparent;
+    margin-top: -8px;
+    transition: v.$an;
+    width: 0;
+  }
+  input[type="checkbox"]:checked ~ label::before {
+    //setelah checked
+    transform: rotate(90deg) translate(5px, -13px);
+  }
+}

@@ -1,0 +1,16 @@
+@use "../var" as v;
+/* ========== Footer ========== */
+#footer {
+  margin-top: 15px;
+  text-align: center;
+  background: v.$bg;
+  padding: 25px 10px;
+  color: #fff;
+  box-shadow: 0 -8px 15px rgba(0,0,0,.1);
+  border-radius: 5px 5px 0 0;
+  a {
+    color: #fff;
+    padding: 10px 10px;
+    line-height: 35px;
+  }
+}

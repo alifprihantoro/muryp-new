@@ -1,0 +1,38 @@
+@use "../../variable" as v;
+//isi konten spoiler
+.kontenNav,.spoilerKonten {
+  //reset daleman central
+  background: v.$bg;
+  //warna bg nav&spoiler
+  overflow: hidden;
+  //menghilangkan konten spoiler
+  transition: v.$an;
+  //dursi animasi
+}
+.kontenNav {
+  //reset daleman spoiler navigasi
+  //width: 100vw!important;
+  height: 100vh;
+  //tinggi konten nav
+  transform: translate(999px,0);
+  //menyembunyikan nav
+  overflow: scroll;
+  //efek scroll
+  //margin: 0;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  color: v.$cl;
+  position: fixed;
+}
+.spoilerKonten {
+  //reset daleman spoiler global
+  opacity: 0;
+  //transparansi konten spoiler
+  width: 100vw;
+  //panjang konten spoiler
+  padding: 0;
+  //reset padding awal
+  height: 0;
+  //reset tinggi awal
+}

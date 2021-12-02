@@ -50,16 +50,6 @@
 <body>
 <script>localStorage.getItem('theme')=='dark'&&setDarkMode();function setDarkMode(){let a=document.body.classList.toggle("dark-mode");a?localStorage.setItem('theme','dark'):localStorage.removeItem('theme'),document.getElementById('btn-dark').innerHTML}</script>
 <span class="btn-icon dark-btn" id=btn-dark onclick=setDarkMode()></span>
-<ul>
-<div id=list-post>ini dimana</div>
-</ul>
-<div onclick=triggerLoad()>Click me</div>
-<script src=/js/list.js></script>
-<p><a id=myAnchor href=http://www.microsoft.com>www.microsoft.com</a></p>
-<p>Click the button to change the value of the href attribute of the link above to "www.cnn.com".</p>
-<button onclick=myFunction()>Try it</button>
-<p id=demo></p>
-<script>function myFunction(){const a='/blog',b='My new page title',c={additionalInformation:'Updated the URL with JS'};window.history.pushState(c,b,a),window.history.replaceState(c,b,a)}</script>
 <div class=grid-container>
 <div id=about>
 <h2 class="head about">About</h2>
