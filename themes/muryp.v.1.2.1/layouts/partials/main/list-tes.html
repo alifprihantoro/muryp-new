@@ -1,0 +1,31 @@
+<ul>
+  <div id="list-post">ini dimana</div>
+</ul>
+<div onclick="triggerLoad()">Click me</div>
+<script src="/js/list.js"></script>
+
+
+
+
+<p><a id="myAnchor" href="http://www.microsoft.com">www.microsoft.com</a></p>
+
+<p>Click the button to change the value of the href attribute of the link above to "www.cnn.com".</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+  function myFunction(){
+const nextURL = '/blog';
+const nextTitle = 'My new page title';
+const nextState = { additionalInformation: 'Updated the URL with JS' };
+
+// This will create a new entry in the browser's history, without reloading
+window.history.pushState(nextState, nextTitle, nextURL);
+
+// This will replace the current entry in the browser's history, without reloading
+window.history.replaceState(nextState, nextTitle, nextURL);
+    }
+  // Current URL: https://my-website.com/page_a
+</script>

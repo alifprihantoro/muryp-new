@@ -32,7 +32,7 @@
 <meta name=twitter:creator content="@alifprihantoro">
 <meta name=theme-color content>
 <meta name=msapplication-TileColor content>
-<meta name=keywords content=",">
+<meta name=keywords content="MuryP,MuryP Beta,Internet,Technology,hardware,Operating Sistem,Software,Jaringan Komunikasi,JarKom,TIK,Ringkasan,Alief Prihantoro,Alif MuryP,Buku,Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging,SEO,catatan,">
 <meta name=imagemode content="force">
 <meta name=coverage content="Worldwide">
 <meta name=distribution content="Global">
@@ -47,7 +47,7 @@
 <meta property="article:publisher" content="https://facebook.com/alifprihantoro">
 <meta property="og:article:published_time" content="2021-11-30T13:41:16+0700">
 <meta property="article:published_time" content="2021-11-30T13:41:16+0700">
-<script defer type=application/ld+json>{"@context":"http://schema.org","@type":"Article","headline":"Catatan Java Script","author":{"@type":"Person","name":"https:\/\/gitlab.com\/alifprihantoro"},"datePublished":"2021-11-30","description":"","wordCount":8,"mainEntityOfPage":"True","dateModified":"2021-11-30","image":{"@type":"imageObject","url":" https:\/\/alifprihantoro.gitlab.io\/image\/noimg.png"},"publisher":{"@type":"Organization","name":"MuryP Beta","logo":{"@type":"imageObject","url":"\/image\/muryp\/favicon.ico"}}}</script>
+<script defer type=application/ld+json>{"@context":"http://schema.org","@type":"Article","headline":"Catatan Java Script","author":{"@type":"Person","name":"https:\/\/gitlab.com\/alifprihantoro"},"datePublished":"2021-11-30","description":"","wordCount":137,"mainEntityOfPage":"True","dateModified":"2021-11-30","image":{"@type":"imageObject","url":" https:\/\/alifprihantoro.gitlab.io\/image\/noimg.png"},"publisher":{"@type":"Organization","name":"MuryP Beta","logo":{"@type":"imageObject","url":"\/image\/muryp\/favicon.ico"}}}</script>
 <link rel=stylesheet href=/css/main.css>
 <link rel=stylesheet href=/css/post.css><link rel=stylesheet href=/css/end.css>
 </head>
@@ -74,9 +74,9 @@
 Author
 </div>
 <div class=cardAuthor>
-<a href=/img//authors/muryp.png> <img src=/img//authors/muryp.min.png alt></a>
+<a href=/img//authors/muryp.png> <img src=/img//authors/muryp.min.png alt="MuryP, MuryP Beta, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO,catatan"></a>
 <div class=container>
-<h4><a href></a></h4>
+<h4><a href>MuryP</a></h4>
 <p>
 Ingin Membuat Website?<br>Tapi tidak bisa coding. Tenang, serahkan projek anda kepada saya.
 </p>
@@ -157,6 +157,9 @@ NAVIGATION
 </a>
 <a href=/tags/aplikasi>
 #Aplikasi
+</a>
+<a href=/tags/app>
+#app
 </a>
 <a href=/tags/arts>
 #Arts
@@ -318,6 +321,19 @@ NAVIGATION
 <div id=list>
 <h2 class="head blog">My Blog</h2>
 <div class=myread>
+<a href=/blog/my-app/>
+<div class=content>
+<div class=date>
+<span class=day> 01</span>
+<span class=rest>
+Dec 2021
+</span>
+</div>
+<div class=readMore>
+My App
+</div>
+</div>
+</a>
 <a href=/blog/catatan-java-script/>
 <div class=content>
 <div class=date>
@@ -426,7 +442,57 @@ Blogs </a>/
 <li>add script</li>
 <li>get json</li>
 <li>event klick</li>
+<li>live search</li>
 </ul>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-js data-lang=js>
+<span style=color:#66d9ef>const</span> <span style=color:#a6e22e>search</span> <span style=color:#f92672>=</span> document.<span style=color:#a6e22e>getElementById</span>(<span style=color:#e6db74>&#34;search&#34;</span>);
+<span style=color:#66d9ef>const</span> <span style=color:#a6e22e>results</span> <span style=color:#f92672>=</span> document.<span style=color:#a6e22e>getElementById</span>(<span style=color:#e6db74>&#34;results&#34;</span>);
+<span style=color:#66d9ef>let</span> <span style=color:#a6e22e>search_term</span> <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;&#34;</span>;
+
+<span style=color:#75715e>// default count
+</span><span style=color:#75715e></span><span style=color:#66d9ef>let</span> <span style=color:#a6e22e>klikCount</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>0</span>;
+  <span style=color:#75715e>// when search bar klick
+</span><span style=color:#75715e></span><span style=color:#a6e22e>search</span>.<span style=color:#a6e22e>addEventListener</span>(<span style=color:#e6db74>&#34;click&#34;</span>, () =&gt; {
+  <span style=color:#75715e>// add +1
+</span><span style=color:#75715e></span>  <span style=color:#a6e22e>klikCount</span><span style=color:#f92672>++</span>;
+  <span style=color:#75715e>// when klick &lt;= 1 do this else nothing
+</span><span style=color:#75715e></span>  <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>klikCount</span> <span style=color:#f92672>=</span> <span style=color:#ae81ff>1</span>) {
+<span style=color:#66d9ef>let</span> <span style=color:#a6e22e>url</span> <span style=color:#f92672>=</span> <span style=color:#e6db74>&#39;/index.json&#39;</span>;
+<span style=color:#a6e22e>fetch</span>(<span style=color:#a6e22e>url</span>)
+.<span style=color:#a6e22e>then</span>(<span style=color:#a6e22e>res</span> =&gt; <span style=color:#a6e22e>res</span>.<span style=color:#a6e22e>json</span>())
+  .<span style=color:#a6e22e>then</span>(<span style=color:#a6e22e>data</span> =&gt; {
+<span style=color:#66d9ef>const</span> <span style=color:#a6e22e>showList</span> <span style=color:#f92672>=</span> () =&gt; {
+  <span style=color:#a6e22e>results</span>.<span style=color:#a6e22e>innerHTML</span> <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;&#34;</span>;
+  <span style=color:#a6e22e>data</span>
+    .<span style=color:#a6e22e>filter</span>((<span style=color:#a6e22e>item</span>) =&gt; {
+      <span style=color:#66d9ef>return</span> (
+        <span style=color:#a6e22e>item</span>.<span style=color:#a6e22e>judul</span>.<span style=color:#a6e22e>toLowerCase</span>().<span style=color:#a6e22e>includes</span>(<span style=color:#a6e22e>search_term</span>)
+      );
+    })
+    .<span style=color:#a6e22e>forEach</span>((<span style=color:#a6e22e>e</span>) =&gt; {
+      <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>li</span> <span style=color:#f92672>=</span> document.<span style=color:#a6e22e>createElement</span>(<span style=color:#e6db74>&#34;li&#34;</span>);
+      <span style=color:#a6e22e>li</span>.<span style=color:#a6e22e>innerHTML</span> <span style=color:#f92672>=</span> <span style=color:#e6db74>`&lt;a href=&#34;</span><span style=color:#e6db74>${</span><span style=color:#a6e22e>e</span>.<span style=color:#a6e22e>url</span><span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;&gt;</span><span style=color:#e6db74>${</span><span style=color:#a6e22e>e</span>.<span style=color:#a6e22e>judul</span><span style=color:#e6db74>}</span><span style=color:#e6db74>&lt;/a&gt;`</span>;
+      <span style=color:#a6e22e>results</span>.<span style=color:#a6e22e>appendChild</span>(<span style=color:#a6e22e>li</span>);
+    });
+};
+
+<span style=color:#a6e22e>search</span>.<span style=color:#a6e22e>addEventListener</span>(<span style=color:#e6db74>&#34;input&#34;</span>, (<span style=color:#a6e22e>event</span>) =&gt; {
+  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>pencarian</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>event</span>.<span style=color:#a6e22e>target</span>.<span style=color:#a6e22e>value</span>;
+  <span style=color:#a6e22e>search_term</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>pencarian</span>.<span style=color:#a6e22e>toLowerCase</span>();
+  <span style=color:#a6e22e>showList</span>();
+  <span style=color:#66d9ef>if</span> (<span style=color:#a6e22e>pencarian</span> <span style=color:#f92672>===</span> <span style=color:#e6db74>&#34;&#34;</span>) {
+    <span style=color:#75715e>// rm list
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>results</span>.<span style=color:#a6e22e>classList</span>.<span style=color:#a6e22e>add</span>(<span style=color:#e6db74>&#34;hasil-hilang&#34;</span>);
+  } <span style=color:#66d9ef>else</span> {
+    <span style=color:#75715e>//add list
+</span><span style=color:#75715e></span>    <span style=color:#a6e22e>results</span>.<span style=color:#a6e22e>classList</span>.<span style=color:#a6e22e>remove</span>(<span style=color:#e6db74>&#34;hasil-hilang&#34;</span>);
+  }
+});
+  })
+.<span style=color:#66d9ef>catch</span>(<span style=color:#a6e22e>err</span> =&gt; { <span style=color:#66d9ef>throw</span> <span style=color:#a6e22e>err</span> });
+  }
+});
+</code></pre></div>
 </article>
 <footer class=footerPost>
 <div class=tag>
@@ -464,6 +530,10 @@ Hello world!<br>I'm MuryP from Indonesian. I like Coding and Drawing. I hope you
 </div>
 <div class=nav-post>
 <div class=prev-post>
+<div class=btn>
+<a class=link-reverse href="/blog/my-app/?ref=footer">« Sebelumnya</a>
+</div>
+<a class=link-reverse href="/blog/my-app/?ref=footer">My App</a>
 </div>
 <div class=next-post>
 <div class=btn>

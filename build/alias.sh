@@ -1,20 +1,18 @@
-alias dmnb1='
-# cp script
-source $dmnb/params/script.sh
 # config
-source $dmnb/params/config.sh
-# head
-rm $dmntp/main/head.html
-cp $dmntp/main/.online $dmntp/main/head.html
-# build
-dmn
-hugo --minify
-# back offline
-rm $dmntp/main/head.html
-cp $dmntp/main/.offline $dmntp/main/head.html
-'
+alias dmbs1='source $dmbs/init.sh'
+alias dmtss1='sass --style=compressed $dmts/scss:$dmts/css'
+alias dmtsj1='source $dmtsjp/init.sh'
+# watch
+alias dmbs2='ls $dmtsjp/* | entr -r dmbs1'
+alias dmtss2='sass --watch --style=compressed $dmts/scss:$dmts/css'
+alias dmtsj2='ls $dmtsjp/* | entr -r dmtsj1'
 
-alias dmntpss='
-dmntps
-sass --watch --style=compressed scss:css
+# deploy
+alias dmb1='
+# build
+dm
+dmbs1
+dmtss1
+dmtsj1
+hugo --minify
 '

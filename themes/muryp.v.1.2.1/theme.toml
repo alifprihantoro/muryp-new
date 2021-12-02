@@ -1,0 +1,11 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "MuryP Studio"
+description = "MuryP, MuryP Studio, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO"
+homepage = "http://muryp.my.id/"
+tags = ["blog", "personal", "portfolio"]
+features = ["archive", "disqus"]
+version = "0.80"
+
+DisqusShortname = "muryp"

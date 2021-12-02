@@ -1,30 +1,41 @@
 #================ variabel
 # location repo
-dmn=/data/data/com.termux/files/home/zzz/web/muryp-new # default dir muryp
+dm=/data/data/com.termux/files/home/zzz/web/muryp-new # default dir muryp
 # theme
-dmnt=$dmn/themes/muryp-new # theme
-dmntp=$dmnt/layouts/partials # partial
-dmntpmh=$dmntp/main/head # head
-dmntps=$dmntp/script # script theme
+dmt=$dm/themes/muryp-now # theme
+dmtp=$dmt/layouts/partials # partial
+dmtpmh=$dmtp/main/head # head
+
 # content
-dmnc=$dmn/content # content
-dmncb=$dmn/content/blog # content blog
+dmc=$dm/content # content
+dmcb=$dm/content/blog # content blog
 # build
-dmnb=$dmn/build # build
-dmnbs=$dmnb/setting # setting/config
+dmb=$dm/build # build
+dmbs=$dmb/setting # setting/config
 # static
-dmns=$dmn/static # static file
-dmnsi=$dmns/img # img
+dms=$dm/static # static file
+dmsi=$dms/img # img
+
+#static theme
+dmts=$dmt/static
+dmtsj=$dmts/js # static file js
+dmtsjp=$dmtsj/params # static file js params
+dmtss=$dmts/scss # file sass
+dmtc=$dmts/css # static file css
 
 #==================== alias
-alias dmn='cd $dmn'
-alias dmnt='cd $dmnt'
-alias dmntp='cd $dmntp'
-alias dmntpmg='cd $dmntpmh'
-alias dmntps='cd $dmntps'
-alias dmnc='cd $dmnc'
-alias dmncb='cd $dmncb'
-alias dmnb='cd $dmnb'
-alias dmnbs='cd $dmnbs'
-alias dmns='cd $dmns'
-alias dmnsi='cd $dmnsi'
+alias dm='cd $dm'
+alias dmt='cd $dmt'
+alias dmtp='cd $dmtp'
+alias dmtpmg='cd $dmtpmh'
+alias dmc='cd $dmc'
+alias dmcb='cd $dmcb'
+alias dmb='cd $dmb'
+alias dmbs='cd $dmbs'
+alias dms='cd $dms'
+alias dmsi='cd $dmsi'
+alias dmts='cd $dmts'
+alias dmtsj='cd $dmtsj'
+alias dmtsjp='cd $dmtsjp'
+alias dmtss='cd $dmtss'
+alias dmtsc='cd $dmtsc'

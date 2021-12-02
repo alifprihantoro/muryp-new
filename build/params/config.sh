@@ -1,2 +1,2 @@
 # dir
-cat $(find $dmn/build/setting/) > $dmn/config.toml
+cat $(find $dmb/setting/*) > $dm/config.toml

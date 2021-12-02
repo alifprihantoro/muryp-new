@@ -1,0 +1,32 @@
+@use "../../variable" as v;
+#nav[type="checkbox"]:checked ~ .kontenNav {
+  //setelah di klick
+  transform: translate(0,0);
+}
+input[type="checkbox"]:checked ~ .spoilerKonten {
+  //menampilkan konten
+  opacity: 100%;
+  //transparasi konten spoiler
+  padding: 15px 0;
+  //padding konten spoiler
+  height: auto;
+  //tinggi konten spoiler
+}
+// Melayang
+.navTerbang,.shareTerbang {
+  //navigasi dan share btn
+  position: fixed;
+  //efek terbang
+  bottom: 0;
+  //jarak dengan bawah
+  width: 50px;
+  //panjang
+}
+.navTerbang {
+  height: 50px;
+  //agar tidak menghalangi tombol diatas
+  z-index: 11;
+  //tingkatan layer
+  right: 0;
+  //jarak samping kiri/mirip seperti text-align:right
+}
