@@ -1,0 +1,33 @@
+@use "../var" as v;
+// add icon
+// nb : icon ada di file terpisah
+.btn-icon::before {
+  content: "";
+  padding: 15px;
+  background-repeat: no-repeat;
+  position: absolute;
+  transform: translate(-40px, 2px);
+  z-index: 2;
+}
+
+.btn-icon {
+  padding-left: 50px;
+  text-transform: uppercase;
+}
+
+// kusus sosmed bassic
+.sosmedhome {
+  a {
+    text-align: left;
+  }
+  a:after {
+    width: 45px;
+  }
+  display: inline-flex;
+  margin: auto 15px;
+}
+
+a.gmail {
+  width: 300px;
+}
+

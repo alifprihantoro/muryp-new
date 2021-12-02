@@ -1,0 +1,46 @@
+@use "../var" as v;
+.thisBtn {
+// btn new
+  a {
+    text-align: center;
+    margin: 15px auto;
+    width: 200px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    font-size: 13px;
+    font-weight: bold;
+    color: v.$bg;
+    border: 2px solid v.$bg;
+    letter-spacing: 2px;
+    position: relative;
+    transition: all .5s;
+  }
+
+  a span {
+    position: relative;
+    z-index: 2;
+    font-weight: 500;
+  }
+
+  a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: v.$bg;
+    transition: all 1s;
+    z-index: 0;
+  }
+
+  a:hover {
+    color: #fff;
+  }
+
+  a:hover:after {
+    width: 100%;
+  }
+ }
+

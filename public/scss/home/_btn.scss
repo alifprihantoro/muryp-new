@@ -1,0 +1,14 @@
+@use "../var" as v;
+span#btn-dark {
+  &::before{
+    transform: translate(-37px,13px) !important;
+  }
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    transform: translate(0,-12px);
+    z-index: 99999;
+    background: v.$bg;
+    height: 50px;
+    border-radius: 50px;
+}

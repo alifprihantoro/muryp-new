@@ -1,0 +1,43 @@
+.footerPost {
+  margin-top: 100px;
+  border-top: 2px solid  #00008bcc
+}
+.authorBottom {
+  padding: 5px;
+  display: flex
+}
+.imgAuthor {
+  img {
+    min-width: 100px!important;
+    min-height: 100px!important;
+    max-width: 100px!important;
+    max-height: 100px!important
+  }
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-right: 10px
+}
+/* next prev */
+.nav-post {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto
+}
+
+.btn a {
+  padding: 15px;
+  background-color: #00008bcc;
+  border-radius: 5px;
+  color: #fff;
+  margin: 15px;
+  display: inline-block
+}
+
+.next-post {
+  text-align: right
+}
+
+.sidebar {
+  text-align: center
+}
