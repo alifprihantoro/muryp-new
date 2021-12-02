@@ -18,3 +18,7 @@ alias dmntpss='
 dmntps
 sass --watch --style=compressed scss:css
 '
+
+alias dmnsjs='
+ls $dmns/js/params/* | entr -r $dmnsj/js.sh
+'

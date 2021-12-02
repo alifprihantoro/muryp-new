@@ -15,6 +15,8 @@ dmnbs=$dmnb/setting # setting/config
 # static
 dmns=$dmn/static # static file
 dmnsi=$dmns/img # img
+dmnsj=$dmns/js # static file js
+dmnsjp=$dmnsj/params # static file js params
 
 #==================== alias
 alias dmn='cd $dmn'
@@ -28,3 +30,5 @@ alias dmnb='cd $dmnb'
 alias dmnbs='cd $dmnbs'
 alias dmns='cd $dmns'
 alias dmnsi='cd $dmnsi'
+alias dmnsj='cd $dmnsj'
+alias dmnsjp='cd $dmnsjp'

@@ -1,5 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Front End on MuryP Beta</title><link>/tags/front-end/</link><description>Recent content in Front End on MuryP Beta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 28 Nov 2020 04:07:00 +0000</lastBuildDate><atom:link href="/tags/front-end/index.xml" rel="self" type="application/rss+xml"/><item><title>Membuat Header Blog/Web secara mudah dengan HTML dan CSS</title><link>/fail/tutorial/membuat-header-blogweb-secara-mudah-dengan-html-dan-css/</link><pubDate>Sat, 28 Nov 2020 04:07:00 +0000</pubDate><guid>/fail/tutorial/membuat-header-blogweb-secara-mudah-dengan-html-dan-css/</guid><description>Membuat Header Blog/Web secara mudah dengan HTML dan CSSHello world!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Front End on MuryP Beta</title>
+    <link>/tags/front-end/</link>
+    <description>Recent content in Front End on MuryP Beta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 28 Nov 2020 04:07:00 +0000</lastBuildDate><atom:link href="/tags/front-end/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Membuat Header Blog/Web secara mudah dengan HTML dan CSS</title>
+      <link>/fail/tutorial/membuat-header-blogweb-secara-mudah-dengan-html-dan-css/</link>
+      <pubDate>Sat, 28 Nov 2020 04:07:00 +0000</pubDate>
+      
+      <guid>/fail/tutorial/membuat-header-blogweb-secara-mudah-dengan-html-dan-css/</guid>
+      <description>Membuat Header Blog/Web secara mudah dengan HTML dan CSSHello world!
 Kali ini saya akan membagikan HTML dan CSS sederhana. Namun kita bisa memanfaatkannya untuk web/blog kita nantinya.&amp;nbsp;
+
 CSS
 body{
 &amp;nbsp; &amp;nbsp; &amp;nbsp; padding:0;
@@ -10,11 +25,44 @@ body{
 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; margin:auto;
 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; background:#FF1494E9;
 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; font-weight: bold;
-&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; font-size: 1.</description></item><item><title>Apa sih HTML dan CSS itu? Dan apa keebihan dari CSS? Beserta Contohnya</title><link>/fail/front-end/html/apa-sih-html-dan-css-itu-dan-apa-keebihan-dari-css-beserta-contohnya/</link><pubDate>Wed, 25 Nov 2020 15:47:00 +0000</pubDate><guid>/fail/front-end/html/apa-sih-html-dan-css-itu-dan-apa-keebihan-dari-css-beserta-contohnya/</guid><description>Apa sih HTML dan CSS itu? Dan apa keebihan dari CSS? Beserta ContohnyaHello world!
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; font-size: 1.</description>
+    </item>
+    
+    <item>
+      <title>Apa sih HTML dan CSS itu? Dan apa keebihan dari CSS? Beserta Contohnya</title>
+      <link>/fail/front-end/html/apa-sih-html-dan-css-itu-dan-apa-keebihan-dari-css-beserta-contohnya/</link>
+      <pubDate>Wed, 25 Nov 2020 15:47:00 +0000</pubDate>
+      
+      <guid>/fail/front-end/html/apa-sih-html-dan-css-itu-dan-apa-keebihan-dari-css-beserta-contohnya/</guid>
+      <description>Apa sih HTML dan CSS itu? Dan apa keebihan dari CSS? Beserta ContohnyaHello world!
 Kali saya akan membahas sedikit mengenai CSS dan HTML. Bagi kalian yang belum mengetahui apa itu HTML dan CSS atau sudah tahu tapi bingung nyari codenya dimana.
+
 PengertianCSS (Cascading Style Sheets) jika diartikan kedalam bahasa indonesia berarti lembar penataan menurun. Dimana secara konteks CSS digunakan untuk memodifikasi Mark-up language(HTML).
-Mark-up language (bahasa markah) merupakan bahasa markup dan kebanyakan digunakan untuk membuat website.</description></item><item><title>Apa tantangan dan skill yang harus dimiliki oleh web desainer?</title><link>/fail/front-end/penjelasan/apa-tantangan-dan-skill-yang-harus-dimiliki-oleh-web-desainer/</link><pubDate>Tue, 24 Nov 2020 16:45:00 +0000</pubDate><guid>/fail/front-end/penjelasan/apa-tantangan-dan-skill-yang-harus-dimiliki-oleh-web-desainer/</guid><description>&amp;nbsp;Apa tantangan dan skill yang harus dimiliki oleh web desainer?Hello world!
+Mark-up language (bahasa markah) merupakan bahasa markup dan kebanyakan digunakan untuk membuat website.</description>
+    </item>
+    
+    <item>
+      <title>Apa tantangan dan skill yang harus dimiliki oleh web desainer?</title>
+      <link>/fail/front-end/penjelasan/apa-tantangan-dan-skill-yang-harus-dimiliki-oleh-web-desainer/</link>
+      <pubDate>Tue, 24 Nov 2020 16:45:00 +0000</pubDate>
+      
+      <guid>/fail/front-end/penjelasan/apa-tantangan-dan-skill-yang-harus-dimiliki-oleh-web-desainer/</guid>
+      <description>&amp;nbsp;Apa tantangan dan skill yang harus dimiliki oleh web desainer?Hello world!
 Setelah mengetahui apa itu web desain dan web developer, selanjutnya kita akan membahas mengenai apa saja tantangan&amp;nbsp; dan skill yang harus dimiliki oleh para web desainer. Tantangan dan skill yang harus dimiliki bagi para desainer memanglah banyak, namun disini saya akan memberikan beberapa saja. Apa saja itu? Mari kita bahas.
+
 Tantangan
-Integrasi&amp;nbsp;Biasanya saat melakukan sinkronisasi, ada kendala dengan kelancarannya.</description></item><item><title>Apa itu Front End Developer ? Dan apa perannya dalam membuat sebuah website?</title><link>/fail/front-end/penjelasan/apa-itu-front-end-developer-dan-apa-perannya-dalam-membuat-sebuah-website/</link><pubDate>Mon, 23 Nov 2020 04:12:00 +0000</pubDate><guid>/fail/front-end/penjelasan/apa-itu-front-end-developer-dan-apa-perannya-dalam-membuat-sebuah-website/</guid><description>Apa itu Front End Developer ? Dan apa perannya dalam membuat sebuah website?Pernahkah kalian mendengar istilah Front End Development? Apakah kalian tahu apa saja yang dikerjakan mereka? Kali ini saya akan membahas mengenai apa itu front end developer dan yang dikerjakannya.
-Apa itu Front End?Apakah kalian mengenal HTML, CSS dan JavaScript? Biasanya ketiga hal tersebut digunakan untuk mempercantik dan memperindah sebuah website.&amp;nbsp; Serta digunakan agar lebih interaktif terhadap pengguna.</description></item></channel></rss>
+Integrasi&amp;nbsp;Biasanya saat melakukan sinkronisasi, ada kendala dengan kelancarannya.</description>
+    </item>
+    
+    <item>
+      <title>Apa itu Front End Developer ? Dan apa perannya dalam membuat sebuah website?</title>
+      <link>/fail/front-end/penjelasan/apa-itu-front-end-developer-dan-apa-perannya-dalam-membuat-sebuah-website/</link>
+      <pubDate>Mon, 23 Nov 2020 04:12:00 +0000</pubDate>
+      
+      <guid>/fail/front-end/penjelasan/apa-itu-front-end-developer-dan-apa-perannya-dalam-membuat-sebuah-website/</guid>
+      <description>Apa itu Front End Developer ? Dan apa perannya dalam membuat sebuah website?Pernahkah kalian mendengar istilah Front End Development? Apakah kalian tahu apa saja yang dikerjakan mereka? Kali ini saya akan membahas mengenai apa itu front end developer dan yang dikerjakannya.
+Apa itu Front End?Apakah kalian mengenal HTML, CSS dan JavaScript? Biasanya ketiga hal tersebut digunakan untuk mempercantik dan memperindah sebuah website.&amp;nbsp; Serta digunakan agar lebih interaktif terhadap pengguna.</description>
+    </item>
+    
+  </channel>
+</rss>

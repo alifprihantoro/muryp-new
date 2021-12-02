@@ -1,7 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Server on MuryP Beta</title><link>/tags/server/</link><description>Recent content in Server on MuryP Beta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 30 Nov 2020 03:47:00 +0000</lastBuildDate><atom:link href="/tags/server/index.xml" rel="self" type="application/rss+xml"/><item><title>Penjelasan singkat mengenai Shared hosting, Dedicated Hosting , Cloud Hosting, dan VPS</title><link>/fail/bassic/jaringan/penjelasan-singkat-mengenai-shared-hosting-dedicated-hosting-cloud-hosting-dan-vps/</link><pubDate>Mon, 30 Nov 2020 03:47:00 +0000</pubDate><guid>/fail/bassic/jaringan/penjelasan-singkat-mengenai-shared-hosting-dedicated-hosting-cloud-hosting-dan-vps/</guid><description>Penjelasan singkat mengenai Shared hosting, Dedicated Hosting , Cloud Hosting, dan VPSHello world!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Server on MuryP Beta</title>
+    <link>/tags/server/</link>
+    <description>Recent content in Server on MuryP Beta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 30 Nov 2020 03:47:00 +0000</lastBuildDate><atom:link href="/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Penjelasan singkat mengenai Shared hosting, Dedicated Hosting , Cloud Hosting, dan VPS</title>
+      <link>/fail/bassic/jaringan/penjelasan-singkat-mengenai-shared-hosting-dedicated-hosting-cloud-hosting-dan-vps/</link>
+      <pubDate>Mon, 30 Nov 2020 03:47:00 +0000</pubDate>
+      
+      <guid>/fail/bassic/jaringan/penjelasan-singkat-mengenai-shared-hosting-dedicated-hosting-cloud-hosting-dan-vps/</guid>
+      <description>Penjelasan singkat mengenai Shared hosting, Dedicated Hosting , Cloud Hosting, dan VPSHello world!
 Pernahkah kalian mendengar istilah Shared hosting, Dedicated Hosting , Cloud Hosting, dan VPS? Tau kalian bingung mau pilih yang mana? Oke mari kita bahsa satu per satu.
+
 Pertanyaan yang harus bisa kalian jawab sendiri untuk bisa memilih mana yang terbaik :
-Berapa anggaran bulanan Anda?Jika tipis bisa pilih shared hostingApakah lalulintas web anda banyak atau biasa saja?</description></item><item><title>Apa itu server? Dan jenis-jenisnya</title><link>/fail/bassic/jaringan/apa-itu-server-dan-jenis-jenisnya/</link><pubDate>Tue, 24 Nov 2020 02:55:00 +0000</pubDate><guid>/fail/bassic/jaringan/apa-itu-server-dan-jenis-jenisnya/</guid><description>Apa itu server? Dan jenis-jenisnyaHello world!
+
+Berapa anggaran bulanan Anda?Jika tipis bisa pilih shared hostingApakah lalulintas web anda banyak atau biasa saja?</description>
+    </item>
+    
+    <item>
+      <title>Apa itu server? Dan jenis-jenisnya</title>
+      <link>/fail/bassic/jaringan/apa-itu-server-dan-jenis-jenisnya/</link>
+      <pubDate>Tue, 24 Nov 2020 02:55:00 +0000</pubDate>
+      
+      <guid>/fail/bassic/jaringan/apa-itu-server-dan-jenis-jenisnya/</guid>
+      <description>Apa itu server? Dan jenis-jenisnyaHello world!
 Setelah mengetahui mengenai back end&amp;nbsp;selanjutnya kita harus tahu mengethui&amp;nbsp;server . Karena&amp;nbsp;back end&amp;nbsp;pasti ketemu dengan&amp;nbsp;server.&amp;nbsp;
 Serverserver&amp;nbsp;atau bahasa indonesianya peladen adalah sebuah software atau hardware yang bisa memenuhi permintaan klien. Permintaan klien diterima melalui protokol http dan yang terkait lainnya.
-FungsiFungsi&amp;nbsp;web server&amp;nbsp;sendiri adalah menyimpan, memproses, dan mengirimkan halaman web ke klien. Dimana server mengirim sebuah html, style sheet, script atau file video dan foto melalui http atau https ke klien.</description></item></channel></rss>
+
+FungsiFungsi&amp;nbsp;web server&amp;nbsp;sendiri adalah menyimpan, memproses, dan mengirimkan halaman web ke klien. Dimana server mengirim sebuah html, style sheet, script atau file video dan foto melalui http atau https ke klien.</description>
+    </item>
+    
+  </channel>
+</rss>
