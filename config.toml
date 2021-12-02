@@ -1,3 +1,9 @@
+# Site Author
+author = "MuryP"
+# Description/subtitle for homepage
+description = "MuryP, MuryP Beta, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO,catatan"
+
+pygmentsUseClasses=true
 seurl = "https://muryp.my.id/"
 title = "MuryP Beta"
 theme = "muryp-now"
@@ -148,9 +154,3 @@ identifier = "Download CV"
 name = "dl"
 url = "/link"
 weight = 2
-# Site Author
-author = "MuryP"
-# Description/subtitle for homepage
-description = "MuryP, MuryP Beta, Internet, Technology, hardware, Operating Sistem, Software, Jaringan Komunikasi, JarKom, TIK, Ringkasan, Alief Prihantoro, Alif MuryP, Buku, Ebook,My Project Drawing/Desain,UI/UX,front end,Blogging, SEO,catatan"
-
-pygmentsUseClasses=true

@@ -1,56 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Pages on MuryP Beta</title>
-    <link>/pages/</link>
-    <description>Recent content in Pages on MuryP Beta</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 08 Jan 2021 05:03:57 +0000</lastBuildDate><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hire Me</title>
-      <link>/pages/hire/</link>
-      <pubDate>Fri, 08 Jan 2021 05:03:57 +0000</pubDate>
-      
-      <guid>/pages/hire/</guid>
-      <description> sedang dalam masa pengerjaan
- </description>
-    </item>
-    
-    <item>
-      <title>Cokies</title>
-      <link>/pages/cokie/</link>
-      <pubDate>Mon, 04 Jan 2021 22:50:13 +0000</pubDate>
-      
-      <guid>/pages/cokie/</guid>
-      <description>Hello world! I&amp;rsquo;m MuryP, kali ini saya akan membahas apa itu cokies. Dikarenakan web saya menggunakannya juga. Mungkin dari kalian pernah dengar, tapi tidak tahu cokies itu apa dan menggunakan tanpa sadar cokies tersebut.
-Kesimpulan Menurut saya cokies itu seperti sebuah identitas, dimana itu digunakan browser untuk berkomunikasi dengan database. Contoh kasus, ketika kita mengunjungi sebuah halaman dimana didalamnya anda harus login terlebih dahulu. Anda tidak akan bisa masuk jika tidak mengaktifkan cokie tersebut.</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/pages/privacy-policy/</link>
-      <pubDate>Mon, 04 Jan 2021 02:53:22 +0000</pubDate>
-      
-      <guid>/pages/privacy-policy/</guid>
-      <description>Persyaratan Situs MuryP Terakhir Diperbarui: 4 January 2021.
-Selamat datang di situs MuryP Beta dimana saya menyuguhkan mentahan catatan dari apa yang saya peroleh mulai dari artikel hingga video dan seminar. Dengab mengunjungi web ini, saya harap anda tynduk dengan peraturan dari web ini. Dimana meskipun seluruh konten gratis dan bisa di salin ke komputer atau hanphone kalian. Hendaknya tidak mengkomersial apa yang ada di web ini. Dan untuk masalah konten original, sebagian besar konten dalam web ini asli dari saya.</description>
-    </item>
-    
-    <item>
-      <title>Bookmark</title>
-      <link>/pages/bookmark/</link>
-      <pubDate>Tue, 29 Dec 2020 12:11:42 +0000</pubDate>
-      
-      <guid>/pages/bookmark/</guid>
-      <description>Belajar :
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on MuryP Beta</title><link>/pages/</link><description>Recent content in Pages on MuryP Beta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 08 Jan 2021 05:03:57 +0000</lastBuildDate><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml"/><item><title>Hire Me</title><link>/pages/hire/</link><pubDate>Fri, 08 Jan 2021 05:03:57 +0000</pubDate><guid>/pages/hire/</guid><description> sedang dalam masa pengerjaan</description></item><item><title>Cokies</title><link>/pages/cokie/</link><pubDate>Mon, 04 Jan 2021 22:50:13 +0000</pubDate><guid>/pages/cokie/</guid><description>Hello world! I&amp;rsquo;m MuryP, kali ini saya akan membahas apa itu cokies. Dikarenakan web saya menggunakannya juga. Mungkin dari kalian pernah dengar, tapi tidak tahu cokies itu apa dan menggunakan tanpa sadar cokies tersebut.
+Kesimpulan Menurut saya cokies itu seperti sebuah identitas, dimana itu digunakan browser untuk berkomunikasi dengan database. Contoh kasus, ketika kita mengunjungi sebuah halaman dimana didalamnya anda harus login terlebih dahulu. Anda tidak akan bisa masuk jika tidak mengaktifkan cokie tersebut.</description></item><item><title>Privacy Policy</title><link>/pages/privacy-policy/</link><pubDate>Mon, 04 Jan 2021 02:53:22 +0000</pubDate><guid>/pages/privacy-policy/</guid><description>Persyaratan Situs MuryP Terakhir Diperbarui: 4 January 2021.
+Selamat datang di situs MuryP Beta dimana saya menyuguhkan mentahan catatan dari apa yang saya peroleh mulai dari artikel hingga video dan seminar. Dengab mengunjungi web ini, saya harap anda tynduk dengan peraturan dari web ini. Dimana meskipun seluruh konten gratis dan bisa di salin ke komputer atau hanphone kalian. Hendaknya tidak mengkomersial apa yang ada di web ini. Dan untuk masalah konten original, sebagian besar konten dalam web ini asli dari saya.</description></item><item><title>Bookmark</title><link>/pages/bookmark/</link><pubDate>Tue, 29 Dec 2020 12:11:42 +0000</pubDate><guid>/pages/bookmark/</guid><description>Belajar :
 https://roadmap.shhttps://lms.onnocenter.or.id/wiki/index.php/Halaman_Utama
 https://www.petanikode.com
 https://stackoverflow.com(Q&amp;amp;A)
 https://www.w3schools.com
-
 Tools :
-
 ImageTinyPNG – Compress PNG images while preserving transparencyFonthttps://fontjoy.com/
 Tes Bloghttps://developers.google.com/speed/pagespeed/insights/
 https://www.freewebsubmission.com/page-speed.html
@@ -62,7 +17,6 @@ https://analytics.google.com/analytics/
 https://search.google.com/test/amp
 https://www.bing.com/toolbox/webmaster/
 COLORhttps://www.materialpalette.com/indigo/blue
-
 InspirasiUI/UX&amp;nbsp;https://www.lapa.ninjahttp://www.hixle.co(job+challange)
 https://www.awwwards.com
 Logohttps://www.logomoose.comAset&amp;nbsp;Iconhttps://iconmonstr.com/
@@ -81,7 +35,6 @@ https://graphicburger.com
 Musichttps://www.bensound.com/royalty-free-music
 PPThttps://www.free-powerpoint-templates-design.com/free-powerpoint-templates-design/business-powerpoint-templates-design/
 Game inspirasiideandseek-story-of-dorothy
-
 Marketplacehttps://sociabuzz.com/blog/sociabuzzshop/
 https://www.sribulancer.com/id(freelance)
 https://www.logoground.com
@@ -89,63 +42,13 @@ Informasi blogini-5-tipe-desain-logo-yang-perlu-kamu-tahu-biar-brandingmu-ngena
 https://riantoastono.com
 CourseDumetschool
 https://www.kelasberbagicerah.com/id/kursus-selengkapnya/englishedge-903/applying-for-a-job
-
 Hosting Free :https://imgbb.com(image)
 Benck MarkBenchmarks&amp;nbsp;(cpu arm)
 https://cpu.userbenchmark.com/
 https://www.cpubenchmark.net/
-Sejarahhttps://historia.id</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>/pages/contact/</link>
-      <pubDate>Tue, 29 Dec 2020 11:58:50 +0000</pubDate>
-      
-      <guid>/pages/contact/</guid>
-      <description> Telegram : t.me/murypLine : muryp
+Sejarahhttps://historia.id</description></item><item><title>Contact</title><link>/pages/contact/</link><pubDate>Tue, 29 Dec 2020 11:58:50 +0000</pubDate><guid>/pages/contact/</guid><description> Telegram : t.me/murypLine : muryp
 FB : via FP atau http://facebook.com/alif.prihantoro
 IG/Twit : @alifmuryp
 Email : muryp.kun@gmail.com
 WA : 083829383123&amp;nbsp;
-Please use Telegram </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/pages/about/</link>
-      <pubDate>Sun, 17 Dec 2017 19:50:57 +0800</pubDate>
-      
-      <guid>/pages/about/</guid>
-      <description>About Blog : About Blog  Hello world!I&#39;m MuryP, di blog ini saya akan memposting sebuah catatan yang mungkin bisa berguna bagi kalian. Tujuan blog ini yaitu untuk memudahkan saya dalam pengerjaan suatu projek dan sebagai pengingat. Dan catatan itu berkaitan dengan Front End(hanya materi) yang sebenarnya materi ini kujadikan satu dengan portofolio. Tapi daripada nanti bingung jadi kusatukan di blog ini. Sedangkan blog satunya kugunakan untuk menampung portofolio, projek, microblog sebagai backup dari instagram jika terjadi sesuatu, Tutorial seputar pembuatan front end dan beberapa hasil hobi lainnya, seperti gambar.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/pages/links/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/links/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/pages/portfolio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/portfolio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/pages/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/pages/search/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
+Please use Telegram</description></item><item><title>About</title><link>/pages/about/</link><pubDate>Sun, 17 Dec 2017 19:50:57 +0800</pubDate><guid>/pages/about/</guid><description>About Blog : About Blog Hello world!I'm MuryP, di blog ini saya akan memposting sebuah catatan yang mungkin bisa berguna bagi kalian. Tujuan blog ini yaitu untuk memudahkan saya dalam pengerjaan suatu projek dan sebagai pengingat. Dan catatan itu berkaitan dengan Front End(hanya materi) yang sebenarnya materi ini kujadikan satu dengan portofolio. Tapi daripada nanti bingung jadi kusatukan di blog ini. Sedangkan blog satunya kugunakan untuk menampung portofolio, projek, microblog sebagai backup dari instagram jika terjadi sesuatu, Tutorial seputar pembuatan front end dan beberapa hasil hobi lainnya, seperti gambar.</description></item><item><title/><link>/pages/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/pages/links/</guid><description/></item><item><title/><link>/pages/portfolio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/pages/portfolio/</guid><description/></item><item><title/><link>/pages/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/pages/search/</guid><description/></item></channel></rss>

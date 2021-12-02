@@ -1,20 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Header on MuryP Beta</title>
-    <link>/tags/header/</link>
-    <description>Recent content in Header on MuryP Beta</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 28 Nov 2020 04:07:00 +0000</lastBuildDate><atom:link href="/tags/header/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Membuat Header Blog/Web secara mudah dengan HTML dan CSS</title>
-      <link>/fail/tutorial/membuat-header-blogweb-secara-mudah-dengan-html-dan-css/</link>
-      <pubDate>Sat, 28 Nov 2020 04:07:00 +0000</pubDate>
-      
-      <guid>/fail/tutorial/membuat-header-blogweb-secara-mudah-dengan-html-dan-css/</guid>
-      <description>Membuat Header Blog/Web secara mudah dengan HTML dan CSSHello world!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Header on MuryP Beta</title><link>/tags/header/</link><description>Recent content in Header on MuryP Beta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 28 Nov 2020 04:07:00 +0000</lastBuildDate><atom:link href="/tags/header/index.xml" rel="self" type="application/rss+xml"/><item><title>Membuat Header Blog/Web secara mudah dengan HTML dan CSS</title><link>/fail/tutorial/membuat-header-blogweb-secara-mudah-dengan-html-dan-css/</link><pubDate>Sat, 28 Nov 2020 04:07:00 +0000</pubDate><guid>/fail/tutorial/membuat-header-blogweb-secara-mudah-dengan-html-dan-css/</guid><description>Membuat Header Blog/Web secara mudah dengan HTML dan CSSHello world!
 Kali ini saya akan membagikan HTML dan CSS sederhana. Namun kita bisa memanfaatkannya untuk web/blog kita nantinya.&amp;nbsp;
-
 CSS
 body{
 &amp;nbsp; &amp;nbsp; &amp;nbsp; padding:0;
@@ -25,8 +10,4 @@ body{
 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; margin:auto;
 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; background:#FF1494E9;
 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; font-weight: bold;
-&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; font-size: 1.</description>
-    </item>
-    
-  </channel>
-</rss>
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; font-size: 1.</description></item></channel></rss>
