@@ -12,5 +12,5 @@ sass --watch --style=compressed scss:css
 '
 
 alias dmtsj1='
-ls $dmtsj/params/* | entr -r $dmtsj/params/init.sh
+ls $dmtsjp/* | entr -r $dmtsjp/init.sh
 '

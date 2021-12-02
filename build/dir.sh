@@ -19,7 +19,7 @@ dmsi=$dms/img # img
 #static theme
 dmts=$dmt/static
 dmtsj=$dmts/js # static file js
-dmtsjp=$dmsj/params # static file js params
+dmtsjp=$dmtsj/params # static file js params
 dmtss=$dmts/scss # file sass
 dmtc=$dmts/css # static file css
 

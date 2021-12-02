@@ -1,4 +1,4 @@
-cd dmnsjp
+cd dmtsjp
 
 #main
 jsMain=post.js 
