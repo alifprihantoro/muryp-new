@@ -1,24 +1,24 @@
-alias dmnb1='
+alias dmb1='
 # cp script
-source $dmnb/params/script.sh
+source $dmb/params/script.sh
 # config
-source $dmnb/params/config.sh
+source $dmb/params/config.sh
 # head
-rm $dmntp/main/head.html
-cp $dmntp/main/.online $dmntp/main/head.html
+rm $dmtp/main/head.html
+cp $dmtp/main/.online $dmntp/main/head.html
 # build
-dmn
+dm
 hugo --minify
 # back offline
-rm $dmntp/main/head.html
-cp $dmntp/main/.offline $dmntp/main/head.html
+rm $dmtp/main/head.html
+cp $dmtp/main/.offline $dmntp/main/head.html
 '
 
-alias dmntpss='
-dmntps
+alias dmtss1='
+dmtss1
 sass --watch --style=compressed scss:css
 '
 
-alias dmnsjs='
-ls $dmns/js/params/* | entr -r $dmnsj/js.sh
+alias dmtsj1='
+ls $dmtsj/params/* | entr -r $dmnsj/js.sh
 '
