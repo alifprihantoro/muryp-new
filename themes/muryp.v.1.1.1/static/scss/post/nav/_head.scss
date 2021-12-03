@@ -1,0 +1,27 @@
+@use "../../variable" as v;
+.cardAuthor {
+  text-align: center;
+  box-shadow: v.$sh;
+  padding: 15px 0;
+}
+.headerNav {
+  background-color: v.$cl2;
+  padding: 15px 0;
+  width: 100vw;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+.top {
+  margin-top: 70px;
+}
+.bottom {
+  margin-bottom: 70px;
+// jududul
+.nav{
+h1,h2{
+text-transform: uppercase;
+text-align: center;
+}
+}
+}

@@ -1,0 +1,16 @@
+@use "../var" as v;
+
+/* width */
+::-webkit-scrollbar {
+  height: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: v.$bg;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: v.$bgs;
+}

@@ -1,0 +1,46 @@
+@use "../../variable" as v;
+// navigasi list & sosmed & tag
+.nav {
+  li {
+    list-style: none;
+    cursor: pointer;
+    padding: 15px;
+    a {
+      display: block;
+      height: 20px;
+      color: v.$cl2;
+      font-weight: bold;
+    }
+    &:hover {
+      a {
+        color: #fff;
+      }
+      background: rgba(0,0,139,0.8);
+      color: #fff;
+    }
+  }
+  .sosmednav {
+    margin: 25px 50px;
+  }
+  .tag {
+    a {
+      padding: 5px;
+      margin: 15px;
+    }
+    border-bottom: transparent;
+  }
+}
+
+//Tag
+.tag {
+  a {
+    background-color: v.$cl2;
+    padding: 5px;
+    color: #fff!important;
+    border-radius: 5px;
+    line-height: 40px;
+  }
+  border-bottom: v.$br;
+  padding: 10px
+}
+//end tag

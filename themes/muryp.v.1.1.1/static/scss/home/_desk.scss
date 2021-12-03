@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1080px) {
+#about { grid-area: about; }
+#skill { grid-area: skill; }
+#list { grid-area: list; }
+#tag { grid-area: tag; }
+#follow { grid-area: follow; }
+#contact { grid-area: contact; }
+#footer { grid-area: footer; }
+
+.grid-container {
+  margin: auto;
+  max-width: 1080px !important;
+  display: grid;
+  grid-template-areas:
+   'about skill'
+   'list tag'
+   'follow contact'
+   'footer footer';
+   background: rgb(0, 0, 0,.05);
+   z-index: -1;
+}
+
+.grid-container > div {
+  width:540px;
+   padding: 15px;
+}
+
+
+// tag
+
+.tag-bungkus {
+  width:480px !important;
+  overflow-x: unset;
+  height: 720px;
+  overflow-y: scroll;
+  white-space: unset;
+}
+}
