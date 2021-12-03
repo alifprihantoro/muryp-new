@@ -62,6 +62,8 @@ Untuk Menggunakan VIM sendiri, pastikan kalian sudah familiar dengan perintah ya
 - pages
 - uotput
 - config
+- shortcode
+- open close
 - 
 
 ### Upload ke Github
