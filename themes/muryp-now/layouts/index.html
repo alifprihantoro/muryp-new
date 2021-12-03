@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head itemscope itemtype="{{ .Site.BaseURL }}">
     <meta charset="utf-8" />
     <meta
@@ -10,21 +10,18 @@
     {{ partial "main/head.html" . }}
   </head>
   <body class="">
-      {{ partial "post/nav/darkbtn.html" . }}
-    <div class="grid-container">
-      <!-- nav -->
-      {{ partial "home/nav.html" . }}
-      <!-- top -->
-      {{ partial "home/top/about.html" . }}
-      {{ partial "home/top/skill.html" . }}
-      <!-- midle -->
+    {{ partial "post/nav/darkbtn.html" . }}
+    {{ partial "post/nav.html" . }}
+
+    <div class="left-post">
+      <div class="responsive">
+        
       {{ partial "home/main/list.html" . }}
-      {{ partial "home/main/tag.html" . }}
-      <!-- last -->
-      {{ partial "home/last/sosmed.html" . }}
-      {{ partial "home/last/contact.html" . }}
-      <!-- footer -->
+        <div class="sidebar"></div>
+      </div>
       {{ partial "main/footer.html" . }}
     </div>
+    {{ partial "main/share.html" .}}
+    <!-- js -->
   </body>
 </html>
