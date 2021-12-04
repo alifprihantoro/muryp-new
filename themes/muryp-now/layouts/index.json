@@ -1,5 +1,11 @@
-{{- $.Scratch.Add "index" slice -}}
-{{- range .Site.RegularPages -}}
-    {{- $.Scratch.Add "index" (dict "judul" .Title  "url" .Permalink "tags" .Params.tags) -}}
+[{{ range $index, $page := .Site.Pages }}
+{{- if ne $page.Type "json" -}}
+{{- if and $index (gt $index 0) -}},{{- end }}
+{
+	"link": "{{ $page.Permalink }}",
+	"judul": "{{ htmlEscape $page.Title}}",
+	"tags": "{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }} >{{ end }}{{ $tag| htmlEscape }}>{{ end }}",
+	"description": "{{ htmlEscape .Description}}",
+}
 {{- end -}}
-{{- $.Scratch.Get "index" | jsonify -}}
+{{- end -}}]

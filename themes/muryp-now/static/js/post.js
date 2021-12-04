@@ -19,11 +19,13 @@ const showList = () => {
     .filter((item) => {
       return (
         item.judul.toLowerCase().includes(search_term)
+        ||
+        item.tags.toLowerCase().includes(search_term)
       );
     })
     .forEach((e) => {
       const li = document.createElement("li");
-      li.innerHTML = `<a href="${e.url}">${e.judul}</a>`;
+      li.innerHTML = `<a href="${e.link}">${e.judul}</a>`;
       results.appendChild(li);
     });
 };
