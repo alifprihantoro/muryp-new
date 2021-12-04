@@ -1,4 +1,5 @@
 <div class="navTerbang">
+  <!-- btn -->
   <div class="nav">
     <input type="checkbox" id="nav" />
     <label class="navBtn" for="nav">
@@ -6,9 +7,12 @@
       <span></span>
       <span></span>
     </label>
+
+    <!-- isi nav -->
     <div class="kontenNav">
       <div class="headerNav bottom">Author</div>
-      <!--memulai image-->
+
+      <!-- about -->
       <div class="cardAuthor">
         <a href="{{.Site.Params.host}}{{.Site.Params.img}}">
           <img
@@ -24,22 +28,27 @@
           </p>
           <!-- follow -->
           {{ partial "home/last/sosmed.html" . }}
+          <!-- end follow -->
         </div>
-        {{ partial "home/top/skill.html" . }}
       </div>
-      <!--end image-->
+      <!-- end about -->
+
+      <!-- search -->
       {{if ne .RelPermalink "/search/"}}
       {{ partial "post/nav/search.html" . }}
       {{ end }}
-      <!--start list nav-->
+      <!-- end search -->
+
+      <!--start list nav menu-->
       <div class="headerNav top">NAVIGATION</div>
       {{ range.Site.Menus.main.Sort.ByWeight }}
       <li>
         <a href="{{ .URL }}">{{ .Name }}</a>
       </li>
       {{ end }}
-      <!--end list nav-->
-      <!--start dropdown nav-->
+      <!--end list nav menu-->
+
+      <!--start dropdown nav tags-->
       <div class="spoiler myArrow">
         <input type="checkbox" id="taksonomyNav" />
         <label for="taksonomyNav">Daftar Kategori</label>
@@ -52,6 +61,9 @@
           {{ end }}
         </div>
       </div>
+      <!-- end tags -->
+
+      <!-- pages list       -->
       <div class="spoiler myArrow">
         <input type="checkbox" id="listPagesNav" />
         <label for="listPagesNav">Daftar Halaman</label>
@@ -65,30 +77,14 @@
           {{ end }}
         </div>
       </div>
-      <!--end dropdown-->
+      <!-- end pages -->
+
       <!--start contact & list-->
       {{if ne .RelPermalink "/"}}
       {{ partial "main/contact.html" . }}
       {{ partial "main/list.html" . }}
       {{ end }}
       <!--end contact & list-->
-      <!--start related post-->
-      {{ $related := .Site.RegularPages.Related . | first 99 }}
-      {{ with $related }}
-      <h2>Lihat Juga</h2>
-      <div class="related">
-        {{ range . }}
-        <div class="content">
-          <a href="{{ .RelPermalink }}">
-            <div class="readMore">
-              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            </div>
-          </a>
-        </div>
-        {{ end }}
-      </div>
-      {{ end }}
-      <!--end related post-->
     </div>
   </div>
 </div>
