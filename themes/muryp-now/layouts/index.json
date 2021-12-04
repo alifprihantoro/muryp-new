@@ -4,8 +4,10 @@
 {
 	"link": "{{ $page.Permalink }}",
 	"judul": "{{ htmlEscape $page.Title}}",
-	"tags": "{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }} >{{ end }}{{ $tag| htmlEscape }}>{{ end }}",
+	"tags": "{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }} {{ end }}{{ replace $tag " " "-" | htmlEscape}}{{ end }}",
 	"description": "{{ htmlEscape .Description}}",
 }
 {{- end -}}
-{{- end -}}]
+{{- end -}}
+]
+
