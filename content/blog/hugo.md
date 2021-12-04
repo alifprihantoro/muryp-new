@@ -64,7 +64,20 @@ Untuk Menggunakan VIM sendiri, pastikan kalian sudah familiar dengan perintah ya
 - config
 - shortcode
 - open close
-- 
+- json
+```json
+[{{ range $index, $page := .Site.Pages }}
+{{- if ne $page.Type "json" -}}
+{{- if and $index (gt $index 0) -}},{{- end }}
+{
+	"link": "{{ $page.Permalink }}",
+	"judul": "{{ htmlEscape $page.Title}}",
+	"tags": "{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }} >{{ end }}{{ $tag| htmlEscape }}>{{ end }}",
+	"description": "{{ htmlEscape .Description}}",
+}
+{{- end -}}
+{{- end -}}]
+```
 
 ### Upload ke Github
 
