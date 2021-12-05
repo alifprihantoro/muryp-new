@@ -1,3 +1,4 @@
+// search
 const search = document.getElementById("search");
 const results = document.getElementById("results");
 let search_term = "";
