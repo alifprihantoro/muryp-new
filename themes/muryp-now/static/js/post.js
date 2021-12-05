@@ -16,7 +16,7 @@ search.addEventListener("click", () => {
       .then((data) => {
         const showList = () => {
           results.innerHTML = "";
-          data
+         data.data_post 
             .filter((item) => {
               return (
                 item.judul.toLowerCase().includes(search_term) ||
