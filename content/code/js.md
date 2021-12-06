@@ -71,4 +71,9 @@ search.addEventListener("input", (event) => {
   }
 });
 ```
-
+- sort !=
+```js
+if (gewaesser_name1.toLowerCase().indexOf("stream") === -1 && gewaesser_name2.toLowerCase().indexOf("stream") === -1) {
+    var a = "..."
+}
+```

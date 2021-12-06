@@ -9,6 +9,8 @@ dmtpmh=$dmtp/main/head # head
 # content
 dmc=$dm/content # content
 dmcb=$dm/content/blog # content blog
+dmcc=$dm/content/code # content code
+dmci=$dm/content/info # content info
 # build
 dmb=$dm/build # build
 dmbs=$dmb/setting # setting/config
@@ -30,6 +32,8 @@ alias dmtp='cd $dmtp'
 alias dmtpmg='cd $dmtpmh'
 alias dmc='cd $dmc'
 alias dmcb='cd $dmcb'
+alias dmcc='cd $dmcc'
+alias dmci='cd $dmci'
 alias dmb='cd $dmb'
 alias dmbs='cd $dmbs'
 alias dms='cd $dms'
