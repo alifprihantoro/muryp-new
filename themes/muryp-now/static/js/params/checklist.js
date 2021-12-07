@@ -1,16 +1,25 @@
+// if funch triger
+// add script search and use this funch
 function myChoose(sel) {
   const hasil = sel.options[sel.selectedIndex].value;
   return hasil;
 }
 
 function triChoose() {
-  const tag_list = document.getElementById("tag-list");
-  hasil_tag = myChoose(tag_list);
-  console.log(hasil_tag)
-
   const url_list = document.getElementById("url-list");
   hasil_url = myChoose(url_list);
   console.log(hasil_url)
+  // ----- cara pertama
+  // if btn tag klick
+  // get all data.tag and merge
+  // rm duplicut
+  // list into options
+  // ---- cara kedua 
+  // if url = blog => rm tag other
+
+  const tag_list = document.getElementById("tag-list");
+  hasil_tag = myChoose(tag_list);
+  console.log(hasil_tag)
 
 pencarianKU(hasil_tag, hasil_url)
 }
