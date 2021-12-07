@@ -21,7 +21,7 @@ function triChoose() {
   hasil_tag = myChoose(tag_list);
   console.log(hasil_tag)
 
-pencarianKU(hasil_tag, hasil_url)
+// pencarianKU(hasil_tag, hasil_url)
 }
 triChoose()
 

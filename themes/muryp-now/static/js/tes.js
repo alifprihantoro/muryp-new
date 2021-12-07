@@ -1,6 +1,4 @@
 
-
-
 // const search = document.getElementById("search");
 // function searchShow() {
 //   search.addEventListener("input", (event) => {
