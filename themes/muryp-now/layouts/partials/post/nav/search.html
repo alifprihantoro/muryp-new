@@ -1,20 +1,36 @@
-<form action="/action_page.php" method="get">
-  <input type="checkbox" name="vehicle1" value="Bike">
-  <label for="vehicle1"> I have a bike</label><br>
-  <input type="checkbox" name="vehicle2" value="Car">
-  <label for="vehicle2"> I have a car</label><br>
-  <input type="checkbox" name="vehicle3" value="Boat" checked>
-  <label for="vehicle3"> I have a boat</label><br><br>
-  <input type="submit" value="Submit">
-</form>
-<select id="tags-list">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="opel">Opel</option>
-  <option value="audi">Audi</option>
+<select id="url-list" onChange="triChoose();">
+  <option value="/index.json">All</option>
+  <option value="/blog/index.json">Blog</option>
+  <option value="/code/index.json">Code</option>
+  <option value="/news/index.json">News</option>
 </select>
+<select id="tag-list" onChange="triChoose();">
+  <option value="">All</option>
+  <option value="termux">Termux</option>
+</select>
+
+
+
+
+<!-- <select id="list-url" onChange="update()"> -->
+<!--   <option value="all">All</option> -->
+<!--   <option value="blog">Blog</option> -->
+<!--   <option value="code">Code</option> -->
+<!-- </select> -->
+<!-- <select id="tags-list" onChange="update()"> -->
+<!--   <option value="all">All</option> -->
+<!--   <option value="termux">termux</option> -->
+<!--   <option value="code">Code</option> -->
+<!--   <option value="info">Info</option> -->
+<!-- </select> -->
+
 <div class="search-baru">
-<input autocomplete="off" type="search" id="search" placeholder="Search now!" />
-<!-- hasil -->
-<ul class="" id="results"></ul>
+  <input
+    autocomplete="off"
+    type="search"
+    id="search"
+    placeholder="Search now!"
+  />
+  <!-- hasil -->
+  <ul class="" id="results"></ul>
 </div>

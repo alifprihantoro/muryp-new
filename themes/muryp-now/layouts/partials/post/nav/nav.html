@@ -10,6 +10,12 @@
 
     <!-- isi nav -->
     <div class="kontenNav">
+      <!-- search -->
+      {{if ne .RelPermalink "/search/"}}
+      {{ partial "post/nav/search.html" . }}
+      {{ partial "main/list.html" . }}
+      {{ end }}
+      <!-- end search -->
       <div class="headerNav bottom">Author</div>
 
       <!-- about -->
@@ -39,12 +45,6 @@
       </div>
       <!-- end about -->
 
-      <!-- search -->
-      {{if ne .RelPermalink "/search/"}}
-      {{ partial "post/nav/search.html" . }}
-      {{ partial "main/list.html" . }}
-      {{ end }}
-      <!-- end search -->
     </div>
   </div>
 </div>

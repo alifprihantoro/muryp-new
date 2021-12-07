@@ -1,6 +1,22 @@
 
 
 
+// const search = document.getElementById("search");
+// function searchShow() {
+//   search.addEventListener("input", (event) => {
+//     const pencarian = event.target.value;
+//     search_term = pencarian.toLowerCase();
+//     showList();
+//     if (pencarian === "") {
+//       // add list
+//       results.classList.add("hasil-hilang");
+//     } else {
+//       //rm list
+//       results.classList.remove("hasil-hilang");
+//     }
+//   });
+// }
+
 // let url = "/index.json";
 //
 // fetch(url)
@@ -18,7 +34,7 @@
 // // console.log(e.slice(2, 4))
 //     })
 //   })
-
+//
 // let url = "/index.json";
 // fetch(url)
 //   .then((res) => res.json())
