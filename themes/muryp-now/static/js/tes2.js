@@ -41,12 +41,3 @@ printData()
 }
 
 // tes create JS
-const tesJs= function() {
-  const tesJsID = document.getElementById("footer");
-  const s = document.createElement('script');
-  s.setAttribute("id", "ini-script");
-  s.type = 'text/javascript';
-  s.src = 'tes.js'
-
-  tesJsID.appendChild(s);
-}

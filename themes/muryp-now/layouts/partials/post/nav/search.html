@@ -4,24 +4,10 @@
   <option value="/code/index.json">Code</option>
   <option value="/news/index.json">News</option>
 </select>
-<select id="tag-list" onChange="triChoose();">
-  <option value="">All</option>
-  <option value="termux">Termux</option>
-</select>
-
-
-
-
-<!-- <select id="list-url" onChange="update()"> -->
-<!--   <option value="all">All</option> -->
-<!--   <option value="blog">Blog</option> -->
-<!--   <option value="code">Code</option> -->
-<!-- </select> -->
-<!-- <select id="tags-list" onChange="update()"> -->
-<!--   <option value="all">All</option> -->
-<!--   <option value="termux">termux</option> -->
-<!--   <option value="code">Code</option> -->
-<!--   <option value="info">Info</option> -->
+<div id="tag-list-search" onclick="tagKlick()">Tag :</div>
+<!-- <select id="tag-list" onclick="tes1();"> -->
+  <!-- <option value="">All</option> -->
+<!--   <option value="termux">Termux</option> -->
 <!-- </select> -->
 
 <div class="search-baru">
@@ -31,6 +17,7 @@
     id="search"
     placeholder="Search now!"
   />
+  <button onclick="btn_result()" >Search</button>
   <!-- hasil -->
   <ul class="" id="results"></ul>
 </div>

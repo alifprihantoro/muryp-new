@@ -1,21 +1,6 @@
-{"data_post" : [{{ range $index, $page := .Site.Pages }}
-{{- if ne $page.Type "json" -}}
-{{- if and $index (gt $index 0) -}},{{- end }}
 {
-	"link": "{{ $page.Permalink }}",
-	"judul": "{{ htmlEscape $page.Title}}",
-	"tags": "{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }} {{ end }}{{ replace $tag " " "-" | htmlEscape}}{{ end }}",
-	"description": "{{ htmlEscape .Description}}",
-}
-{{- end -}}
-{{- end -}}
-],
-"data_tags" : [
- {
 "name" : "{{ range $name, $taxonomy2 := .Site.Taxonomies.tags }} {{ replace .Page.Title " " "_"  }}{{end}}"
 ,
 "list" : [{{ range $name, $taxonomy2 := .Site.Taxonomies.tags }}" {{ replace .Page.Title " " "_"  }}",{{end}}]
-}
-]
 }
 
