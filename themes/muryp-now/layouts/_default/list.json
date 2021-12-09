@@ -1,23 +1,15 @@
-{"data_post" : [{{ range $index, $page := .Pages }}
+[
+{{ range $index, $page := .Pages }}
 {{- if ne $page.Type "json" -}}
 {{- if and $index (gt $index 0) -}},{{- end }}
 {
 	"link": "{{ $page.Permalink }}",
 	"judul": "{{ htmlEscape $page.Title}}",
-	"tags": "{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }} {{ end }}{{ replace $tag " " "-" | htmlEscape}}{{ end }}",
 	"description": "{{ htmlEscape .Description}}",
+{{ with .Params.tags }}
+"tags":"{{range .}} #{{ replace . " " "_"  }}{{end}}"
+  {{end}}
 }
 {{- end -}}
 {{- end -}}
-],
-"data_tags" : [
- {
-  {{ if eq .Section "blog" }}
-"list" : [{{ range $name, $taxonomy2 := .Site.Taxonomies.tags }}" {{ replace .Page.Title " " "_"  }}",{{end}}]
-   {{else}}
-   "code":["tes"]
-{{end}}
-}
 ]
-}
-
