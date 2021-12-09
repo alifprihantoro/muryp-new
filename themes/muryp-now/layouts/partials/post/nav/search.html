@@ -1,10 +1,17 @@
-<select id="url-list" onChange="triChoose();">
-  <option value="/index.json">All</option>
+<select id="list-section-search" onChange="btn_list_section()">
+  <option value="all">All</option>
   <option value="/blog/index.json">Blog</option>
   <option value="/code/index.json">Code</option>
   <option value="/news/index.json">News</option>
 </select>
-<div id="tag-list-search" onclick="tagKlick()">Tag :</div>
+<select id="list-tags-search" onChange="btn_tags_search();">
+  <option value="/index.json">All</option>
+  <div id="tesdiv">
+  <option value="/blog/index.json">Blog</option>
+  <option value="/code/index.json">Code</option>
+  <option value="/news/index.json">News</option>
+  </div>
+</select>
 <!-- <select id="tag-list" onclick="tes1();"> -->
   <!-- <option value="">All</option> -->
 <!--   <option value="termux">Termux</option> -->

@@ -7,26 +7,6 @@ function pencarianKU(tagName, url) {
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
-      const showList = () => {
-        results.innerHTML = "";
-        data.data_post
-          .filter((item) => {
-            // if (tagName === "all") {
-            //   return item;
-            // } else {
-            //   return item.tags.toLowerCase().includes(tagName);
-            // }
-            return item.tags.toLowerCase().includes(tagName);
-          })
-          .filter((item) => {
-            return item.judul.toLowerCase().includes(search_term);
-          })
-          .forEach((e) => {
-            const li = document.createElement("li");
-            li.innerHTML = `<a class="${e.tags}" href="${e.link}">${e.judul}</a>`;
-            results.appendChild(li);
-          });
-      };
 
       search.addEventListener("input", (event) => {
         const termux = "termux";
