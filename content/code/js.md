@@ -6,7 +6,7 @@ lastmod: 2021-11-30T13:41:16+07:00
 
 type: post
 
-tags:
+tags2 :
     - Java Script
 
 image: ""

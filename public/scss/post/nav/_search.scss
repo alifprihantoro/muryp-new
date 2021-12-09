@@ -7,19 +7,24 @@
   align-items: center;
   padding: 0;
 }
-  .hasil-hilang{
-    display: none !important;
-  }
+.hasil-hilang {
+  display: none !important;
+}
 
 // search
-input#search,input#search::placeholder{
-  color:#fff;
+input#search,
+input#search::placeholder {
+  color: #fff;
   font-weight: bold;
   text-transform: uppercase;
 }
-input#search{
-background-color:v.$bgl1 ;
-width: 90%;
-padding:15px;
-align-items: center;
+input#search {
+  background-color: v.$bgl1;
+  width: 90%;
+  padding: 15px;
+  align-items: center;
+}
+
+#checked-list input[type="checkbox"] {
+  opacity: 100;
 }

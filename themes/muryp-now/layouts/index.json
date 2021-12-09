@@ -1,20 +1,10 @@
-{"data_post" : [{{ range $index, $page := .Site.Pages }}
-{{- if ne $page.Type "json" -}}
-{{- if and $index (gt $index 0) -}},{{- end }}
 {
-	"link": "{{ $page.Permalink }}",
-	"judul": "{{ htmlEscape $page.Title}}",
-	"tags": "{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }} {{ end }}{{ replace $tag " " "-" | htmlEscape}}{{ end }}",
-	"description": "{{ htmlEscape .Description}}",
-}
-{{- end -}}
-{{- end -}}
+  "tags_blog": [
+  {{ range $name, $taxonomy1 := .Site.Taxonomies.tags }}" {{ replace .Page.Title " " "_"  }}",{{end}}
 ],
-"data_tags" : [
- {
-"list" : [{{ range $name, $taxonomy2 := .Site.Taxonomies.tags }}" {{ replace .Page.Title " " "_"  }}",{{end}}]
-,   "code":["tes"]
-}
+
+  "tags_code": [
+  {{ range $name, $taxonomy2 := .Site.Taxonomies.tags2 }}" {{ replace .Page.Title " " "_"  }}",{{end}}
 ]
 }
 

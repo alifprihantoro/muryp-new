@@ -1,8 +1,15 @@
 dirNow=$(pwd)
 dmtsjp
+# var
+var=
+var+=./var/json.js
+var+=./var/checklist.js
+
 
 #main
-jsMain=post.js 
+jsMain=
+jsMain+=
+# jsMain=post.js
 # jsMain+=disqus.js
 cat $jsMain > ../main.js
 

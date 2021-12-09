@@ -8,7 +8,7 @@ show_comments: false
 
 type: post
 
-tags:
+tags :
     - app
 
 image: ""

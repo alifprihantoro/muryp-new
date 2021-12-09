@@ -1,6 +1,6 @@
 @use "../var" as v;
 .thisBtn {
-// btn new
+  // btn new
   a {
     text-align: center;
     margin: 15px auto;
@@ -14,7 +14,7 @@
     border: 2px solid v.$bg;
     letter-spacing: 2px;
     position: relative;
-    transition: all .5s;
+    transition: all 0.5s;
   }
 
   a span {
@@ -42,5 +42,11 @@
   a:hover:after {
     width: 100%;
   }
- }
+}
 
+span#btn-dark {
+  position: absolute;
+  right: 15px;
+  transform: translate(0, 0) !important;
+  z-index: 99999;
+}

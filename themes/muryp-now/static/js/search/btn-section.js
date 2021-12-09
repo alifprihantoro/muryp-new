@@ -1,17 +1,20 @@
+// get section
+const url_list = document.getElementById("list-section-search");
+const hasil_url = $chekList(url_list);
+// $chekList(url_list)
+
 // list section nanti di minimize
 const btn_list_section = ()=>{
-  const url_list = document.getElementById("list-section-search");
-  const hasil_url = $chekList(url_list);
-
   if (hasil_url === "all") {
 const dataku=$get_json("/index.json")
     dataku.then((dataku)=>{
-      console.log(dataku.data_tag)
-      const a = dataku.data_tags[0].code
-      const b = dataku.data_tags[0].list
+      // console.log(dataku.tags_code)
+      const a = dataku.tags_blog
+      const b = dataku.tags_code
       const tagName = [...a,...b]
+      console.log(tagName)
 
-      showList(tagName)
+      // showList(tagName)
     })
   }else{
     const dataku=$get_json(hasil_url)

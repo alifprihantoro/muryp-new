@@ -1,14 +1,11 @@
 /*====end share====*/
-@media only screen and (min-width:1080px) {
+@media only screen and (min-width:930px) {
   .footerTop {
     display: grid;
     width: 100%;
     grid-template-columns: auto auto auto;
     text-align: center
   }
-  /* end responsive */
-}
-@media only screen and (min-width:1080px) {
 .left-post{
   width: 70%;
 }
@@ -27,6 +24,8 @@
   }
   span#btn-dark{
     right: 31% !important;
+    position: absolute;
+    z-index: 9999;
   }
 }
 

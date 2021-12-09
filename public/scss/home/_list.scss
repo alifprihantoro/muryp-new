@@ -9,12 +9,12 @@
   width: 80%;
 }
 
-.myread {
-  display: grid;
-  width: 100%;
-  grid-template-columns: auto;
-  text-align: left;
-}
+// .myread {
+//   display: grid;
+//   width: 100%;
+//   grid-template-columns: auto;
+//   text-align: left;
+// }
 
 // tanggal
 .myread .date {
@@ -38,4 +38,9 @@
     color: #333;
   }
   color: v.$bg;
+}
+
+// jarak blog list-style-type: 
+.responsive {
+  margin-top: 50px ;
 }

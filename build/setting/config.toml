@@ -10,7 +10,8 @@ disqusShortname = "muryp"
     section = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
-  tag = "tags"
+  tags = "tags"
+  tags2 = "tags2"
   author = "authors"
 
 [permalinks]

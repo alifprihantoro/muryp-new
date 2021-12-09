@@ -1,6 +1,29 @@
+@use "reset";
 @use "main/btn";
 @use "main/icon";
 @use "main/btn-icon";
 @use "main/tag";
 @use "main/scroll";
 @use "main/footer";
+@use "main/heading";
+// nav
+@use "post/nav/luar";
+@use "post/nav/humberger";
+@use "post/nav/spoiler";
+@use "post/nav/head";
+@use "post/nav/search";
+@use "post/nav/content";
+@use "post/nav/list-tag";
+
+// etc
+@use "post/header";
+@use "post/share";
+@use "post/list";
+@use "post/post/main-post";
+
+@use "post/desk";
+
+// reset
+body{
+overflow: hidden;
+}

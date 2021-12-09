@@ -13,6 +13,6 @@ alias dmb1='
 dm
 dmbs1
 dmtss1
-dmtsj1
+# dmtsj1
 hugo --minify
 '
