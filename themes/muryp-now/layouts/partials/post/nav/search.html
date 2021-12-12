@@ -1,16 +1,22 @@
-<select id="list-section-search" onChange="btn_list_section()">
+<select id="list-section-search" onChange="btnSectionSearch(this.value)">
   <option value="all">All</option>
   <option value="/blog/index.json">Blog</option>
   <option value="/code/index.json">Code</option>
-  <option value="/news/index.json">News</option>
 </select>
-<select id="list-tags-search" onChange="btn_tags_search();">
-  <option value="/index.json">All</option>
-  <div id="tesdiv">
-  <option value="/blog/index.json">Blog</option>
-  <option value="/code/index.json">Code</option>
-  <option value="/news/index.json">News</option>
-  </div>
+<select id="list-tags-search">
+  <option value="">All:</option>
+<optgroup id="blog-tags-list-search" label="Blog :">
+  <option value="#">All Blog</option>
+{{ range $name, $taxonomy1 := .Site.Taxonomies.tags }}
+  <option value="#{{ replace .Page.Title " " "_"  }}">{{ .Page.Title }}</option>
+{{end}}
+</optgroup>
+<optgroup id="note-tags-list-search" label="Note :">
+  <option value="##">All Note</option>
+{{ range $name, $taxonomy1 := .Site.Taxonomies.tags2 }}
+  <option value="##{{ replace .Page.Title " " "_"  }}">{{ .Page.Title }}</option>
+{{end}}
+</optgroup>
 </select>
 <!-- <select id="tag-list" onclick="tes1();"> -->
   <!-- <option value="">All</option> -->

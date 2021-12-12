@@ -1,32 +1,49 @@
 // get section
 const url_list = document.getElementById("list-section-search");
 const hasil_url = $chekList(url_list);
-// $chekList(url_list)
 
-// list section nanti di minimize
-const btn_list_section = ()=>{
-  if (hasil_url === "all") {
-const dataku=$get_json("/index.json")
-    dataku.then((dataku)=>{
-      // console.log(dataku.tags_code)
-      const a = dataku.tags_blog
-      const b = dataku.tags_code
-      const tagName = [...a,...b]
-      console.log(tagName)
-
-      // showList(tagName)
-    })
+// if change
+const btnSectionSearch = (e)=>{
+  const blog_tags = document.getElementById("blog-tags-list-search")
+  const note_tags = document.getElementById("note-tags-list-search")
+// console.log(e)
+  if (e==="all") {
+    blog_tags.style.display = "initial";
+    note_tags.style.display = "initial";
+  }else if(e==="/blog/index.json"){
+    blog_tags.style.display = "initial";
+    note_tags.style.display = "none";
   }else{
-    const dataku=$get_json(hasil_url)
-    dataku.then((dataku)=>{
-      console.log(dataku)
-
-      // showList(tagName)
-
-    })
+    blog_tags.style.display = "none";
+    note_tags.style.display = "initial";
   }
-  //end
 }
+
+// $chekList(url_list)
+// list section nanti di minimize
+// const btn_list_section = ()=>{
+//   if (hasil_url === "all") {
+// const dataku=$get_json("/index.json")
+//     dataku.then((dataku)=>{
+//       // console.log(dataku.tags_code)
+//       const a = dataku.tags_blog
+//       const b = dataku.tags_code
+//       const tagName = [...a,...b]
+//       console.log(tagName)
+//
+//       // showList(tagName)
+//     })
+//   }else{
+//     const dataku=$get_json(hasil_url)
+//     dataku.then((dataku)=>{
+//       console.log(dataku)
+//
+//       // showList(tagName)
+//
+//     })
+//   }
+//   //end
+// }
 
 
 
