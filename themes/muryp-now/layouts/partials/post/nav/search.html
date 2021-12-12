@@ -1,20 +1,20 @@
 <select id="list-section-search" onChange="btnSectionSearch(this.value)">
   <option value="all">All</option>
-  <option value="/blog/index.json">Blog</option>
-  <option value="/code/index.json">Code</option>
+  <option value="blog">Blog</option>
+  <option value="note">Note</option>
 </select>
 <select id="list-tags-search">
   <option value="">All:</option>
 <optgroup id="blog-tags-list-search" label="Blog :">
   <option value="#">All Blog</option>
 {{ range $name, $taxonomy1 := .Site.Taxonomies.tags }}
-  <option value="#{{ replace .Page.Title " " "_"  }}">{{ .Page.Title }}</option>
+  <option value="#{{ replace .Page.Title " " "_" | lower  }}">{{ .Page.Title }}</option>
 {{end}}
 </optgroup>
 <optgroup id="note-tags-list-search" label="Note :">
   <option value="##">All Note</option>
 {{ range $name, $taxonomy1 := .Site.Taxonomies.tags2 }}
-  <option value="##{{ replace .Page.Title " " "_"  }}">{{ .Page.Title }}</option>
+  <option value="##{{ replace .Page.Title " " "_" | lower }}">{{ .Page.Title }}</option>
 {{end}}
 </optgroup>
 </select>

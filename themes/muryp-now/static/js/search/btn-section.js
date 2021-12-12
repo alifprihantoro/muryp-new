@@ -1,7 +1,3 @@
-// get section
-const url_list = document.getElementById("list-section-search");
-const hasil_url = $chekList(url_list);
-
 // if change
 const btnSectionSearch = (e)=>{
   const blog_tags = document.getElementById("blog-tags-list-search")
@@ -10,7 +6,7 @@ const btnSectionSearch = (e)=>{
   if (e==="all") {
     blog_tags.style.display = "initial";
     note_tags.style.display = "initial";
-  }else if(e==="/blog/index.json"){
+  }else if(e==="blog"){
     blog_tags.style.display = "initial";
     note_tags.style.display = "none";
   }else{

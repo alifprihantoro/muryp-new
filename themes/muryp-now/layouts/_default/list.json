@@ -5,10 +5,8 @@
 {
 	"link": "{{ $page.Permalink }}",
 	"judul": "{{ htmlEscape $page.Title}}",
-	"description": "{{ htmlEscape .Description}}",
-{{ with .Params.tags }}
-"tags":"{{range .}} #{{ replace . " " "_"  }}{{end}}"
-  {{end}}
+"tags":"{{ with .Params.tags }}{{range .}} #{{ replace . " " "_"  }}{{end}}{{end}}{{ with .Params.tags2 }}{{range .}} ##{{ replace . " " "_"  }}{{end}}{{end}}",
+	"description": "{{ htmlEscape .Description}}"
 }
 {{- end -}}
 {{- end -}}
