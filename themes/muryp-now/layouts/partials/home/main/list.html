@@ -1,33 +1,9 @@
 <div id="list">
-   <h2 class="head blog">My Blog</h2>
-  {{ with .Site.GetPage "/blog" }}
-  <div class="myread">
-    {{ range.Paginator.Pages }}
-    <a href="{{ .RelPermalink }}">
-      <div class="content">
-        <div class="date">
-          <span class="day"> {{ dateFormat "02" .Date }}</span>
-          <span class="rest">
-            {{ if $.Site.Data.month }}
-            {{ index $.Site.Data.month (printf "%d" .Date.Month) }}
-            {{ .Date.Year }}
-            {{ else }}
-            {{ dateFormat "Jan 2006" .Date }}
-            {{ end }}</span
-          >
-        </div>
-        <div class="readMore">
-          {{ .Title }}
-        </div>
-      </div>
-    </a>
-    {{ end }}
-  </div>
-  {{ end }}
-
+  <h2 class="head blog">My Blog</h2>
+  <div id="list-post" class="myread"></div>
   <div class="thisBtn">
     <div class="wrapper">
-      <a href="/blog"><span>See More!</span></a>
+      <a onclick="triggerLoad()"><span>See More!</span></a>
     </div>
   </div>
 </div>
