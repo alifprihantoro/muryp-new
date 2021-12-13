@@ -11,10 +11,6 @@
     <!-- isi nav -->
     <div class="kontenNav">
       <!-- search -->
-      {{if ne .RelPermalink "/search/"}}
-      {{ partial "post/nav/search.html" . }}
-      {{ partial "main/list.html" . }}
-      {{ end }}
       <!-- end search -->
       <div class="headerNav bottom">Author</div>
 
@@ -32,6 +28,7 @@
           <p>
             {{.Site.Params.Header | safeHTML}}
           </p>
+      {{ partial "post/nav/search.html" . }}
           <!-- follow -->
           {{ partial "home/last/sosmed.html" . }}
           <!-- end follow -->
