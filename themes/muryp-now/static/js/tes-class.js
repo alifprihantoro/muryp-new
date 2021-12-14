@@ -1,4 +1,36 @@
+const addScript = (e)=>{
+    const script   = document.createElement("script");
+script.type  = "text/javascript";
+script.src   = e;    // use this for linked script
+script.appendChild(script);
+}
+let add_script=0
+const add_data = (e)=>{
+  add_script++
+  if (add_script==1) {
+    alert(`hello ${e}`)
+  }
+}
+const shortTag=(e)=>{
+
+}
+const addList = (tags)=>{
+  //add data blog
+  // short by tags
+  // inner html
+  console.log(tags)
+}
+
 const link = (e) => {
+  if (e==="/") {
+  //addscript(/js/list.js)
+  //addscript(/js/list.js)
+    // get id
+    // template
+    // innerhtml blog load more
+    // innerhtml note load more
+    // te
+  }
   // alert(e);
   const nextTitle = "My new page";
   const nextState = { additionalInformation: "Updated the URL with JS" };
@@ -8,7 +40,6 @@ const link = (e) => {
 
   // This will replace the current entry in the browser's history, without reloading
   window.history.replaceState(nextState, nextTitle, e);
-  return false;
 };
 // samakan kayak klick url
 window.addEventListener('popstate', function (event) {

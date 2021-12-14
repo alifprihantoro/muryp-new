@@ -7,14 +7,6 @@ const loadMore = document.getElementById("load-more");
 // template
 // munculkan
 
-
-
-
-
-
-
-
-
 let countPost = 5;
 // catch json
 let url = "/blog/index.json";

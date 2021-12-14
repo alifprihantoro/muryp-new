@@ -1,4 +1,6 @@
 <footer class="central" id="footer">
+  <button onclick="addScript('ini dalam')">kklick satu</button>
+  <button onclick="addScript('ini kedua')">kklick satu</button>
   {{ with .Site.GetPage "/pages" }}
   {{ range.Paginator.Pages }}
   <a href="{{.Permalink}}">{{.Name}}</a>
