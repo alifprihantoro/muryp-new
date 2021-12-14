@@ -15,6 +15,12 @@ window.addEventListener('popstate', function (event) {
 	// The URL changed...
   alert(`ganti link ${window.location.href}`)
 });
+
+
+
+
+
+
 // // unnamed
 // let Rectangle = class {
 //   constructor(height, width, name) {

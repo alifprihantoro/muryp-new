@@ -1,0 +1,26 @@
+[
+
+{
+	"link": "/note/slug/",
+	"judul": "Title",
+	"date": " 14 ",
+	"month": "Dec 2021",
+  "tags":" #Tag",
+	"description": ""
+},
+{
+	"link": "/note/html-css/option/",
+	"judul": "Option",
+	"date": " 12 ",
+	"month": "Dec 2021",
+  "tags":" ##HTML ##CSS",
+	"description": ""
+},
+{
+	"link": "/note/js/catatan-java-script/",
+	"judul": "Catatan Java Script",
+	"date": " 30 ",
+	"month": "Nov 2021",
+  "tags":" ##Java_Script",
+	"description": ""
+}]

@@ -1,0 +1,1 @@
+find authors/ blog/ css/ img/ js/ note/ pages/ post/ scss/ svg/ tags/ tags2/ -depth -name *.html

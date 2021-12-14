@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CSS on MuryP Beta</title>
+    <link>/tags2/css/</link>
+    <description>Recent content in CSS on MuryP Beta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Dec 2021 11:11:29 +0700</lastBuildDate><atom:link href="/tags2/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Option</title>
+      <link>/note/html-css/option/</link>
+      <pubDate>Sun, 12 Dec 2021 11:11:29 +0700</pubDate>
+      
+      <guid>/note/html-css/option/</guid>
+      <description>https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select_multiple </description>
+    </item>
+    
+  </channel>
+</rss>

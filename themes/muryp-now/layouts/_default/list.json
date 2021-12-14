@@ -7,7 +7,7 @@
 	"judul": "{{ htmlEscape $page.Title}}",
 	"date": " {{ dateFormat "02" .Date }} ",
 	"month": "{{ if $.Site.Data.month }}{{ index $.Site.Data.month (printf "%d" .Date.Month) }} {{ .Date.Year }}{{ else }}{{ dateFormat "Jan 2006" .Date }}{{ end }}",
-"tags":"{{ with .Params.tags }}{{range .}} #{{ replace . " " "_"  }}{{end}}{{end}}{{ with .Params.tags2 }}{{range .}} ##{{ replace . " " "_"  }}{{end}}{{end}}",
+  "tags":"{{ with .Params.tags }}{{range .}} #{{ replace . " " "_"  }}{{end}}{{end}}{{ with .Params.tags2 }}{{range .}} ##{{ replace . " " "_"  }}{{end}}{{end}}",
 	"description": "{{ htmlEscape .Description}}"
 }
 {{- end -}}

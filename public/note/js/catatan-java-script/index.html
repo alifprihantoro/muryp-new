@@ -1,0 +1,64 @@
+const content = `
+<h2 id="catatan-javascript">Catatan Javascript</h2>
+<ul>
+<li>add script</li>
+<li>get json</li>
+<li>event klick</li>
+<li>live search</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js">
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">search</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#';search&#';</span>);
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">results</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#';results&#';</span>);
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">search_term</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#';&#';</span>;
+
+<span style="color:#75715e">// default count
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">klikCount</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+  <span style="color:#75715e">// when search bar klick
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">search</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#';click&#';</span>, () =&gt; {
+  <span style="color:#75715e">// add +1
+</span><span style="color:#75715e"></span>  <span style="color:#a6e22e">klikCount</span><span style="color:#f92672">++</span>;
+  <span style="color:#75715e">// when klick &lt;= 1 do this else nothing
+</span><span style="color:#75715e"></span>  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">klikCount</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>) {
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">url</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;/index.json&#39;</span>;
+<span style="color:#a6e22e">fetch</span>(<span style="color:#a6e22e">url</span>)
+.<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">res</span> =&gt; <span style="color:#a6e22e">res</span>.<span style="color:#a6e22e">json</span>())
+  .<span style="color:#a6e22e">then</span>(<span style="color:#a6e22e">data</span> =&gt; {
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">showList</span> <span style="color:#f92672">=</span> () =&gt; {
+  <span style="color:#a6e22e">results</span>.<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#';&#';</span>;
+  <span style="color:#a6e22e">data</span>
+    .<span style="color:#a6e22e">filter</span>((<span style="color:#a6e22e">item</span>) =&gt; {
+      <span style="color:#66d9ef">return</span> (
+        <span style="color:#a6e22e">item</span>.<span style="color:#a6e22e">judul</span>.<span style="color:#a6e22e">toLowerCase</span>().<span style="color:#a6e22e">includes</span>(<span style="color:#a6e22e">search_term</span>)
+      );
+    })
+    .<span style="color:#a6e22e">forEach</span>((<span style="color:#a6e22e">e</span>) =&gt; {
+      <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">li</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#';li&#';</span>);
+      <span style="color:#a6e22e">li</span>.<span style="color:#a6e22e">innerHTML</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">`&lt;a href=&#';</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">url</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#';&gt;</span><span style="color:#e6db74">${</span><span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">judul</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&lt;/a&gt;`</span>;
+      <span style="color:#a6e22e">results</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">li</span>);
+    });
+};
+
+<span style="color:#a6e22e">search</span>.<span style="color:#a6e22e">addEventListener</span>(<span style="color:#e6db74">&#';input&#';</span>, (<span style="color:#a6e22e">event</span>) =&gt; {
+  <span style="color:#66d9ef">const</span> <span style="color:#a6e22e">pencarian</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">event</span>.<span style="color:#a6e22e">target</span>.<span style="color:#a6e22e">value</span>;
+  <span style="color:#a6e22e">search_term</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">pencarian</span>.<span style="color:#a6e22e">toLowerCase</span>();
+  <span style="color:#a6e22e">showList</span>();
+  <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">pencarian</span> <span style="color:#f92672">===</span> <span style="color:#e6db74">&#';&#';</span>) {
+    <span style="color:#75715e">// rm list
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">results</span>.<span style="color:#a6e22e">classList</span>.<span style="color:#a6e22e">add</span>(<span style="color:#e6db74">&#';hasil-hilang&#';</span>);
+  } <span style="color:#66d9ef">else</span> {
+    <span style="color:#75715e">//add list
+</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">results</span>.<span style="color:#a6e22e">classList</span>.<span style="color:#a6e22e">remove</span>(<span style="color:#e6db74">&#';hasil-hilang&#';</span>);
+  }
+});
+  })
+.<span style="color:#66d9ef">catch</span>(<span style="color:#a6e22e">err</span> =&gt; { <span style="color:#66d9ef">throw</span> <span style="color:#a6e22e">err</span> });
+  }
+});
+</code></pre></div><ul>
+<li>sort !=</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">gewaesser_name1</span>.<span style="color:#a6e22e">toLowerCase</span>().<span style="color:#a6e22e">indexOf</span>(<span style="color:#e6db74">&#';stream&#';</span>) <span style="color:#f92672">===</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">gewaesser_name2</span>.<span style="color:#a6e22e">toLowerCase</span>().<span style="color:#a6e22e">indexOf</span>(<span style="color:#e6db74">&#';stream&#';</span>) <span style="color:#f92672">===</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) {
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">a</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#';...&#';</span>
+}
+</code></pre></div>
+`

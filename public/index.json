@@ -1,1 +1,10 @@
-{"tags_blog":[" adventure"," Aplikasi"," app"," Arts"," Back_End"," Bassic"," coding"," CSS"," Design"," Figma"," Front_End"," Git"," Github"," Gitlab"," Header"," HTML"," Hugo"," info"," Jaringan"," Linux"," Proggraming"," Security"," Server"," shell"," tag"," Termux"," Theme"," Tutorial"," Ubuntu"," web"," Web_Design"," Web_Proggramming"],"tags_code":[" Java_Script"]}
+{
+  "tags_blog": [
+  "#adventure","#Aplikasi","#app","#Arts","#Back_End","#Bassic","#coding","#CSS","#Design","#Figma","#Front_End","#Git","#Github","#Gitlab","#Header","#HTML","#Hugo","#info","#Jaringan","#Linux","#Proggraming","#Security","#Server","#shell","#Tag","#Termux","#Theme","#Tutorial","#Ubuntu","#web","#Web_Design","#Web_Proggramming",
+],
+
+  "tags_code": [
+  "##CSS","##HTML","##Java_Script",
+]
+}
+

@@ -1,6 +1,1 @@
-
-[
-{
-"list_tag" : "{{ range $name, $taxonomy := .Site.Taxonomies.tags }} {{ replace .Page.Title " " "_"  }}, {{end}}"
-}
-]
+{{ dict "title" .Title "content" .RawContent| jsonify }}
