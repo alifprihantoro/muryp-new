@@ -8,9 +8,7 @@ show_comments: false
 
 type: post
 
-tags:
-    - Figma
-    - Design
+tags2:
     - Arts
 
 image: ""

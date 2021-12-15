@@ -8,12 +8,9 @@ show_comments: false
 
 type: post
 
-tags:
-    - Hugo
-    - Github
-    - Gitlab
-    - Web Proggramming
-    - Git
+tags2:
+    - front end
+    - back end
 
 image: ""
 thumbnail : ""
