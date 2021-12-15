@@ -1,5 +1,5 @@
 // get id 
-const results = document.getElementById("list-post");
+const results_post = document.getElementById("list-post");
 const loadMore = document.getElementById("load-more");
 // get slug
 // get tags
@@ -17,7 +17,7 @@ function fetchListPost() {
       // pagenation
       const data = dataJSON.slice(0, countPost);
       // result
-      results.innerHTML = "";
+      results_post.innerHTML = "";
       data.forEach((e) => {
         const div = document.createElement("div");
         div.innerHTML = `<div class="myread">
@@ -34,7 +34,7 @@ function fetchListPost() {
             </a>
     </div>
 `
-        results.appendChild(div);
+        results_post.appendChild(div);
       });
       //end fetch
     });
