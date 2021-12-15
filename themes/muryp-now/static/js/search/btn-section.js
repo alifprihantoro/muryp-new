@@ -2,10 +2,12 @@
 // if change
 const btnSection = (id,tag)=>{
   if (id==="list-section-list"){
+document.getElementById('list-tags-list').getElementsByTagName('option')[0].selected = 'selected'
   count = 0
   getSlugList()
+  }else{
+document.getElementById('list-tags-search').getElementsByTagName('option')[0].selected = 'selected'
   }
-document.getElementById('list-tags-list').getElementsByTagName('option')[0].selected = 'selected'
   const slug = document.getElementById(id)
   const blog_tags = document.getElementById(`blog-tags-list-${tag}`)
   const note_tags = document.getElementById(`note-tags-list-${tag}`)
