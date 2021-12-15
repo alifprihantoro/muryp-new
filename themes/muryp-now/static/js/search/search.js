@@ -1,7 +1,7 @@
 // filter
 const showList = (data) => {
   results.innerHTML = "";
-  console.log(data)
+  // console.log(data)
   const filter_judul = data
     .filter((item) => {
       return item.tags.toLowerCase().includes(getTags());
@@ -50,6 +50,14 @@ const getSection = () => {
   } else {
     // console.log("keduannya");
     const printData = async function printData() {
+    const printData = async function printData() {
+      const a = await data1;
+      const b = await data2;
+      const ab = [...a, ...b];
+      // console.log(ab);
+      // const tags = "";
+      showList(ab);
+    };
       const a = await data1;
       const b = await data2;
       const ab = [...a, ...b];

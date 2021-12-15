@@ -1,7 +1,15 @@
+// if search
 // if change
-const btnSectionSearch = (e)=>{
-  const blog_tags = document.getElementById("blog-tags-list-search")
-  const note_tags = document.getElementById("note-tags-list-search")
+const btnSection = (id,tag)=>{
+  if (id==="list-section-list"){
+  count = 0
+  getSlugList()
+  }
+document.getElementById('list-tags-list').getElementsByTagName('option')[0].selected = 'selected'
+  const slug = document.getElementById(id)
+  const blog_tags = document.getElementById(`blog-tags-list-${tag}`)
+  const note_tags = document.getElementById(`note-tags-list-${tag}`)
+  const e = slug.value
 // console.log(e)
   if (e==="all") {
     blog_tags.style.display = "initial";

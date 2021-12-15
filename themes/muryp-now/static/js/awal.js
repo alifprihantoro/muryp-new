@@ -15,5 +15,6 @@ search.addEventListener("keyup", (event)=> {
     btnSearch()
   }
 });
+const sectionTagList = ()=>{
 
-
+}
