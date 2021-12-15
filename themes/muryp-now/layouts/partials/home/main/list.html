@@ -12,16 +12,16 @@
   <option value="">All</option>
 
   <optgroup id="blog-tags-list-list" label="Blog :">
-  <option value="#">All Blog</option>
+  <option value="#" >All Blog</option>
 {{ range $name, $taxonomy1 := .Site.Taxonomies.tags }}
-  <option value="#{{ replace .Page.Title " " "_" | lower  }}">{{ .Page.Title }}</option>
+<option class="tags-option" value="#{{ replace .Page.Title " " "_" | lower  }}" name='{{.Count}}'>{{ .Page.Title }}</option>
 {{end}}
 </optgroup>
 
 <optgroup id="note-tags-list-list" label="Note :">
   <option value="##">All Note</option>
 {{ range $name, $taxonomy1 := .Site.Taxonomies.tags2 }}
-  <option value="##{{ replace .Page.Title " " "_" | lower }}">{{ .Page.Title }}</option>
+  <option value="##{{ replace .Page.Title " " "_" | lower }}" name='{{.Count}}'>{{ .Page.Title }}</option>
 {{end}}
 </optgroup>
 

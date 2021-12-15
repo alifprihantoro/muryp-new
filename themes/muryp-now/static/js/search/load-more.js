@@ -6,7 +6,7 @@ const loadMore = document.getElementById("load-more");
 const getSlugList = function(){
 const tesSlug = document.getElementById("list-section-list");
   const slug = tesSlug.value
-  console.log(slug)
+  // console.log(slug)
   // get data (bisa disingkat)
   const data1 = $get_json("/blog/index.json").then((data) => {
     return data;
@@ -47,14 +47,27 @@ let count = 0
 const sortTagList=function(data){
       // pagenation
   count=count+5;
-  console.log(count)
-  console.log(getTagsList2())
+  start=count-5
+  // console.log(count-5)
+  // console.log(count)
+  // console.log(getTagsList2())
       // result
-      results_post.innerHTML = "";
+      // results_post.innerHTML = "";
+  
+
+
+
+  // const dataFilter = data.filter((item) => {
+  //     return item.tags.toLowerCase().includes('##');
+  //   })
+  // console.log(dataFilter.length)
+
+
+
       data.filter((item) => {
       return item.tags.toLowerCase().includes(getTagsList2());
     })
-    .slice(0, count)
+    .slice(start, count)
     .forEach((e) => {
         const div = document.createElement("div");
         div.innerHTML = `<div class="myread">
