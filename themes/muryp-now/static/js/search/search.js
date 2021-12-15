@@ -1,5 +1,3 @@
-  const search = document.getElementById("search");
-  const results = document.getElementById("results");
 // filter
 const showList = (data) => {
   results.innerHTML = "";
