@@ -3,6 +3,7 @@
 const btnSection = (id,tag)=>{
   if (id==="list-section-list"){
 document.getElementById('list-tags-list').getElementsByTagName('option')[0].selected = 'selected'
+results_post.innerHTML = "";
   count = 0
   getSlugList()
   }else{

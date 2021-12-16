@@ -89,8 +89,10 @@ const sortTagList=function(data){
 // template
 // munculkan
 getSlugList()
+
 // update tags
 const btnTags = ()=>{
+results_post.innerHTML = "";
 count = 0
 getSlugList()
 }
