@@ -39,7 +39,6 @@
   color: #fff;
   height: 500px;
   max-height: 50vh;
-  margin-top: 50px;
   min-height: 280px;
 }
 header.breadcrumb {
@@ -58,4 +57,7 @@ header.breadcrumb {
   bottom: 15px;
   right: 16px;
   z-index: 2;
+}
+.btn-close{
+  margin-top: 55px;
 }

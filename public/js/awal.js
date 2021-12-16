@@ -1,21 +1,21 @@
-// create js script
-const tesjs= function(link_js) {
-  const tesjsid = document.getelementbyid("footer");
-  const s = document.createElement('script');
-  s.setattribute("id", "ini-script");
-  s.type = 'text/javascript';
-  s.src = link_js
+// id
+const search = document.getElementById("search");
+const results = document.getElementById("results");
 
-  tesjsid.appendchild(s);
+// search btn google
+const btnSearch = ()=>{
+  const val = search.value
+  // location.href = `https://www.google.com/search?q=site%3Amuryp.my.id+${val}`
+  const link = `https://www.google.com/search?q=site%3Amuryp.my.id+${val}`
+window.open(link, '_blank');
 }
+// search enter google
+search.addEventListener("keyup", (event)=> {
+  if (event.keyCode === 13) {
+    btnSearch()
+  }
+});
+const sectionTagList = ()=>{
 
-// if search klick
-let searchKlick=0
-function btn_result(){  
-// console.log("ini di klick")
-  searchKlick++
-  if (searchKlick===1) {
-tesJs("/js/search.js")
-    console.log("hello")
-}}
-// btn_result()
+}
+document.body.classList.remove("loading")

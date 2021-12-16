@@ -1,11 +1,27 @@
 @use "../../var" as v;
 // search
-.search-baru ul {
+.search-baru {
+ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0;
+}
+div{
+  display: flex;
+  justify-content: center;
+}
+button{
+  background-color: v.$bg;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  padding:5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 }
 .hasil-hilang {
   display: none !important;
@@ -20,7 +36,7 @@ input#search::placeholder {
 }
 input#search {
   background-color: v.$bgl1;
-  width: 90%;
+  width: 60%;
   padding: 15px;
   align-items: center;
 }
@@ -28,3 +44,4 @@ input#search {
 #checked-list input[type="checkbox"] {
   opacity: 100;
 }
+

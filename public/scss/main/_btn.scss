@@ -15,6 +15,7 @@
     letter-spacing: 2px;
     position: relative;
     transition: all 0.5s;
+    cursor: pointer;
   }
 
   a span {
@@ -49,4 +50,37 @@ span#btn-dark {
   right: 15px;
   transform: translate(0, 0) !important;
   z-index: 99999;
+}
+.btn-list {
+    appearance: none;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0 5px;
+    width: 40px;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: none;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: blue;
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+}
+.btn-list-search,.btn-list-list {
+  display:flex;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.btn-list-search{
+  margin: 15px 40px;
+}
+.btn-list-list{
+.btn-list {
+// padding: 5px;
+width: 75px;
+}
+  margin: 15px 80px;
 }
