@@ -18,3 +18,4 @@ search.addEventListener("keyup", (event)=> {
 const sectionTagList = ()=>{
 
 }
+document.body.classList.remove("loading")

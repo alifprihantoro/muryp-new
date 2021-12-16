@@ -1,4 +1,10 @@
-<h2 class="head blog">My Blog</h2>
+<div class="list-pages">
+<h1 class="mypost" alt="My Projek">{{ .Title }}</h1>
+<p>
+Terdapat "{{ len .RegularPages }}" Postingan dari {{ .Title }} yang bisa kalian baca dan komentari.
+</p>
+</div>
+
 <div class="btn-list-list">
 <label >Section :</label>
 <select class='btn-list' id="list-section-list" onChange="btnSection(this.id,this.name);" name="list">

@@ -4,6 +4,7 @@ const loadMore = document.getElementById("load-more");
 
 // get slug
 const getSlugList = function(){
+document.body.classList.add("loading")
 const tesSlug = document.getElementById("list-section-list");
   const slug = tesSlug.value
   // console.log(slug)
@@ -39,6 +40,7 @@ if (slug==="all") {
       sortTagList(e)
     });
 }
+document.body.classList.remove("loading")
 }
 // get tags
 const getTagsList2 = ()=>{ return document.getElementById("list-tags-list").value }
