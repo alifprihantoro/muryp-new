@@ -5,6 +5,7 @@ const btnSection = (id,tag)=>{
 document.getElementById('list-tags-list').getElementsByTagName('option')[0].selected = 'selected'
 results_post.innerHTML = "";
   count = 0
+    btn_load_id.classList.remove("hide")
   getSlugList()
   }else{
 document.getElementById('list-tags-search').getElementsByTagName('option')[0].selected = 'selected'

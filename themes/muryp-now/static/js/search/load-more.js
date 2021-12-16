@@ -1,6 +1,7 @@
 // get id 
 const results_post = document.getElementById("list-post-l");
 const loadMore = document.getElementById("load-more");
+const btn_load_id = document.getElementById("btn-load-more");
 
 // get slug
 const getSlugList = function(){
@@ -59,11 +60,14 @@ const sortTagList=function(data){
 
 
 
-  // const dataFilter = data.filter((item) => {
-  //     return item.tags.toLowerCase().includes('##');
-  //   })
-  // console.log(dataFilter.length)
-
+  const count_lenght = data.filter((item) => {
+      return item.tags.toLowerCase().includes(getTagsList2());
+    })
+  // console.log(count_lenght.length)
+  if (count >= count_lenght.length) {
+ // console.log("end")
+    btn_load_id.classList.add("hide")
+}
 
 
       data.filter((item) => {
@@ -96,6 +100,7 @@ getSlugList()
 const btnTags = ()=>{
 results_post.innerHTML = "";
 count = 0
+btn_load_id.classList.remove("hide")
 getSlugList()
 }
 

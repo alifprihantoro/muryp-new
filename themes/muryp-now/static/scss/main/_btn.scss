@@ -69,9 +69,18 @@ span#btn-dark {
     border-radius: 5px;
     text-align: center;
 }
-.btn-list-search {
+.btn-list-search,.btn-list-list {
   display:flex;
-  margin: 15px;
   text-transform: uppercase;
   font-weight: bold;
+}
+.btn-list-search{
+  margin: 15px 40px;
+}
+.btn-list-list{
+.btn-list {
+// padding: 5px;
+width: 75px;
+}
+  margin: 15px 80px;
 }
