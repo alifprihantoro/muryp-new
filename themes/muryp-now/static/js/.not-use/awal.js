@@ -1,5 +1,8 @@
 // create js script
-const tesjs= function(link_js) {
+let disqus_count = 0
+const disqusTriger= function() {
+disqus_count++
+  if (disqus_count==1) {
   const tesjsid = document.getelementbyid("footer");
   const s = document.createElement('script');
   s.setattribute("id", "ini-script");
@@ -7,6 +10,7 @@ const tesjs= function(link_js) {
   s.src = link_js
 
   tesjsid.appendchild(s);
+  }
 }
 
 // if search klick
