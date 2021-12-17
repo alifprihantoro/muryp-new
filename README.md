@@ -1,7 +1,17 @@
 # muryp-new
-new repo untuk blog muryp
+hai, saya Alief Prihantoro
+Ini adalah catatan saya sekaligus blog pribadi yang saya bagikan di internet. Yand dimana seiapapun bisa menyalinnya/download secara gratis. Dan siapapun juga bisa berkontribusi di blog ini.
+> NB : blog ini masih dalam tahap pengembangan, kemungkin ada bug
+teknologi dan tools yang digunakan :
+- html
+- js
+- css/sass
+- hugo
+- nvim/neovim
+- bash (sedikit)
+- disqus comment
 
-lang : id | en
+link : https://muryp.my.id/
 
 ## Cara Install
 ```
