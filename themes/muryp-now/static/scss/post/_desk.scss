@@ -22,10 +22,11 @@
   .navBtn {
     display: none;
   }
+  // true btn
   span#btn-dark{
     right: 31% !important;
     position: absolute;
-    z-index: 9999;
+    z-index: 9;
   }
 }
 
