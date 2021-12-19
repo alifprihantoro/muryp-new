@@ -10,7 +10,7 @@ show_comments: false
 
 type: post
 
-tags:
+tags2:
     - Proggraming
 
 image: ""
