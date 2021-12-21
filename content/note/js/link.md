@@ -39,9 +39,15 @@ const link = (e) => {
   // This will replace the current entry in the browser's history, without reloading
   window.history.replaceState(nextState, nextTitle, e);
 };
+```
+
+## listening change url
+```js
+
 // samakan kayak klick url
 window.addEventListener('popstate', function (event) {
 	// The URL changed...
   alert(`ganti link ${window.location.href}`)
 });
+
 ```

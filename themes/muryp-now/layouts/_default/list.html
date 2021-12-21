@@ -14,10 +14,12 @@
          {{ if eq .Section "authors" }}
         {{ partial "post/authors-pages.html" . }}
          {{else}}
-        {{ partial "post/list.html" . }}
+      {{ partial "home/main/list.html" . }}
+      {{ partial "list.html" . }}
          {{end}}
         {{ partial "main/footer.html" . }}
 </div>
         <!-- javascript -->
+  <script src="/js/search/load-more.js"></script>
     </body>
 </html>
