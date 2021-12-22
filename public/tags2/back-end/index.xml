@@ -1,20 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>back end on MuryP Beta</title>
-    <link>/tags2/back-end/</link>
-    <description>Recent content in back end on MuryP Beta</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 20 Sep 2021 13:49:35 +0700</lastBuildDate><atom:link href="/tags2/back-end/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Pembuatan Tema Hugo dan Catatan Lainnya</title>
-      <link>/note/pembuatan-tema-hugo-dan-catatan-lainnya/</link>
-      <pubDate>Mon, 20 Sep 2021 13:49:35 +0700</pubDate>
-      
-      <guid>/note/pembuatan-tema-hugo-dan-catatan-lainnya/</guid>
-      <description>ini masih dalam pengerjaan dan masih acak
- Pembuatan Tema Hugo dan Catatan Lainnya Bassic  pkg update &amp;amp;&amp;amp; pkg upgrade &amp;amp;&amp;amp; pkg install hugo : install hugo new site &amp;lt;nameSite&amp;gt; : membuat situs baru hugo new &amp;lt;slug&amp;gt; : membuat konten hugo new theme &amp;lt;nameTheme&amp;gt; : membuat tema hugo : membuat file public tanpa konvert hugo --minify : membuat file public dengan konvert hugo serve : membuat server hugo tanpa konvert hugo serve --minify : membuat server hugo dengan konvert hugo new site &amp;lt;nameSite&amp;gt; : membuat situs baru hugo new &amp;lt;slug&amp;gt; : membuat konten hugo new theme &amp;lt;nameTheme&amp;gt; : membuat tema  Managging Conten  Menggunakan Vim/NVim Untuk Menggunakan VIM sendiri, pastikan kalian sudah familiar dengan perintah yang ada di vim.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>back end on MuryP Beta</title><link>/tags2/back-end/</link><description>Recent content in back end on MuryP Beta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 20 Sep 2021 13:49:35 +0700</lastBuildDate><atom:link href="/tags2/back-end/index.xml" rel="self" type="application/rss+xml"/><item><title>Pembuatan Tema Hugo dan Catatan Lainnya</title><link>/note/pembuatan-tema-hugo-dan-catatan-lainnya/</link><pubDate>Mon, 20 Sep 2021 13:49:35 +0700</pubDate><guid>/note/pembuatan-tema-hugo-dan-catatan-lainnya/</guid><description>ini masih dalam pengerjaan dan masih acak
+Pembuatan Tema Hugo dan Catatan Lainnya Bassic pkg update &amp;amp;&amp;amp; pkg upgrade &amp;amp;&amp;amp; pkg install hugo : install hugo new site &amp;lt;nameSite&amp;gt; : membuat situs baru hugo new &amp;lt;slug&amp;gt; : membuat konten hugo new theme &amp;lt;nameTheme&amp;gt; : membuat tema hugo : membuat file public tanpa konvert hugo --minify : membuat file public dengan konvert hugo serve : membuat server hugo tanpa konvert hugo serve --minify : membuat server hugo dengan konvert hugo new site &amp;lt;nameSite&amp;gt; : membuat situs baru hugo new &amp;lt;slug&amp;gt; : membuat konten hugo new theme &amp;lt;nameTheme&amp;gt; : membuat tema Managging Conten Menggunakan Vim/NVim Untuk Menggunakan VIM sendiri, pastikan kalian sudah familiar dengan perintah yang ada di vim.</description></item></channel></rss>

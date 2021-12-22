@@ -1,97 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Halaman Blog on MuryP Beta</title>
-    <link>/blog/</link>
-    <description>Recent content in Halaman Blog on MuryP Beta</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 01 Dec 2021 19:05:07 +0700</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My App</title>
-      <link>/blog/my-app/</link>
-      <pubDate>Wed, 01 Dec 2021 19:05:07 +0700</pubDate>
-      
-      <guid>/blog/my-app/</guid>
-      <description>app yang saya install dan catatan entr</description>
-    </item>
-    
-    <item>
-      <title>Bagaimana Internet Bekerja</title>
-      <link>/blog/bagaimana-internet-bekerja/</link>
-      <pubDate>Fri, 09 Jul 2021 22:35:23 +0000</pubDate>
-      
-      <guid>/blog/bagaimana-internet-bekerja/</guid>
-      <description>Assalamualaikum wr.wb Saya Alief Prihantoro bisa panggil saja muryp. Disini saya akan sedikit sharing mengenai bagaiamna internet bekerja. Disini saya hanya akan memberikan ringkasan saja untuk full nya bisa kalian baca artikel aslinya.
-Bagaiana Internet Bekerja Apa itu Internet Tentu tidak asing lagi di telinga masayarakat saat ini. Dimana dikala pandemi ini kita dituntut untuk bisa beradaptasi dengan kemajuan teknologi saat ini. salah satu-nya ialah internet. Meskipun kalian sering mendengarnya. Tahukah kamu apa itu Internet?</description>
-    </item>
-    
-    <item>
-      <title>Membahas Mengenai SSH dan Contoh Penggunaannya</title>
-      <link>/blog/bahas-ssh/</link>
-      <pubDate>Fri, 29 Jan 2021 14:01:11 +0000</pubDate>
-      
-      <guid>/blog/bahas-ssh/</guid>
-      <description>Hello world! Disini saya tidak akan membahas terlalu dalam mengenai ssh. Saya ahanya akan memberikan gambaran bagi kalian yang belum sama sekali tahu apa itu ssh.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Halaman Blog on MuryP Beta</title><link>/blog/</link><description>Recent content in Halaman Blog on MuryP Beta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 01 Dec 2021 19:05:07 +0700</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>My App</title><link>/blog/my-app/</link><pubDate>Wed, 01 Dec 2021 19:05:07 +0700</pubDate><guid>/blog/my-app/</guid><description>app yang saya install dan catatan entr</description></item><item><title>Bagaimana Internet Bekerja</title><link>/blog/bagaimana-internet-bekerja/</link><pubDate>Fri, 09 Jul 2021 22:35:23 +0000</pubDate><guid>/blog/bagaimana-internet-bekerja/</guid><description>Assalamualaikum wr.wb Saya Alief Prihantoro bisa panggil saja muryp. Disini saya akan sedikit sharing mengenai bagaiamna internet bekerja. Disini saya hanya akan memberikan ringkasan saja untuk full nya bisa kalian baca artikel aslinya.
+Bagaiana Internet Bekerja Apa itu Internet Tentu tidak asing lagi di telinga masayarakat saat ini. Dimana dikala pandemi ini kita dituntut untuk bisa beradaptasi dengan kemajuan teknologi saat ini. salah satu-nya ialah internet. Meskipun kalian sering mendengarnya. Tahukah kamu apa itu Internet?</description></item><item><title>Membahas Mengenai SSH dan Contoh Penggunaannya</title><link>/blog/bahas-ssh/</link><pubDate>Fri, 29 Jan 2021 14:01:11 +0000</pubDate><guid>/blog/bahas-ssh/</guid><description>Hello world! Disini saya tidak akan membahas terlalu dalam mengenai ssh. Saya ahanya akan memberikan gambaran bagi kalian yang belum sama sekali tahu apa itu ssh.
 Membahas Mengenai SSH dan Contoh Penggunaannya Penjelasan Secara singkat padat dan jelas. SSH itu adalah kunci yang biasa digunakan di server, untuk me-remote jarak jauh.
-Ketika kita membuat SSH key kita akan mendapat dua buah file, yaitu publick key dan privat key. Privat key biasanya ditandai dengan akhiran .</description>
-    </item>
-    
-    <item>
-      <title>Bahas Github Dan Gitlab</title>
-      <link>/blog/bahas-github-dan-gitlab/</link>
-      <pubDate>Tue, 26 Jan 2021 13:18:49 +0000</pubDate>
-      
-      <guid>/blog/bahas-github-dan-gitlab/</guid>
-      <description>Hello world!
+Ketika kita membuat SSH key kita akan mendapat dua buah file, yaitu publick key dan privat key. Privat key biasanya ditandai dengan akhiran .</description></item><item><title>Bahas Github Dan Gitlab</title><link>/blog/bahas-github-dan-gitlab/</link><pubDate>Tue, 26 Jan 2021 13:18:49 +0000</pubDate><guid>/blog/bahas-github-dan-gitlab/</guid><description>Hello world!
 Nama saya MuryP, dari Indonesia. Kali ini saya ingin membicarakan tentang github dan gitlab, dan tentunyq ini opini saya aja. Mungkin kalian tidak sama dengan pengalaman saya.
 Jika kita sudah mau menyemplung di dunia pemrograman, setidaknya kalian harus bisa menggunakan salah satu penyedia layanan git, baik itu github, gitlab, maupun yang lainnya.
-Lalu apa sih gunanya github dan gitlab itu? jika kita sebelumnya mebggunakan git hanya bisa di local saja.</description>
-    </item>
-    
-    <item>
-      <title>Manipulasi Text Menggunakan Shell</title>
-      <link>/blog/manipulasi-text-menggunakan-shell/</link>
-      <pubDate>Tue, 19 Jan 2021 03:37:52 +0000</pubDate>
-      
-      <guid>/blog/manipulasi-text-menggunakan-shell/</guid>
-      <description>disini saya akan menjelaskan bagaiamnaa cara mengatasi saat kita mengimport content dari blogger namun masih menggunakan html.
-sed -i &#39;2s/^/ authors=[&amp;quot;muryp&amp;quot;] \n/&#39; *.md for file in *.md; do echo &#39;{{&amp;lt; /html &amp;gt;}}&#39; &amp;gt;&amp;gt; &amp;quot;$file&amp;quot; done Ket :
- 1s : barii  </description>
-    </item>
-    
-    <item>
-      <title>Menggunakan SSH Di Termux</title>
-      <link>/blog/menggunakan-ssh-di-termux/</link>
-      <pubDate>Sat, 16 Jan 2021 02:06:04 +0000</pubDate>
-      
-      <guid>/blog/menggunakan-ssh-di-termux/</guid>
-      <description>Buat folder .ssh jika tidak ada, lalu masuk dan buat key  $ mkdir .ssh $ cd ~/.ssh/ $ ssh-keygen -t rsa -C &amp;quot;yourmail@domain.com&amp;quot; -b 4096 exam :
-ssh-keygen -t rsa -C &amp;quot;alifmuryp@gmail.com-b 409696 Generating public/private rsa key pair. Enter file in which to save the key (/data/data/com.termux/files/home/.ssh/id_rsa): github Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in github Your public key has been saved in github.</description>
-    </item>
-    
-    <item>
-      <title>Penjelasan singkat mengenai Shared hosting, Dedicated Hosting , Cloud Hosting, dan VPS</title>
-      <link>/blog/penjelasan-singkat-mengenai-shared-hosting-dedicated-hosting-cloud-hosting-dan-vps/</link>
-      <pubDate>Mon, 30 Nov 2020 03:47:00 +0000</pubDate>
-      
-      <guid>/blog/penjelasan-singkat-mengenai-shared-hosting-dedicated-hosting-cloud-hosting-dan-vps/</guid>
-      <description>Penjelasan singkat mengenai Shared hosting, Dedicated Hosting , Cloud Hosting, dan VPSHello world!
+Lalu apa sih gunanya github dan gitlab itu? jika kita sebelumnya mebggunakan git hanya bisa di local saja.</description></item><item><title>Manipulasi Text Menggunakan Shell</title><link>/blog/manipulasi-text-menggunakan-shell/</link><pubDate>Tue, 19 Jan 2021 03:37:52 +0000</pubDate><guid>/blog/manipulasi-text-menggunakan-shell/</guid><description>disini saya akan menjelaskan bagaiamnaa cara mengatasi saat kita mengimport content dari blogger namun masih menggunakan html.
+sed -i '2s/^/ authors=[&amp;quot;muryp&amp;quot;] \n/' *.md for file in *.md; do echo '{{&amp;lt; /html &amp;gt;}}' &amp;gt;&amp;gt; &amp;quot;$file&amp;quot; done Ket :
+1s : barii</description></item><item><title>Menggunakan SSH Di Termux</title><link>/blog/menggunakan-ssh-di-termux/</link><pubDate>Sat, 16 Jan 2021 02:06:04 +0000</pubDate><guid>/blog/menggunakan-ssh-di-termux/</guid><description>Buat folder .ssh jika tidak ada, lalu masuk dan buat key $ mkdir .ssh $ cd ~/.ssh/ $ ssh-keygen -t rsa -C &amp;quot;yourmail@domain.com&amp;quot; -b 4096 exam :
+ssh-keygen -t rsa -C &amp;quot;alifmuryp@gmail.com-b 409696 Generating public/private rsa key pair. Enter file in which to save the key (/data/data/com.termux/files/home/.ssh/id_rsa): github Enter passphrase (empty for no passphrase): Enter same passphrase again: Your identification has been saved in github Your public key has been saved in github.</description></item><item><title>Penjelasan singkat mengenai Shared hosting, Dedicated Hosting , Cloud Hosting, dan VPS</title><link>/blog/penjelasan-singkat-mengenai-shared-hosting-dedicated-hosting-cloud-hosting-dan-vps/</link><pubDate>Mon, 30 Nov 2020 03:47:00 +0000</pubDate><guid>/blog/penjelasan-singkat-mengenai-shared-hosting-dedicated-hosting-cloud-hosting-dan-vps/</guid><description>Penjelasan singkat mengenai Shared hosting, Dedicated Hosting , Cloud Hosting, dan VPSHello world!
 Pernahkah kalian mendengar istilah Shared hosting, Dedicated Hosting , Cloud Hosting, dan VPS? Tau kalian bingung mau pilih yang mana? Oke mari kita bahsa satu per satu.
-
 Pertanyaan yang harus bisa kalian jawab sendiri untuk bisa memilih mana yang terbaik :
-
-Berapa anggaran bulanan Anda?Jika tipis bisa pilih shared hostingApakah lalulintas web anda banyak atau biasa saja?</description>
-    </item>
-    
-    <item>
-      <title>Membuat Header Blog/Web secara mudah dengan HTML dan CSS</title>
-      <link>/blog/membuat-header-blog/web-secara-mudah-dengan-html-dan-css/</link>
-      <pubDate>Sat, 28 Nov 2020 04:07:00 +0000</pubDate>
-      
-      <guid>/blog/membuat-header-blog/web-secara-mudah-dengan-html-dan-css/</guid>
-      <description>Membuat Header Blog/Web secara mudah dengan HTML dan CSSHello world!
+Berapa anggaran bulanan Anda?Jika tipis bisa pilih shared hostingApakah lalulintas web anda banyak atau biasa saja?</description></item><item><title>Membuat Header Blog/Web secara mudah dengan HTML dan CSS</title><link>/blog/membuat-header-blog/web-secara-mudah-dengan-html-dan-css/</link><pubDate>Sat, 28 Nov 2020 04:07:00 +0000</pubDate><guid>/blog/membuat-header-blog/web-secara-mudah-dengan-html-dan-css/</guid><description>Membuat Header Blog/Web secara mudah dengan HTML dan CSSHello world!
 Kali ini saya akan membagikan HTML dan CSS sederhana. Namun kita bisa memanfaatkannya untuk web/blog kita nantinya.&amp;nbsp;
-
 CSS
 body{
 &amp;nbsp; &amp;nbsp; &amp;nbsp; padding:0;
@@ -102,141 +22,22 @@ body{
 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; margin:auto;
 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; background:#FF1494E9;
 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; font-weight: bold;
-&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; font-size: 1.</description>
-    </item>
-    
-    <item>
-      <title>Penjelasan mengenai hacker dan jenisnya</title>
-      <link>/blog/penjelasan-mengenai-hacker-dan-jenisnya/</link>
-      <pubDate>Sat, 28 Nov 2020 02:01:00 +0000</pubDate>
-      
-      <guid>/blog/penjelasan-mengenai-hacker-dan-jenisnya/</guid>
-      <description>Penjelasan mengenai hacker dan jenisnyaHello world!
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; font-size: 1.</description></item><item><title>Penjelasan mengenai hacker dan jenisnya</title><link>/blog/penjelasan-mengenai-hacker-dan-jenisnya/</link><pubDate>Sat, 28 Nov 2020 02:01:00 +0000</pubDate><guid>/blog/penjelasan-mengenai-hacker-dan-jenisnya/</guid><description>Penjelasan mengenai hacker dan jenisnyaHello world!
 Pasti kalian sering mendengar istilah Hacker. Namun Tahukah anda mengenai Hacker? Apa sih Hacker itu? Apakah semua Hacker jahat? Mari kita ulas satu persatu.
-
-Hacker sebenarnya adalah orang-orang yang bekerja dibidang IT(Informasi Teknologi) dimana mereka bertugas untuk menyelesaikan sebuah masalah mengenai IT dan programing. Namun ada beberapa menggunakannya untuk kejahatan. Sehingga hacker diklasifikasikan menjadi 3, yaitu Black Hat, White Hat, dan Grey Hat.</description>
-    </item>
-    
-    <item>
-      <title>Apa Sih IP Address Itu? Dan Jenis Serta Fungsinya</title>
-      <link>/blog/apa-sih-ip-address-itu-dan-jenis-serta-fungsinya/</link>
-      <pubDate>Thu, 26 Nov 2020 02:07:00 +0000</pubDate>
-      
-      <guid>/blog/apa-sih-ip-address-itu-dan-jenis-serta-fungsinya/</guid>
-      <description>Hello world!IP addres sering kita jumpai namun tidak diketahui. Lalu apa sih IP Address Itu? Dan Jenis Serta Fungsinya apa? Oke mari kita simak berikut ini.
-Apa Sih IP Address Itu? Dan Jenis Serta FungsinyaApa itu IP?Secara sederhana IP address sangat mirip dengan nomor telepon, dimana satu sama lain memiliki nomor yang unik seperti layaknya nomor hp kita.&amp;nbsp;Dan nomor IP tersebut&amp;nbsp;digunakan sebagai identitas di internet. Tahukah, jika HP pintar yang anda pakai juga memiliki IP address juga.</description>
-    </item>
-    
-    <item>
-      <title>Apa sih HTML dan CSS itu? Dan apa keebihan dari CSS? Beserta Contohnya</title>
-      <link>/blog/apa-sih-html-dan-css-itu-dan-apa-keebihan-dari-css-beserta-contohnya/</link>
-      <pubDate>Wed, 25 Nov 2020 15:47:00 +0000</pubDate>
-      
-      <guid>/blog/apa-sih-html-dan-css-itu-dan-apa-keebihan-dari-css-beserta-contohnya/</guid>
-      <description>Apa sih HTML dan CSS itu? Dan apa keebihan dari CSS? Beserta ContohnyaHello world!
+Hacker sebenarnya adalah orang-orang yang bekerja dibidang IT(Informasi Teknologi) dimana mereka bertugas untuk menyelesaikan sebuah masalah mengenai IT dan programing. Namun ada beberapa menggunakannya untuk kejahatan. Sehingga hacker diklasifikasikan menjadi 3, yaitu Black Hat, White Hat, dan Grey Hat.</description></item><item><title>Apa Sih IP Address Itu? Dan Jenis Serta Fungsinya</title><link>/blog/apa-sih-ip-address-itu-dan-jenis-serta-fungsinya/</link><pubDate>Thu, 26 Nov 2020 02:07:00 +0000</pubDate><guid>/blog/apa-sih-ip-address-itu-dan-jenis-serta-fungsinya/</guid><description>Hello world!IP addres sering kita jumpai namun tidak diketahui. Lalu apa sih IP Address Itu? Dan Jenis Serta Fungsinya apa? Oke mari kita simak berikut ini.
+Apa Sih IP Address Itu? Dan Jenis Serta FungsinyaApa itu IP?Secara sederhana IP address sangat mirip dengan nomor telepon, dimana satu sama lain memiliki nomor yang unik seperti layaknya nomor hp kita.&amp;nbsp;Dan nomor IP tersebut&amp;nbsp;digunakan sebagai identitas di internet. Tahukah, jika HP pintar yang anda pakai juga memiliki IP address juga.</description></item><item><title>Apa sih HTML dan CSS itu? Dan apa keebihan dari CSS? Beserta Contohnya</title><link>/blog/apa-sih-html-dan-css-itu-dan-apa-keebihan-dari-css-beserta-contohnya/</link><pubDate>Wed, 25 Nov 2020 15:47:00 +0000</pubDate><guid>/blog/apa-sih-html-dan-css-itu-dan-apa-keebihan-dari-css-beserta-contohnya/</guid><description>Apa sih HTML dan CSS itu? Dan apa keebihan dari CSS? Beserta ContohnyaHello world!
 Kali saya akan membahas sedikit mengenai CSS dan HTML. Bagi kalian yang belum mengetahui apa itu HTML dan CSS atau sudah tahu tapi bingung nyari codenya dimana.
-
 PengertianCSS (Cascading Style Sheets) jika diartikan kedalam bahasa indonesia berarti lembar penataan menurun. Dimana secara konteks CSS digunakan untuk memodifikasi Mark-up language(HTML).
-Mark-up language (bahasa markah) merupakan bahasa markup dan kebanyakan digunakan untuk membuat website.</description>
-    </item>
-    
-    <item>
-      <title>Apa tantangan dan skill yang harus dimiliki oleh web desainer?</title>
-      <link>/blog/apa-tantangan-dan-skill-yang-harus-dimiliki-oleh-web-desainer/</link>
-      <pubDate>Tue, 24 Nov 2020 16:45:00 +0000</pubDate>
-      
-      <guid>/blog/apa-tantangan-dan-skill-yang-harus-dimiliki-oleh-web-desainer/</guid>
-      <description>&amp;nbsp;Apa tantangan dan skill yang harus dimiliki oleh web desainer?Hello world!
+Mark-up language (bahasa markah) merupakan bahasa markup dan kebanyakan digunakan untuk membuat website.</description></item><item><title>Apa tantangan dan skill yang harus dimiliki oleh web desainer?</title><link>/blog/apa-tantangan-dan-skill-yang-harus-dimiliki-oleh-web-desainer/</link><pubDate>Tue, 24 Nov 2020 16:45:00 +0000</pubDate><guid>/blog/apa-tantangan-dan-skill-yang-harus-dimiliki-oleh-web-desainer/</guid><description>&amp;nbsp;Apa tantangan dan skill yang harus dimiliki oleh web desainer?Hello world!
 Setelah mengetahui apa itu web desain dan web developer, selanjutnya kita akan membahas mengenai apa saja tantangan&amp;nbsp; dan skill yang harus dimiliki oleh para web desainer. Tantangan dan skill yang harus dimiliki bagi para desainer memanglah banyak, namun disini saya akan memberikan beberapa saja. Apa saja itu? Mari kita bahas.
-
 Tantangan
-Integrasi&amp;nbsp;Biasanya saat melakukan sinkronisasi, ada kendala dengan kelancarannya.</description>
-    </item>
-    
-    <item>
-      <title>Apa itu server? Dan jenis-jenisnya</title>
-      <link>/blog/apa-itu-server-dan-jenis-jenisnya/</link>
-      <pubDate>Tue, 24 Nov 2020 02:55:00 +0000</pubDate>
-      
-      <guid>/blog/apa-itu-server-dan-jenis-jenisnya/</guid>
-      <description>Apa itu server? Dan jenis-jenisnyaHello world!
+Integrasi&amp;nbsp;Biasanya saat melakukan sinkronisasi, ada kendala dengan kelancarannya.</description></item><item><title>Apa itu server? Dan jenis-jenisnya</title><link>/blog/apa-itu-server-dan-jenis-jenisnya/</link><pubDate>Tue, 24 Nov 2020 02:55:00 +0000</pubDate><guid>/blog/apa-itu-server-dan-jenis-jenisnya/</guid><description>Apa itu server? Dan jenis-jenisnyaHello world!
 Setelah mengetahui mengenai back end&amp;nbsp;selanjutnya kita harus tahu mengethui&amp;nbsp;server . Karena&amp;nbsp;back end&amp;nbsp;pasti ketemu dengan&amp;nbsp;server.&amp;nbsp;
 Serverserver&amp;nbsp;atau bahasa indonesianya peladen adalah sebuah software atau hardware yang bisa memenuhi permintaan klien. Permintaan klien diterima melalui protokol http dan yang terkait lainnya.
-
-FungsiFungsi&amp;nbsp;web server&amp;nbsp;sendiri adalah menyimpan, memproses, dan mengirimkan halaman web ke klien. Dimana server mengirim sebuah html, style sheet, script atau file video dan foto melalui http atau https ke klien.</description>
-    </item>
-    
-    <item>
-      <title>Web Desainer VS Web Developer, Penjelasan dan Perbedaan</title>
-      <link>/blog/web-desainer-vs-web-developer-penjelasan-dan-perbedaan/</link>
-      <pubDate>Tue, 24 Nov 2020 00:12:00 +0000</pubDate>
-      
-      <guid>/blog/web-desainer-vs-web-developer-penjelasan-dan-perbedaan/</guid>
-      <description>Web Desainer VS Web Developer, Penjelasan dan Perbedaan&amp;nbsp;Hello world!
+FungsiFungsi&amp;nbsp;web server&amp;nbsp;sendiri adalah menyimpan, memproses, dan mengirimkan halaman web ke klien. Dimana server mengirim sebuah html, style sheet, script atau file video dan foto melalui http atau https ke klien.</description></item><item><title>Web Desainer VS Web Developer, Penjelasan dan Perbedaan</title><link>/blog/web-desainer-vs-web-developer-penjelasan-dan-perbedaan/</link><pubDate>Tue, 24 Nov 2020 00:12:00 +0000</pubDate><guid>/blog/web-desainer-vs-web-developer-penjelasan-dan-perbedaan/</guid><description>Web Desainer VS Web Developer, Penjelasan dan Perbedaan&amp;nbsp;Hello world!
 Desain web dan web developer itu bedanya apa? Bagi kalian yang baru terjun di bidang IT pasti akan bingung dengan istilah web desainer dan web developer. Tapi tenang kali ini saya akan bahas setuntas mungkin.
-
-Web DesainerSecara singkat web desainer itu mengacu pada tampilan web. Dimana biasanya menggunakan Adobe&amp;nbsp;xd atau software lainnya untuk membuat rancangan desain dari sebuah web.</description>
-    </item>
-    
-    <item>
-      <title>Apa itu Front End Developer ? Dan apa perannya dalam membuat sebuah website?</title>
-      <link>/blog/apa-itu-front-end-developer-dan-apa-perannya-dalam-membuat-sebuah-website/</link>
-      <pubDate>Mon, 23 Nov 2020 04:12:00 +0000</pubDate>
-      
-      <guid>/blog/apa-itu-front-end-developer-dan-apa-perannya-dalam-membuat-sebuah-website/</guid>
-      <description>Apa itu Front End Developer ? Dan apa perannya dalam membuat sebuah website?Pernahkah kalian mendengar istilah Front End Development? Apakah kalian tahu apa saja yang dikerjakan mereka? Kali ini saya akan membahas mengenai apa itu front end developer dan yang dikerjakannya.
-Apa itu Front End?Apakah kalian mengenal HTML, CSS dan JavaScript? Biasanya ketiga hal tersebut digunakan untuk mempercantik dan memperindah sebuah website.&amp;nbsp; Serta digunakan agar lebih interaktif terhadap pengguna.</description>
-    </item>
-    
-    <item>
-      <title>Apa itu Back End? Dan Tugas seorang Back End</title>
-      <link>/blog/apa-itu-back-end-dan-tugas-seorang-back-end/</link>
-      <pubDate>Sun, 22 Nov 2020 23:42:00 +0000</pubDate>
-      
-      <guid>/blog/apa-itu-back-end-dan-tugas-seorang-back-end/</guid>
-      <description>Apa itu Back End? Dan Tugas seorang Back End&amp;nbsp;&amp;nbsp; &amp;nbsp;Akhir-akhir ini kita sering mendengar mengenai Back End dan Back End sendiri sangat dibutuhkan di era sekarang apalagi sekarang serba online dan membutuhkan sebuah website. Lalu, peran Back End dalam pembuatan web itu apa saja? Mari kita bahas di artikel berikut ini.
-
-NB : apakah kalian sudah mengetahui Front End atau Full stack development atau web design? coba kalian kunjungi link berikut klick disini.</description>
-    </item>
-    
-    <item>
-      <title>Belajar Linux via Android</title>
-      <link>/blog/belajar-linux-via-android/</link>
-      <pubDate>Mon, 31 Aug 2020 03:30:00 +0000</pubDate>
-      
-      <guid>/blog/belajar-linux-via-android/</guid>
-      <description>&amp;nbsp; &amp;nbsp; Welcome dude! bagi kalian yang baru mampir dan salam juga bagi kalian para pembaca setia blog ini hehehe. Kali ini Saya ingin memberikan informasi kepada kalian. Bagi kalian yang mengikuti step step di blog ini, kalian pasti sudah mengerti apa itu termux. Bagi kalian yang belum mengetahui jelas mengenai termux, kalian bisa kunjungi artikel disini&amp;nbsp; &amp;nbsp;OK saya anggap kalian sudah paham dengan termux. Kalian bisa menggunakan beberapa kode dibawah ini untuk membantu kalian belajar termux.</description>
-    </item>
-    
-    <item>
-      <title>Comand/Syntax Termux dan Linux Ubuntu</title>
-      <link>/blog/comand/syntax-termux-dan-linux-ubuntu/</link>
-      <pubDate>Mon, 17 Aug 2020 01:11:00 +0000</pubDate>
-      
-      <guid>/blog/comand/syntax-termux-dan-linux-ubuntu/</guid>
-      <description>&amp;nbsp;Hello Worl!
+Web DesainerSecara singkat web desainer itu mengacu pada tampilan web. Dimana biasanya menggunakan Adobe&amp;nbsp;xd atau software lainnya untuk membuat rancangan desain dari sebuah web.</description></item><item><title>Apa itu Front End Developer ? Dan apa perannya dalam membuat sebuah website?</title><link>/blog/apa-itu-front-end-developer-dan-apa-perannya-dalam-membuat-sebuah-website/</link><pubDate>Mon, 23 Nov 2020 04:12:00 +0000</pubDate><guid>/blog/apa-itu-front-end-developer-dan-apa-perannya-dalam-membuat-sebuah-website/</guid><description>Apa itu Front End Developer ? Dan apa perannya dalam membuat sebuah website?Pernahkah kalian mendengar istilah Front End Development? Apakah kalian tahu apa saja yang dikerjakan mereka? Kali ini saya akan membahas mengenai apa itu front end developer dan yang dikerjakannya.
+Apa itu Front End?Apakah kalian mengenal HTML, CSS dan JavaScript? Biasanya ketiga hal tersebut digunakan untuk mempercantik dan memperindah sebuah website.&amp;nbsp; Serta digunakan agar lebih interaktif terhadap pengguna.</description></item><item><title>Apa itu Back End? Dan Tugas seorang Back End</title><link>/blog/apa-itu-back-end-dan-tugas-seorang-back-end/</link><pubDate>Sun, 22 Nov 2020 23:42:00 +0000</pubDate><guid>/blog/apa-itu-back-end-dan-tugas-seorang-back-end/</guid><description>Apa itu Back End? Dan Tugas seorang Back End&amp;nbsp;&amp;nbsp; &amp;nbsp;Akhir-akhir ini kita sering mendengar mengenai Back End dan Back End sendiri sangat dibutuhkan di era sekarang apalagi sekarang serba online dan membutuhkan sebuah website. Lalu, peran Back End dalam pembuatan web itu apa saja? Mari kita bahas di artikel berikut ini.
+NB : apakah kalian sudah mengetahui Front End atau Full stack development atau web design? coba kalian kunjungi link berikut klick disini.</description></item><item><title>Belajar Linux via Android</title><link>/blog/belajar-linux-via-android/</link><pubDate>Mon, 31 Aug 2020 03:30:00 +0000</pubDate><guid>/blog/belajar-linux-via-android/</guid><description>&amp;nbsp; &amp;nbsp; Welcome dude! bagi kalian yang baru mampir dan salam juga bagi kalian para pembaca setia blog ini hehehe. Kali ini Saya ingin memberikan informasi kepada kalian. Bagi kalian yang mengikuti step step di blog ini, kalian pasti sudah mengerti apa itu termux. Bagi kalian yang belum mengetahui jelas mengenai termux, kalian bisa kunjungi artikel disini&amp;nbsp; &amp;nbsp;OK saya anggap kalian sudah paham dengan termux. Kalian bisa menggunakan beberapa kode dibawah ini untuk membantu kalian belajar termux.</description></item><item><title>Comand/Syntax Termux dan Linux Ubuntu</title><link>/blog/comand/syntax-termux-dan-linux-ubuntu/</link><pubDate>Mon, 17 Aug 2020 01:11:00 +0000</pubDate><guid>/blog/comand/syntax-termux-dan-linux-ubuntu/</guid><description>&amp;nbsp;Hello Worl!
 Disini saya membuat archive yang bisa kugunakan nanti sewaktu-waktu. Disini saya tidak akan menjelaskan secara rinci karena ini hanya berupa catatan saja. Untuk informasi lebih lanjut kalian bisa cari di google ataupun nanti saya buatkan artikel khusus untuk itu.
-
-apt updateapt upgradeapt install tsusudo apt installsudo apt listsudo apt updatesudo apt upgrade&amp;nbsp;sudo cd /sdcardsudo chmod 777clear&amp;nbsp;sudo cp -f namafile.php /data/data/com.termux/files/homesudo cp -rf folder1 folder2sudo mkdir newfolderlsexitsudo mv namafile.</description>
-    </item>
-    
-    <item>
-      <title>Termux? Aplikasinya Programming </title>
-      <link>/blog/termux-aplikasinya-programming/</link>
-      <pubDate>Thu, 18 Jul 2019 14:17:00 +0000</pubDate>
-      
-      <guid>/blog/termux-aplikasinya-programming/</guid>
-      <description>Termux? Aplikasinya Programming&amp;nbsp; &amp;nbsp; &amp;nbsp;Welcome dude! bagi kalian yang baru mampir dan salam juga bagi kalian para pembaca setia blog ini hehehe. Kali ini Saya ingin memberikan informasi kepada kalian. Saya yang ingin bisa coding tapi hanya bermodal hp dan ke warnet(curhat). Tapi aku tak menyerah begitu saja, hingga saya menemukan banyak aplikasi yang bisa ku pelajari agar bisa coding. meskipun terbatas di hp saya bisa melakukan yang tidak bisa dilakukan di hp ku terapkan di warnet.</description>
-    </item>
-    
-    <item>
-      <title>cara mengkonvert zip menggunakan hp</title>
-      <link>/blog/cara-mengkonvert-zip-menggunakan-hp/</link>
-      <pubDate>Fri, 02 Sep 2016 01:40:00 +0000</pubDate>
-      
-      <guid>/blog/cara-mengkonvert-zip-menggunakan-hp/</guid>
-      <description>Hey yo wat&#39;s up guys ?Di kesempatan ini sqya akan berbagi tentang bagaimana caranya mengkonvert file zip di hp. Karena pada saat saya mendownload file bervormat zip saya kebingungan untuk memindahkan rile yang ada di dalam file zip itu. Tetapi sekarang saya sudah tahu dan ingin membagikan dalam bentuk tutorial berikut ini. Dan meskipun dengan menggunakan androzip kalian tak perlu mengkonvert bisa juga membuka saja tetapi kalau begitu kita yang kerepotan.</description>
-    </item>
-    
-  </channel>
-</rss>
+apt updateapt upgradeapt install tsusudo apt installsudo apt listsudo apt updatesudo apt upgrade&amp;nbsp;sudo cd /sdcardsudo chmod 777clear&amp;nbsp;sudo cp -f namafile.php /data/data/com.termux/files/homesudo cp -rf folder1 folder2sudo mkdir newfolderlsexitsudo mv namafile.</description></item><item><title>Termux? Aplikasinya Programming</title><link>/blog/termux-aplikasinya-programming/</link><pubDate>Thu, 18 Jul 2019 14:17:00 +0000</pubDate><guid>/blog/termux-aplikasinya-programming/</guid><description>Termux? Aplikasinya Programming&amp;nbsp; &amp;nbsp; &amp;nbsp;Welcome dude! bagi kalian yang baru mampir dan salam juga bagi kalian para pembaca setia blog ini hehehe. Kali ini Saya ingin memberikan informasi kepada kalian. Saya yang ingin bisa coding tapi hanya bermodal hp dan ke warnet(curhat). Tapi aku tak menyerah begitu saja, hingga saya menemukan banyak aplikasi yang bisa ku pelajari agar bisa coding. meskipun terbatas di hp saya bisa melakukan yang tidak bisa dilakukan di hp ku terapkan di warnet.</description></item><item><title>cara mengkonvert zip menggunakan hp</title><link>/blog/cara-mengkonvert-zip-menggunakan-hp/</link><pubDate>Fri, 02 Sep 2016 01:40:00 +0000</pubDate><guid>/blog/cara-mengkonvert-zip-menggunakan-hp/</guid><description>Hey yo wat's up guys ?Di kesempatan ini sqya akan berbagi tentang bagaimana caranya mengkonvert file zip di hp. Karena pada saat saya mendownload file bervormat zip saya kebingungan untuk memindahkan rile yang ada di dalam file zip itu. Tetapi sekarang saya sudah tahu dan ingin membagikan dalam bentuk tutorial berikut ini. Dan meskipun dengan menggunakan androzip kalian tak perlu mengkonvert bisa juga membuka saja tetapi kalau begitu kita yang kerepotan.</description></item></channel></rss>

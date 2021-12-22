@@ -44,3 +44,14 @@
 .responsive {
   margin-top: 50px ;
 }
+
+// animation 
+div.myread{
+  animation-name: loadmore;
+  animation-duration: 1s;  
+  animation-fill-mode: both;
+}
+@keyframes loadmore {
+  from {transform: translate(-999px,0)}
+  to {transform: translate(0,0)}
+}
