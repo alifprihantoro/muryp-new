@@ -1,1 +1,122 @@
-[{"link":"/note/js/daftar-variable-js/","judul":"Daftar variable JS","date":" 15 ","month":"Dec 2021","tags":" ##js","description":""},{"link":"/note/js/btn-add-script/","judul":"Btn Add Script","date":" 15 ","month":"Dec 2021","tags":" ##js","description":""},{"link":"/note/js/slug/","judul":"Get Link, Url management","date":" 15 ","month":"Dec 2021","tags":" ##js","description":""},{"link":"/note/link-inspirasi-projek-mendatang/","judul":"Link Inspirasi Projek Mendatang","date":" 15 ","month":"Dec 2021","tags":" ##link","description":""},{"link":"/note/js/search/","judul":"Search","date":" 15 ","month":"Dec 2021","tags":" ##html ##css ##js","description":""},{"link":"/note/js/load-more/","judul":"Load More","date":" 15 ","month":"Dec 2021","tags":" ##html ##css ##js","description":""},{"link":"/note/persiapan-single-page-application-spa/","judul":"Persiapan Single Page Application (SPA)","date":" 15 ","month":"Dec 2021","tags":" ##js ##css ##html","description":""},{"link":"/note/js/btn-section/","judul":"Btn Section","date":" 15 ","month":"Dec 2021","tags":" ##js","description":""},{"link":"/note/html-css/option/","judul":"Option","date":" 12 ","month":"Dec 2021","tags":" ##HTML ##CSS","description":""},{"link":"/note/js/catatan-java-script/","judul":"Catatan Java Script","date":" 30 ","month":"Nov 2021","tags":" ##Java_Script","description":""},{"link":"/note/my-theme-download-and-how-use-it/","judul":"My Theme Download and how use it","date":" 30 ","month":"Oct 2021","tags":" ##Theme ##Hugo ##","description":""},{"link":"/note/figma-hal-yang-harus-dilakukan/","judul":"Figma : hal yang harus dilakukan","date":" 11 ","month":"Oct 2021","tags":" ##Arts","description":""},{"link":"/note/pembuatan-tema-hugo-dan-catatan-lainnya/","judul":"Pembuatan Tema Hugo dan Catatan Lainnya","date":" 20 ","month":"Sep 2021","tags":" ##front_end ##back_end","description":""}]
+[
+
+{
+	"link": "/note/js/js-memory/",
+	"judul": "Memory",
+	"date": " 20 ",
+	"month": "Dec 2021",
+"tags":" ##js",
+	"description": ""
+},
+{
+	"link": "/note/js/daftar-variable-js/",
+	"judul": "Daftar variable JS",
+	"date": " 15 ",
+	"month": "Dec 2021",
+"tags":" ##js",
+	"description": ""
+},
+{
+	"link": "/note/js/btn-add-script/",
+	"judul": "Btn Add Script",
+	"date": " 15 ",
+	"month": "Dec 2021",
+"tags":" ##js",
+	"description": ""
+},
+{
+	"link": "/note/js/slug/",
+	"judul": "Get Link, Url management",
+	"date": " 15 ",
+	"month": "Dec 2021",
+"tags":" ##js",
+	"description": ""
+},
+{
+	"link": "/note/link-inspirasi-projek-mendatang/",
+	"judul": "Link Inspirasi Projek Mendatang",
+	"date": " 15 ",
+	"month": "Dec 2021",
+"tags":" ##link",
+	"description": ""
+},
+{
+	"link": "/note/js/search/",
+	"judul": "Search",
+	"date": " 15 ",
+	"month": "Dec 2021",
+"tags":" ##html ##css ##js",
+	"description": ""
+},
+{
+	"link": "/note/js/load-more/",
+	"judul": "Load More",
+	"date": " 15 ",
+	"month": "Dec 2021",
+"tags":" ##html ##css ##js",
+	"description": ""
+},
+{
+	"link": "/note/persiapan-single-page-application-spa/",
+	"judul": "Persiapan Single Page Application (SPA)",
+	"date": " 15 ",
+	"month": "Dec 2021",
+"tags":" ##js ##css ##html",
+	"description": ""
+},
+{
+	"link": "/note/js/btn-section/",
+	"judul": "Btn Section",
+	"date": " 15 ",
+	"month": "Dec 2021",
+"tags":" ##js",
+	"description": ""
+},
+{
+	"link": "/note/html-css/option/",
+	"judul": "Option",
+	"date": " 12 ",
+	"month": "Dec 2021",
+"tags":" ##HTML ##CSS",
+	"description": ""
+},
+{
+	"link": "/note/js/catatan-java-script/",
+	"judul": "Catatan Java Script",
+	"date": " 30 ",
+	"month": "Nov 2021",
+"tags":" ##Java_Script",
+	"description": ""
+},
+{
+	"link": "/note/my-theme-download-and-how-use-it/",
+	"judul": "My Theme Download and how use it",
+	"date": " 30 ",
+	"month": "Oct 2021",
+"tags":" ##Theme ##Hugo ##",
+	"description": ""
+},
+{
+	"link": "/note/figma-hal-yang-harus-dilakukan/",
+	"judul": "Figma : hal yang harus dilakukan",
+	"date": " 11 ",
+	"month": "Oct 2021",
+"tags":" ##Arts",
+	"description": ""
+},
+{
+	"link": "/note/pembuatan-tema-hugo-dan-catatan-lainnya/",
+	"judul": "Pembuatan Tema Hugo dan Catatan Lainnya",
+	"date": " 20 ",
+	"month": "Sep 2021",
+"tags":" ##front_end ##back_end",
+	"description": ""
+},
+{
+	"link": "/note/bassic-web-proggraming/",
+	"judul": "Roadmap Bassic Web Proggramming Bahasa Indonesia",
+	"date": " 19 ",
+	"month": "Sep 2021",
+"tags":" ##Proggraming",
+	"description": ""
+}]

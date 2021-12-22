@@ -1,3 +1,4 @@
+@use "../var" as v;
 .loading .loader {
     position: fixed;
     top: 0;
@@ -10,7 +11,7 @@
 .loading .loader div {
   border: 16px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 16px solid #3498db;
+  border-top: 16px solid v.$bg;
   width: 120px;
   height: 120px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
