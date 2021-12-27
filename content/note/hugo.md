@@ -82,4 +82,3 @@ Untuk Menggunakan VIM sendiri, pastikan kalian sudah familiar dengan perintah ya
 
 ### Upload ke Netlify
 
-

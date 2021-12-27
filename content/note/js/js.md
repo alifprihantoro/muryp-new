@@ -16,7 +16,6 @@ description: ""
 
 ---
 ## Catatan Javascript
-
 - add script
 - get json
 - event klick
@@ -77,3 +76,4 @@ if (gewaesser_name1.toLowerCase().indexOf("stream") === -1 && gewaesser_name2.to
     var a = "..."
 }
 ```
+

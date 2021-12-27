@@ -8,7 +8,7 @@ blogimport: true
 date: "2019-07-18T14:17:00Z"
 tags:
 - Termux
-- Aplikasi
+- App
 - coding
 title: 'Termux? Aplikasinya Programming '
 updated: "2020-08-17T01:14:18Z"

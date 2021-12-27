@@ -31,11 +31,11 @@
       {{ partial "post/nav/search.html" . }}
           <!-- follow -->
           {{ partial "home/last/sosmed.html" . }}
+          {{ partial "main/contact.html" . }}
           <!-- end follow -->
 
           <!--start contact & list-->
           {{if ne .RelPermalink "/"}}
-          {{ partial "main/contact.html" . }}
           {{ end }}
           <!--end contact & list-->
         </div>

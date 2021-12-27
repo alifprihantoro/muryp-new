@@ -18,7 +18,7 @@ description: ""
 
 ---
 ## checklist
-```js
+```javascript
 const $chekList = (sel)=> {
   const hasil = sel.options[sel.selectedIndex].value;
   return hasil;
@@ -32,7 +32,7 @@ const $chekList = (sel)=> {
 // console.log(list_section())
 ```
 ## get json
-```js
+```javascript
 //get json
 const $get_json=function(url){
   const get_json = fetch(url)

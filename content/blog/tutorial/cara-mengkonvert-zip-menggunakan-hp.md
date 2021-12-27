@@ -6,7 +6,7 @@ blogimport: true
 date: "2016-09-02T01:40:00Z"
 tags:
 - tutorial
-- adventure
+- App
 title: cara mengkonvert zip menggunakan hp
 updated: "2017-11-22T22:41:20Z"
 ---

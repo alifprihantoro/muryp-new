@@ -12,10 +12,11 @@ disqusShortname = "muryp"
 [taxonomies]
   tags = "tags"
   tags2 = "tags2"
-  author = "authors"
+  # author = "authors"
 
 [permalinks]
   blog = "/blog/:slug/"
+  note = "/note/:slug/"
   laman = "/pages/:slug/"
   # en = "/en/:slug/"
 
