@@ -25,6 +25,7 @@ description: ""
 Alat :
 - HP/Tablet
 - Keyboard, mouse, dan OTG (optional)
+
 Software :
 - Termux (Terminal)
 - Ubuntu/kali (OS tambahan) [gunakan ini jika dirasa termux belum memadahi]
