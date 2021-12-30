@@ -53,6 +53,7 @@ Seperti halnya music/gambar/video yang punya lisensi, code yang kita buat atau o
 - [video data struktur dan algoritma](https://youtu.be/tI5U_GWZeCw)
 Secara singkat :
 penjelasan singkat dan contohnya
+- [Obat untuk Kode yang Sakit: KISS, DRY, SoC, YAGNI, SOLID]( https://link.medium.com/zNl7V60vpmb)
 - [penjelasan solid kiss yagni](https://ichi.pro/id/kiss-solid-yagni-dan-akronim-menyenangkan-lainnya-199913670640437)
 - [Sematic Versioning](https://azishapidin.com/blog/mengenal-semantic-versioning/#:~:text=Jadi%20apa%20itu%20Semantic%20Version,satu%20versi%20dengan%20versi%20lainnya.)
 - [HTTP/HTTPS](https://www.dicoding.com/blog/perbedaan-http-dan-https/)
