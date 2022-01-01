@@ -96,3 +96,16 @@ fs.readFile("temp.txt", function(err, buf) {
 
 ```
 
+- get number text search
+```javascript
+const fs = require("fs");
+let file = fs.readFileSync("read.txt", "utf8");
+let arr = file.split(/\r?\n/);
+arr.forEach((line, idx)=> {
+    if(line.includes("keyword")){
+    console.log((idx+1)+':'+ line);
+    }
+});
+```
+
+
