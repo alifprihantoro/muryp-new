@@ -107,5 +107,37 @@ arr.forEach((line, idx)=> {
     }
 });
 ```
-
-
+- markdown link : [](/) or [](:)
+- server no dependency
+```javascript
+var fs = require('fs'),
+    http = require('http');
+ __dirname = './html/'
+http.createServer(function (req, res) {
+  url=req.url
+  const ektensi = url.split('.');
+  console.log(ektensi)
+  if (ektensi[1] !== undefined) {
+   console.log('ini html') 
+  fs.readFile(__dirname +  req.url , function (err,data) {
+    if (err) {
+      res.writeHead(404);
+      res.end(JSON.stringify(err));
+      return;
+    }
+    res.writeHead(200);
+    res.end(data);
+  });
+  }else{
+  fs.readFile(__dirname +  req.url +'index.html' , function (err,data) {
+    if (err) {
+      res.writeHead(404);
+      res.end(JSON.stringify(err));
+      return;
+    }
+    res.writeHead(200);
+    res.end(data);
+  });
+  }
+}).listen(8080);
+```
