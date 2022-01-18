@@ -1,3 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>shell on MuryP Beta</title><link>/tags/shell/</link><description>Recent content in shell on MuryP Beta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 19 Jan 2021 03:37:52 +0000</lastBuildDate><atom:link href="/tags/shell/index.xml" rel="self" type="application/rss+xml"/><item><title>Manipulasi Text Menggunakan Shell</title><link>/blog/manipulasi-text-menggunakan-shell/</link><pubDate>Tue, 19 Jan 2021 03:37:52 +0000</pubDate><guid>/blog/manipulasi-text-menggunakan-shell/</guid><description>disini saya akan menjelaskan bagaiamnaa cara mengatasi saat kita mengimport content dari blogger namun masih menggunakan html.
-sed -i '2s/^/ authors=[&amp;quot;muryp&amp;quot;] \n/' *.md for file in *.md; do echo '{{&amp;lt; /html &amp;gt;}}' &amp;gt;&amp;gt; &amp;quot;$file&amp;quot; done Ket :
-1s : barii</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shell on MuryP Beta</title>
+    <link>/tags/shell/</link>
+    <description>Recent content in shell on MuryP Beta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 19 Jan 2021 03:37:52 +0000</lastBuildDate><atom:link href="/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manipulasi Text Menggunakan Shell</title>
+      <link>/blog/manipulasi-text-menggunakan-shell/</link>
+      <pubDate>Tue, 19 Jan 2021 03:37:52 +0000</pubDate>
+      
+      <guid>/blog/manipulasi-text-menggunakan-shell/</guid>
+      <description>disini saya akan menjelaskan bagaiamnaa cara mengatasi saat kita mengimport content dari blogger namun masih menggunakan html.
+sed -i &#39;2s/^/ authors=[&amp;quot;muryp&amp;quot;] \n/&#39; *.md for file in *.md; do echo &#39;{{&amp;lt; /html &amp;gt;}}&#39; &amp;gt;&amp;gt; &amp;quot;$file&amp;quot; done Ket :
+ 1s : barii  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on MuryP Beta</title><link>/tags2/hugo/</link><description>Recent content in Hugo on MuryP Beta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 30 Oct 2021 10:49:35 +0700</lastBuildDate><atom:link href="/tags2/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>My Theme Download and how use it</title><link>/note/my-theme-download-and-how-use-it/</link><pubDate>Sat, 30 Oct 2021 10:49:35 +0700</pubDate><guid>/note/my-theme-download-and-how-use-it/</guid><description>My Theme Download and how use it content pages : blank and use markdown shortcode for html and css blog : biasa Short code config partial script img api catatan lainnya</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on MuryP Beta</title>
+    <link>/tags2/hugo/</link>
+    <description>Recent content in Hugo on MuryP Beta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 30 Oct 2021 10:49:35 +0700</lastBuildDate><atom:link href="/tags2/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Theme Download and how use it</title>
+      <link>/note/my-theme-download-and-how-use-it/</link>
+      <pubDate>Sat, 30 Oct 2021 10:49:35 +0700</pubDate>
+      
+      <guid>/note/my-theme-download-and-how-use-it/</guid>
+      <description>My Theme Download and how use it content  pages : blank and use markdown shortcode for html and css blog : biasa  Short code config partial script img api catatan lainnya    </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -33,3 +33,10 @@ description: ""
 
 ## help
 - v/foo
+- $^0
+- 20gg
+- :20
+- t *\w|\W* or f use ;
+- ctrl+d scroll down
+- ctrl+u scroll up
+- shift-\` uppercase | lowerchase

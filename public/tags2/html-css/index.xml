@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML CSS on MuryP Beta</title>
+    <link>/tags2/html-css/</link>
+    <description>Recent content in HTML CSS on MuryP Beta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 02 Jan 2022 11:43:39 +0700</lastBuildDate><atom:link href="/tags2/html-css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Html CSS seputar align</title>
+      <link>/note/html-css-seputar-align/</link>
+      <pubDate>Sun, 02 Jan 2022 11:43:39 +0700</pubDate>
+      
+      <guid>/note/html-css-seputar-align/</guid>
+      <description>Html CSS seputar align  display grid, place item  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -26,9 +26,12 @@ kurang :
     - include
     - media query
     - variable
-  - tailwind (use plugin external)
+  - tailwind (use plugin external) :
+    - component
   - hugo :
     - shortcode
+    - html : partial, var, loop, pages
+    - json
 - shortcut :
   - hugo :
     - li, bold, italic, link, underline

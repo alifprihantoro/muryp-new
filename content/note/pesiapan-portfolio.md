@@ -29,7 +29,13 @@ description: ""
 - animation sosis/sus
 - display fixed
 
-### backend
+### backend (use)
+- hugo template kayak biasa
+- hugo template api (if content change)
+- tailwind
+- laravel mix, webpack, babel, sass (if style change) 
+
+### backend (not use)
 - folder :
   - src :
     - script :

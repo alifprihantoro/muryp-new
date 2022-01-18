@@ -1,1 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>link on MuryP Beta</title><link>/tags2/link/</link><description>Recent content in link on MuryP Beta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 15 Dec 2021 07:56:25 +0700</lastBuildDate><atom:link href="/tags2/link/index.xml" rel="self" type="application/rss+xml"/><item><title>Link Inspirasi Projek Mendatang</title><link>/note/link-inspirasi-projek-mendatang/</link><pubDate>Wed, 15 Dec 2021 07:56:25 +0700</pubDate><guid>/note/link-inspirasi-projek-mendatang/</guid><description>link repo https://github.com/ianfleon/blognitess link artikel</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>link on MuryP Beta</title>
+    <link>/tags2/link/</link>
+    <description>Recent content in link on MuryP Beta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 01 Jan 2022 09:40:46 +0700</lastBuildDate><atom:link href="/tags2/link/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Persiapan Vim plug</title>
+      <link>/note/persiapan-vim-plug/</link>
+      <pubDate>Sat, 01 Jan 2022 09:40:46 +0700</pubDate>
+      
+      <guid>/note/persiapan-vim-plug/</guid>
+      <description>Persiapan Vim Plug  get name file    ide  buat file untuk kode (dipisah pisah) function ditaruh di plug if else hugo : get file path search content bvE   help  v/foo $^0 20gg :20 t \w|\W or f use ; ctrl+d scroll down ctrl+u scroll up shift-` uppercase | lowerchase  </description>
+    </item>
+    
+    <item>
+      <title>Link Inspirasi Projek Mendatang</title>
+      <link>/note/link-inspirasi-projek-mendatang/</link>
+      <pubDate>Wed, 15 Dec 2021 07:56:25 +0700</pubDate>
+      
+      <guid>/note/link-inspirasi-projek-mendatang/</guid>
+      <description>link repo  https://github.com/ianfleon/blognitess   link artikel  https://iamsorush.com/posts/table-of-content-blog/   npm  markdownit/hugo sass uglyfy.js node-watch@0.7.2  express js bash : merger js   step  dev :  parse content copy content   watch + server: code (masih bisa diperbaiki)  var watch = require(&amp;#39;node-watch&amp;#39;); &amp;#34;use strict&amp;#34;; const express = require(&amp;#34;express&amp;#34;); const app = express(); const port = process.env.port || 5005; // https://expressjs.com/en/4x/api.html#express.static  let options = { dotfiles: &amp;#34;ignore&amp;#34;, //allow, deny, ignore  etag: true, extensions: [&amp;#34;htm&amp;#34;, &amp;#34;html&amp;#34;], index: false, //to disable directory indexing  maxAge: &amp;#34;7d&amp;#34;, redirect: false, setHeaders: function(res, path, stat) { //add this header to all static responses  res.</description>
+    </item>
+    
+  </channel>
+</rss>

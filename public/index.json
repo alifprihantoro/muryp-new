@@ -1,1 +1,10 @@
-{"tags_blog":["#app","#Back_End","#Bassic","#coding","#CSS","#Design","#Front_End","#Git","#Github","#Gitlab","#Header","#HTML","#info","#Jaringan","#Linux","#Security","#Server","#shell","#tag","#Termux","#Tutorial","#Ubuntu","#web","#Web_Design"],"tags_code":["##Arts","##back_end","##CSS","##front_end","##HTML","##Hugo","##Java_Script","##js","##link","##Proggraming","##Theme"]}
+{
+  "tags_blog": [
+  "#app","#Back_End","#Bassic","#coding","#CSS","#Design","#Front_End","#Git","#Github","#Gitlab","#Header","#HTML","#info","#Jaringan","#Linux","#Security","#Server","#shell","#tag","#Termux","#Tutorial","#Ubuntu","#web","#Web_Design",
+],
+
+  "tags_code": [
+  "##Arts","##back_end","##CSS","##Front_End","##fs","##HTML","##HTML_CSS","##Hugo","##Java_Script","##js","##link","##links","##node","##persiapan","##Proggraming","##termux","##Theme","##tools",
+]
+}
+

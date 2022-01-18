@@ -20,6 +20,7 @@ description: ""
 ## link repo
 - https://github.com/ianfleon/blognitess
 ## link artikel
+- https://iamsorush.com/posts/table-of-content-blog/
 
 ## npm
 - markdownit/hugo
