@@ -3,14 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/note/coding-web-dengan-vim-for-mern/</loc>
-    <lastmod>2022-01-17T09:39:51+07:00</lastmod>
+    <loc>/note/</loc>
+    <lastmod>2022-01-18T21:35:08+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/note/</loc>
+    <loc>/note/rencana-pembuatan-blog-static-dengan-hugo-node-js-laravel-mix-tailwind/</loc>
+    <lastmod>2022-01-18T21:35:08+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/note/coding-web-dengan-vim-for-mern/</loc>
     <lastmod>2022-01-17T09:39:51+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

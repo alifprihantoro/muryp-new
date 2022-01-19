@@ -5,7 +5,16 @@
     <link>/note/</link>
     <description>Recent content in Notes on MuryP Beta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 17 Jan 2022 09:39:51 +0700</lastBuildDate><atom:link href="/note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Jan 2022 21:35:08 +0700</lastBuildDate><atom:link href="/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rencana pembuatan blog static dengan hugo, node js, laravel mix, tailwind</title>
+      <link>/note/rencana-pembuatan-blog-static-dengan-hugo-node-js-laravel-mix-tailwind/</link>
+      <pubDate>Tue, 18 Jan 2022 21:35:08 +0700</pubDate>
+      
+      <guid>/note/rencana-pembuatan-blog-static-dengan-hugo-node-js-laravel-mix-tailwind/</guid>
+      <description>how  laravel mix :  bedakan config mix   tailwind : sudah ada hugo : redesign to api node js :  get index.html url=replace(index.html, &amp;ldquo;$1.json&amp;rdquo;) replace(regex, fuch) regex :  get on div content   func :  replace &amp;quot; \n write into url file      </description>
+    </item>
+    
     <item>
       <title>Coding Web dengan Vim for MERN</title>
       <link>/note/coding-web-dengan-vim-for-mern/</link>

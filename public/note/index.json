@@ -1,6 +1,14 @@
 [
 
 {
+	"link": "/note/rencana-pembuatan-blog-static-dengan-hugo-node-js-laravel-mix-tailwind/",
+	"judul": "Rencana pembuatan blog static dengan hugo, node js, laravel mix, tailwind",
+	"date": " 18 ",
+	"month": "Jan 2022",
+"tags":"",
+	"description": "staterpack tailwind, blog, api"
+},
+{
 	"link": "/note/coding-web-dengan-vim-for-mern/",
 	"judul": "Coding Web dengan Vim for MERN",
 	"date": " 17 ",
