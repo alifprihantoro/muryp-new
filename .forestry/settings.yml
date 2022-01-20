@@ -10,18 +10,8 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/fail
-  label: Fail
-  create: all
-  match: "**/*"
-- type: directory
   path: content/pages
   label: Pages
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/search
-  label: Search
   create: all
   match: "**/*"
 - type: directory
