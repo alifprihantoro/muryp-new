@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: note
+  path: content/note
   label: note
   create: all
   match: "**/*"
