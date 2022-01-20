@@ -1,0 +1,34 @@
+---
+label: note
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: slug
+  label: slug
+- type: datetime
+  name: date
+  label: date
+- type: datetime
+  name: lastmod
+  label: lastmod
+- type: boolean
+  name: show_comments
+  label: show_comments
+- type: text
+  name: type
+  label: type
+- type: list
+  name: tags2
+  label: tags2
+- type: text
+  name: image
+  label: image
+- type: text
+  name: thumbnail
+  label: thumbnail
+- type: text
+  name: description
+  label: description
