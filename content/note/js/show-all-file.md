@@ -23,6 +23,7 @@ description: "menampilkan nama file, push array"
 > beberapa kode belum saya pahami betul, mungkin bisa lebih praktis lagi
 ```javascript
 var path = require('path'), fs=require('fs');
+
 const mypath = []
 function fromDir(startPath,filter){
 
