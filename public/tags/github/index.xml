@@ -1,22 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Github on MuryP Beta</title>
-    <link>/tags/github/</link>
-    <description>Recent content in Github on MuryP Beta</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 26 Jan 2021 13:18:49 +0000</lastBuildDate><atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bahas Github Dan Gitlab</title>
-      <link>/blog/bahas-github-dan-gitlab/</link>
-      <pubDate>Tue, 26 Jan 2021 13:18:49 +0000</pubDate>
-      
-      <guid>/blog/bahas-github-dan-gitlab/</guid>
-      <description>Hello world!
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github on MuryP Beta</title><link>/tags/github/</link><description>Recent content in Github on MuryP Beta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 26 Jan 2021 13:18:49 +0000</lastBuildDate><atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Bahas Github Dan Gitlab</title><link>/blog/bahas-github-dan-gitlab/</link><pubDate>Tue, 26 Jan 2021 13:18:49 +0000</pubDate><guid>/blog/bahas-github-dan-gitlab/</guid><description>Hello world!
 Nama saya MuryP, dari Indonesia. Kali ini saya ingin membicarakan tentang github dan gitlab, dan tentunyq ini opini saya aja. Mungkin kalian tidak sama dengan pengalaman saya.
 Jika kita sudah mau menyemplung di dunia pemrograman, setidaknya kalian harus bisa menggunakan salah satu penyedia layanan git, baik itu github, gitlab, maupun yang lainnya.
-Lalu apa sih gunanya github dan gitlab itu? jika kita sebelumnya mebggunakan git hanya bisa di local saja.</description>
-    </item>
-    
-  </channel>
-</rss>
+Lalu apa sih gunanya github dan gitlab itu? jika kita sebelumnya mebggunakan git hanya bisa di local saja.</description></item></channel></rss>
