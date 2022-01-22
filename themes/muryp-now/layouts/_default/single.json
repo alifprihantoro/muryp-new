@@ -2,5 +2,8 @@
 [
 {
 "list_tag" : "{{ range $name, $taxonomy := .Site.Taxonomies.tags }} {{ replace .Page.Title " " "_"  }}, {{end}}"
+},
+{
+"content" : "{{ replace (replace .Content  "\"" "'") "\n" ""}}"
 }
 ]

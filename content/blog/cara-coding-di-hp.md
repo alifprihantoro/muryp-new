@@ -23,6 +23,13 @@ description: ""
 
 ### Alat dan Software
 Alat :
+
+Lorem aperiam suscipit modi exercitationem est Impedit dignissimos reiciendis modi eos molestias? Ipsam natus sunt dolorem sit odio, provident aliquam! Excepturi ad voluptas eligendi explicabo accusantium itaque. Aut eius minus
+
+ </br> 
+
+Lorem aperiam suscipit modi exercitationem est Impedit dignissimos reiciendis modi eos molestias? Ipsam natus sunt dolorem sit odio, provident aliquam! Excepturi ad voluptas eligendi explicabo accusantium itaque. Aut eius minus
+
 - HP/Tablet
 - Keyboard, mouse, dan OTG (optional)
 
@@ -62,6 +69,7 @@ Untuk pilihan kali ini saya serahkan kepada kalian, silahkan pilih sendiri. Kala
 
 #### FZF/Fuzzy Files
 Untuk ini saya rekomendasikan agar kalian bisa berpindah file atau folder dengan cepat. Karena termux tidak menggunakan gui
+
 
 #### Git
 Agar projek kalian terhindar dari yang tidak tidak, dan nantinya projek kalian bisa dilihat banyak orang. Dan app ini wajib bagi setiap programmer tidak hanya web dev aja. Karena ini digunakan sebagai tempat penyimpanan koding kita sekaligus jika kita push ke github/gitlab/bibucket bisa jadi portfolio kita.

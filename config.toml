@@ -28,6 +28,12 @@ enableGitInfo = true
 enableRobotsTXT = true
 canonifyURLs = true
 
+[markup]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]
 lastmod = [":git", "lastmod", "date", "publishDate"]
