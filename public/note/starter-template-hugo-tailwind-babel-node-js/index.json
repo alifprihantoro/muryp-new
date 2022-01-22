@@ -1,0 +1,9 @@
+
+[
+{
+"list_tag" : " app,  Back_End,  Bassic,  coding,  CSS,  Design,  Front_End,  Git,  Github,  Gitlab,  Header,  HTML,  info,  Jaringan,  Linux,  Security,  Server,  shell,  tag,  Termux,  Tutorial,  Ubuntu,  web,  Web_Design, "
+},
+{
+"content" : "<h2 id='persiapan'>persiapan</h2><h3 id='install-starter-template'>install starter template</h3><h3 id='checklist'>checklist</h3><p>tailwin config :</p><ul><li>color theme</li><li>@tailwin/aspect-ratio, obj cover ratio</li><li>@tailwin/typography</li><li>print:hiden</li><li>snap center (scroll)</li><li>smooth scroll</li><li>jit :<ul><li>copy cdn to local</li><li>copy config to script main.js (merger) static</li><li>cp style to static</li></ul></li></ul>"
+}
+]
