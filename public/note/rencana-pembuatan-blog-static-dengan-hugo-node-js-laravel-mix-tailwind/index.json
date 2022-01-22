@@ -1,1 +1,9 @@
-[{"list_tag":" app,  Back_End,  Bassic,  coding,  CSS,  Design,  Front_End,  Git,  Github,  Gitlab,  Header,  HTML,  info,  Jaringan,  Linux,  Security,  Server,  shell,  tag,  Termux,  Tutorial,  Ubuntu,  web,  Web_Design, "}]
+
+[
+{
+"list_tag" : " app,  Back_End,  Bassic,  coding,  CSS,  Design,  Front_End,  Git,  Github,  Gitlab,  Header,  HTML,  info,  Jaringan,  Linux,  Security,  Server,  shell,  tag,  Termux,  Tutorial,  Ubuntu,  web,  Web_Design, "
+},
+{
+"content" : "<h2 id='how'>how</h2><ul><li>laravel mix :<ul><li>bedakan config mix</li></ul></li><li>tailwind : sudah ada</li><li>hugo : redesign to api</li><li>node js :<ul><li>get index.html</li><li>url=replace(index.html, &ldquo;$1.json&rdquo;)</li><li>replace(regex, fuch)</li><li>regex :<ul><li>get on div content</li></ul></li><li>func :<ul><li>replace &quot; \n</li><li>write into url file</li></ul></li></ul></li></ul>"
+}
+]

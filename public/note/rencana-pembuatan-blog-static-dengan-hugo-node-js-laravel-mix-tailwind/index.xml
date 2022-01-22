@@ -1,1 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rencana pembuatan blog static dengan hugo, node js, laravel mix, tailwind on MuryP Beta</title><link>/note/rencana-pembuatan-blog-static-dengan-hugo-node-js-laravel-mix-tailwind/</link><description>Recent content in Rencana pembuatan blog static dengan hugo, node js, laravel mix, tailwind on MuryP Beta</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 18 Jan 2022 21:35:08 +0700</lastBuildDate><atom:link href="/note/rencana-pembuatan-blog-static-dengan-hugo-node-js-laravel-mix-tailwind/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rencana pembuatan blog static dengan hugo, node js, laravel mix, tailwind on MuryP Beta</title>
+    <link>/note/rencana-pembuatan-blog-static-dengan-hugo-node-js-laravel-mix-tailwind/</link>
+    <description>Recent content in Rencana pembuatan blog static dengan hugo, node js, laravel mix, tailwind on MuryP Beta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 18 Jan 2022 21:35:08 +0700</lastBuildDate><atom:link href="/note/rencana-pembuatan-blog-static-dengan-hugo-node-js-laravel-mix-tailwind/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

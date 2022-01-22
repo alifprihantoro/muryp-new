@@ -1,1 +1,9 @@
-[{"list_tag":" app,  Back_End,  Bassic,  coding,  CSS,  Design,  Front_End,  Git,  Github,  Gitlab,  Header,  HTML,  info,  Jaringan,  Linux,  Security,  Server,  shell,  tag,  Termux,  Tutorial,  Ubuntu,  web,  Web_Design, "}]
+
+[
+{
+"list_tag" : " app,  Back_End,  Bassic,  coding,  CSS,  Design,  Front_End,  Git,  Github,  Gitlab,  Header,  HTML,  info,  Jaringan,  Linux,  Security,  Server,  shell,  tag,  Termux,  Tutorial,  Ubuntu,  web,  Web_Design, "
+},
+{
+"content" : "<h2 id='myconfiguration'>myconfiguration</h2><p>kurang :</p><ul><li>web :<ul><li>location</li><li>build</li><li>watch</li><li>dynamic alias</li></ul></li><li></li></ul><h2 id='how-install'>How install</h2><h2 id='my-app'>my app</h2><ul><li>fzf</li><li>ssh</li><li>git</li><li>tmux</li></ul><h2 id='sedikit-penjalasan-mengenai-konfigurasi'>sedikit penjalasan mengenai konfigurasi</h2>"
+}
+]

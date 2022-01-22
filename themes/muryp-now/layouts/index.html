@@ -13,10 +13,9 @@
 {{ partial "main/loading.html" . }}
     {{ partial "post/nav/darkbtn.html" . }}
     {{ partial "post/nav.html" . }}
-
     <div class="left-post">
       <div class="responsive">
-        
+<img src="{{ ( $image.Fill "100x100 bottom" ).RelPermalink}}" alt="">
       {{ partial "home/main/list.html" . }}
         <div class="sidebar"></div>
       </div>

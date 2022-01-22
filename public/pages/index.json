@@ -1,1 +1,58 @@
-[{"link":"/pages/hire/","judul":"Hire Me","date":" 08 ","month":"Jan 2021","tags":" #tag","description":""},{"link":"/pages/cokie/","judul":"Cokies","date":" 04 ","month":"Jan 2021","tags":"","description":"Apa itu cokie? jenis makanan apa itu? kegunaan cokie itu apa?"},{"link":"/pages/privacy-policy/","judul":"Privacy Policy","date":" 04 ","month":"Jan 2021","tags":"","description":"Privacy Policy atau kebijakan privasi dari MuryP Beta"},{"link":"/pages/bookmark/","judul":"Bookmark","date":" 29 ","month":"Dec 2020","tags":"","description":"Berisikan link menuju web yang kusukai ataubmungkin bermanfaat."},{"link":"/pages/contact/","judul":"Contact","date":" 29 ","month":"Dec 2020","tags":"","description":"Contact Me. MuryP untuk personal ataupun bisnis"},{"link":"/pages/about/","judul":"About","date":" 17 ","month":"Dec 2017","tags":"","description":"Halo, Saya MuryP. Salam kenal!"},{"link":"/pages/sitemap/","judul":"","date":" 01 ","month":"Jan 0001","tags":"","description":""}]
+[
+
+{
+	"link": "/pages/hire/",
+	"judul": "Hire Me",
+	"date": " 08 ",
+	"month": "Jan 2021",
+"tags":" #tag",
+	"description": ""
+},
+{
+	"link": "/pages/cokie/",
+	"judul": "Cokies",
+	"date": " 04 ",
+	"month": "Jan 2021",
+"tags":"",
+	"description": "Apa itu cokie? jenis makanan apa itu? kegunaan cokie itu apa?"
+},
+{
+	"link": "/pages/privacy-policy/",
+	"judul": "Privacy Policy",
+	"date": " 04 ",
+	"month": "Jan 2021",
+"tags":"",
+	"description": "Privacy Policy atau kebijakan privasi dari MuryP Beta"
+},
+{
+	"link": "/pages/bookmark/",
+	"judul": "Bookmark",
+	"date": " 29 ",
+	"month": "Dec 2020",
+"tags":"",
+	"description": "Berisikan link menuju web yang kusukai ataubmungkin bermanfaat."
+},
+{
+	"link": "/pages/contact/",
+	"judul": "Contact",
+	"date": " 29 ",
+	"month": "Dec 2020",
+"tags":"",
+	"description": "Contact Me. MuryP untuk personal ataupun bisnis"
+},
+{
+	"link": "/pages/about/",
+	"judul": "About",
+	"date": " 17 ",
+	"month": "Dec 2017",
+"tags":"",
+	"description": "Halo, Saya MuryP. Salam kenal!"
+},
+{
+	"link": "/pages/sitemap/",
+	"judul": "",
+	"date": " 01 ",
+	"month": "Jan 0001",
+"tags":"",
+	"description": ""
+}]

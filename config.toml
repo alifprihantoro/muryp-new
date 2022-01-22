@@ -20,6 +20,54 @@ disqusShortname = "muryp"
   laman = "/pages/:slug/"
   # en = "/en/:slug/"
 
+[imaging]
+# Default resample filter used for resizing. Default is Box,
+# a simple and fast averaging filter appropriate for downscaling.
+# See https://github.com/disintegration/imaging
+resampleFilter = "box"
+
+# Default JPEG or WebP quality setting. Default is 75.
+quality = 75
+
+# Default hint about what type of image. Currently only used for WebP encoding.
+# Default is "photo".
+# Valid values are "picture", "photo", "drawing", "icon", or "text".
+hint = "photo"
+
+# Anchor used when cropping pictures.
+# Default is "smart" which does Smart Cropping, using https://github.com/muesli/smartcrop
+# Smart Cropping is content aware and tries to find the best crop for each image.
+# Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+anchor = "smart"
+
+# Default background color.
+# Hugo will preserve transparency for target formats that supports it,
+# but will fall back to this color for JPEG.
+# Expects a standard HEX color string with 3 or 6 digits.
+# See https://www.google.com/search?q=color+picker
+bgColor = "#ffffff"
+
+[imaging.exif]
+ # Regexp matching the fields you want to Exclude from the (massive) set of Exif info
+# available. As we cache this info to disk, this is for performance and
+# disk space reasons more than anything.
+# If you want it all, put ".*" in this config setting.
+# Note that if neither this or ExcludeFields is set, Hugo will return a small
+# default set: GPS|Exif|Exposure[M|P|B]|Contrast|Resolution|Sharp|JPEG|Metering|Sensing|Saturation|ColorSpace|Flash|WhiteBalance
+includeFields = ""
+
+# Regexp matching the Exif fields you want to exclude. This may be easier to use
+# than IncludeFields above, depending on what you want.
+excludeFields = ""
+
+# Hugo extracts the "photo taken" date/time into .Date by default.
+# Set this to true to turn it off.
+disableDate = false
+
+# Hugo extracts the "photo taken where" (GPS latitude and longitude) into
+# .Long and .Lat. Set this to true to turn it off.
+disableLatLong = false
+
 languageCode = "id-id"
 DefaultContentLanguage = "id"
 
