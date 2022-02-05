@@ -3,8 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/note/minimize-image-on-folder-and-subfolder-with-convert/</loc>
+    <lastmod>2022-01-29T17:28:53+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/note/</loc>
-    <lastmod>2022-01-21T10:28:30+07:00</lastmod>
+    <lastmod>2022-01-29T17:28:53+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/note/catatan-bash/</loc>
+    <lastmod>2022-01-28T21:21:27+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/note/read-get-by-tag-change-and-write-to-json-file/</loc>
+    <lastmod>2022-01-26T14:10:44+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -690,6 +711,24 @@
   
   <url>
     <loc>/pages/sitemap/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/note/custom-slug/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/note/custom-slug/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/note/custom-slug/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

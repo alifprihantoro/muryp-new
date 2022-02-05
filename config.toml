@@ -6,6 +6,7 @@ disqusShortname = "muryp"
 [outputs]
     home = ["HTML", "RSS", "JSON"]
     pages = ["HTML", "RSS", "JSON"]
+    blog = ["HTML", "RSS", "JSON"]
     page = ["HTML", "RSS", "JSON"]
     section = ["HTML", "RSS", "JSON"]
 

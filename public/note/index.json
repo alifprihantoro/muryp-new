@@ -1,186 +1,81 @@
-[
 
+[
+{
+	"link": "/note/minimize-image-on-folder-and-subfolder-with-convert/",
+	"judul": "minimize image on folder and subfolder with convert",
+	"date": " 29 "
+}
+]
+
+[
+{
+	"link": "/note/catatan-bash/",
+	"judul": "catatan Bash",
+	"date": " 28 "
+}
+]
+
+[
+{
+	"link": "/note/read-get-by-tag-change-and-write-to-json-file/",
+	"judul": "Read get by tag change and write to json file",
+	"date": " 26 "
+}
+]
+
+[
 {
 	"link": "/note/starter-template-hugo-tailwind-babel-node-js/",
 	"judul": "Starter template Hugo, Tailwind, babel, node js",
-	"date": " 21 ",
-	"month": "Jan 2022",
-"tags":"",
-	"description": "Starter template hugo"
-},
+	"date": " 21 "
+}
+]
+
+[
 {
 	"link": "/note/rencana-pembuatan-blog-static-dengan-hugo-node-js-laravel-mix-tailwind/",
 	"judul": "Rencana pembuatan blog static dengan hugo, node js, laravel mix, tailwind",
-	"date": " 18 ",
-	"month": "Jan 2022",
-"tags":"",
-	"description": "staterpack tailwind, blog, api"
-},
+	"date": " 18 "
+}
+]
+
+[
 {
 	"link": "/note/coding-web-dengan-vim-for-mern/",
 	"judul": "Coding Web dengan Vim for MERN",
-	"date": " 17 ",
-	"month": "Jan 2022",
-"tags":"",
-	"description": "Berisikan plugin dan configuration vim"
-},
+	"date": " 17 "
+}
+]
+
+[
 {
 	"link": "/note/configurasi-cli-terminal/",
 	"judul": "Configurasi cli/terminal",
-	"date": " 17 ",
-	"month": "Jan 2022",
-"tags":"",
-	"description": "cli, myconfig, config, bash"
-},
+	"date": " 17 "
+}
+]
+
+[
 {
 	"link": "/note/menampilkan-name-file/",
 	"judul": "Menampilkan name file",
-	"date": " 11 ",
-	"month": "Jan 2022",
-"tags":" ##js ##node ##fs",
-	"description": "menampilkan nama file, push array"
-},
+	"date": " 11 "
+}
+]
+
+[
 {
 	"link": "/note/coding-di-termux-lebih-mudah/",
 	"judul": "Coding di termux lebih mudah",
-	"date": " 10 ",
-	"month": "Jan 2022",
-"tags":" ##termux ##tools",
-	"description": "dasar dasar termux, bagaimana menggunakan termux untuk koding, shortcut termux"
-},
+	"date": " 10 "
+}
+]
+
+[
 {
 	"link": "/note/html-css-seputar-align/",
 	"judul": "Html CSS seputar align",
-	"date": " 02 ",
-	"month": "Jan 2022",
-"tags":" ##HTML_CSS ##Front_End",
-	"description": ""
-},
-{
-	"link": "/note/persiapan-vim-plug/",
-	"judul": "Persiapan Vim plug",
-	"date": " 01 ",
-	"month": "Jan 2022",
-"tags":" ##persiapan ##link",
-	"description": ""
-},
-{
-	"link": "/note/persiapan-portfolio/",
-	"judul": "Persiapan Portfolio",
-	"date": " 01 ",
-	"month": "Jan 2022",
-"tags":" ##persiapan ##links",
-	"description": ""
-},
-{
-	"link": "/note/js-memory/",
-	"judul": "Memory",
-	"date": " 20 ",
-	"month": "Dec 2021",
-"tags":" ##js",
-	"description": ""
-},
-{
-	"link": "/note/daftar-variable-js/",
-	"judul": "Daftar variable JS",
-	"date": " 15 ",
-	"month": "Dec 2021",
-"tags":" ##js",
-	"description": ""
-},
-{
-	"link": "/note/btn-add-script/",
-	"judul": "Btn Add Script",
-	"date": " 15 ",
-	"month": "Dec 2021",
-"tags":" ##js",
-	"description": ""
-},
-{
-	"link": "/note/slug/",
-	"judul": "Get Link, Url management",
-	"date": " 15 ",
-	"month": "Dec 2021",
-"tags":" ##js",
-	"description": ""
-},
-{
-	"link": "/note/link-inspirasi-projek-mendatang/",
-	"judul": "Link Inspirasi Projek Mendatang",
-	"date": " 15 ",
-	"month": "Dec 2021",
-"tags":" ##link",
-	"description": ""
-},
-{
-	"link": "/note/search/",
-	"judul": "Search",
-	"date": " 15 ",
-	"month": "Dec 2021",
-"tags":" ##html ##css ##js",
-	"description": ""
-},
-{
-	"link": "/note/load-more/",
-	"judul": "Load More",
-	"date": " 15 ",
-	"month": "Dec 2021",
-"tags":" ##html ##css ##js",
-	"description": ""
-},
-{
-	"link": "/note/btn-section/",
-	"judul": "Btn Section",
-	"date": " 15 ",
-	"month": "Dec 2021",
-"tags":" ##js",
-	"description": ""
-},
-{
-	"link": "/note/option/",
-	"judul": "Option",
-	"date": " 12 ",
-	"month": "Dec 2021",
-"tags":" ##HTML ##CSS",
-	"description": ""
-},
-{
-	"link": "/note/catatan-java-script/",
-	"judul": "Catatan Java Script",
-	"date": " 30 ",
-	"month": "Nov 2021",
-"tags":" ##Java_Script",
-	"description": ""
-},
-{
-	"link": "/note/my-theme-download-and-how-use-it/",
-	"judul": "My Theme Download and how use it",
-	"date": " 30 ",
-	"month": "Oct 2021",
-"tags":" ##Theme ##Hugo ##",
-	"description": ""
-},
-{
-	"link": "/note/figma-hal-yang-harus-dilakukan/",
-	"judul": "Figma : hal yang harus dilakukan",
-	"date": " 11 ",
-	"month": "Oct 2021",
-"tags":" ##Arts",
-	"description": ""
-},
-{
-	"link": "/note/pembuatan-tema-hugo-dan-catatan-lainnya/",
-	"judul": "Pembuatan Tema Hugo dan Catatan Lainnya",
-	"date": " 20 ",
-	"month": "Sep 2021",
-"tags":" ##front_end ##back_end",
-	"description": ""
-},
-{
-	"link": "/note/bassic-web-proggraming/",
-	"judul": "Roadmap Bassic Web Proggramming Bahasa Indonesia",
-	"date": " 19 ",
-	"month": "Sep 2021",
-"tags":" ##Proggraming",
-	"description": ""
-}]
+	"date": " 02 "
+}
+]
+
