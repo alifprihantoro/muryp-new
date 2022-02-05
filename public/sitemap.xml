@@ -3,14 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/note/minimize-image-on-folder-and-subfolder-with-convert/</loc>
-    <lastmod>2022-01-29T17:28:53+07:00</lastmod>
+    <loc>/note/belajar-bareng-yt/</loc>
+    <lastmod>2022-02-05T05:36:22+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/note/</loc>
+    <lastmod>2022-02-05T05:36:22+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/note/minimize-image-on-folder-and-subfolder-with-convert/</loc>
     <lastmod>2022-01-29T17:28:53+07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

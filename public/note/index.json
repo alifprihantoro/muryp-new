@@ -1,6 +1,14 @@
 
 [
 {
+	"link": "/note/belajar-bareng-yt/",
+	"judul": "Catatan Belajar bareng",
+	"date": " 05 "
+}
+]
+
+[
+{
 	"link": "/note/minimize-image-on-folder-and-subfolder-with-convert/",
 	"judul": "minimize image on folder and subfolder with convert",
 	"date": " 29 "
@@ -68,14 +76,6 @@
 	"link": "/note/coding-di-termux-lebih-mudah/",
 	"judul": "Coding di termux lebih mudah",
 	"date": " 10 "
-}
-]
-
-[
-{
-	"link": "/note/html-css-seputar-align/",
-	"judul": "Html CSS seputar align",
-	"date": " 02 "
 }
 ]
 

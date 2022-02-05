@@ -5,7 +5,16 @@
     <link>/note/</link>
     <description>Recent content in Notes on MuryP Beta</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 29 Jan 2022 17:28:53 +0700</lastBuildDate><atom:link href="/note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Feb 2022 05:36:22 +0700</lastBuildDate><atom:link href="/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Catatan Belajar bareng</title>
+      <link>/note/belajar-bareng-yt/</link>
+      <pubDate>Sat, 05 Feb 2022 05:36:22 +0700</pubDate>
+      
+      <guid>/note/belajar-bareng-yt/</guid>
+      <description>Belajar bareng belajar bareng adalah salah satu playlist youtube saya, dimana saya akan ngebahas sambil mengingat kembali serta mempelajari lebih dalam bidang web dev. Untuk link playlist ada disini link minmap  webdev awal  terminal linux  git  web static   </description>
+    </item>
+    
     <item>
       <title>minimize image on folder and subfolder with convert</title>
       <link>/note/minimize-image-on-folder-and-subfolder-with-convert/</link>

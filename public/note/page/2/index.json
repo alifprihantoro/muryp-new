@@ -1,6 +1,14 @@
 
 [
 {
+	"link": "/note/html-css-seputar-align/",
+	"judul": "Html CSS seputar align",
+	"date": " 02 "
+}
+]
+
+[
+{
 	"link": "/note/persiapan-vim-plug/",
 	"judul": "Persiapan Vim plug",
 	"date": " 01 "
@@ -67,14 +75,6 @@
 {
 	"link": "/note/load-more/",
 	"judul": "Load More",
-	"date": " 15 "
-}
-]
-
-[
-{
-	"link": "/note/btn-section/",
-	"judul": "Btn Section",
 	"date": " 15 "
 }
 ]
