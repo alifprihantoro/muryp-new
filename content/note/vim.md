@@ -40,3 +40,24 @@ description: ""
 - ctrl+d scroll down
 - ctrl+u scroll up
 - shift-\` uppercase | lowerchase
+
+## vimplug tailwind
+- let dirnow
+- let cp="!cp"
+- let fileConfigTailwind=Cdg."tailwind.config.js"
+- let plugTailwindMuryP=plug_home."nama-plug"
+- execute cp fileConfigTailwind plugTailwindMuryP
+- cd \`=plug_home."/nvim-conf"\`
+- !node app
+- cd \`=dirnow\`
+
+## vim dir
+- dir hugo project : partial, layout, asset
+- next : 
+- all on bash
+
+## hugo starter markdown
+
+## vimhelp
+- help plugin
+- help 

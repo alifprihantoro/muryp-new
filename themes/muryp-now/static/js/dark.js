@@ -1,4 +1,3 @@
-
   if (localStorage.getItem('theme') == 'dark')
   setDarkMode()
 function setDarkMode() {
