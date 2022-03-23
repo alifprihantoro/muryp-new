@@ -48,6 +48,7 @@ Untuk Menggunakan VIM sendiri, pastikan kalian sudah familiar dengan perintah ya
 - partial
 - script
 - if else
+- identifier menus harus beda
 - params
 - related
 - nav
