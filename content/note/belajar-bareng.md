@@ -28,5 +28,9 @@ belajar bareng adalah salah satu playlist youtube saya, dimana saya akan ngebaha
     - video
     - artikel
 - [web static](https://gitmind.com/app/doc/c038370174)
-- freecodecamp
-- micro front end
+- overview/plus minus/kapan menggunakannnya :
+  - freecodecamp
+  - micro front end, mono repo
+  - TDD
+  - TypeScript
+  - 
