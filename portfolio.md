@@ -1,0 +1,9 @@
+- [ ] nav kayak blog
+- [ ] header/top
+- [ ] why me
+- [ ] skill, tools
+- [ ] about
+- [ ] contact
+- [ ] project :
+  - [ ] tailwind component
+- [ ] footer

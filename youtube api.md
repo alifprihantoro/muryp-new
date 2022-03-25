@@ -1,0 +1,8 @@
+- [ ] feature :
+  - [ ] profile
+  - [ ] sampul
+  - [ ] about
+  - [ ] sosmed/contact
+  - [ ] new video
+  - [ ] find by category/list
+  - [ ] short by date, time, abjad, title/description
