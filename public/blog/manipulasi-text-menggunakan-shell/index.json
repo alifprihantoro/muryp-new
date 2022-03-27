@@ -1,9 +1,0 @@
-
-[
-{
-"list_tag" : " app,  Back_End,  Bassic,  coding,  CSS,  Design,  Front_End,  Git,  Github,  Gitlab,  Header,  HTML,  info,  Jaringan,  Linux,  Security,  Server,  shell,  tag,  Termux,  Tutorial,  Ubuntu,  web,  Web_Design, "
-},
-{
-"content" : "<p>disini saya akan menjelaskan bagaiamnaa cara mengatasi saat kita mengimport content dari blogger namun masih menggunakan html.</p><pre tabindex='0'><code>sed -i '2s/^/ authors=[&quot;muryp&quot;] \n/' *.mdfor file in *.md; do  echo '{{&lt; /html &gt;}}' &gt;&gt; &quot;$file&quot;done</code></pre><p>Ket :</p><ul><li>1s : barii</li></ul>"
-}
-]
