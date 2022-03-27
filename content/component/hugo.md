@@ -76,6 +76,27 @@ Untuk Menggunakan VIM sendiri, pastikan kalian sudah familiar dengan perintah ya
 {{- end -}}
 {{- end -}}]
 ```
+- menus front matter
+front matter :
+```md
+---
+menu:
+  main:
+    identifier : "tabout"
+    name : " ini ada di hai"
+    pre : "<i class='fa fa-heart'></i>"
+    url : "/about/"
+    weight : -110
+---
+```
+template :
+```html
+{{ with .Site.GetPage "/menu.md" }}
+{{ range .Site.Menus.main }}
+haaaaaa {{ .Name }} 
+{{ end }}
+{{ end }}
+```
 
 ### Upload ke Github
 

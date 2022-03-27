@@ -1,0 +1,22 @@
+<div id="contact">
+  <h2 class="head tlp">Contact on :</h2>
+  <div class="center">
+    {{ range.Site.Menus.contact.Sort.ByWeight }}
+    <div class="sosmedhome thisBtn">
+      <div class="wrapper">
+        <a
+          class="{{ .Name }}"
+          href="{{ .URL }}"
+          rel="nofollow"
+          target="_blank"
+          title="{{ .Name }}"
+        >
+          <div class="btn-icon {{ .Name }}">
+           <span>{{.Identifier}}</span> 
+          </div>
+        </a>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>

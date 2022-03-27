@@ -1,0 +1,26 @@
+<footer class="central" id="footer">
+  {{ with .Site.GetPage "/pages" }}
+  {{ range.Paginator.Pages }}
+  <a href="{{.Permalink}}">{{.Name}}</a>
+  {{ end }}
+  {{ end }}
+  <hr />
+  Dibuat oleh <a href="/"> MuryP</a> with love at Ambarawa
+  <br />
+  &#169; Copyright 2017-2021, All rights reserved.
+  <br />
+  Thanks For Hugo, github, Netlify, And Exabytes
+</footer>
+<!-- <script src="/js/params/checklist.js"></script> -->
+<!-- <script src="/js/post.js"></script> -->
+<script src="/js/var/json.js"></script>
+<script src="/js/var/checklist.js"></script>
+<script src="/js/search/search.js"></script>
+<script src="/js/awal.js"></script>
+<script src="/js/disqus.js"></script>
+<script src="/js/search/btn-section.js"></script>
+<!-- <script src="/js/search/filter.js"></script> -->
+<!-- <script src="/js/search/tag-klick.js"></script> -->
+<!-- <script src="/js/tes-class.js"></script> -->
+
+

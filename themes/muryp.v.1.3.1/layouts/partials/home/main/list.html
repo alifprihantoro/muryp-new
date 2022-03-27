@@ -1,0 +1,37 @@
+<h2 class="head blog">My Blog</h2>
+<div class="btn-list-list">
+<label >Section :</label>
+<select class='btn-list' id="list-section-list" onChange="btnSection(this.id,this.name);" name="list">
+  <option value="all">All</option>
+  <option value="blog">Blog</option>
+  <option value="note">Note</option>
+</select>
+
+<label >Tags :</label>
+<select class='btn-list' id="list-tags-list" onchange="btnTags()">
+  <option value="">All</option>
+
+  <optgroup id="blog-tags-list-list" label="Blog :">
+  <option value="#" >All Blog</option>
+{{ range $name, $taxonomy1 := .Site.Taxonomies.tags }}
+<option class="tags-option" value="#{{ replace .Page.Title " " "_" | lower  }}" name='{{.Count}}'>{{ .Page.Title }}</option>
+{{end}}
+</optgroup>
+
+<optgroup id="note-tags-list-list" label="Note :">
+  <option value="##">All Note</option>
+{{ range $name, $taxonomy1 := .Site.Taxonomies.tags2 }}
+  <option value="##{{ replace .Page.Title " " "_" | lower }}" name='{{.Count}}'>{{ .Page.Title }}</option>
+{{end}}
+</optgroup>
+
+</select>
+</div>
+<div id="list">
+  <div id="list-post-l" class="myread"></div>
+  <div class="thisBtn" id='btn-load-more'>
+    <div class="wrapper">
+      <a onclick="getSlugList()" ><span>See More!</span></a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<div class="header-post">
+  <div class="author-post">
+    <span class="btn-icon about" /><a href="/author" name="infoMuryPTop">MuryP</a>
+  </div>
+  <div class="bottom-right">
+    <a href="#">
+      <span class="btn-icon tanggal" /><time>{{ .Date.Format "02-01-2006" }}</time></a>
+  </div>
+  <div class="title-post">
+    <h1><a href="{{ .RelPermalink }}">
+      {{ .Title }}
+    </a>
+    </h1>
+  </div>
+</div>
+  {{ if eq .Section "laman" }}
+  {{else}}
+  {{ partial "post/breadcrumb.html" . }}
+  {{end}}

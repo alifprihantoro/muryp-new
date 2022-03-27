@@ -1,0 +1,27 @@
+<div class="spoiler myArrow" id="disqus-triger" >
+  <input type="checkbox" id="komentar-disqus" oninput="disqusAdd()" />
+  <label for="komentar-disqus">Mau Berkomentar ?</label>
+  <div class="spoilerKonten">
+    <div class="disqus">
+      <div id="disqus_thread"></div>
+      <script>
+var disqus_config = function () {
+  this.page.url = "{{ .Permalink | safeHTML }}";
+  this.page.identifier = "{{ .Slug }}";
+  this.page.title = "{{ .Title }}";
+};  
+var disqus_shortname = "{{ .Site.DisqusShortname }}";
+      </script>
+      <noscript
+        >Please enable JavaScript to view the
+        <a href="http://disqus.com/?ref_noscript"
+          >comments powered by Disqus.</a
+        >
+      </noscript>
+      <a href="http://disqus.com/" class="dsq-brlink"
+        >comments powered by
+        <span class="logo-disqus">Disqus</span>
+      </a>
+    </div>
+  </div>
+</div>

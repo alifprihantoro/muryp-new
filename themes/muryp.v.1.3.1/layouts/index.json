@@ -1,0 +1,10 @@
+{
+  "tags_blog": [
+  {{ range $name, $taxonomy1 := .Site.Taxonomies.tags }}"#{{ replace .Page.Title " " "_"  }}",{{end}}
+],
+
+  "tags_code": [
+  {{ range $name, $taxonomy2 := .Site.Taxonomies.tags2 }}"##{{ replace .Page.Title " " "_"  }}",{{end}}
+]
+}
+

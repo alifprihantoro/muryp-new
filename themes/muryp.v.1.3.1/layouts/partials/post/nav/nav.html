@@ -1,0 +1,47 @@
+<div class="navTerbang">
+  <!-- btn -->
+  <div class="nav">
+    <input type="checkbox" id="nav" />
+    <label class="navBtn" for="nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <!-- isi nav -->
+    <div class="kontenNav">
+      <!-- search -->
+      <!-- end search -->
+      <div class="headerNav bottom">Author</div>
+
+      <!-- about -->
+      <div class="cardAuthor">
+        <a href="{{.Site.Params.host}}{{.Site.Params.img}}">
+          <img
+            src="{{.Site.Params.host}}{{.Site.Params.thumb}}"
+            alt="{{.Site.Params.Description}}"
+        /></a>
+        <div class="container">
+          <h4>
+            <a href="{{.Site.Params.urlAuthors}}">{{.Site.Params.Author}}</a>
+          </h4>
+          <p>
+            {{.Site.Params.Header | safeHTML}}
+          </p>
+      {{ partial "post/nav/search.html" . }}
+          <!-- follow -->
+          {{ partial "home/last/sosmed.html" . }}
+          {{ partial "main/contact.html" . }}
+          <!-- end follow -->
+
+          <!--start contact & list-->
+          {{if ne .RelPermalink "/"}}
+          {{ end }}
+          <!--end contact & list-->
+        </div>
+      </div>
+      <!-- end about -->
+
+    </div>
+  </div>
+</div>

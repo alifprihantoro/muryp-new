@@ -1,0 +1,7 @@
+<header class="breadcrumb">
+  <a href="/">Home</a>/
+  <a href="{{ .CurrentSection.RelPermalink }}">
+    {{ .CurrentSection.Title }} </a
+  >/
+  <a href="{{ .RelPermalink | urlize }}"> {{ .Title }}</a>
+</header>
