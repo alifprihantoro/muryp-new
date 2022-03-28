@@ -97,6 +97,15 @@ haaaaaa {{ .Name }}
 {{ end }}
 {{ end }}
 ```
+- get markdown file
+```
+{{ with .Site.GetPage "/menu.md" }}{{ .Content | safeHTML }}{{ end }}
+```
+- render image by assets
+```
+{{/* $src := (resources.Get (printf "\"/img/%s.png\"" (.Destination | safeURL)).Resize "51x50" | fingerprint).RelPermalink */}}
+```
+- 
 
 ### Upload ke Github
 
