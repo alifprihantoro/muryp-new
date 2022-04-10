@@ -1,9 +1,0 @@
-{{ range .Paginator.Pages }}
-[
-{
-	"link": "{{  .RelPermalink | urlize }}",
-	"judul": "{{ .Title}}",
-	"date": " {{ dateFormat "02" .Date }} "
-}
-]
-{{ end }}

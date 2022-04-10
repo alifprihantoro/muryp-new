@@ -1,5 +1,0 @@
-User-agent: *
-
-{{range .Data.Pages}}
-Disallow: {{.RelPermalink}}
-{{end}}
