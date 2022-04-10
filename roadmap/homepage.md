@@ -1,0 +1,10 @@
+- [ ] bg (illustration or simple)
+- [ ] header/logo
+- [ ] search box :
+  - [ ] see on tailiwind video
+- [ ] list section :
+  - [ ] blog
+  - [ ] note
+  - [ ] project
+  - [ ] cv
+- [ ] new article/post/video
