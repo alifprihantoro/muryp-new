@@ -1,0 +1,14 @@
+<footer class="central" id="footer">
+  <a href="/">Home</a>
+  {{ with .Site.GetPage "/pages" }}
+  {{ range.Paginator.Pages }}
+  <a href="{{.Permalink}}">{{.Name}}</a>
+  {{ end }}
+  {{ end }}
+  <hr />
+  Dibuat oleh <a href="/"> MuryP</a> with love at Ambarawa
+  <br />
+  &#169; Copyright 2022-2022, All rights reserved.
+  <br />
+  Special Thanks For Hugo, github, Netlify, And Exabytes
+</footer>
