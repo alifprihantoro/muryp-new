@@ -1,8 +1,10 @@
 <div class="list-pages">
-<h1 class=" text-center font-bold font-sans text-4xl p-5 " alt="My Projek">{{ .Title }}</h1>
-<p class="p-5 bg-main-2 w-fit m-auto rounded-md  ">
-Terdapat "{{ len .RegularPages }}" Postingan dari {{ .Title }} yang bisa kalian baca dan komentari.
-</p>
+  <div class=" py-[25px]">
+    <h2 class="w-full border text-center border-solid border-3 mt-4 border-blue-500 leading-[0]">
+      <span class="bg-blue-100 p-2 font-bold uppercase text-blue-800"> Mengenai Toko </span>
+    </h2>
+  </div>
+
 </div>
     <div class="myread">
 	{{ range .Paginator.Pages }}
