@@ -1,0 +1,25 @@
+[[nav]]
+identifier = "About"
+name = "iabout"
+url = "#about"
+weight = 1
+[[nav]]
+identifier = "contact"
+name = "icontact"
+url = "#contact"
+weight = 2
+[[nav]]
+identifier = "download cv"
+name = "idownload"
+url = "#"
+weight = 3
+[[nav]]
+identifier = "portfolio"
+name = "iportfolio"
+url = "#portfolio"
+weight = 4
+[[nav]]
+identifier = "project"
+name = "iproject"
+url = "#project"
+weight = 5
