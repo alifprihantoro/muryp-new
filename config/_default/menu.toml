@@ -23,3 +23,13 @@ identifier = "project"
 name = "iproject"
 url = "#project"
 weight = 5
+[[nav]]
+identifier = "blog"
+name = "iblog"
+url = "/blog"
+weight = 6
+[[nav]]
+identifier = "Catatan"
+name = "inote"
+url = "/note"
+weight = 7
