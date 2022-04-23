@@ -1,16 +1,11 @@
 /* ========== Footer ========== */
 #footer {
-  a {
-    &:hover{
-      @apply text-main-3;
-    }
-    padding:5px;
-    line-height: 35px;
-    font-weight:bold;
-  }
-  @apply bg-main-1;
-  margin-top: 50px;
-  text-align: center;
-  box-shadow: 0 -8px 15px rgba(0,0,0,.1);
+  @apply bg-blue-300 mt-[50px] text-blue-800 text-center shadow-blue-500 shadow-md;
   border-radius: 5px 5px 0 0;
+  a {
+    @apply p-[5px] leading-[35px] font-bold;
+    &:hover{
+      @apply text-black;
+    }
+  }
 }

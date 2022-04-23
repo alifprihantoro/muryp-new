@@ -21,29 +21,3 @@
             </a>
       {{ end }}
     </div>
-<div class="pagination">
-  {{ if gt .Paginator.TotalPages 1 }}
-  {{ if .Paginator.HasPrev }}
-  {{ with .Paginator.First }}
-  <li class="page-item">
-    <a href="{{ .URL }}" alt="go to First pages">&laquo;&laquo;</a>
-  </li>
-  {{ end }}
-  <li><a href="{{ .Paginator.Prev.URL }}" alt="go to Preview Pages">  « </a></li>
-  {{ else }}
-  <li class="Total">Total halaman : {{ .Paginator.TotalPages }}</li>
-  {{ end }}
-  {{ if .Paginator.HasNext }}
-  <li><a href="{{ .Paginator.Next.URL }}" alt="go to Next pages">  » </a></li>
-  {{ with .Paginator.Last }}
-  <li>
-    <a alt="go to Last pages" href="{{ .URL }}">&raquo;&raquo;</a>
-  </li>
-  {{ end }}
-  {{ else }}
-  <li class="Total">Ini Halaman Terakhir</li>
-  {{ end }}
-  {{ else }}
-  <li class="Total">Tidak ada halaman Selanjutnya</li>
-  {{ end }}
-</div>
