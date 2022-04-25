@@ -5,7 +5,7 @@ url = "#about"
 weight = 1
 [[nav]]
 identifier = "contact"
-name = "icontact"
+name = "tlp"
 url = "#contact"
 weight = 2
 [[nav]]
@@ -15,17 +15,17 @@ url = "#"
 weight = 3
 [[nav]]
 identifier = "portfolio"
-name = "iportfolio"
+name = "ifile"
 url = "#portfolio"
 weight = 4
 [[nav]]
 identifier = "project"
-name = "iproject"
+name = "ifile"
 url = "#project"
 weight = 5
 [[nav]]
 identifier = "blog"
-name = "iblog"
+name = "inote"
 url = "/blog"
 weight = 6
 [[nav]]

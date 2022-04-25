@@ -1,10 +1,11 @@
-<div class="flex w-fit m-auto bg-blue-300 gap-[25px] p-5">
+<div class="nav ">
   {{ range .Site.Menus.nav.Sort.ByWeight }}
   <a
-    class="block py-2 pr-4 pl-3 text-white border-b border-green-100 md:border-none hover:font-bold md:p-0"
+    class=""
     href="{{.URL}}"
   >
-  <span class="{{ .Name }}"> {{.Identifier}} </span>
+    <span class="{{ .Name }}"> </span>
+    {{.Identifier}}
   </a>
   {{end}}
 </div>

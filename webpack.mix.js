@@ -17,8 +17,8 @@ mix
     processCssUrls: false,
 })
 
-// // main script
-//   .babel(['./assets/js/icon.js','./assets/js/popup.js'], './assets/main.js')
+// main script
+  .babel(['./assets/js/icon.js'], './assets/main.js')
 //   .babel(['./assets/js/nav.js'], './assets/post.js')
 // // home script
 //   .babel(['./assets/js/link.js'], './assets/home.js')
