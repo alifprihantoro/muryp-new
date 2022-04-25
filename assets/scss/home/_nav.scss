@@ -1,16 +1,16 @@
 .nav {
   @apply flex w-fit m-auto gap-[25px] p-5;
   svg {
-    @apply text-center m-auto fill-white my-2;
+    @apply text-center m-auto fill-white my-2 w-[25px] h-[25px];
   }
-  a{
+  a {
     @apply block text-center p-2 pr-4 pl-3 bg-blue-800 rounded-md text-white uppercase font-bold rounded-[5px] shadow-blue-500 shadow-md;
-&:hover {
-    @apply text-blue-800 bg-blue-300 transition-colors;
-    transition-duration:.5s;
-    svg {
-      @apply fill-blue-800;
+    &:hover {
+      @apply text-blue-800 bg-blue-300 transition-colors;
+      transition-duration: 0.5s;
+      svg {
+        @apply fill-blue-800;
+      }
     }
-  }
   }
 }
