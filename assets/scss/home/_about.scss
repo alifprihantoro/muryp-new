@@ -1,0 +1,9 @@
+.about {
+  display: none;
+}
+#about .about {
+  @apply block fixed top-[50%] left-[50%] w-[480px] h-fit bg-blue-900 p-3 text-white rounded-md ;
+  transform: translate(-50%, -50%);
+  animation-name: popup;
+  animation-duration: 1s;
+}

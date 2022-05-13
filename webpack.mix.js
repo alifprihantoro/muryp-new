@@ -1,13 +1,6 @@
 const mix = require('laravel-mix');
-const tailwindcss = require('tailwindcss'); /* Add this line at the top */
+const tailwindcss = require('tailwindcss');
 const { exec } = require('child_process');
-
-// config mix
-// mix.webpackConfig({
-//     stats: {
-//          children: true
-//     }
-// });
 
 mix
 // style home
@@ -18,10 +11,7 @@ mix
 })
 
 // main script
-  .babel(['./assets/js/icon.js'], './assets/main.js')
-//   .babel(['./assets/js/nav.js'], './assets/post.js')
-// // home script
-//   .babel(['./assets/js/link.js'], './assets/home.js')
+  .babel(['./assets/js/icon.js','./assets/js/link.js'], './assets/main.js')
 
 if (mix.inProduction()) {
   exec("hugo --minify --destination public");

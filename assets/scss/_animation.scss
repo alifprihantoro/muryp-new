@@ -1,0 +1,8 @@
+@keyframes popup {
+  from {
+  transform: translate(-999px, -999px);
+  }
+  to {
+  transform: translate(-50%, -50%);
+  }
+}
