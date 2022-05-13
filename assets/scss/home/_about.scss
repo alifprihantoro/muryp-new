@@ -5,5 +5,12 @@
   @apply block fixed top-[50%] left-[50%] w-[480px] h-fit bg-blue-900 p-3 text-white rounded-md ;
   transform: translate(-50%, -50%);
   animation-name: popup;
-  animation-duration: 1s;
+  animation-duration: .5s;
+  .bar {
+    @apply flex flex-wrap mb-3;
+    border-bottom: 1px solid white;
+  }
+  h2{
+    width:90%;
+  }
 }

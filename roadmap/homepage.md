@@ -1,10 +1,19 @@
-- [ ] bg (illustration or simple)
-- [ ] header/logo
-- [ ] search box :
-  - [ ] see on tailiwind video
-- [ ] list section :
-  - [ ] blog
-  - [ ] note
-  - [ ] project
-  - [ ] cv
-- [ ] new article/post/video
+- [X] bg (illustration or simple)
+- [X] header/logo
+- [X] search box :
+  - [X] see on tailiwind video
+- [ ] window :
+  - [ ] about :
+    - [ ] foto
+    - [ ] description
+  - [ ] contact :
+    - [ ] copy about
+    - [ ] button like serabi
+  - [ ] portfolio github :
+    - [ ] menu project
+    - [ ] sosmed
+  - [ ] project :
+    - [ ] best project
+    - [ ] see other project
+- [ ] responsive
+- [ ] seo
