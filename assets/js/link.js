@@ -1,7 +1,7 @@
 // togle
 const togleWindow = (id)=>{
   // console.log(id)
-  document.querySelector(`.${id}`).classList.toggle('hidden');
+  document.querySelector(`#${id}`).classList.toggle('hidden');
 }
 // get link
 const myId = ()=>{

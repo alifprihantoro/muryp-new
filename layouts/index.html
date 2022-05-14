@@ -15,7 +15,11 @@
     <img src="/logo.png" alt="">
     {{ partial "home/search.html" . }}
     {{ partial "home/nav.html" . }}
+    <!-- window -->
     {{ partial "home/window/about.html" . }}
+    {{ partial "home/window/contact.html" . }}
+    {{ partial "home/window/project.html" . }}
+
     {{ partial "home/list.html" . }}
     {{ partial "home/footer.html" . }}
     {{ $jsMain := resources.Get "main.js" | minify }}
