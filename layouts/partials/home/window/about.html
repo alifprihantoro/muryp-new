@@ -1,14 +1,23 @@
-<div class="about ">
-  <div class="bar">
+<div class="about hidden" id='mydiv'>
+  <div class="bar" id='mydivheader'>
     <h2>About</h2>
-    <a href="#" class="window-btn iclose"></a>
+    <button onclick="togleWindow('about')" class="window-btn iclose"></button>
   </div>
   <!-- image -->
   <h3>Alief Prihantoro</h3>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias incidunt aut
-    eum eius beatae ipsa unde tenetur magnam hic, impedit soluta veniam? Beatae,
-    earum at! Dolore error deleniti eligendi reprehenderit.
+  <p class=" mb-6" >
+    Hello, I'm a web front end. My expert is, HTML, CSS, JS, and some framework
+    like hugo, tailwind, and next js.
   </p>
-  follow
+    <h3 class="text-center w-full border border-solid border-white leading-[0]">
+      <span class="bg-blue-900 px-3"> Follow </span>
+    </h2>
+  <div class="w-fit m-auto flex p-5 btn-sosmed">
+    {{ range .Site.Menus.sosmed.Sort.ByWeight }}
+    <a
+      href="https://{{.URL}}"
+      class="{{ .Identifier }} p-3 m-2 border border-1 rounded-xl hover:bg-blue-300"
+    ></a>
+    {{end}}
+  </div>
 </div>

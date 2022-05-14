@@ -33,3 +33,20 @@ identifier = "Catatan"
 name = "inote"
 url = "/note"
 weight = 7
+
+# sosmed muryp -----------------------------
+[[sosmed]]
+identifier = "fb"
+name = "@alifprihantoro"
+url = "facebook.com/alifprihantoro"
+weight = 1
+[[sosmed]]
+identifier = "ig"
+name = "@alifprihantoro"
+url = "instagram.com/alifprihantoro"
+weight = 2
+[[sosmed]]
+identifier = "tw"
+name = "@alifprihantoro"
+url = "twitter.com/alifprihantoro"
+weight = 3

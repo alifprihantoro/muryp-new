@@ -1,0 +1,6 @@
+.btn-sosmed svg{
+  @apply fill-white;
+  &hover{
+  @apply fill-blue-900;
+  }
+}
