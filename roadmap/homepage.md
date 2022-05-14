@@ -16,5 +16,6 @@
     - [ ] best project
     - [ ] see other project
 - [ ] scroll
+- [ ] hover
 - [ ] responsive
 - [ ] seo

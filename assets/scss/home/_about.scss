@@ -6,6 +6,7 @@
   .bar {
     @apply flex flex-wrap mb-3;
     border-bottom: 1px solid white;
+    cursor:move;
   }
   h2{
     width:90%;
