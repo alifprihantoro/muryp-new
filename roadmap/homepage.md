@@ -2,19 +2,20 @@
 - [X] header/logo
 - [X] search box :
   - [X] see on tailiwind video
-- [ ] window :
-  - [ ] about :
-    - [ ] foto
-    - [ ] description
-  - [ ] contact :
-    - [ ] copy about
-    - [ ] button like serabi
+- [o] window :
+  - [X] about :
+    - [X] foto
+    - [X] description
+  - [X] contact :
+    - [X] copy about
+    - [X] button like serabi
   - [ ] portfolio github :
     - [ ] menu project
     - [ ] sosmed
   - [ ] project :
-    - [ ] best project
+    - [ ] hilight project
     - [ ] see other project
+    - [ ] btn nav project
 - [ ] popup:
   - [ ] close btn
   - [ ] fixed
