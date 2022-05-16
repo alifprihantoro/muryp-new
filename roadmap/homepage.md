@@ -15,6 +15,10 @@
   - [ ] project :
     - [ ] best project
     - [ ] see other project
+- [ ] popup:
+  - [ ] close btn
+  - [ ] fixed
+- [ ] lazy loading
 - [ ] scroll
 - [ ] hover
 - [ ] responsive

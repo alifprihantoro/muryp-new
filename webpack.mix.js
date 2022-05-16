@@ -11,7 +11,7 @@ mix
 })
 
 // main script
-  .babel(['./assets/js/icon.js','./assets/js/link.js','./assets/js/drag.js'], './assets/main.js')
+  .babel(['./assets/js/icon.js','./assets/js/link.js','./assets/js/drag.js','./assets/js/popup.js'], './assets/main.js')
 
 if (mix.inProduction()) {
   exec("hugo --minify --destination public");
