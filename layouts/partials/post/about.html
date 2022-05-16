@@ -1,0 +1,33 @@
+<div
+  class="card bg-main-2 flex flex-col items-center justify-center p-4 shadow-lg rounded-2xl w-[300px]"
+>
+<!-- titl -->
+    <h2 class="w-full border border-solid border-3 mt-4 border-white leading-[0]">
+      <span class="bg-main-1 p-2"> Mengenai Toko </span>
+    </h2>
+    <!-- image -->
+  {{- $image := resources.Get "img/serabi.png" -}}
+  <img src="{{ ($image.Fill "200x200 Center").RelPermalink }}" class="w-full" alt="profile" />
+  <div class="name text-gray-800 text-2xl font-medium mt-4">
+    <p>{{ .Site.Params.name_toko }}</p>
+  </div>
+  <div class="text-center text-gray-500">
+    <p>{{ .Site.Params.description_serabi }}</p>
+  </div>
+  <div class="w-full mt-8">
+    <h2 class="text-center w-full border border-solid border-white leading-[0]">
+      <span class="bg-main-1 px-3"> Follow </span>
+    </h2>
+    <div class="w-fit m-auto">
+    {{ partial "post/sosmed.html" . }}
+    </div>
+  </div>
+  <div class="w-full mt-8">
+    <h2 class="text-center w-full border border-solid border-white leading-[0]">
+      <span class="bg-main-1 px-3"> Contact </span>
+    </h2>
+    <div class="w-fit m-auto">
+    {{ partial "post/contact.html" . }}
+    </div>
+  </div>
+</div>

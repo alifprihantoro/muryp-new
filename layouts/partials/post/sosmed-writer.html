@@ -1,0 +1,5 @@
+<div class="w-fit m-auto flex p-5">
+  {{ range .Site.Menus.sosmed2.Sort.ByWeight }}
+    <a  href="https://{{.URL}}" class="{{ .Identifier }} p-3 m-2 border border-1 rounded-xl hover:bg-main-1"></a>
+  {{end}}
+</div>

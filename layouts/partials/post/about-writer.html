@@ -1,0 +1,28 @@
+<div
+  class="card bg-main-2 mb-5 flex flex-col items-center justify-center p-4 shadow-lg rounded-2xl w-[300px]"
+>
+<!-- title writer -->
+    <h2 class="w-full border border-solid border-3 mt-4 border-white leading-[0]">
+      <span class="bg-main-1 p-2"> Mengenai Penulis </span>
+    </h2>
+<!-- image writer -->
+  {{- $image := resources.Get "img/serabi.png" -}}
+  <img class="w-full" src="{{ ($image.Fill "200x200 Center").RelPermalink }}" class="w-full" alt="profile penulis"/>
+  <div class="name text-gray-800 text-2xl font-medium mt-4">
+    <!-- name -->
+    <p>{{ .Site.Params.name_writer }}</p>
+  </div>
+  <div class="text-center text-gray-500">
+    <!-- description -->
+    <p>{{ .Site.Params.description_writer }}</p>
+  </div>
+  <div class="w-full mt-8">
+<!-- follow -->
+    <h2 class="text-center w-full border border-solid border-white leading-[0]">
+      <span class="bg-main-1 px-3"> Follow </span>
+    </h2>
+    <div class="w-fit m-auto">
+    {{ partial "post/sosmed-writer.html" . }}
+    </div>
+  </div>
+</div>

@@ -1,1 +1,21 @@
-hello
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth selection:bg-main-1">
+  <head itemscope itemtype="{{ .Site.BaseURL }}">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    {{ partial "head.html" . }}
+    <link rel="stylesheet" href="/post.css" />
+  </head>
+  <body class="bg-main-2 bg-opacity-30">
+      {{ partial "post/nav.html" . }}
+    <div class="m-auto bg-main-2 bg-opacity-50">
+      <!-- list -->
+      {{ partial "post/list.html" . }}
+      {{ partial "post/footer.html" . }}
+    </div>
+  </body>
+</html>

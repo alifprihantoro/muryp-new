@@ -11,12 +11,12 @@ weight = 2
 [[nav]]
 identifier = "download cv"
 name = "idownload"
-url = "#"
+url = "https://github.com/alifprihantoro/alifprihantoro/raw/master/Alief_Prihantoro_CV_-_Upto_Date_25_Okt_2021.pdf"
 weight = 3
 [[nav]]
 identifier = "portfolio"
 name = "ifile"
-url = "#portfolio"
+url = "https://github.com/alifprihantoro"
 weight = 4
 [[nav]]
 identifier = "project"
