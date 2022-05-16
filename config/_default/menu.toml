@@ -38,15 +38,63 @@ weight = 7
 [[sosmed]]
 identifier = "fb"
 name = "@alifprihantoro"
-url = "facebook.com/alifprihantoro"
+url = "facebook.com/murypbeta"
 weight = 1
 [[sosmed]]
 identifier = "ig"
 name = "@alifprihantoro"
-url = "instagram.com/alifprihantoro"
+url = "instagram.com/murypbeta"
 weight = 2
 [[sosmed]]
 identifier = "tw"
 name = "@alifprihantoro"
+url = "twitter.com/murypbeta"
+weight = 3
+[[sosmed]]
+identifier = "yt"
+name = "@alifprihantoro"
+url = "youtube.com/channel/UCIxGzpxYCqLqY953v9K05gw"
+weight = 4
+# sosmed alifprihantoro -----------------------------
+[[sosmed2]]
+identifier = "fb"
+name = "@alifprihantoro"
+url = "facebook.com/alifprihantoro"
+weight = 1
+[[sosmed2]]
+identifier = "ig"
+name = "@alifprihantoro"
+url = "instagram.com/alifprihantoro"
+weight = 2
+[[sosmed2]]
+identifier = "tw"
+name = "@alifprihantoro"
 url = "twitter.com/alifprihantoro"
+weight = 3
+[[sosmed2]]
+identifier = "git"
+name = "@alifprihantoro"
+url = "github.com/alifprihantoro"
+weight = 4
+[[sosmed2]]
+identifier = "yt"
+name = "@alifprihantoro"
+url = "youtube.com/channel/UCbXd_susO9uwjuBxdilCbUw"
+weight = 5
+
+# sosmed alifprihantoro -----------------------------
+[[contact]]
+identifier = "tlp"
+name = "+62 8382 9383 123"
+url = "https://wa.me/message/PE5QUV4RBIU6L1"
+weight = 1
+[[contact]]
+identifier = "gmail"
+name = "alifmuryp@gmail.com"
+url = "mailto:alifmuryp@gmail.com"
+weight = 2
+[[contact]]
+identifier = "telegram"
+name = "@muryp"
+url = "https://t.me/muryp"
 weight = 3

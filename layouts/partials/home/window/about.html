@@ -17,9 +17,9 @@
     </h2>
   <div class="w-fit m-auto flex p-5 btn-sosmed">
     {{ range .Site.Menus.sosmed.Sort.ByWeight }}
-    <a
+    <a target="_blank"
       href="https://{{.URL}}"
-      class="{{ .Identifier }} p-3 m-2 border border-1 rounded-xl hover:bg-blue-300"
+      class="{{ .Identifier }} p-3 m-2 border border-1 rounded-xl flex content-center items-center hover:bg-blue-300"
     ></a>
     {{end}}
   </div>

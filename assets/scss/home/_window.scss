@@ -4,7 +4,7 @@
   animation-name: popup;
   animation-duration: .5s;
   .bar {
-    @apply flex flex-wrap mb-3;
+    @apply flex flex-wrap mb-8;
     border-bottom: 1px solid white;
     cursor:move;
   }
