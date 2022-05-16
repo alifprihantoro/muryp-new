@@ -1,0 +1,39 @@
+body * {
+  @apply max-w-6xl text-white;
+  fill: white;
+}
+// article
+article {
+  // coba style orang
+  h2 {
+    @apply text-2xl font-bold;
+  }
+
+  h3 {
+    @apply text-xl font-bold;
+  }
+
+  h4 {
+    @apply text-lg font-bold;
+  }
+
+  p{
+    @apply text-sm font-normal my-3;
+  }
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  height: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-main-1 rounded-xl;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-main-1;
+}
+

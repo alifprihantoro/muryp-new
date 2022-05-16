@@ -1,0 +1,9 @@
+  .btn {
+    @apply font-bold py-2 px-4 rounded w-fit mr-6; 
+  }
+  .btn-main {
+    @apply bg-main-1 text-white;
+  }
+  .btn-main:hover {
+    @apply bg-main-2;
+  }

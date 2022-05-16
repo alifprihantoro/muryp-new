@@ -9,6 +9,13 @@ mix
 ]).options({
     processCssUrls: false,
 })
+// style post
+.sass("./assets/scss/post/main.scss", "public/post.css", {}, [
+    tailwindcss('./config/tailwind.post.js')
+  ])
+  .options({
+    processCssUrls: false,
+  })
 
 // main script
   .babel(['./assets/js/icon.js','./assets/js/link.js','./assets/js/drag.js','./assets/js/popup.js'], './assets/main.js')
