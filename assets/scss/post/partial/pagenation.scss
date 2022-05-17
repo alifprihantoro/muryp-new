@@ -1,20 +1,13 @@
 //======== Pagenation
 .pagination {
   a,.Total {
+    @apply bg-blue-900 p-[15px] m-[15px] max-w-[50%] text-white font-bold;
     &:hover {
-    @apply bg-main-1;
-      color: #fff;
+    @apply bg-blue-400 rounded-xl text-white;
     }
-    @apply bg-main-2;
-    padding: 15px;
-    margin: 15px;
-    max-width: 50%;
-    color: #fff;
-    font-weight: 900;
   }
+  @apply flex w-full;
   list-style: none;
-  display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 100%;
 }

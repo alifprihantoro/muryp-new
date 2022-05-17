@@ -10,12 +10,19 @@
     {{ partial "head.html" . }}
     <link rel="stylesheet" href="/post.css" />
   </head>
-  <body class="bg-main-2 bg-opacity-30">
-      {{ partial "post/nav.html" . }}
-    <div class="m-auto bg-main-2 bg-opacity-50">
-      <!-- list -->
-      {{ partial "post/list.html" . }}
-      {{ partial "post/footer.html" . }}
+  <body class="bg-blue-300 bg-opacity-30">
+    <!-- main -->
+    <div class="m-auto flex bg-blue-300">
+      <!-- list post -->
+      <div class="w-fit max-w-[70%] ">
+        <!-- list -->
+        {{ partial "post/list.html" . }}
+        {{ partial "post/footer.html" . }}
+      </div>
+      <div class="w-[30%]">
+        <!-- nav -->
+        {{ partial "post/nav.html" . }}
+      </div>
     </div>
   </body>
 </html>

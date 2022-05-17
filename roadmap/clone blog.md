@@ -1,8 +1,0 @@
-- [ ] mv static => assets
-- [ ] clone dependency
-- [ ] config wepack.mix :
-  - [ ] list css
-  - [ ] blog css
-- [ ] refactori scss
-- [ ] js => typescript
-- [ ] unitest
