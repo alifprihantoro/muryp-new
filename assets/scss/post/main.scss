@@ -1,5 +1,9 @@
 @import "partial/tailwind";
 @import "partial/reset";
+
+// layout
+@import "partial/layout";
+
 // @import "partial/nav";
 // @import "partial/btn";
 @import "partial/list";
@@ -10,3 +14,7 @@
 @import "partial/breadcrumb";
 @import "partial/btn_sosmed";
 @import "partial/pagenation-post";
+
+// nav link
+@import "../home/nav";
+

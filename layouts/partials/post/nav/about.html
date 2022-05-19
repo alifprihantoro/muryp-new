@@ -1,20 +1,20 @@
- <h2 class="bg-green-900">about</h2> 
-  <!-- image -->
-    {{ $img := resources.Get "img/IMG_20220514_132634_820_2-removebg-preview.png" }}
-  <img class="text-center m-auto rounded-[50%]" onclick="imagePopup(this.getAttribute('data-src'))" data-src="{{ $img.RelPermalink }}" src="{{ ($img.Fill "200x200 Center").RelPermalink }}" alt="profile ALIEF PRIHANTORO">
-  <h3>Alief Prihantoro</h3>
-  <p class=" mb-6" >
-    Hello, I'm a web front end. My expert is, HTML, CSS, JS, and some framework
-    like hugo, tailwind, and next js.
-  </p>
-  <h3 class="text-center w-full border border-solid border-white leading-[0]">
-    <span class="bg-blue-900 px-3"> Follow </span>
-  </h3>
-<div class="w-fit m-auto flex p-5 btn-sosmed">
-  {{ range .Site.Menus.sosmed.Sort.ByWeight }}
-  <a target="_blank"
-    href="https://{{.URL}}"
-    class="{{ .Identifier }} p-3 m-2 border border-1 rounded-xl flex content-center items-center hover:bg-blue-300"
-  ></a>
-  {{end}}
-</div>
+<br />
+<h3 class="text-center w-full border border-solid border-white leading-[0]">
+  <span class="bg-blue-900 px-3"> about </span>
+</h3>
+<br />
+
+<!-- image -->
+{{ $img := resources.Get "img/IMG_20220514_132634_820_2-removebg-preview.png" }}
+<img class="text-center m-auto rounded-[50%]"
+onclick="imagePopup(this.getAttribute('data-src'))" 
+data-src="{{$img.RelPermalink }}" 
+src="{{ ($img.Fill "200x200 Center").RelPermalink }}"
+alt="profile ALIEF PRIHANTORO">
+
+<!-- title -->
+<h3>Alief Prihantoro</h3>
+<p class="mb-6">
+  Hello, I'm a web front end. My expert is, HTML, CSS, JS, and some framework
+  like hugo, tailwind, and next js.
+</p>
