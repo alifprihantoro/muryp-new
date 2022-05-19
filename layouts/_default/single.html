@@ -1,1 +1,30 @@
-{{ .Content | safeHTML }}
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth selection:bg-main-1">
+  <head itemscope itemtype="{{ .Site.BaseURL }}">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    {{ partial "head.html" . }}
+    <link rel="stylesheet" href="/post.css" />
+  </head>
+  <body class="bg-blue-300 bg-opacity-30">
+    <!-- main -->
+    <div class="m-auto :flex block bg-blue-300">
+      <!-- post -->
+      <div class="md:w-fit m-auto md:max-w-[70%] p-4">
+        <!-- header  -->
+        <!-- breadcrumb -->
+        <!-- content -->
+        {{ .Content | safeHTML }}
+        <!-- footer post -->
+      </div>
+      <div class="w-[30%] hidden md:block">
+        <!-- nav -->
+        {{ partial "post/nav.html" . }}
+      </div>
+    </div>
+  </body>
+</html>

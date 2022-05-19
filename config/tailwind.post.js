@@ -1,5 +1,5 @@
 module.exports = {
-  content: ['./layouts/partials/post/**/*.{html,js}','./layouts/_default/list.html'],
+  content: ['./layouts/partials/post/**/*.{html,js}','./layouts/_default/list.html','./layouts/_default/single.html'],
   theme: {
     extend: {
       colors: {
