@@ -14,14 +14,18 @@
     <!-- main -->
     <div class="layout-post">
       <!-- post -->
-      <div class="md:w-fit m-auto md:max-w-[70%] p-4">
-        <!-- header  -->
+      <div class="md:w-fit md:max-w-[70%] px-5">
         <!-- breadcrumb -->
+        {{ partial "post/single/breadcrumb.html" . }}
+        <!-- header  -->
+        {{ partial "post/single/header.html" . }}
         <!-- content -->
+        <article>
         {{ .Content | safeHTML }}
+        </article>
         <!-- footer post -->
       </div>
-      <div class="w-[30%] hidden md:block">
+      <div class="w-[30%] hidden md:block bg-blue-600">
         <!-- nav -->
         {{ partial "post/nav.html" . }}
       </div>
