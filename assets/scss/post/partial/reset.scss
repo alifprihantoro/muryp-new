@@ -1,5 +1,5 @@
 body * {
-  @apply max-w-[1080px] text-white;
+  @apply max-w-[100vw] text-white;
   fill: white;
 }
 // article
@@ -31,19 +31,3 @@ article {
     }
   }
 }
-
-/* scrollbar */
-::-webkit-scrollbar {
-  height: 5px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  @apply bg-blue-900 rounded-xl;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  @apply bg-blue-900;
-}
-

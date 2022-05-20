@@ -1,0 +1,19 @@
+/* scrollbar */
+::-webkit-scrollbar {
+  height: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-blue-800 rounded-xl;
+}
+
+::-webkit-scrollbar {
+  @apply bg-blue-300;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-blue-900;
+}
+
