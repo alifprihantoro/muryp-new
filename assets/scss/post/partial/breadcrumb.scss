@@ -1,6 +1,9 @@
 .breadcrumb {
   a{
-    @apply text-main-1;
+    @apply text-blue-700 font-bold;
   }
-  @apply text-main-1;
+  @apply text-blue-700 font-bold uppercase px-5 max-w-full;
+  text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
 }

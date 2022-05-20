@@ -4,21 +4,22 @@ body * {
 }
 // article
 article {
+  @apply px-5;
   // coba style orang
   h2 {
-    @apply text-2xl font-bold;
+    @apply text-3xl font-bold;
   }
 
   h3 {
-    @apply text-xl font-bold;
+    @apply text-2xl font-bold;
   }
 
   h4 {
-    @apply text-lg font-bold;
+    @apply text-xl font-bold;
   }
 
   p{
-    @apply text-sm font-normal my-7;
+    @apply text-lg font-normal my-7;
   }
   a{
     @apply text-blue-800 font-bold;

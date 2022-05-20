@@ -14,7 +14,7 @@
     <!-- main -->
     <div class="layout-post">
       <!-- post -->
-      <div class="md:w-fit md:max-w-[70%] px-5">
+      <div class="md:w-fit md:max-w-[70%]">
         <!-- breadcrumb -->
         {{ partial "post/single/breadcrumb.html" . }}
         <!-- header  -->
@@ -24,8 +24,9 @@
         {{ .Content | safeHTML }}
         </article>
         <!-- footer post -->
+    {{ partial "footer.html" . }}
       </div>
-      <div class="w-[30%] hidden md:block bg-blue-600">
+      <div class="w-[30%] hidden md:block bg-blue-500">
         <!-- nav -->
         {{ partial "post/nav.html" . }}
       </div>
