@@ -1,0 +1,33 @@
+body * {
+  @apply max-w-[100vw] text-white;
+  fill: white;
+}
+// article
+article {
+  @apply px-5;
+  p, li, ul, ol{
+    @apply py-5;
+  }
+  // coba style orang
+  h2 {
+    @apply text-3xl font-bold;
+  }
+
+  h3 {
+    @apply text-2xl font-bold;
+  }
+
+  h4 {
+    @apply text-xl font-bold;
+  }
+
+  p{
+    @apply text-lg font-normal;
+  }
+  a{
+    @apply text-blue-600 font-bold;
+    &hover{
+      @apply underline;
+    }
+  }
+}

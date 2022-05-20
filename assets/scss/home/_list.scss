@@ -1,0 +1,31 @@
+// pembungkus
+.content {
+  @apply bg-blue-200 flex p-[15px] w-[80%] rounded-[5px] shadow-blue-500 shadow-md;
+  margin: 25px auto;
+}
+
+.myread {
+  @apply w-full grid text-left text-blue-700;
+  grid-template-columns: auto;
+  // hover
+  a:hover {
+    transform: translate(10px, -10px);
+  }
+  // tanggal
+  .date {
+    @apply mr-[30px] w-[64px] text-center;
+    // day
+    .day {
+      @apply leading-[0.45em] block;
+      font-weight: 700;
+      font-size: 3em;
+      margin: 20px auto;
+    }
+  }
+}
+
+@screen md {
+  .myread {
+    grid-template-columns: auto auto;
+  }
+}

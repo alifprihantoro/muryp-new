@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth selection:bg-blue-900 selection:text-white">
+  <head itemscope itemtype="{{ .Site.BaseURL }}">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    {{ partial "head.html" . }}
+    <link rel="stylesheet" href="/post.css" />
+  </head>
+  <body class="bg-blue-300 bg-opacity-30">
+    <!-- main -->
+    <div class="layout-post w-[916px]">
+      <!-- post -->
+      <div class="md:w-fit md:max-w-[580px] h-screen overflow-scroll">
+        <!-- header  -->
+        {{ partial "post/single/header.html" . }}
+        <!-- content -->
+        <article>
+        {{ .Content | safeHTML }}
+        </article>
+        <!-- breadcrumb -->
+        {{ partial "post/single/breadcrumb.html" . }}
+        <!-- footer post -->
+    {{ partial "post/single/disqus.html" . }}
+    {{ partial "footer.html" . }}
+      </div>
+      <div class="w-[380px] hidden md:block bg-blue-500">
+        <!-- nav -->
+        {{ partial "post/nav.html" . }}
+      </div>
+    </div>
+    <script src="/main.min.js"></script>
+  </body>
+</html>

@@ -1,9 +1,0 @@
-
-[
-{
-"list_tag" : " app,  Back_End,  Bassic,  coding,  CSS,  Design,  Front_End,  Git,  Github,  Gitlab,  Header,  HTML,  info,  Jaringan,  Linux,  Security,  Server,  shell,  tag,  Termux,  Tutorial,  Ubuntu,  web,  Web_Design, "
-},
-{
-"content" : "<h2 id='persiapan-portfolio'>persiapan portfolio</h2><h3 id='front-end'>front end</h3><ul><li><a href='https://docs.github.com/en/rest/guides/getting-started-with-the-rest-api'          target='_blank'    rel='nofollow'        >get data profile, repo</a></li><li>typing css/js</li><li>grid auto auto</li><li>transform translate</li><li>intersection observe js</li><li>flip card (see serabi theme)</li><li>animation sosis/sus</li><li>display fixed</li></ul><h3 id='backend-use'>backend (use)</h3><ul><li>hugo template kayak biasa</li><li>hugo template api (if content change)</li><li>tailwind</li><li>laravel mix, webpack, babel, sass (if style change)</li></ul><h3 id='backend-not-use'>backend (not use)</h3><ul><li>folder :<ul><li>src :<ul><li>script :<ul><li>script.js</li><li>sass.js</li><li>deploy</li><li>server</li><li>config</li><li>api</li></ul></li><li>template :<ul><li>index.html</li><li>partial :</li><li>script :</li><li>scss :</li></ul></li><li>config</li></ul></li><li>public</li><li>content</li></ul></li><li>script :<ul><li>get config simpan di array config [{}] =&gt; push</li><li>eval(var)</li><li>get all markdown on content<ul><li>content.push(url,content)</li></ul></li><li>merger script and uglify<ul><li>get file with not contain _files.js</li><li>foreach (e =&gt; write filename.replace =&gt; [read filename_part write to filename_root] exec())</li><li>uglyfy hasil merger diatas (bisa dinoneactifkan saat dev)</li></ul></li><li>sass compile</li><li>watch =&gt; if file change funch change spesific file/folder</li><li>server on golder public</li></ul></li></ul>"
-}
-]

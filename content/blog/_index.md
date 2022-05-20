@@ -1,4 +1,4 @@
 ---
-title: Halaman Blog
+title: Blog
 ---
 teslah

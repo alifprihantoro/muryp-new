@@ -1,0 +1,15 @@
+.window {
+  @apply fixed top-[50%] left-[50%] w-[480px] max-h-[100vh] max-w-[100vw] h-fit bg-blue-700 p-3 text-white rounded-md ;
+  transform: translate(-50%, -50%);
+  animation-name: popup;
+  animation-duration: .5s;
+  overflow:scroll;
+  .bar {
+    @apply flex flex-wrap mb-8;
+    border-bottom: 1px solid white;
+    cursor:move;
+  }
+  h2{
+    width:90%;
+  }
+}

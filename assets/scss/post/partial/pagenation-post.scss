@@ -1,0 +1,28 @@
+/* next prev */
+.nav-post {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto
+}
+
+.btn2 {
+a {
+  &:hover{
+    @apply bg-main-2;
+  }
+  @apply bg-main-1 p-5;
+  border-radius: 5px;
+  color: #fff;
+  display: inline-block
+}
+}
+.link-reverse{
+  @apply text-main-1 font-bold;
+}
+.next-post {
+  text-align: right
+}
+
+.sidebar {
+  text-align: center
+}

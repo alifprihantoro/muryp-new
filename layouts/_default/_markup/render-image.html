@@ -1,0 +1,26 @@
+ <!-- ((resources.Get "tes.png").Resize "51x50" | fingerprint).RelPermalink  -->
+  {{ $imagePath := printf "img/%s.png" .Destination | safeURL }}
+  {{- $image := resources.Get $imagePath -}}
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img
+        src="{{ ($image.Fill "200x200 Center").RelPermalink }}"
+        alt="{{ .Text }}"
+        style="width: 300px; height: 200px"
+      />
+    </div>
+    <div class="flip-box-back">
+      <span>
+        {{ .Text | safeHTML }}
+        <div>
+          <a
+              href="{{ (resources.Get $imagePath).RelPermalink }}"
+            target="_blank"
+            rel="nofollow"
+            >see full img</a>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>

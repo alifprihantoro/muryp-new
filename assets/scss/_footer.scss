@@ -1,0 +1,11 @@
+/* ========== Footer ========== */
+#footer {
+  @apply bg-blue-900 mt-[50px] text-white text-center;
+  border-radius: 5px 5px 0 0;
+  a {
+    @apply p-[5px] leading-[35px] font-bold;
+    &:hover{
+      @apply text-black;
+    }
+  }
+}

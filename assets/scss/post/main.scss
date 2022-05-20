@@ -1,0 +1,18 @@
+@import "../tailwind";
+@import "partial/reset";
+@import "../scroll";
+
+// layout
+@import "partial/layout";
+
+@import "partial/list";
+@import "partial/pagenation";
+@import "../footer";
+
+// post
+@import "partial/breadcrumb";
+@import "partial/pagenation-post";
+
+// nav link
+@import "../home/nav";
+

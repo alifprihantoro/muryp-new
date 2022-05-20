@@ -1,0 +1,23 @@
+<div class="list-pages">
+  <div class=" py-[25px]">
+    <h2 class="w-full border text-center border-solid border-3 mt-4 border-blue-500 leading-[0]">
+      <span class="bg-blue-100 p-2 font-bold uppercase text-blue-800"> New Post </span>
+    </h2>
+  </div>
+
+</div>
+    <div class="myread">
+	{{ range .Paginator.Pages }}
+	      <a href="{{ .RelPermalink }}">
+      <div class="content">
+        <div class="date">
+									<span class="day">{{ dateFormat "02" .Date }}</span>
+							<span class="rest">{{ if $.Site.Data.month }}{{ index $.Site.Data.month (printf "%d" .Date.Month) }} {{ .Date.Year }}{{ else }}{{ dateFormat "Jan 2006" .Date }}{{ end }}</span>
+								</div>
+        <div class="readMore">
+            {{ .Title }}
+        </div>
+     </div>
+            </a>
+      {{ end }}
+    </div>

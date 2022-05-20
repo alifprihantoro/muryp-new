@@ -1,0 +1,15 @@
+  <!-- <div class=" p-5 w-full rounded-xl"> -->
+  <!--   {{ $img := resources.Get "img/IMG_20220514_132634_820_2-removebg-preview.png" }} -->
+  <!--   <img class="text-center m-auto rounded-[50%]" -->
+  <!--   onclick="imagePopup(this.getAttribute('data-src'))"  -->
+  <!--   data-src="{{$img.RelPermalink }}"  -->
+  <!--   src="{{ ($img.Fill "200x200 Center").RelPermalink }}" -->
+  <!--   alt="profile ALIEF PRIHANTORO"> -->
+  <!-- </div> -->
+  <div class="bg-blue-900 rounded-xl p-5">
+  <h1 class="text-2xl font-bold uppercase">{{ .Title }}</h1>
+  <div class="flex">
+  <div class="flex p-3 pl-0"><span class="iabout"></span>Alief Prihantoro</div>
+  <div class="flex p-3"><span class="idate"></span>{{ .PublishDate.Format "January 2, 2006" }}</div>
+  </div>
+  </div>

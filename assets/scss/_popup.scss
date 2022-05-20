@@ -1,0 +1,14 @@
+.image-popup {
+  @apply fixed w-[100vw] h-[100vh] top-0 left-0 z-[9999] flex content-center items-center backdrop-blur-md;
+  background: rgb(0,0,0,.8);
+  a{
+    @apply w-fit m-auto text-center;
+  }
+  button svg{
+    @apply fill-white absolute top-3 right-8 w-10 h-10 ;
+    &hover{
+      fill: red;
+    }
+  }
+
+}

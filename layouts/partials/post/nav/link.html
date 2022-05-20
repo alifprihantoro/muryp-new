@@ -1,0 +1,11 @@
+<div class="nav">
+{{ range .Site.Menus.nav.Sort.ByWeight }}
+  <a
+    class=""
+    href="{{ replace .URL "#" "/#" }}"
+  >
+    <span class="{{ .Name }}"> </span>
+    {{.Identifier}}
+  </a>
+  {{end}}
+</div>  
