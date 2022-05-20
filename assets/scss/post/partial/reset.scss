@@ -1,10 +1,13 @@
 body * {
-  @apply max-w-6xl text-white;
+  @apply max-w-[1080px] text-white;
   fill: white;
 }
 // article
 article {
   @apply px-5;
+  p, li, ul, ol{
+    @apply py-5;
+  }
   // coba style orang
   h2 {
     @apply text-3xl font-bold;
@@ -19,10 +22,10 @@ article {
   }
 
   p{
-    @apply text-lg font-normal my-7;
+    @apply text-lg font-normal;
   }
   a{
-    @apply text-blue-800 font-bold;
+    @apply text-blue-600 font-bold;
     &hover{
       @apply underline;
     }

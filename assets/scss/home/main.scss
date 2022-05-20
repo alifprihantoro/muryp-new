@@ -1,8 +1,8 @@
-@use 'tailwind';
+@use '../tailwind';
 @use 'nav';
 @use 'list';
 @use 'pagenation';
-@use 'footer';
+@use '../footer';
 
 // window
 @use '../animation';

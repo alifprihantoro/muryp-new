@@ -1,18 +1,15 @@
-@import "partial/tailwind";
+@import "../tailwind";
 @import "partial/reset";
 
 // layout
 @import "partial/layout";
 
-// @import "partial/nav";
-// @import "partial/btn";
 @import "partial/list";
 @import "partial/pagenation";
-@import "partial/footer";
+@import "../footer";
 
 // post
 @import "partial/breadcrumb";
-@import "partial/btn_sosmed";
 @import "partial/pagenation-post";
 
 // nav link

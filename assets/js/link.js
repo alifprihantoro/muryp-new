@@ -17,3 +17,4 @@ window.addEventListener('popstate', function () {
 myId()
 });
 
+myId()

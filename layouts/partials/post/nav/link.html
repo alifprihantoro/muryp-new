@@ -2,7 +2,7 @@
 {{ range .Site.Menus.nav.Sort.ByWeight }}
   <a
     class=""
-    href="{{.URL}}"
+    href="{{ replace .URL "#" "/#" }}"
   >
     <span class="{{ .Name }}"> </span>
     {{.Identifier}}
