@@ -16,7 +16,7 @@ weight = 3
 [[nav]]
 identifier = "portfolio"
 name = "ifile"
-url = "https://github.com/alifprihantoro"
+url = "https://github.com/alifprihantoro/alifprihantoro"
 weight = 4
 [[nav]]
 identifier = "project"

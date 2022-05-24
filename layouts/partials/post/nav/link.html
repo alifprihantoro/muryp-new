@@ -1,7 +1,7 @@
 <div class="nav">
+<a href="/">home</a>
 {{ range .Site.Menus.nav.Sort.ByWeight }}
   <a
-    class=""
     href="{{ replace .URL "#" "/#" }}"
   >
     <span class="{{ .Name }}"> </span>

@@ -13,3 +13,9 @@
     width:90%;
   }
 }
+
+@screen md {
+  .window {
+    overflow: hidden;
+  }
+}
