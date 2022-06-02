@@ -1,5 +1,5 @@
 ---
-title: "catatan Bash"
+title: "Catatan bash"
 slug: catatan-bash
 date: 2022-01-28T21:21:27+07:00
 lastmod: 2022-01-28T21:21:27+07:00
