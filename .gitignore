@@ -117,3 +117,6 @@ main.js
 content/blog
 content/pages
 mix-manifest.json
+
+# node
+tags*
