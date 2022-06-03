@@ -4,7 +4,11 @@ body * {
 }
 // article
 article {
-  @apply px-5;
+  @apply px-5 m-[6px] rounded-xl;
+  box-shadow: 0 0 10px #1e3a8a;
+  *{
+    @apply text-blue-900;
+  }
   p, li, ul, ol{
     @apply py-5;
   }

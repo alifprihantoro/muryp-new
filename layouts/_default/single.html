@@ -10,25 +10,24 @@
     {{ partial "head.html" . }}
     <link rel="stylesheet" href="/post.css" />
   </head>
-  <body class="bg-blue-300 bg-opacity-30">
+  <body class="bg-blue-900 bg-opacity-20">
     <!-- main -->
     <div class="layout-post w-[916px]">
       <!-- post -->
       <div class="md:w-fit md:max-w-[580px] h-screen overflow-scroll">
         <!-- header  -->
         {{ partial "post/single/header.html" . }}
-        <!-- content -->
-        <article>
-        {{ .Content | safeHTML }}
-        </article>
         <!-- breadcrumb -->
         {{ partial "post/single/breadcrumb.html" . }}
+        <!-- content -->
+        <article>
+          {{ .Content | safeHTML }}
+        </article>
         <!-- footer post -->
-    {{ partial "post/single/disqus.html" . }}
-    {{ partial "footer.html" . }}
+        {{ partial "post/nav/footer-post.html" . }}
       </div>
-      <div class="w-[380px] hidden md:block bg-blue-500">
-        <!-- nav -->
+      <!-- nav -->
+      <div class="w-[380px] hidden md:block">
         {{ partial "post/nav.html" . }}
       </div>
     </div>

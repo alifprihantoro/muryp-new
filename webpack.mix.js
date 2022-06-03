@@ -1,27 +1,37 @@
-const mix = require('laravel-mix');
-const tailwindcss = require('tailwindcss');
-const { exec } = require('child_process');
+const mix = require('laravel-mix')
+const tailwindcss = require('tailwindcss')
+const { exec } = require('child_process')
 
 mix
-// style home
-.sass('./assets/scss/home/main.scss', 'public/home.css', {}, [
-    tailwindcss('./config/tailwind.home.js')
-]).options({
+  // style home
+  .sass('./assets/scss/home/main.scss', 'public/home.css', {}, [
+    tailwindcss('./config/tailwind.home.js'),
+  ])
+  .options({
     processCssUrls: false,
-})
-// style post
-.sass("./assets/scss/post/main.scss", "public/post.css", {}, [
-    tailwindcss('./config/tailwind.post.js')
+  })
+  // style post
+  .sass('./assets/scss/post/main.scss', 'public/post.css', {}, [
+    tailwindcss('./config/tailwind.post.js'),
   ])
   .options({
     processCssUrls: false,
   })
 
-// main script
-  .babel(['./assets/js/icon.js','./assets/js/link.js','./assets/js/drag.js','./assets/js/popup.js'], './assets/main.js')
+  // main script
+  .babel(
+    [
+      './assets/js/icon.js',
+      './assets/js/search.js',
+      './assets/js/link.js',
+      './assets/js/drag.js',
+      './assets/js/popup.js',
+    ],
+    './assets/main.js'
+  )
 
 if (mix.inProduction()) {
-  exec("hugo --minify --destination public");
-}else{
-  exec("hugo server --minify --destination public");
+  exec('hugo --minify --destination public')
+} else {
+  exec('hugo server --minify --destination public')
 }

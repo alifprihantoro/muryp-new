@@ -1,9 +1,9 @@
 .breadcrumb {
-  a{
-    @apply text-white font-bold;
-  }
-  @apply text-white font-bold uppercase px-5 max-w-full;
+  @apply text-blue-900 font-bold uppercase p-5 max-w-full;
   text-overflow: ellipsis;
-white-space: nowrap;
-overflow: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+  a{
+    @apply text-blue-900 font-bold;
+  }
 }

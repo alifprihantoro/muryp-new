@@ -4,16 +4,13 @@
     @apply text-center fill-white m-2 w-[25px] h-[25px];
   }
   a {
-    @apply flex text-center p-2 pr-4 pl-3 bg-blue-800
-    rounded-md text-white uppercase font-bold rounded-[5px] shadow-blue-500 shadow-md;
-justify-content: center;
-  align-items: center;
+    @apply flex text-center p-2 pr-4 pl-3 bg-blue-900 bg-opacity-[95%]
+    rounded-md text-white uppercase font-bold rounded-[5px]
+    shadow-blue-500 shadow-md;
+    justify-content: center;
+    align-items: center;
     &:hover {
-      @apply text-blue-800 bg-blue-300 transition-colors;
-      transition-duration: 0.5s;
-      svg {
-        @apply fill-blue-800;
-      }
+      @apply translate-x-2 duration-75;
     }
   }
 }

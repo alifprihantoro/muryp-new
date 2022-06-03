@@ -5,11 +5,11 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  @apply bg-blue-800 rounded-xl;
+  @apply bg-blue-900 bg-opacity-75 rounded-xl;
 }
 
 ::-webkit-scrollbar {
-  @apply bg-blue-300;
+  @apply bg-blue-900 bg-opacity-25;
 }
 
 /* Handle on hover */
