@@ -5,7 +5,7 @@ body * {
 // article
 article {
   @apply px-5 m-[6px] rounded-xl;
-  box-shadow: 0 0 10px #1e3a8a;
+  box-shadow: 0 0 10px rgb(30,50,158,.3);
   *{
     @apply text-blue-900;
   }

@@ -1,19 +1,28 @@
 // pembungkus
 .content {
-  display: flex;
+  @apply flex p-[15px] w-[80%] shadow-md shadow-blue-900;
   border-radius: 5px;
-  box-shadow: rgb(0,0,0,0.3) 5px 5px 15px;
   margin: 25px auto !important;
-  padding: 15px;
-  width: 80%;
-  background: rgb(0,0,0,0.2);
+  *{
+    @apply text-blue-900;
+  }
 }
 
 .myread {
-  display: grid;
-  width: 100%;
+  @apply grid w-full text-left;
   grid-template-columns: auto;
-  text-align: left;
+  // tanggal
+   .date {
+     @apply mr-[30px] w-[64px] text-center;
+    .day {
+      @apply font-semibold leading-[.45em] block;
+      font-size: 3em;
+      margin: 20px auto;
+    }
+  }
+  a:hover {
+      transform: translate(10px, -10px);
+    }
 }
 
 @screen md {
@@ -21,24 +30,4 @@
   grid-template-columns: auto auto;
   }
 }
-
-// tanggal
-.myread .date {
-  margin-right: 30px;
-  width: 64px;
-  text-align: center;
-}
-
-.myread .date .day {
-  font-weight: 700;
-  line-height: 0.45em;
-  font-size: 3em;
-  display: block;
-  margin: 20px auto;
-}
-
-// hover
-.myread a:hover {
-    transform: translate(10px, -10px);
-  }
 

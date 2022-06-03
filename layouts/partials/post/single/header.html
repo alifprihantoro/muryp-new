@@ -6,10 +6,16 @@
   <!--   src="{{ ($img.Fill "200x200 Center").RelPermalink }}" -->
   <!--   alt="profile ALIEF PRIHANTORO"> -->
   <!-- </div> -->
-  <div class="bg-blue-900 rounded-xl p-5">
+<div class="bg-blue-900 rounded-xl p-5 m-3">
   <h1 class="text-2xl font-bold uppercase">{{ .Title }}</h1>
-  <div class="flex">
-  <div class="flex p-3 pl-0"><span class="iabout"></span>Alief Prihantoro</div>
-  <div class="flex p-3"><span class="idate"></span>{{ .PublishDate.Format "January 2, 2006" }}</div>
+  <div class="md:flex">
+    <div class="flex my-3 mr-5 pl-0">
+      <span class="iabout mr-3"></span>
+      <a href="/#about">Alief Prihantoro</a>
+    </div>
+    <div class="flex my-3 ">
+      <span class="idate mr-3"></span>
+      {{ .PublishDate.Format "January 2, 2006" }}
+    </div>
   </div>
-  </div>
+</div>

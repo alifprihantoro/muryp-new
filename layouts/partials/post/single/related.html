@@ -1,12 +1,16 @@
 {{ $related := .Site.RegularPages.Related . | first 5 }}
 {{ with $related }}
-<h1 class="Contact">See Also</h1>
-<div class="related">
+<br>
+<h3 class="text-center w-full border border-solid border-white leading-[0]">
+  <span class="bg-blue-900 px-3"> Baca Juga :</span>
+</h3>
+<div class="myread">
 	{{ range . }}
-      <div class="content">
-        <a href="{{ .RelPermalink }}">
-        <div class="readMore"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
-      </a></div>
+  <a href="{{ .RelPermalink }}">
+    <div class="content">
+      <div class="readMore">{{ .Title }}</div>
+    </div>
+  </a>
 	{{ end }}
 	</div>
 {{ end }}

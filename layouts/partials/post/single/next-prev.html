@@ -1,30 +1,26 @@
 <div class="nav-post">
-  <div class="prev-post">
+  <div class="hover:-translate-x-3">
     {{ if .NextInSection }}
-    <div class="btn">
-      <a class="link-reverse" href="{{ .NextInSection.Permalink }}?ref=footer"
+      <a 
+       href="{{ .NextInSection.Permalink }}?ref=footer"
         >« Sebelumnya</a
       >
-    </div>
+      <br>
     <a
-      class="link-reverse"
       href="{{ .NextInSection.Permalink }}?ref=footer"
       >{{ .NextInSection.Title | truncate 50 "..."}}</a
     >
     {{ end }}
   </div>
-  <div class="next-post">
+  <div class="hover:translate-x-3 text-right">
     {{ if .PrevInSection }}
-    <div class="btn">
       <a
-        class="link-reverse"
         href="{{ .PrevInSection.Permalink }}?ref=footer"
         alt="selanjutnya"
         >selanjutnya »</a
       >
-    </div>
+      <br>
     <a
-      class="link-reverse"
       href="{{ .PrevInSection.Permalink }}?ref=footer"
       >{{ .PrevInSection.Title | truncate 50 "..." }}</a
     >

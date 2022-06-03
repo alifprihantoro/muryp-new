@@ -3,20 +3,21 @@
   <span class="bg-blue-900 px-3"> about </span>
 </h3>
 <br />
+<div class="flex p-3 mb-7 mr-6 rounded-xl shadow-inner shadow-blue-900">
+  <!-- image -->
+  {{ $img := resources.Get "img/IMG_20220514_132634_820_2-removebg-preview.png" }}
+  <img class="text-center m-auto rounded-[50%] w-[100px] h-[100px]"
+  onclick="imagePopup(this.getAttribute('data-src'))" 
+  data-src="{{$img.RelPermalink }}" 
+  src="{{ ($img.Fill "200x200 Center").RelPermalink }}"
+  alt="profile ALIEF PRIHANTORO">
 
-<!-- image -->
-{{ $img := resources.Get "img/IMG_20220514_132634_820_2-removebg-preview.png" }}
-<img class="text-center m-auto rounded-[50%]"
-onclick="imagePopup(this.getAttribute('data-src'))" 
-data-src="{{$img.RelPermalink }}" 
-src="{{ ($img.Fill "200x200 Center").RelPermalink }}"
-alt="profile ALIEF PRIHANTORO">
-
-<!-- title -->
-<div class="px-4">
-  <h4 class="font-bold text-xl">Alief Prihantoro</h4>
-  <p class="mb-6">
-    Hello, I'm a web front end. My expert is, HTML, CSS, JS, and some framework
-    like hugo, tailwind, and next js.
-  </p>
+  <!-- title -->
+  <div class="px-4">
+    <h4 class="font-bold text-xl text-blue-900">Alief Prihantoro</h4>
+    <p class="mb-6 text-blue-900">
+      Hello, I'm a web front end. My expert is, HTML, CSS, JS, and some framework
+      like hugo, tailwind, and next js.
+    </p>
+  </div>
 </div>
