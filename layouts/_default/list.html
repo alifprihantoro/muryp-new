@@ -10,9 +10,9 @@
     {{ partial "head.html" . }}
     <link rel="stylesheet" href="/post.css" />
   </head>
-  <body class="bg-blue-300 bg-opacity-30">
+  <body class="bg-blue-900 bg-opacity-20">
     <!-- main -->
-    <div class="layout-post w-[1100px]">
+    <div class="layout-post w-[916px]">
       <!-- list post -->
       <div class="m-auto md:max-w-[720px] h-screen overflow-scroll">
         <!-- list -->
@@ -20,8 +20,8 @@
         <!-- footer -->
         {{ partial "footer.html" . }}
       </div>
-      <div class="w-[380px] none md:block bg-blue-500">
-        <!-- nav -->
+      <!-- nav -->
+      <div class="w-[380px] hidden md:block">
         {{ partial "post/nav.html" . }}
       </div>
     </div>
