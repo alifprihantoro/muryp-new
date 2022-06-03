@@ -1,0 +1,26 @@
+<div class="pagination">
+  {{ if gt .Paginator.TotalPages 1 }}
+  {{ if .Paginator.HasPrev }}
+  {{ with .Paginator.First }}
+  <li class="page-item hover:-translate-x-3">
+    <a href="{{ .URL }}" alt="go to First pages">&laquo;&laquo;</a>
+  </li>
+  {{ end }}
+  <li class="hover:-translate-x-3"><a href="{{ .Paginator.Prev.URL }}" alt="go to Preview Pages">  « </li></li>
+  {{ else }}
+  <li class="Total">Total halaman : {{ .Paginator.TotalPages }}</li>
+  {{ end }}
+  {{ if .Paginator.HasNext }}
+  <li class="hover:translate-x-3"><a href="{{ .Paginator.Next.URL }}" alt="go to Next pages">  » </a></li>
+  {{ with .Paginator.Last }}
+  <li class="hover:translate-x-3">
+    <a alt="go to Last pages" href="{{ .URL }}">&raquo;&raquo;</a>
+  </li>
+  {{ end }}
+  {{ else }}
+  <li class="Total">Ini Halaman Terakhir</li>
+  {{ end }}
+  {{ else }}
+  <li class="Total">Tidak ada halaman Selanjutnya</li>
+  {{ end }}
+</div>
