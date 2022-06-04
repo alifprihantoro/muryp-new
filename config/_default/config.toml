@@ -44,13 +44,3 @@ languageCode = 'id-id'
   filename = 'sitemap.xml'
   priority = 0.5
 
-[related]
-  includeNewer = false
-  threshold = 80
-  toLower = false
-[[related.indices]]
-  name = 'keywords'
-  weight = 100
-[[related.indices]]
-  name = 'date'
-  weight = 10
