@@ -1,6 +1,6 @@
 .window-btn svg {
-  @apply fill-red-100 w-[25px] h-[25px] p-1;
+  @apply fill-white opacity-75 w-[25px] h-[25px] p-1;
   &:hover {
-  @apply fill-red-900 w-[30px] h-[30px];
+  @apply fill-white opacity-100 w-[30px] h-[30px];
   }
 }

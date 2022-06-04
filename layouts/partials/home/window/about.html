@@ -7,7 +7,7 @@
   <!-- image -->
     {{ $img := resources.Get "img/IMG_20220514_132634_820_2-removebg-preview.png" }}
   <img class="text-center m-auto rounded-[50%]" onclick="imagePopup(this.getAttribute('data-src'))" data-src="{{ $img.RelPermalink }}" src="{{ ($img.Fill "200x200 Center").RelPermalink }}" alt="profile ALIEF PRIHANTORO">
-  <h3>Alief Prihantoro</h3>
+  <h3 class="font-bold mt-5 mb-2">ALIEF PRIHANTORO</h3>
   <p class=" mb-6" >
     Hello, I'm a web front end. My expert is, HTML, CSS, JS, and some framework
     like hugo, tailwind, and next js.
@@ -19,7 +19,8 @@
     {{ range .Site.Menus.sosmed.Sort.ByWeight }}
     <a target="_blank"
       href="https://{{.URL}}"
-      class="{{ .Identifier }} p-3 m-2 border border-1 rounded-xl flex content-center items-center hover:bg-blue-300"
+      class="{{ .Identifier }} p-3 m-2 border border-1 rounded-xl
+      flex content-center items-center hover:bg-blue-900"
     ></a>
     {{end}}
   </div>

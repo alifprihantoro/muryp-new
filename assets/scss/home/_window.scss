@@ -1,5 +1,5 @@
 .window {
-  @apply fixed top-[50%] left-[50%] w-[480px] max-h-[100vh] max-w-[100vw] h-fit bg-blue-700 p-3 text-white rounded-md ;
+  @apply fixed top-[50%] left-[50%] w-[480px] max-h-[100vh] max-w-[100vw] h-fit bg-blue-900 bg-opacity-75 backdrop-blur-xl p-3 text-white rounded-md ;
   transform: translate(-50%, -50%);
   animation-name: popup;
   animation-duration: .5s;

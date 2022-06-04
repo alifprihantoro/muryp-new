@@ -6,7 +6,8 @@
 
     {{ range .Site.Menus.contact.Sort.ByWeight }}
       <a target="_blank" href="{{.URL}}"
-      class="{{ .Identifier }} p-3 m-2 border border-1 rounded-xl flex content-center items-center hover:bg-blue-300"
+      class="{{ .Identifier }} p-3 m-2 border border-1 rounded-xl flex
+      content-center items-center hover:bg-blue-900"
       >
         <span class="w-[90%]">
           {{ .Name }}
@@ -23,7 +24,8 @@
     {{ range .Site.Menus.sosmed2.Sort.ByWeight }}
     <a target="_blank"
       href="https://{{.URL}}"
-      class="{{ .Identifier }} p-3 m-2 border border-1 rounded-xl flex content-center items-center hover:bg-blue-300"
+      class="{{ .Identifier }} p-3 m-2 border border-1 rounded-xl flex
+      content-center items-center hover:bg-blue-900 hover:-translate-y-2"
     ></a>
     {{end}}
   </div>

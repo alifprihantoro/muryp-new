@@ -1,11 +1,11 @@
 // pembungkus
 .content {
-  @apply bg-blue-200 flex p-[15px] w-[80%] rounded-[5px] shadow-blue-500 shadow-md;
+  @apply flex p-[15px] w-[80%] rounded-[5px] shadow-blue-900 shadow-md;
   margin: 25px auto;
 }
 
 .myread {
-  @apply w-full grid text-left text-blue-700;
+  @apply w-full grid text-left text-blue-900;
   grid-template-columns: auto;
   // hover
   a:hover {
