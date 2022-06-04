@@ -1,28 +1,17 @@
-{{ if strings.HasPrefix .Destination "http" }} 
-<a
-  href="{{ .Destination | safeURL }}"
-  target="_blank"
-  rel="nofollow">
-  <img
-    class="lazy"
+  <!-- image outsource -->
+<img
+  {{ if strings.HasPrefix .Destination "http" }} 
+    onclick="imagePopup(this.getAttribute('data-src'))" 
+    data-src="{{ .Destination | safeURL }}" 
     src="{{ .Destination | safeURL }}"
-    alt="{{ .Text }}"
-    loading="lazy"
-    {{ with .Title}} title="{{ . }}"{{ end }}/>
-</a>
-{{ else }}
-<!-- ((resources.Get "tes.png").Resize "51x50" | fingerprint).RelPermalink  -->
-  {{ $imagePath := printf "img/%s.png" .Destination | safeURL }}
-  {{- $image := resources.Get $imagePath -}}
-<a
-  href="{{ (resources.Get $imagePath).RelPermalink }}"
-  target="_blank"
-  rel="nofollow">
-  <img
-    class="lazy"
+  {{ else }}
+    {{ $imagePath := printf "img/%s.png" .Destination | safeURL }}
+    {{- $image := resources.Get $imagePath -}}
+    onclick="imagePopup(this.getAttribute('data-src'))" 
+    data-src="{{ (resources.Get $imagePath).RelPermalink }}" 
     src="{{ ($image.Fill "200x200 Center").RelPermalink }}"
-    alt="{{ .Text }}"
-    loading="lazy"
-    {{ with .Title}} title="{{ . }}"{{ end }}/>
-</a>
-{{ end }}
+  {{ end }}
+  class="lazy"
+  alt="{{ .Text }}"
+  loading="lazy"
+  {{ with .Title}} title="{{ . }}"{{ end }}/>

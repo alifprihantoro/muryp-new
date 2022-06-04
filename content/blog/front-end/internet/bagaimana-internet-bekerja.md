@@ -68,6 +68,7 @@ Setelah mempelajari diatas, kita bisa lebih tahu,mengenai internet.
 Oke mungkin segini dulu untuk artikel saat ini, untuk update berikutnya nanti saya kabari via sosial media. Semoga bermanfaat.
 
 Wassalamualaikum wr.wb
+
 source :
 - dewaweb.com/blog/pengertian-internet/ [ID]
 - hp.com/us-en/shop/tech-takes/how-does-the-internet-work
