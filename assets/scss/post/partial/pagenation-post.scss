@@ -14,6 +14,7 @@
   .nav-post {
     display:grid;
     grid-template-columns: auto auto;
+    gap: 20px;
     div{
       width:fit-content;    
     }
