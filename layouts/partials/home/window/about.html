@@ -6,7 +6,12 @@
   </div>
   <!-- image -->
     {{ $img := resources.Get "img/IMG_20220514_132634_820_2-removebg-preview.png" }}
-  <img class="text-center m-auto rounded-[50%]" onclick="imagePopup(this.getAttribute('data-src'))" data-src="{{ $img.RelPermalink }}" src="{{ ($img.Fill "200x200 Center").RelPermalink }}" alt="profile ALIEF PRIHANTORO">
+  <img class="text-center m-auto rounded-[50%]"
+    onclick="imagePopup(this.getAttribute('data-src'))" 
+    data-src="{{ $img.RelPermalink }}" 
+    src="{{ ($img.Fill "200x200 Center").RelPermalink }}" 
+    loading="lazy"
+    alt="profile ALIEF PRIHANTORO">
   <h3 class="font-bold mt-5 mb-2">ALIEF PRIHANTORO</h3>
   <p class=" mb-6" >
     Hello, I'm a web front end. My expert is, HTML, CSS, JS, and some framework

@@ -7,10 +7,11 @@
 <!-- image -->
 {{ $img := resources.Get "img/IMG_20220514_132634_820_2-removebg-preview.png" }}
 <img class="text-center m-auto rounded-[50%]"
-onclick="imagePopup(this.getAttribute('data-src'))" 
-data-src="{{$img.RelPermalink }}" 
-src="{{ ($img.Fill "200x200 Center").RelPermalink }}"
-alt="profile ALIEF PRIHANTORO">
+  onclick="imagePopup(this.getAttribute('data-src'))" 
+  data-src="{{$img.RelPermalink }}" 
+  loading="lazy"
+  src="{{ ($img.Fill "200x200 Center").RelPermalink }}"
+  alt="profile ALIEF PRIHANTORO">
 
 <!-- title -->
 <div class="px-4">
