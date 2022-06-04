@@ -25,7 +25,6 @@
 
     {{ partial "home/list.html" . }}
     {{ partial "footer.html" . }}
-    {{ $jsMain := resources.Get "main.js" | minify }}
-    <script src="{{ $jsMain.Permalink }}"></script>
+    <script src="/main.js"></script>
   </body>
 </html>

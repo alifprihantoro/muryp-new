@@ -18,7 +18,7 @@ mix
     processCssUrls: false,
   })
 
-  // main script
+  // home script
   .babel(
     [
       './assets/js/icon.js',
@@ -27,7 +27,14 @@ mix
       './assets/js/drag.js',
       './assets/js/popup.js',
     ],
-    './assets/main.js'
+    './public/home.js'
+  )
+  .babel(
+    [
+      './assets/js/icon.js',
+      './assets/js/popup.js',
+    ],
+    './public/post.js'
   )
 
 if (mix.inProduction()) {
