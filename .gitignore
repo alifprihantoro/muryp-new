@@ -119,5 +119,4 @@ content/pages
 mix-manifest.json
 
 # node
-tags*
-tags
+*tags*
