@@ -29,13 +29,7 @@ mix
     ],
     './public/home.js'
   )
-  .babel(
-    [
-      './assets/js/icon.js',
-      './assets/js/popup.js',
-    ],
-    './public/post.js'
-  )
+  .babel(['./assets/js/icon.js', './assets/js/popup.js'], './public/post.js')
 
 if (mix.inProduction()) {
   exec('hugo --minify --destination public')

@@ -5,11 +5,14 @@ body * {
 // article
 article {
   @apply px-5 m-[6px] rounded-xl;
-  box-shadow: 0 0 10px rgb(30,50,158,.3);
-  *{
+  box-shadow: 0 0 10px rgb(30, 50, 158, 0.3);
+  * {
     @apply text-blue-900;
   }
-  p, li, ul, ol{
+  p,
+  li,
+  ul,
+  ol {
     @apply py-5;
   }
   // coba style orang
@@ -25,13 +28,26 @@ article {
     @apply text-xl font-bold;
   }
 
-  p{
+  p {
     @apply text-lg font-normal;
   }
-  a{
+  a {
     @apply text-blue-600 font-bold;
-    &hover{
+    &hover {
       @apply underline;
     }
+  }
+}
+ul {
+  li {
+    @apply list-disc ;
+  }
+}
+li{
+@apply pl-3 ml-3 leading-3;
+}
+ol {
+  li {
+    @apply list-decimal;
   }
 }

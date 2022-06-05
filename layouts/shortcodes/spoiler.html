@@ -1,0 +1,11 @@
+<div class="spoiler">
+  <input id="{{ .Get 0 }}" class="toggle-spoiler" type="checkbox" />
+  <label for="{{ .Get 0 }}" class="head-toggle-spoiler">{{ .Get 1 }}</label>
+  <div class="head-content-spoiler">
+    <div class="content-spoiler">
+      <p>
+      {{ .Inner | safeHTML }}
+      </p>
+    </div>
+  </div>
+</div>

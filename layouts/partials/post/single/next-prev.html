@@ -1,7 +1,7 @@
 <div class="nav-post">
-  <div class="hover:-translate-x-3">
+  <div>
     {{ if .NextInSection }}
-      <a 
+      <a class="hover:-translate-x-3"
        href="{{ .NextInSection.Permalink }}?ref=footer"
         >« Sebelumnya</a
       >
@@ -12,9 +12,9 @@
     >
     {{ end }}
   </div>
-  <div class="hover:translate-x-3 text-right">
+  <div class="text-right">
     {{ if .PrevInSection }}
-      <a
+      <a class="hover:translate-x-3"
         href="{{ .PrevInSection.Permalink }}?ref=footer"
         alt="selanjutnya"
         >selanjutnya »</a

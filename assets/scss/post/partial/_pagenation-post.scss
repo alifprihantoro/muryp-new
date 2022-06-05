@@ -1,0 +1,22 @@
+/* next prev */
+.nav-post {
+  @apply block w-full px-5;
+  a {
+    @apply text-blue-900 font-bold uppercase;
+  }
+  // btn
+  a:first-child {
+    @apply bg-blue-900 rounded-xl p-3 my-3
+    text-white inline-block rounded-xl;
+  }
+}
+@screen md {
+  .nav-post {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    div a:first-child {
+      width: fit-content;
+    }
+  }
+}

@@ -13,4 +13,3 @@ description: "Pertanyaan saya seputar programming dan penyelesaiannya"
   - tailwind
 - install :
   - lsd ubuntu
-- 
