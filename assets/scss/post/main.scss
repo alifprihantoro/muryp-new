@@ -1,19 +1,22 @@
-@import "../tailwind";
-@import "partial/reset";
-@import "../scroll";
+@import '../tailwind';
+@import 'partial/reset';
+@import '../scroll';
 
 // layout
-@import "partial/layout";
+@import 'partial/layout';
 
-@import "partial/list";
-@import "partial/pagenation";
-@import "../footer";
+@import 'partial/list';
+@import 'partial/pagenation';
+@import '../footer';
 
 // post
-@import "partial/breadcrumb";
-@import "partial/pagenation-post";
+@import 'partial/breadcrumb';
+@import 'partial/pagenation-post';
 
 // nav link
-@import "../home/nav";
+@import '../home/nav';
 // image popup
 @import '../popup';
+@media (max-width: 768px) {
+  @import '../spoiler';
+}
