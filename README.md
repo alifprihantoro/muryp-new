@@ -1,44 +1,34 @@
-# muryp-new
-hai, saya Alief Prihantoro
-Ini adalah catatan saya sekaligus blog pribadi yang saya bagikan di internet. Yand dimana seiapapun bisa menyalinnya/download secara gratis. Dan siapapun juga bisa berkontribusi di blog ini.
-> NB : blog ini masih dalam tahap pengembangan, kemungkin ada bug
-teknologi dan tools yang digunakan :
-- html
-- js
-- css/sass
-- hugo
-- nvim/neovim
-- bash (sedikit)
-- disqus comment
+![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=rgb(0,0,139,.5)&labelColor=00008b)
+![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=rgb(0,0,139,.5)&labelColor=00008b)
+![](https://img.shields.io/badge/Tools-Sass-informational?style=flat&logo=sass&logoColor=white&color=rgb(0,0,139,.5)&labelColor=00008b)
+![](https://img.shields.io/badge/Code-CSS-informational?style=flat&logo=css3&logoColor=white&color=rgb(0,0,139,.5)&labelColor=00008b)
+![](https://img.shields.io/badge/Code-HTML5-informational?style=flat&logo=html5&logoColor=white&color=rgb(0,0,139,.5)&labelColor=00008b)
+![](https://img.shields.io/badge/Framework-Hugo-informational?style=flat&logo=hugo&logoColor=white&color=rgb(0,0,139,.5)&labelColor=00008b)
+![](https://img.shields.io/badge/Tools-Git-informational?style=flat&logo=git&logoColor=white&color=rgb(0,0,139,.5)&labelColor=00008b)
+![](https://img.shields.io/badge/Tools-npm-informational?style=flat&logo=npm&logoColor=white&color=rgb(0,0,139,.5)&labelColor=00008b)
+![](https://img.shields.io/badge/Tools-tailwind-informational?style=flat&logo=tailwind&logoColor=white&color=rgb(0,0,139,.5)&labelColor=00008b)
+![](https://img.shields.io/badge/Tools-postcss-informational?style=flat&logo=postcss&logoColor=white&color=rgb(0,0,139,.5)&labelColor=00008b)
+![](https://img.shields.io/badge/Tools-laravel_mix-informational?style=flat&logo=laravelmix&logoColor=white&color=rgb(0,0,139,.5)&labelColor=00008b)
+# MuryP Beta
+This repo is https://muryp.my.id (not clone), I hope you can use this for lesson. This content about IT and my note.
 
-link : https://muryp.my.id/
+## Why
+- Why I use Hugo ?
+  - hugo is simple framework for build static website/blog. Fast compile and easy learn.
 
-## Cara Install
-```
-git clone https://github.com/alifprihantoro/muryp-new
-```
-## cara menggunakan
-1. salin kode berikut ke .bashrc atau file dot config anda
-```
-source lokasi-repo/muryp-new/build/alias.sh
-source lokasi-repo/muryp-new/build/dir.sh
-```
-## setting/configurasi
-untuk setting configurasi hugo ada di lokasi-repo/muryp-new/build/setting
-nanti file yang ada di setting akan digabung menjadi 1 ke config.toml
-jika kalian menggunakan yaml atau json silahkan ganti file dalam folder tersebut. dan ubah pada `lokasi-repo/muryp-new/build/params/config.sh` ubah config.toml menjadi sesuai keiginan kalian. 
-### hosting files
-untuk hasil ada di public
-### social media
-ada di config/setting
-### contact
-ada di config/setting
-### color
-ada di config/setting
-### tombol bagian atas homepage
-ada di config/setting
-### footer
-ada di config/setting
-### kolom komentar
-ada di config/setting
+- Why I use Tailwind ? 
+  - To limit the style so it doesn't fall apart, a lot component and short styling.
 
+- Why I use Laravel Mix ? 
+  - Because easy setup.
+
+> Dont use content without permition, this just for personal use
+
+## How install
+
+```bash
+git clone
+cd muryp-new
+yarn
+yarn dev
+```
