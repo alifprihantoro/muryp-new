@@ -7,8 +7,9 @@
   "author": "alifprihantoro <alifmuryp@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "mix watch",
-    "prod": "mix --production && cd public && gsp 'upt'"
+    "dev": "mix watch & hugo server --minify --destination public",
+    "prod": "mix --production & hugo --minify --destination public && cd public && gsp 'upt'",
+    "tes": "mix & hugo serve"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.1.3",
