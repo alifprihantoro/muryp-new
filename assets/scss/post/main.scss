@@ -11,12 +11,12 @@
 
 // post
 @import 'partial/breadcrumb';
+@import 'partial/quotes';
 @import 'partial/pagenation-post';
 
 // nav link
 @import '../home/nav';
 // image popup
 @import '../popup';
-@media (max-width: 768px) {
-  @import '../spoiler';
-}
+@import '../spoiler';
+@import 'partial/nav';

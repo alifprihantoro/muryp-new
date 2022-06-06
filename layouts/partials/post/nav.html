@@ -1,17 +1,15 @@
-<nav class="spoiler">
-  <input id="navigation" class="toggle-spoiler" type="checkbox" />
-  <label for="navigation" class="head-toggle-spoiler">Navigation</label>
-  <div class="head-content-spoiler">
-    <div class="content-spoiler">
- <div class="top-0 right-0 h-screen overflow-scroll">
-  <h2 class="bg-blue-900 py-4 w-full text-center">Navigation</h1>
-  <!-- links -->
-  {{ partial "post/nav/link.html" . }}
-  <!-- about -->
-  {{ partial "post/nav/about.html" . }}
-  {{ partial "post/nav/follow.html" . }}
-  {{ partial "post/nav/contact.html" . }}
-</div> 
+<nav class="navigation">
+    <input id="navigation" class="toggle-navigation" type="checkbox" />
+    <label for="navigation" class="head-toggle-navigation">Navigation</label>
+  <div class="head-content-navigation">
+    <div class="content-navigation md:w-[380px]">
+      <h2 class="bg-blue-900 py-4 w-full text-center">Navigation</h1>
+      <!-- links -->
+      {{ partial "post/nav/link.html" . }}
+      <!-- about -->
+      {{ partial "post/nav/about.html" . }}
+      {{ partial "post/nav/follow.html" . }}
+      {{ partial "post/nav/contact.html" . }}
     </div>
   </div>
 </nav>

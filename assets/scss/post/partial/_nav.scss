@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  // before checked content ------------------------
+  .head-content-navigation {
+    @apply h-0 overflow-hidden;
+  }
+  .head-toggle-navigation {
+    @apply p-4 bg-red-900 fixed z-10 bottom-0 right-0 h-fit;
+  }
+  .toggle-navigation {
+    // after checked content ------------------------
+    &:checked + .head-toggle-navigation + .head-content-navigation {
+      @apply h-fit fixed top-0 right-0
+      h-screen overflow-scroll w-screen h-screen z-[9] bg-blue-900
+      bg-opacity-25 m-0 p-0 backdrop-blur-md;
+    }
+    &:checked + .head-toggle-navigation {
+      @apply p-4 bg-red-900 fixed z-10 top-0 right-0;
+    }
+  }
+}
+
+@screen md {
+  .navigation {
+    padding: 0;
+    .head-content-navigation {
+      @apply h-screen p-0 overflow-scroll;
+    }
+    label.head-toggle-navigation {
+      @apply hidden;
+    }
+    input#navigation {
+      ::before {
+        @apply hidden;
+      }
+      @apply hidden;
+    }
+  }
+}

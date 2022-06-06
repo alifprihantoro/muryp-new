@@ -4,10 +4,10 @@ body * {
 }
 // article
 article {
-  @apply px-5 m-[6px] rounded-xl;
+  @apply p-5 m-[6px] rounded-xl;
   box-shadow: 0 0 10px rgb(30, 50, 158, 0.3);
   * {
-    @apply text-blue-900;
+    @apply text-blue-900 break-all leading-5;
   }
   p,
   li,
@@ -40,11 +40,11 @@ article {
 }
 ul {
   li {
-    @apply list-disc ;
+    @apply list-disc;
   }
 }
-li{
-@apply pl-3 ml-3 leading-3;
+li {
+  @apply pl-3 ml-3;
 }
 ol {
   li {

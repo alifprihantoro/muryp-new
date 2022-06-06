@@ -1,0 +1,45 @@
+article {
+  .highlight {
+      @apply select-text;
+  }
+  pre {
+    code {
+      color: #fff;
+      /* warna huruf */
+      font-size: 12px;
+      /* ukuran huruf */
+      max-height: 250px;
+      line-height: 1.5em;
+      display: block;
+      background: none;
+      border: none;
+      padding: 10px 15px;
+      font-family: 'source code pro', menlo, consolas, monaco, monospace;
+      white-space: pre-wrap;
+      overflow: auto;
+      user-select: text;
+      user-select: text;
+    }
+    background-color: #000;
+    /* warna background */
+    border-left: 5px solid #00008bcc;
+    /* variasi border kiri */
+    padding: 0;
+    margin: 0.5em auto;
+    white-space: pre;
+    word-wrap: break-word;
+    overflow: auto;
+    position: relative;
+    width: 100%;
+    tab-size: 2;
+    word-break: normal;
+    user-select: text;
+    user-select: text;
+    hyphens: none;
+  }
+  blockquote {
+  @apply max-w-full bg-blue-900 bg-opacity-25 p-[15px] m-[5px] border-r-[5px] border-r-blue-900
+  text-white font-semibold text-left text-xs;
+}
+
+}
