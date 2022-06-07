@@ -148,7 +148,6 @@ fedora
 debian
 ubuntu
 ```
-
 12. Delete lines which are in upper case or capital letters
 
 ```bash
@@ -182,7 +181,6 @@ unix
 fedora
 debian
 ```
-
 - alias vs func
   - alias for short code command (not advance) or simple command
     example :
