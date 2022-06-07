@@ -1,6 +1,6 @@
 {
   "name": "muryp-v3",
-  "version": "0.1.0",
+  "version": "3.1.0",
   "description": "Landing page and  blog for MuryP",
   "main": "index.js",
   "repository": "git@github.com:alifprihantoro/serabi-v3.git",
@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "mix watch & hugo server --minify --destination public",
-    "prod": "mix --production & hugo --minify --destination public && cd public && gsp 'upt'",
+    "prod": "mix --production && cd public && gsp 'upt'",
     "tes": "mix & hugo serve"
   },
   "devDependencies": {

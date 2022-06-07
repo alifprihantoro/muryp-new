@@ -31,8 +31,9 @@ mix
   )
   .babel(['./assets/js/icon.js', './assets/js/popup.js'], './public/post.js')
 
-// if (mix.inProduction()) {
-//   exec('hugo --minify --destination public')
-// } else {
+if (mix.inProduction()) {
+  exec('hugo --minify --destination public')
+}
+// else {
 //   exec('hugo server --minify --destination public')
 // }
