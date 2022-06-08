@@ -3,18 +3,6 @@ title: 'Persiapan Vim plug'
 slug: persiapan-vim-plug
 date: 2022-01-01T09:40:46+07:00
 lastmod: 2022-01-01T09:40:46+07:00
-draft: false
-show_comments: false
-
-type: post
-
-tags2:
-  - persiapan
-  - link
-
-image: ''
-thumbnail: ''
-
 description: ''
 ---
 
