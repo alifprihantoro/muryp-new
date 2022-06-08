@@ -1,13 +1,8 @@
 ---
 title: "Configurasi VS Code easy like vim"
-slug: custom slug
-date: cpLasmod
-lastmod: update
-
-tag2:
-    - ide
-
-image: ""
+slug: configurasi-vs-code-easy-like-vim
+date: 2022-06-08T10:50:05+07:00
+lastmod: 2022-06-08T10:50:09+07:00
 description: "Configuration VS Code, vs code like vim, plugin"
 ---
 - config shortcut

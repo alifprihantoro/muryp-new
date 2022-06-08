@@ -3,18 +3,6 @@ title: "Coding di termux lebih mudah"
 slug: coding-di-termux-lebih-mudah
 date: 2022-01-10T17:45:37+07:00
 lastmod: 2022-01-10T17:45:37+07:00
-draft: false
-show_comments: false
-
-type: post
-
-tags2:
-    - termux
-    - tools
-
-image: ""
-thumbnail : ""
-
 description: "dasar dasar termux, bagaimana menggunakan termux untuk koding, shortcut termux"
 
 ---

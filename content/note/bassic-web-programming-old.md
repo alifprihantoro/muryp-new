@@ -1,23 +1,9 @@
 ---
-title: "Roadmap Bassic Web Proggramming Bahasa Indonesia"
+title: "Roadmap Bassic Web Proggramming Bahasa Indonesia (old)"
 slug: bassic-web-proggraming
 date: 2021-09-19T11:34:50+07:00
-
 lastmod: 2021-09-20T13:48:13+07:00
-
-draft: false
-show_comments: false
-
-type: post
-
-tags2:
-    - Proggraming
-
-image: ""
-thumbnail : ""
-
 description: ""
-
 ---
 ## Roadmap Bassic Web Proggraming Bahasa Indonesia
 

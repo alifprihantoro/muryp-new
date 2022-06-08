@@ -1,9 +1,7 @@
 ---
-title: "Roadmap Front End"
+title: "Roadmap Front End old"
 date: 2022-05-27T07:19:26+07:00
 lastmod: 2022-05-27T07:19:33+07:00
-
-image: ""
 description: "Link roadmap front end web dev b.indonesia"
 ---
 ## Roadmap Front End Web Dev bahasa Indonesia

@@ -3,6 +3,11 @@ title: "belajar front end dan sedikit backend"
 slug: belajar-front-end-dan-sedikit-backend
 date: 2022-02-19T05:27:55+07:00
 lastmod: 2022-02-19T05:27:55+07:00
+
+tag2:
+    - 
+
+image: ""
 description: "belajar front end dan sedikit backend"
 ---
 - [Penjelasan, contoh, role pekerjaan dan cara menjadi web dev](/apa-itu-web-dev-dan-apa-saja-role-pekerjaan-web-dev)

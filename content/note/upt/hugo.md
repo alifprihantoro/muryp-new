@@ -3,20 +3,7 @@ title: "Pembuatan Tema Hugo dan Catatan Lainnya"
 slug: pembuatan-tema-hugo-dan-catatan-lainnya
 date: 2021-09-20T13:49:35+07:00
 lastmod: 2021-09-20T14:02:09+07:00
-draft: false
-show_comments: false
-
-type: post
-
-tags2:
-    - front end
-    - back end
-
-image: ""
-thumbnail : ""
-
 description: ""
-
 ---
 
 > ini masih dalam pengerjaan dan masih acak

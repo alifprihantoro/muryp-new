@@ -1,13 +1,8 @@
 ---
-title: "Catatan Belajar bareng"
+title: "Catatan Belajar bareng (old)"
 slug: belajar-bareng-yt
 date: 2022-02-05T05:36:22+07:00
 lastmod: 2022-02-05T05:36:22+07:00
-
-tag2:
-    - youtube
-
-image: ""
 description: "catatan belajar bareng, link, "
 ---
 ## Belajar bareng

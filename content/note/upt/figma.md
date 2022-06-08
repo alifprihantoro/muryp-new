@@ -3,19 +3,7 @@ title: "Figma : hal yang harus dilakukan"
 slug: figma-hal-yang-harus-dilakukan
 date: 2021-10-11T13:27:56+07:00
 lastmod: 2021-10-11T13:27:56+07:00
-draft: false
-show_comments: false
-
-type: post
-
-tags2:
-    - Arts
-
-image: ""
-thumbnail : ""
-
 description: ""
-
 ---
 
 ## Figma : hal yang harus dilakukan
