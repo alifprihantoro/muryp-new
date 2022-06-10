@@ -2,7 +2,7 @@
 title: 'Javascript: Get var from func with destructuring'
 slug: get-var-from-func-with-destructuring
 date: 2022-06-06T14:57:21+07:00
-lastmod: 2022-06-06T14:57:26+07:00
+lastmod: 2022-06-09T12:18:12+07:00
 description: 'get var from func with destructuring, get var from func more than one, Javascript'
 ---
 
