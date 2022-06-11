@@ -8,6 +8,8 @@ description: 'bassic, class, typescript'
 
 ## Bassic
 
+[show repo](https://github.com/alifprihantoro/bicara-typescript)
+
 ### type js :
 
 ```javascript
@@ -233,107 +235,110 @@ Try
 ```
 
 #### interface
+
 > mirip templating
+
 ```typescript
 interface article {
-  title: string;
-  slug: string;
-  author: Author;
-  tags?: (number | string)[];
+  title: string
+  slug: string
+  author: Author
+  tags?: (number | string)[]
 }
 
 interface Author {
-  name: string;
-  username: string;
+  name: string
+  username: string
 }
 
 let data: article[] = [
   {
-    title: "judul 1",
-    slug: "judul1",
+    title: 'judul 1',
+    slug: 'judul1',
     author: {
-      name: "alif",
-      username: "alif",
+      name: 'alif',
+      username: 'alif',
     },
-    tags: ["beta", "article", "blog"],
+    tags: ['beta', 'article', 'blog'],
   },
   {
-    title: "judul 2",
-    slug: "judul2",
+    title: 'judul 2',
+    slug: 'judul2',
     author: {
-      name: "muryp",
-      username: "muryp",
+      name: 'muryp',
+      username: 'muryp',
     },
-    tags: [1, "article", "blog"],
+    tags: [1, 'article', 'blog'],
   },
   {
-    title: "judul 2",
-    slug: "judul2",
+    title: 'judul 2',
+    slug: 'judul2',
     author: {
-      name: "muryp",
-      username: "muryp",
+      name: 'muryp',
+      username: 'muryp',
     },
   },
-];
+]
 
-let data2: article[];
+let data2: article[]
 data2 = [
   {
-    title: "judul 1",
-    slug: "judul1",
+    title: 'judul 1',
+    slug: 'judul1',
     author: {
-      name: "alif",
-      username: "alif",
+      name: 'alif',
+      username: 'alif',
     },
-    tags: ["beta", "article", "blog"],
+    tags: ['beta', 'article', 'blog'],
   },
   {
-    title: "judul 2",
-    slug: "judul2",
+    title: 'judul 2',
+    slug: 'judul2',
     author: {
-      name: "muryp",
-      username: "muryp",
+      name: 'muryp',
+      username: 'muryp',
     },
-    tags: [1, "article", "blog"],
+    tags: [1, 'article', 'blog'],
   },
   {
-    title: "judul 2",
-    slug: "judul2",
+    title: 'judul 2',
+    slug: 'judul2',
     author: {
-      name: "muryp",
-      username: "muryp",
+      name: 'muryp',
+      username: 'muryp',
     },
   },
-];
+]
 
-console.log(data);
-console.log(data2);
+console.log(data)
+console.log(data2)
 ```
+
 #### Function
+
 ```typescript
 // init type func slug
-type Data = (slug: string) => void;
+type Data = (slug: string) => void
 // add func get
 function getData(title: string, slug: Data) {
   return {
     judul: title,
     link: slug,
-  };
+  }
 }
 // func slug
-const slug = (slug: string) => console.log(slug);
-const tes = getData("tes", slug);
-console.log(tes);
-tes.link("https://muryp.my.id");
+const slug = (slug: string) => console.log(slug)
+const tes = getData('tes', slug)
+console.log(tes)
+tes.link('https://muryp.my.id')
 // result :
 // { judul: 'tes', link: [Function: slug] }
 // hai
 
-
 type Post = {
-    title: string,
-    slug: string,
-    date: number[],
+  title: string
+  slug: string
+  date: number[]
   comment?: boolean
 }
 
@@ -348,28 +353,27 @@ function addPost(
     slug: slug,
     date: date,
     ...(comment && { comment }),
-  };
+  }
 }
 
-let Data1 = addPost("hai", "/hai", [10, 6, 2022], false);
-let Data2 = addPost("hai kedua", "/hai-kedua", [11, 6, 2022]);
+let Data1 = addPost('hai', '/hai', [10, 6, 2022], false)
+let Data2 = addPost('hai kedua', '/hai-kedua', [11, 6, 2022])
 
-console.log(Data1);
-console.log(Data2);
+console.log(Data1)
+console.log(Data2)
 
 // { title: 'hai', slug: '/hai', date: [ 10, 6, 2022 ] }
 // { title: 'hai kedua', slug: '/hai-kedua', date: [ 11, 6, 2022 ] }
 
-
 function Hello<T>(txt: T): T {
-  return txt;
+  return txt
 }
-console.log(Hello("hai"));
-console.log(Hello<string>("haibkedua"));
-console.log(Hello<number>(10));
-console.log(Hello<boolean>(true));
-console.log(Hello<string | number>(2));
-console.log(Hello<string | number>("hello terakhir"));
+console.log(Hello('hai'))
+console.log(Hello<string>('haibkedua'))
+console.log(Hello<number>(10))
+console.log(Hello<boolean>(true))
+console.log(Hello<string | number>(2))
+console.log(Hello<string | number>('hello terakhir'))
 
 // hai
 // haibkedua
@@ -377,8 +381,167 @@ console.log(Hello<string | number>("hello terakhir"));
 // true
 // 2
 // hello terakhir
-
-
 ```
 
+#### Class
 
+example login, add data :
+
+```typescript
+interface dataUser {
+  id: number
+  user: string
+  password: string
+  name: string
+  save: boolean
+  uid: string
+}
+
+interface dataContent {
+  user: string
+  name: string
+  Content: string
+}
+
+let data: dataUser[] = []
+let data_Content: dataContent[] = []
+let Max_Fail: number = 0
+
+class user {
+  // this type fo this.username ...
+  private id: number
+  userName: string
+  password: string
+  name: string
+  protected save: boolean
+  private uid: string
+
+  // method
+  // generate token
+  generateToken() {
+    let date_ob = new Date()
+    let date = ('0' + date_ob.getDate()).slice(-2)
+    return date.toString() + this.id.toString() + this.userName
+  }
+  // signup
+  signUp() {
+    let my_data: dataUser = {
+      id: this.id,
+      user: this.userName,
+      password: this.password,
+      name: this.name,
+      save: this.save,
+      uid: this.uid,
+    }
+    data.push(my_data)
+    return my_data
+  }
+  // sign in
+  signIn() {
+    Max_Fail++
+    data.map((e) => {
+      if (Max_Fail >= 3) {
+        console.log('youre ban fo 24h')
+      } else if (e.user === this.userName && e.password === this.password) {
+        console.log('welcome!')
+      } else {
+        console.log('wrong!')
+      }
+    })
+  }
+  // init first
+  constructor(userName: string, password: string, Name: string = '') {
+    this.id = data.length + 1
+    this.userName = userName
+    this.password = password
+    this.name = Name
+    this.save = false
+    this.uid = this.generateToken()
+  }
+}
+
+// save to var
+let showUserInput = new user('alif', '123', 'alif p')
+// add user 1
+new user('alif', '123', 'alif p').signUp()
+// add user 2
+new user('muryp', '123', 'mury p').signUp()
+// show var
+console.log(showUserInput)
+
+// login succes
+new user('muryp', '123').signIn()
+
+// login fail
+new user('muryp', '23').signIn()
+new user('muryp', '231').signIn()
+new user('mury', '123').signIn()
+new user('alif', '223').signIn()
+
+class enhanceUser extends user {
+  constructor(userName: string, name: string, content: string) {
+    super(userName, name)
+    let get_data_content: dataContent = {
+      user: userName,
+      name: name,
+      Content: content,
+    }
+    data_Content.push(get_data_content)
+  }
+}
+
+new enhanceUser('alif', 'alif', 'ini content')
+new enhanceUser('alif', 'alif', 'ini content 2')
+// console.log(uptUser);
+console.log(data)
+console.log(data_Content)
+```
+
+result :
+
+```txt
+user {
+  id: 1,
+  userName: 'alif',
+  password: '123',
+  name: 'alif p',
+  save: false,
+  uid: '111alif'
+}
+wrong!
+welcome!
+wrong!
+wrong!
+youre ban fo 24h
+youre ban fo 24h
+youre ban fo 24h
+youre ban fo 24h
+youre ban fo 24h
+youre ban fo 24h
+[
+  {
+    id: 1,
+    user: 'alif',
+    password: '123',
+    name: 'alif p',
+    save: false,
+    uid: '111alif'
+  },
+  {
+    id: 2,
+    user: 'muryp',
+    password: '123',
+    name: 'mury p',
+    save: false,
+    uid: '112muryp'
+  }
+]
+[
+  { user: 'alif', name: 'alif', Content: 'ini content' },
+  { user: 'alif', name: 'alif', Content: 'ini content 2' }
+]
+```
+#### intervace vs type
+```
+
+```
