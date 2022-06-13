@@ -9,8 +9,7 @@
 }
 
 .myread {
-  @apply grid w-full text-left;
-  grid-template-columns: auto;
+  @apply w-full text-left;
   // tanggal
    .date {
      @apply mr-[30px] w-[64px] text-center;
@@ -20,14 +19,7 @@
       margin: 20px auto;
     }
   }
-  a:hover {
+  div:hover {
       transform: translate(10px, -10px);
     }
 }
-
-@screen md {
-  .myread{
-  grid-template-columns: auto auto;
-  }
-}
-

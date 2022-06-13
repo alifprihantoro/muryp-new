@@ -1,20 +1,36 @@
 @media (max-width: 768px) {
+  .navigation * {
+    color: white;
+    transition: all 0.5s ease-out;
+  }
   // before checked content ------------------------
   .head-content-navigation {
-    @apply h-0 overflow-hidden;
+    @apply h-screen top-0 right-[-150vw] z-[9] fixed;
   }
   .head-toggle-navigation {
-    @apply p-4 bg-red-900 fixed z-10 bottom-0 right-0 h-fit;
+    @apply p-4 bg-blue-900 fixed z-10 bottom-5 right-5 rounded-xl;
+    .iclose {
+      display: none;
+      svg {
+        @apply w-[45px] h-[45px];
+      }
+    }
   }
   .toggle-navigation {
     // after checked content ------------------------
     &:checked + .head-toggle-navigation + .head-content-navigation {
-      @apply h-fit fixed top-0 right-0
-      h-screen overflow-scroll w-screen h-screen z-[9] bg-blue-900
-      bg-opacity-25 m-0 p-0 backdrop-blur-md;
+      @apply top-0 right-0
+      overflow-scroll w-screen bg-blue-900
+      bg-opacity-75 m-0 p-0 backdrop-blur-md;
     }
     &:checked + .head-toggle-navigation {
-      @apply p-4 bg-red-900 fixed z-10 top-0 right-0;
+      @apply bg-transparent p-0 fixed z-10 animate-bounce;
+      .inav-open {
+        display: none;
+      }
+      .iclose {
+        display: block;
+      }
     }
   }
 }
