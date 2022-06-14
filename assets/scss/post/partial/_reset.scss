@@ -37,17 +37,17 @@ article {
       @apply underline;
     }
   }
-}
-ul {
-  li {
-    @apply list-disc;
+  ul {
+    li {
+      @apply list-disc;
+    }
   }
-}
-li {
-  @apply pl-3 ml-3;
-}
-ol {
   li {
-    @apply list-decimal;
+    @apply pl-3 ml-3;
+  }
+  ol {
+    li {
+      @apply list-decimal;
+    }
   }
 }
