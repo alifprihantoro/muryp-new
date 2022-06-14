@@ -1,5 +1,9 @@
 module.exports = {
-  content: ['./layouts/partials/home/**/*.{html,js}','./layouts/index.html'],
+  content: [
+    './layouts/partials/home/**/*.{html,js}',
+    './layouts/partials/main/**/*.{html,js}',
+    './layouts/index.html',
+  ],
   theme: {
     extend: {
       colors: {
@@ -8,9 +12,9 @@ module.exports = {
           2: '#038811',
           3: '#35a041',
           3: '#b3f166',
-        }
+        },
       },
     },
-  plugins: [],
+    plugins: [],
   },
 }
