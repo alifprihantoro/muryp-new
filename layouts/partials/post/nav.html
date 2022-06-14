@@ -2,10 +2,13 @@
     <input id="navigation" class="toggle-navigation" type="checkbox" />
     <label for="navigation" class="head-toggle-navigation">Navigation</label>
   <div class="head-content-navigation">
-    <div class="content-navigation md:w-[380px]">
+    <div class="content-navigation md:w-[380px] ">
       <h2 class="bg-blue-900 py-4 w-full text-center">Navigation</h1>
       <!-- links -->
       {{ partial "post/nav/link.html" . }}
+      <div class="m-auto">
+      {{ partial "search.html" . }}
+      </div>
       <!-- about -->
       {{ partial "post/nav/about.html" . }}
       {{ partial "post/nav/follow.html" . }}
