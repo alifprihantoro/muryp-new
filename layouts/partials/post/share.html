@@ -1,0 +1,55 @@
+<h3 class="text-center w-full border border-solid border-white leading-[0]">
+  <span class="bg-blue-900 px-3"> share on : </span>
+</h3>
+<br/>
+{{ if not .IsHome }} {{ $pageurl := .Permalink }}
+<div class="btn-long">
+  <a
+    class="fb"
+    title="Share this on Facebook"
+    onclick="window.open('http://www.facebook.com/share.php?u={{ $pageurl }}');"
+  >
+  </a>
+  <a
+    class="tw"
+    title="Share this on Twitter"
+    onclick="window.open('http://twitter.com/home?status={{ $pageurl }}');"
+  >
+  </a>
+  <a
+    class="tlp"
+    data-action="share/whatsapp/share"
+    expr:href='"whatsapp://send?text=" + {{ .Title }} +"%20%2D%20" + {{ $pageurl }}'
+  >
+    <a
+      class="telegram"
+      expr:href='"tg://msg?text=" + {{ .Title }} +" -" + {{ $pageurl }}'
+      rel="nofollow"
+      target="_blank"
+      title="Share on Telegram"
+    >
+      {{ if .Params.image }}<a
+        class="pinterest"
+        title="Share this on Pinterest"
+        onclick="window.open('https://pinterest.com/pin/create/button/?url=&media={{ .Params.image }}&description=');"
+      >
+      >{{end}}
+      <!-- <a -->
+      <!--   class="linledin" -->
+      <!--   expr:href='"http://www.linkedin.com/shareArticle?mini=true&amp;url=" + data:post.url + "&amp;title=" + data:post.title + "&amp;summary=" + data:post.snippets' -->
+      <!--   onclick='window.open(this.href,"popupwindow","status=0,height=500,width=500,resizable=0,top=50,left=100");return false;' -->
+      <!--   rel="nofollow" -->
+      <!--   target="_blank" -->
+      <!--   title="Share on LinkEdin" -->
+      <!-- > -->
+      <!-- </a> -->
+      <!--<a class='tr' href='http://www.tumblr.com/share' onclick='window.open(this.href,"popupwindow","status=0,height=500,width=500,resizable=0,top=50,left=100");return false;' rel='nofollow' target='_blank'>-->
+      <!--  <span class='tumblr' /></a>-->
+      <a
+        class="gmail"
+        title="Share this through Email"
+        onclick="window.open('mailto:?&body={{ $pageurl }}');"
+      >
+      </a>
+</div>
+{{end}}

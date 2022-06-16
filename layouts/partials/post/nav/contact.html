@@ -5,7 +5,7 @@
   {{ range .Site.Menus.contact.Sort.ByWeight }}
   <a class="flex p-2 m-2 border border-1 rounded-md bg-blue-900 hover:translate-x-3 duration-75"
     href="https://{{.URL}}" >
-    <span class="{{ .Identifier }}" class="{{ .Identifier }} flex"></span>
+    <span class="{{ .Identifier }} flex"></span>
     <span class=" flex place-items-center ml-2">{{ .Name }}</span>
   </a>
   {{end}}
