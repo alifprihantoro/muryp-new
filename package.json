@@ -8,8 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "mix watch & hugo server --minify --destination public",
-    "prod": "mix --production && cd public && gsp 'upt'",
-    "tes": "mix & hugo serve"
+    "prod": "mix --production"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.1.3",
