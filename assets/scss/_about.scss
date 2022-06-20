@@ -1,0 +1,9 @@
+.about {
+  @apply px-5;
+  h4{
+    @apply font-bold text-xl text-blue-900;
+  }
+  p{
+    @apply mb-6 text-blue-900;
+  }
+}

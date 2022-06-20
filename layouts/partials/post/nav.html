@@ -1,21 +1,24 @@
-<nav class="navigation">
+<header>
+  <nav class="navigation">
     <input id="navigation" class="toggle-navigation" type="checkbox" />
     <label for="navigation" class="head-toggle-navigation">
-        <span class="inav-open"></span>
-        <span class="iclose"></span>
+      <span class="inav-open"></span>
+      <span class="iclose"></span>
     </label>
-  <div class="head-content-navigation">
-    <div class="content-navigation md:w-[380px]">
-      <h2 class="bg-blue-900 py-4 w-full text-center">Navigation</h1>
-      <!-- links -->
-      {{ partial "post/nav/link.html" . }}
-      {{ partial "main/search.html" . }}
-      <!-- about -->
-      {{ partial "post/nav/about.html" . }}
-      {{ partial "post/nav/follow.html" . }}
-      {{ partial "post/nav/contact.html" . }}
-      {{ partial "post/nav/tags.html" . }}
+    <div class="head-content-navigation">
+      <div class="content-navigation md:w-[380px]">
+        <h2 class="bg-blue-900 py-5 mb-2">
+        {{ partial "main/header.html" . }}
+        </h2>
+        <!-- links -->
+        {{ partial "post/nav/link.html" . }}
+        {{ partial "main/search.html" . }}
+        <!-- about -->
+        {{ partial "main/about.html" . }}
+        {{ partial "post/nav/follow.html" . }}
+        {{ partial "post/nav/contact.html" . }}
+        {{ partial "post/nav/tags.html" . }}
+      </div>
     </div>
-  </div>
-</nav>
-
+  </nav>
+</header>

@@ -36,8 +36,11 @@ expiryDate = ["expiryDate"]
 
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 languageCode = 'id-id'
+
 [author]
   name = 'Alief Prihantoro'
+  skill = ['html','css','javascript','typescript','react js','next js', 'hugo', 'git', 'tailwind','sass', 'postcss', 'webpack' ]
+  description = ''
 
 [sitemap]
   changefreq = 'monthly'

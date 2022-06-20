@@ -1,0 +1,6 @@
+.about-post{
+  @apply flex p-3 mb-7 mx-2 rounded-xl shadow-inner shadow-blue-900;
+  h3{
+    display: none;
+  }
+}

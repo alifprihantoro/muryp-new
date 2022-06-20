@@ -37,22 +37,22 @@ weight = 7
 # sosmed muryp -----------------------------
 [[sosmed]]
 identifier = "fb"
-name = "@alifprihantoro"
+name = "@murypbeta"
 url = "facebook.com/murypbeta"
 weight = 1
 [[sosmed]]
 identifier = "ig"
-name = "@alifprihantoro"
+name = "@murypbeta"
 url = "instagram.com/murypbeta"
 weight = 2
 [[sosmed]]
 identifier = "tw"
-name = "@alifprihantoro"
+name = "@murypbeta"
 url = "twitter.com/murypbeta"
 weight = 3
 [[sosmed]]
 identifier = "yt"
-name = "@alifprihantoro"
+name = "@murypbeta"
 url = "youtube.com/channel/UCIxGzpxYCqLqY953v9K05gw"
 weight = 4
 # sosmed alifprihantoro -----------------------------

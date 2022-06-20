@@ -1,14 +1,18 @@
 .btn-long {
   @apply flex flex-wrap;
   a {
-    @apply flex p-2 m-2 bg-blue-900 duration-75 rounded-xl;
-      @apply flex w-fit flex-row-reverse;
+    @apply flex p-4 m-2 bg-blue-900 duration-75 rounded-xl;
+    @apply flex w-fit;
     border: 1px solid #fff;
     &:hover {
       @apply -translate-y-3;
     }
-    svg{
-      @apply mx-4;
+    svg {
+      @apply mx-2;
     }
   }
+}
+
+nav .btn-long a:hover {
+  @apply translate-x-3 -translate-y-1;
 }

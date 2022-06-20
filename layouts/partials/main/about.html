@@ -1,0 +1,18 @@
+{{ if not .IsHome }} 
+<h3 class="title-side"><span> about </span></h3>
+{{ end }}
+
+<!-- image -->
+{{ $img := resources.Get "img/IMG_20220514_132634_820_2-removebg-preview.png" }}
+<img class="text-center m-auto rounded-[50%] w-[100px] h-[100px]"
+onclick="imagePopup(this.getAttribute('data-src'))" 
+data-src="{{$img.RelPermalink }}" src="{{ ($img.Fill "200x200 Center").RelPermalink }}" loading="lazy" alt="profile ALIEF PRIHANTORO">
+
+<!-- title -->
+<div class="about">
+  <h4>Alief Prihantoro</h4>
+  <p>
+    Hello, I'm a web front end. My expert is, HTML, CSS, JS, and some framework
+    like hugo, tailwind, and next js.
+  </p>
+</div>

@@ -12,13 +12,18 @@
 // post
 @import 'partial/breadcrumb';
 @import 'partial/quotes';
+@import 'partial/about-post';
 @import 'partial/pagenation-post';
 
-// nav link
-@import '../home/nav';
-// image popup
-@import '../popup';
-@import '../spoiler';
+// title
+@import '../title';
+
+// content nav header
 @import 'partial/nav';
 @import 'partial/tags';
 @import 'partial/btn-long';
+@import '../about';
+
+// image popup
+@import '../popup';
+@import '../spoiler';

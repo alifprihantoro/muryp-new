@@ -1,14 +1,7 @@
 <!-- follow -->
-<h3 class="text-center w-full border border-solid border-white leading-[0]">
-  <span class="bg-blue-900 px-3"> Follow </span>
-</h3>
-<div class="w-fit m-auto flex p-5 btn-sosmed">
-  {{ range .Site.Menus.sosmed.Sort.ByWeight }}
-  <a
-    target="_blank"
-    href="https://{{.URL}}"
-    class="{{ .Identifier }} p-3 m-2 border border-1 rounded-xl flex
-    content-center items-center bg-blue-900 hover:-translate-y-3 duration-75"
-  ></a>
+<h3 class="title-side"><span> Follow </span></h3>
+<div class="btn-long">
+  {{ range .Site.Menus.sosmed2.Sort.ByWeight }}
+  <a target="_blank" href="https://{{.URL}}" class="{{ .Identifier }}"></a>
   {{end}}
 </div>

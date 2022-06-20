@@ -15,7 +15,7 @@
     <!-- main -->
     <div class="layout-post w-[916px]">
       <!-- post -->
-      <div class="md:w-fit md:max-w-[580px] h-screen overflow-scroll">
+      <main class="md:w-fit md:max-w-[580px] h-screen overflow-scroll">
         <!-- header  -->
         {{ partial "post/single/header.html" . }}
         <!-- breadcrumb -->
@@ -25,12 +25,12 @@
           {{ .Content | safeHTML }}
         </article>
         <!-- footer post -->
-        {{ partial "post/nav/footer-post.html" . }}
-      </div>
+        {{ partial "post/single/footer-post.html" . }}
+      </main>
       <!-- nav -->
-      <div>
+      <aside>
         {{ partial "post/nav.html" . }}
-      </div>
+      </aside>
     </div>
     <script src="/post.js"></script>
   </body>

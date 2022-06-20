@@ -1,0 +1,6 @@
+.title-side{
+  @apply text-center w-full border border-solid border-white leading-[0] my-5;
+  span{
+    @apply bg-blue-900 px-5 py-2 rounded-xl;
+  }
+}
