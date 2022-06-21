@@ -23,13 +23,17 @@ mix
     [
       './assets/js/icon.js',
       './assets/js/search.js',
+      './assets/js/popup.js',
+    ],
+    './public/main.js'
+  )
+  .babel(
+    [
       './assets/js/link.js',
       './assets/js/drag.js',
-      './assets/js/popup.js',
     ],
     './public/home.js'
   )
-  .babel(['./assets/js/icon.js', './assets/js/popup.js'], './public/post.js')
 
 if (mix.inProduction()) {
   exec('hugo --minify --destination public')
