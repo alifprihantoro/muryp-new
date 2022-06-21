@@ -81,6 +81,11 @@ identifier = "yt"
 name = "@alifprihantoro"
 url = "youtube.com/channel/UCbXd_susO9uwjuBxdilCbUw"
 weight = 5
+[[sosmed2]]
+identifier = "ilinkedin"
+name = "@alifprihantoro"
+url = "https://www.linkedin.com/in/alifprihantoro"
+weight = 6
 
 # sosmed alifprihantoro -----------------------------
 [[contact]]
