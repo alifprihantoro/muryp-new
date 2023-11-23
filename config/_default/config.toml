@@ -1,4 +1,4 @@
-baseurl = "https://muryp.my.id/"
+baseurl = "https://muryp.netlify.com/"
 title = "MuryP Beta"
 # theme = "muryp-now"
 disqusShortname = "muryp"
