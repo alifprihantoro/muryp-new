@@ -1,4 +1,4 @@
-baseurl = "https://muryp.netlify.com/"
+baseURL = "/"
 title = "MuryP Beta"
 # theme = "muryp-now"
 disqusShortname = "muryp"
@@ -14,10 +14,10 @@ disqusShortname = "muryp"
   tags2 = "tags2"
   # author = "authors"
 
-[permalinks]
-  blog = "/blog/:slug/"
-  note = "/note/:slug/"
-  laman = "/pages/:slug/"
+# [permalinks]
+#   blog = "/blog/:slug/"
+#   note = "/note/:slug/"
+#   laman = "/pages/:slug/"
   # en = "/en/:slug/"
 
 languageCode = "id-id"
